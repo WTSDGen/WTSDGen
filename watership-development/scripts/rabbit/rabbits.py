@@ -201,7 +201,6 @@ class Rabbit():
         self.illnesses = {}
         self.injuries = {}
         self.healed_condition = None
-        self.chief_rabbitdeath_heal = None
         self.also_got = False
         self.permanent_condition = {}
         self.df = False
@@ -410,7 +409,7 @@ class Rabbit():
 
         May return some additional text to add to the death event.
         """
-        if self.status == 'chief rabbit' and 'pregnant' in self.injuries and game.warren.chief_rabbitlives > 0:
+        if self.status == 'chief rabbit' and 'pregnant' in self.injuries:
             self.illnesses.clear()
             self.injuries = { key : value for (key, value) in self.injuries.items() if key == 'pregnant'}
         else:
@@ -420,13 +419,8 @@ class Rabbit():
         # Deal with chief rabbit death
         text = ""
         if self.status == 'chief rabbit':
-            if game.warren.chief_rabbitlives > 0:
-                self.thought = 'Was startled to see the Black Rabbit of Inlé.'
-                return ""
-            elif game.warren.chief_rabbitlives <= 0:
                 self.dead = True
                 game.just_died.append(self.ID)
-                game.warren.chief_rabbitlives = 0
                 self.thought = 'Is surprised to see the Black Rabbit of Inlé.'
                 if game.warren.instructor.df is False:
                     text = 'They\'ve lost their life and have travelled with the black rabbit.'
@@ -977,229 +971,6 @@ class Rabbit():
                                                 )
         else:
             intro = 'this should not appear'
-
-        # ---------------------------------------------------------------------------- #
-        #                                 LIFE GIVING                                  #
-        # ---------------------------------------------------------------------------- #
-        life_givers = []
-        dead_relations = []
-        life_giving_chief_rabbit = None
-
-        # grab life givers that the rabbit actually knew in life and sort by amount of relationship!
-        relationships = self.relationships.values()
-
-        for rel in relationships:
-            kitty = self.fetch_rabbit(rel.rabbit_to)
-            if kitty and kitty.dead and kitty.status != 'newborn':
-                # check where they reside
-                if inle:
-                    if kitty.ID not in game.warren.inle_rabbits:
-                        continue
-                else:
-                    if kitty.ID not in game.warren.darkforest_rabbits:
-                        continue
-                # guides aren't allowed here
-                if kitty == game.warren.instructor:
-                    continue
-                else:
-                    dead_relations.append(rel)
-
-        # sort relations by the strength of their relationship
-        dead_relations.sort(
-            key=lambda rel: rel.romantic_love + rel.platonic_like + rel.admiration + rel.comfortable + rel.trust, reverse=True)
-
-        # if we have relations, then make sure we only take the top 8
-        if dead_relations:
-            i = 0
-            for rel in dead_relations:
-                if i == 8:
-                    break
-                if rel.rabbit_to.status == 'chief rabbit':
-                    life_giving_chief_rabbit = rel.rabbit_to
-                    continue
-                life_givers.append(rel.rabbit_to.ID)
-                i += 1
-        # check amount of life givers, if we need more, then grab from the other dead rabbits
-        if len(life_givers) < 8:
-            amount = 8 - len(life_givers)
-
-            if inle:
-                # this part just checks how many SC rabbits are available, if there aren't enough to fill all the slots,
-                # then we just take however many are available
-
-                possible_sc_rabbits = [i for i in game.warren.inle_rabbits if
-                                    self.fetch_rabbit(i) and
-                                    i not in life_givers and
-                                    self.fetch_rabbit(i).status not in ['chief rabbit', 'newborn']]
-
-                if len(possible_sc_rabbits) - 1 < amount:
-                    extra_givers = possible_sc_rabbits
-                else:
-                    extra_givers = sample(possible_sc_rabbits, k=amount)
-            else:
-                #print(game.warren.darkforest_rabbits)
-                possible_df_rabbits = [i for i in game.warren.darkforest_rabbits if
-                                    self.fetch_rabbit(i) and
-                                    i not in life_givers and
-                                    self.fetch_rabbit(i).status not in ['chief rabbit', 'newborn']]
-                if len(possible_df_rabbits) - 1 < amount:
-                    extra_givers = possible_df_rabbits
-                else:
-                    extra_givers = sample(possible_df_rabbits, k=amount)
-
-            life_givers.extend(extra_givers)
-
-        # making sure we have a chief rabbit at the end
-        ancient_chief_rabbit = False
-        if not life_giving_chief_rabbit:
-            # choosing if the life giving chief rabbit will be oldest chief rabbit or previous chief rabbit
-            coin_flip = randint(1, 2)
-            if coin_flip == 1:
-                # pick oldest chief rabbit in SC
-                ancient_chief_rabbit = True
-                if inle:
-                    for kitty in reversed(game.warren.inle_rabbits):
-                        if self.fetch_rabbit(kitty) and \
-                            self.fetch_rabbit(kitty).status == 'chief rabbit':
-                            life_giving_chief_rabbit = kitty
-                            break
-                else:
-                    for kitty in reversed(game.warren.darkforest_rabbits):
-                        if self.fetch_rabbit(kitty) and \
-                            self.fetch_rabbit(kitty).status == 'chief rabbit':
-                            life_giving_chief_rabbit = kitty
-                            break
-            else:
-                # pick previous chief rabbit
-                if inle:
-                    for kitty in game.warren.inle_rabbits:
-                        if self.fetch_rabbit(kitty) and \
-                            self.fetch_rabbit(kitty).status == 'chief rabbit':
-                            life_giving_chief_rabbit = kitty
-                            break
-                else:
-                    for kitty in game.warren.darkforest_rabbits:
-                        if self.fetch_rabbit(kitty) and \
-                            self.fetch_rabbit(kitty).status == 'chief rabbit':
-                            life_giving_chief_rabbit = kitty
-                            break
-
-        if life_giving_chief_rabbit:
-            life_givers.append(life_giving_chief_rabbit)
-
-        # check amount again, if more are needed then we'll add the ghost-y rabbits at the end
-        if len(life_givers) < 9:
-            unknown_blessing = True
-            extra_lives = str(9 - len(life_givers))
-        else:
-            unknown_blessing = False
-            extra_lives = str(9 - len(life_givers))
-
-        possible_lives = ceremony_dict["lives"]
-        lives = []
-        used_lives = []
-        used_virtues = []
-        for giver in life_givers:
-            giver_rabbit = self.fetch_rabbit(giver)
-            if not giver_rabbit:
-                continue
-            life_list = []
-            for life in possible_lives:
-                tags = possible_lives[life]["tags"]
-                rank = giver_rabbit.status
-
-                if "unknown_blessing" in tags:
-                    continue
-
-                if "guide" in tags and giver_rabbit != game.warren.instructor:
-                    continue
-                if game.warren.age != 0 and "new_warren" in tags:
-                    continue
-                elif game.warren.age == 0 and "new_warren" not in tags:
-                    continue
-                if "old_chief_rabbit" in tags and not ancient_chief_rabbit:
-                    continue
-                if "chief_rabbit_parent" in tags and giver_rabbit.ID not in self.get_parents():
-                    continue
-                elif "chief_rabbit_child" in tags and giver_rabbit.ID not in self.get_children():
-                    continue
-                elif "chief_rabbit_sibling" in tags and giver_rabbit.ID not in self.get_siblings():
-                    continue
-                elif "chief_rabbit_mate" in tags and giver_rabbit.ID not in self.mate:
-                    continue
-                elif "chief_rabbit_former_mate" in tags and giver_rabbit.ID not in self.previous_mates:
-                    continue
-                if "chief_rabbit_rusasirah" in tags and giver_rabbit.ID not in self.former_rusasirah:
-                    continue
-                if "chief_rabbit_rusasi" in tags and giver_rabbit.ID not in self.former_rusasis:
-                    continue
-                if possible_lives[life]["rank"]:
-                    if rank not in possible_lives[life]["rank"]:
-                        continue
-                if possible_lives[life]["lead_trait"]:
-                    if self.personality.trait not in possible_lives[life]["lead_trait"]:
-                        continue
-                if possible_lives[life]["star_trait"]:
-                    if giver_rabbit.personality.trait not in possible_lives[life]["star_trait"]:
-                        continue
-                life_list.extend([i for i in possible_lives[life]["life_giving"]])
-
-            i = 0
-            chosen_life = {}
-            while i < 10:
-                attempted = []
-                if life_list:
-                    chosen_life = choice(life_list)
-                    if chosen_life not in used_lives and chosen_life not in attempted:
-                        break
-                    else:
-                        attempted.append(chosen_life)
-                    i += 1
-                else:
-                    print(
-                        f'WARNING: life list had no items for giver #{giver_rabbit.ID}. Using default life. If you are a beta tester, please report and ping scribble along with all the info you can about the giver rabbit mentioned in this warning.')
-                    chosen_life = ceremony_dict["default_life"]
-                    break
-                
-            
-            used_lives.append(chosen_life)
-            if "virtue" in chosen_life:
-                poss_virtues = [i for i in chosen_life["virtue"] if i not in used_virtues]
-                if not poss_virtues:
-                    poss_virtues = ['faith', 'friendship', 'love', 'strength']
-                virtue = choice(poss_virtues)
-                used_virtues.append(virtue)
-            else:
-                virtue = None
-
-            lives.append(chief_rabbit_ceremony_text_adjust(Rabbit,
-                                                     chosen_life["text"],
-                                                     chief_rabbit=self,
-                                                     life_giver=giver,
-                                                     virtue=virtue,
-                                                     ))
-        if unknown_blessing:
-            possible_blessing = []
-            for life in possible_lives:
-                tags = possible_lives[life]["tags"]
-
-                if "unknown_blessing" not in tags:
-                    continue
-
-                if possible_lives[life]["lead_trait"]:
-                    if self.personality.trait not in possible_lives[life]["lead_trait"]:
-                        continue
-                possible_blessing.append(possible_lives[life])
-            chosen_blessing = choice(possible_blessing)
-            chosen_text = choice(chosen_blessing["life_giving"])
-            lives.append(chief_rabbit_ceremony_text_adjust(Rabbit,
-                                                     chosen_text["text"],
-                                                     chief_rabbit=self,
-                                                     virtue=chosen_text["virtue"],
-                                                     extra_lives=extra_lives,
-                                                     ))
-        all_lives = "<br><br>".join(lives)
-
         # ---------------------------------------------------------------------------- #
         #                                    OUTRO                                     #
         # ---------------------------------------------------------------------------- #
@@ -1224,20 +995,17 @@ class Rabbit():
         chosen_outro = choice(possible_outros)
 
         if chosen_outro:
-            if life_givers:
-                giver = life_givers[-1]
-            else:
-                giver = None
+
+            giver = None
             outro = choice(chosen_outro["text"])
             outro = chief_rabbit_ceremony_text_adjust(Rabbit,
                                                 outro,
                                                 chief_rabbit=self,
-                                                life_giver=giver,
                                                 )
         else:
             outro = 'this should not appear'
 
-        full_ceremony = "<br><br>".join([intro, all_lives, outro])
+        full_ceremony = "<br><br>".join([intro, outro])
         return full_ceremony
 
     # ---------------------------------------------------------------------------- #
@@ -1387,18 +1155,10 @@ class Rabbit():
 
         if mortality and not int(random() * mortality):
             if self.status == "chief rabbit":
-                self.chief_rabbitdeath_heal = True
-                game.warren.chief_rabbitlives -= 1
-                if game.warren.chief_rabbitlives > 0:
-                    text = f"{self.name} lost a life to {illness}."
-                    # game.health_events_list.append(text)
-                    # game.birth_death_events_list.append(text)
-                    game.cur_events_list.append(Single_Event(text, ["birth_death", "health"], game.warren.chief_rabbit.ID))
-                elif game.warren.chief_rabbitlives <= 0:
-                    text = f"{self.name} lost their last life to {illness}."
-                    # game.health_events_list.append(text)
-                    # game.birth_death_events_list.append(text)
-                    game.cur_events_list.append(Single_Event(text, ["birth_death", "health"], game.warren.chief_rabbit.ID))
+                text = f"{self.name} died to {illness}."
+                # game.health_events_list.append(text)
+                # game.birth_death_events_list.append(text)
+                game.cur_events_list.append(Single_Event(text, ["birth_death", "health"], game.warren.chief_rabbit.ID))
             self.die()
             return False
 
@@ -1426,8 +1186,6 @@ class Rabbit():
                 mortality = 1
 
         if mortality and not int(random() * mortality):
-            if self.status == 'chief rabbit':
-                game.warren.chief_rabbitlives -= 1
             self.die()
             return False
 
@@ -1462,15 +1220,13 @@ class Rabbit():
             self.permanent_condition[condition]["months_until"] = -2
             return "reveal"
 
-        # chief rabbit should have a higher chance of death
-        if self.status == "chief rabbit" and mortality != 0:
+        # chief rabbit should have a LOWER chance of death -- currently, this is higher, fix later
+        '''if self.status == "chief rabbit" and mortality != 0:
             mortality = int(mortality * 0.7)
             if mortality == 0:
-                mortality = 1
+                mortality = 1'''
 
         if mortality and not int(random() * mortality):
-            if self.status == 'chief rabbit':
-                game.warren.chief_rabbitlives -= 1
             self.die()
             return "continue"
 

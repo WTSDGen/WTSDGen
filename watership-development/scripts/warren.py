@@ -53,7 +53,7 @@ class Warren():
         "general",
     ]
 
-    chief_rabbitlives = 1
+
     warren_rabbits = []
     inle_rabbits = []
     darkforest_rabbits = []
@@ -99,7 +99,7 @@ class Warren():
         if self.chief_rabbit:
             self.chief_rabbit.status_change('chief rabbit')
             self.warren_rabbits.append(self.chief_rabbit.ID)
-        self.chief_rabbitlives = 1
+
         self.chief_rabbit_predecessors = 0
         self.captain = captain
         if captain is not None:
@@ -348,7 +348,7 @@ class Warren():
             self.chief_rabbit = chief_rabbit
             Rabbit.all_rabbits[chief_rabbit.ID].status_change('chief_rabbit')
             self.chief_rabbit_predecessors += 1
-            self.chief_rabbit_lives = 1
+
         game.switches['new_chief_rabbit'] = None
 
     def new_captain(self, captain):
@@ -422,7 +422,7 @@ class Warren():
         # LEADER DATA
         if self.chief_rabbit:
             warren_data["chief_rabbit"] = self.chief_rabbit.ID
-            warren_data["chief_rabbit_lives"] = self.chief_rabbitlives
+
         else:
             warren_data["chief_rabbit"] = None
 
@@ -622,8 +622,8 @@ class Warren():
             game.warren.current_season = game.warren.seasons[game.warren.age % 12]
         else:
             game.warren.current_season = game.warren.starting_season
-        game.warren.chief_rabbitlives, game.warren.chief_rabbit_predecessors = int(
-            chief_rabbitinfo[1]), int(chief_rabbitinfo[2])
+        game.warren.chief_rabbit_predecessors = int(
+            int(chief_rabbitinfo[2]))
 
         if len(captain_info) > 1:
             game.warren.captain_predecessors = int(captain_info[1])
@@ -687,10 +687,10 @@ class Warren():
 
         if warren_data["chief_rabbit"]:
             chief_rabbit = Rabbit.all_rabbits[warren_data["chief_rabbit"]]
-            chief_rabbitlives = warren_data["chief_rabbit_lives"]
+
         else:
             chief_rabbit = None
-            chief_rabbitlives = 0
+
 
         if warren_data["captain"]:
             captain = Rabbit.all_rabbits[warren_data["captain"]]
@@ -717,7 +717,7 @@ class Warren():
             "starting_season"] if "starting_season" in warren_data else 'Spring'
         get_current_season()
 
-        game.warren.chief_rabbitlives = chief_rabbitlives
+
         game.warren.chief_rabbit_predecessors = warren_data["chief_rabbit_predecessors"]
 
         game.warren.captain_predecessors = warren_data["captain_predecessors"]

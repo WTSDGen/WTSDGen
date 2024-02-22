@@ -936,7 +936,7 @@ class MakeWarrenScreen(Screens):
                                                                   manager=MANAGER)
 
         self.elements['select_rabbit'] = UIImageButton(scale(pygame.Rect((468, 696), (664, 104))), "",
-                                                    object_id="#nine_lives_button", 
+                                                    object_id="#appoint_chief_button", 
                                                     starting_height=2,
                                                     visible=False, manager=MANAGER)
         # Error message, to appear if you can't choose that rabbit.

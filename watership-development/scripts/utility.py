@@ -1030,8 +1030,7 @@ def chief_rabbit_ceremony_text_adjust(Rabbit,
                                 text,
                                 chief_rabbit,
                                 life_giver=None,
-                                virtue=None,
-                                extra_lives=None, ):
+                                virtue=None, ):
     """
     used to adjust the text for chief rabbit ceremonies
     """
@@ -1049,8 +1048,7 @@ def chief_rabbit_ceremony_text_adjust(Rabbit,
         virtue = process_text(virtue, replace_dict)
         text = text.replace("[virtue]", virtue)
 
-    if extra_lives:
-        text = text.replace('[life_num]', str(extra_lives))
+
 
     text = text.replace("c_n", str(game.warren.name))
 

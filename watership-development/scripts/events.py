@@ -947,7 +947,7 @@ class Events:
                     not game.warren.captain.outside and \
                     (chief_rabbitdead or chief_rabbitoutside):
                 game.warren.new_chief_rabbit(game.warren.captain)
-                game.warren.chief_rabbitlives = 9
+
                 text = ''
                 if game.warren.captain.personality.trait == 'bloodthirsty':
                     text = f'{game.warren.captain.name} has become the new chief_rabbit. ' \

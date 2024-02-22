@@ -3593,7 +3593,7 @@
             }
         }
     },
-    "#nine_lives_button": {
+    "#appoint_chief_button": {
         "prototype": "#image_button",
         "images": {
             "normal_image": {

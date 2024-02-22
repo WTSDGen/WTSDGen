@@ -1171,7 +1171,7 @@ class ProfileScreen(Screens):
         elif self.the_rabbit.status in ['rusasi', 'healer rusasi', 'owsla rusasi']:
             influence_history = 'This rabbit has not finished training.'
         else:
-            valid_formor_rusasirah = [Rabbit.fetch_rabbit(i) for i in self.the_rabbit.former_rusasisrah if 
+            valid_formor_rusasirah = [Rabbit.fetch_rabbit(i) for i in self.the_rabbit.former_rusasirah if 
                                     isinstance(Rabbit.fetch_rabbit(i), Rabbit)]
             if valid_formor_rusasirah:
                 influence_history += "{PRONOUN/m_c/subject/CAP} {VERB/m_c/were/was} rusasirahed by "
@@ -1308,6 +1308,7 @@ class ProfileScreen(Screens):
         returns adjusted death history text
         """
         text = None
+        life_text = "died"
         death_history = self.the_rabbit.history.get_death_or_scars(self.the_rabbit, death=True)
         murder_history = self.the_rabbit.history.get_murders(self.the_rabbit)
         if game.switches['show_history_months']:
@@ -1317,7 +1318,6 @@ class ProfileScreen(Screens):
 
         if death_history:
             all_deaths = []
-            death_number = len(death_history)
             for index, death in enumerate(death_history):
                 found_murder = False  # Add this line to track if a matching murder event is found
                 if "is_victim" in murder_history:
@@ -1333,29 +1333,9 @@ class ProfileScreen(Screens):
                     text = event_text_adjust(Rabbit, death["text"], self.the_rabbit, Rabbit.fetch_rabbit(death["involved"]))
 
 
-                if self.the_rabbit.status == 'chief rabbit':
-                    if index == death_number - 1 and self.the_rabbit.dead:
-                        if death_number == 9:
-                            life_text = "lost {PRONOUN/m_c/poss} life"
-                        elif death_number == 1:
-                            life_text = "lost {PRONOUN/m_c/poss} life"
-                        else:
-                            life_text = "lost {PRONOUN/m_c/poss} life"
-                    else:
-                        life_text = "died"
-                elif death_number > 1:
-                    #for retired chief rabbits
-                    if index == death_number - 1 and self.the_rabbit.dead:
-                        life_text = "lost {PRONOUN/m_c/poss} life"
-                        # added code
-                        if "This rabbit was" in text:
-                            text = text.replace("This rabbit was", "{VERB/m_c/were/was}")
-                        else:
-                            text = text[0].lower() + text[1:]
-                    else:
-                        life_text = "died"
-                else:
-                    life_text = ""
+
+                
+
 
                 if text:
                     if life_text:
@@ -1366,23 +1346,6 @@ class ProfileScreen(Screens):
                     if months:
                         text += f" (Month {death['month']})"
                     all_deaths.append(text)
-
-            if self.the_rabbit.status == 'chief rabbit' or death_number > 1:
-                if death_number > 2:
-                    filtered_deaths = [death for death in all_deaths if death is not None]
-                    deaths = f"{', '.join(filtered_deaths[0:-1])}, and {filtered_deaths[-1]}"
-                elif death_number == 2:
-                    deaths = " and ".join(all_deaths)
-                else:
-                    deaths = all_deaths[0]
-
-                if not deaths.endswith('.'):
-                    deaths += "."
-
-                text = str(self.the_rabbit.name) + " " + deaths
-
-            else:
-                text = all_deaths[0]
 
             rabbit_dict = {
                 "m_c": (str(self.the_rabbit.name), choice(self.the_rabbit.pronouns))

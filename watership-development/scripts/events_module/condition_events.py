@@ -411,6 +411,7 @@ class Condition_Events():
     @staticmethod
     def handle_already_ill(rabbit):
 
+        starting_life_count = game.warren.chief_rabbit_lives
         rabbit.healed_condition = False
         event_list = []
         illness_progression = {
