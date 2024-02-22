@@ -1,0 +1,116 @@
+{
+    "activate_death": true,
+    "activate_events": true,
+    "start_amount": 60,
+    "auto_rabbit_prey": [1,3],
+    "auto_rusasi_prey": [1,2],
+    "condition_increase": 1,
+    "base_event_trigger_factor": 4,
+	"events_weights":{
+		"death": 1,
+		"injury": 4,
+		"reduce": 6
+	},
+    "additional_prey": 0.5,
+    "nutrition_malnourished_percentage" : 70,
+    "nutrition_starving_percentage" : 25,
+    "prey_requirement":{
+        "chief rabbit": 3,
+        "captain": 3,
+        "healer": 2,
+        "healer rusasi": 1.5,
+        "owsla rusasi": 1.5,
+        "owsla": 2,
+        "rabbit": 3,
+        "rusasi": 1.5,
+        "elder": 1.5,
+        "queen/pregnant": 4,
+        "kit": 0.5,
+        "newborn": 0.2
+    },
+    "feeding_order":[
+        "newborn",
+        "kit",
+        "queen/pregnant",
+        "elder",
+        "healer",
+        "healer rusasi",
+        "rusasi",
+        "owsla rusasi",
+        "rabbit",
+        "owsla",
+        "captain",
+        "chief rabbit"
+    ],
+    "harvester_bonus": {"1": 1, "2": 2, "3": 3},
+    "harvester_exp_bonus": {
+        "untrained": 0.1,
+        "trainee": 1,
+        "prepared": 2,
+        "competent": 3,
+        "proficient": 4,
+        "skilled": 5,
+        "expert": 6,
+        "master": 7
+    },
+    "patrol_weight_adaption": {
+        "1_class_bigger_prey_allowed": [15,19],
+        "2_class_bigger_prey_allowed": [10,14],
+        "3_class_bigger_prey_allowed": [5,9],
+        "4_class_bigger_prey_allowed": [0,4]
+    },	
+    "patrol_balance": {
+        "comment": [
+        "A season array consist of ['very_small', 'small', 'medium', 'large', 'huge']",
+            "Numbers are the ratio how likely such a patrol will be used when harvesting in this season.",
+            "The sum of all ratio should be between 15 or 16.",
+            "One common (weight:20) success outcome (ignoring skill + traits) must have these prey type types."
+        ],
+        "Forest": {
+            "Spring": [2,5,5,2,1],
+            "Summer": [1,3,6,4,2],
+            "Autumn": [2,4,5,3,1],
+            "Winter": [3,6,4,2,0]
+        },
+        "Mountainous": {
+            "Spring": [2,5,5,2,1],
+            "Summer": [1,3,6,4,2],
+            "Autumn": [2,6,4,2,1],
+            "Winter": [3,6,4,2,0]
+        },
+        "Plains": {
+            "Spring": [2,5,5,2,1],
+            "Summer": [1,3,6,4,2],
+            "Autumn": [2,4,5,3,1],
+            "Winter": [3,6,4,2,0]
+        },
+        "Beach": {
+            "Spring": [2,5,5,2,1],
+            "Summer": [2,5,5,2,1],
+            "Autumn": [2,5,5,2,1],
+            "Winter": [2,6,4,2,1]
+        },
+        "Wetlands": {
+            "Spring": [2,5,5,2,1],
+            "Summer": [2,5,5,2,1],
+            "Autumn": [2,5,5,2,1],
+            "Winter": [2,6,4,2,1]
+        },
+        "Desert": {
+            "Spring": [2,6,4,2,1],
+            "Summer": [3,6,4,2,0],
+            "Autumn": [2,5,5,2,1],
+            "Winter": [1,3,6,4,2]
+        }
+    },
+    "comment": [
+        "activate_deaths - activates the whole system, otherwise nutrition status of the cats doesn't have an effect",
+        "activate_events - activates if events for freshkill pile are triggered or not",
+        "start_amount - defines the amount of prey when a new freshkill-pile is made",
+        "The auto parameters are for the prey each month, each healthy rabbit/rusasi will catch an amount of between these two values of prey.",
+        "additional_prey - added amount for harvesting patrol, to make it easier",
+        "base_event_trigger_factor - (will be adapted in code based on clan size) this number will be used to multiply with the amount of prey the Clan needs, if the pile is bigger than this number, prey events will be triggered",
+        "harvester_bonus is the factor which is be used to multiply on a harvesting patrol.",
+        "harvester_exp_bonus is the additional prey which will be added on a harvesting patrol."
+    ]
+}

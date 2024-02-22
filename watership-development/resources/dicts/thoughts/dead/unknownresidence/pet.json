@@ -1,0 +1,14 @@
+[
+{        
+    "id": "general_pet_dead_thoughts",
+    "thoughts": [
+        "Visits {PRONOUN/m_c/poss} ithé to make sure they're okay",
+        "Hangs around {PRONOUN/m_c/poss} old home, hesitant to leave it",
+        "Watches over {PRONOUN/m_c/poss} ithé as they sleep",
+        "Watches {PRONOUN/m_c/poss} ithé's new rabbits with interest"
+    ],
+    "main_status_constraint": [
+        "pet"
+    ]
+}
+]

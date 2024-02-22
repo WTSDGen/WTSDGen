@@ -1,0 +1,134 @@
+[
+	{
+		"id": "jel_inc_low1",
+		"intensity": "low",
+		"interactions": [
+			"m_c wishes {PRONOUN/m_c/subject} could get {PRONOUN/m_c/poss} pelt to shine like r_r's."
+		]
+	},
+	{
+		"id": "jel_inc_med1",
+		"interactions": [
+			"m_c thinks the prey r_r is biting into on the other side of camp looks delicious."
+		]
+	},
+	{
+		"id": "jel_inc_med2",
+		"interactions": [
+			"m_c is jealous that r_r got to go to the last Gathering.",
+			"m_c is jealous that r_r went on patrol without {PRONOUN/m_c/object}."
+		],
+		"main_status_constraint": [
+			"owsla apprentice",
+			"apprentice",
+			"warrior"
+		],
+		"random_status_constraint": [
+			"owsla apprentice",
+			"apprentice",
+			"healer apprentice",
+			"healer",
+			"warrior",
+			"owsla",
+			"deputy"
+		]
+	},
+	{
+		"id": "jealousy_inc_med3",
+		"interactions": [
+			"m_c is jealous that r_r got praised by the leader.",
+			"m_c is jealous that r_r got to fight in a border skirmish when {PRONOUN/m_c/subject} didn't.",
+			"m_c is jealous that r_r got to go on border patrol this morning.",
+			"m_c doesn't understand how r_r got so good at hunting."
+		],
+		"main_status_constraint": [
+			"apprentice",
+			"healer apprentice",
+			"owsla apprentice",
+			"warrior"
+		],
+		"random_status_constraint": [
+			"apprentice",
+			"warrior",
+			"deputy"
+		]
+	},
+	{
+		"id": "jealousy_kit_inc_med1",
+		"interactions": [
+			"m_c is jealous that r_r is getting more attention than {PRONOUN/m_c/object}.",
+			"m_c is upset that r_r always wins in their games."
+		],
+		"main_status_constraint": [
+			"kitten"
+		],
+		"random_status_constraint": [
+			"kitten"
+		]
+	},
+	{
+		"id": "jealousy_kit_inc_med2",
+		"interactions": [
+			"m_c hisses at r_r for getting a bigger piece of prey."
+		],
+		"main_status_constraint": [
+			"kitten"
+		],
+		"random_status_constraint": [
+			"kitten"
+		],
+		"reaction_random_cat": {
+			"dislike": "increase"
+		}
+	},
+	{
+		"id": "jealousy_kit_inc_med3",
+		"interactions": [
+			"m_c looks at r_r and remembers how easy it was to be a kitten.",
+			"m_c is resentful that so much is expected of {PRONOUN/m_c/object}, yet no one expects anything of r_r."
+		],
+		"main_status_constraint": [
+			"apprentice",
+			"owsla apprentice",
+			"healer apprentice"
+		],
+		"random_status_constraint": [
+			"kitten"
+		],
+		"reaction_random_cat": {
+			"platonic": "decrease"
+		}
+	},
+	{
+		"id": "jel_inc_high1",
+		"intensity": "high",
+		"interactions": [
+			"m_c is jealous that r_r gets to do cool super secret healer things.",
+			"m_c thinks it's unfair that r_r always gets to go to Gatherings."
+		],
+		"main_status_constraint": [
+			"apprentice",
+			"owsla apprentice"
+		],
+		"random_status_constraint": [
+			"healer apprentice"
+		]
+	},
+	{
+		"id": "jel_inc_high2",
+		"intensity": "high",
+		"interactions": [
+			"m_c is complaining that r_r never does anything helpful."
+		]
+	},
+	{
+		"id": "jel_inc_high3",
+		"intensity": "high",
+		"interactions": [
+			"m_c sees r_r lazing about in the sunshine and is resentful at how little {PRONOUN/r_r/subject}{VERB/r_r/'re/'s} expected to contribute."
+		],
+		"random_status_constraint": [
+			"elder"
+		]
+	}
+]

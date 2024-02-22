@@ -1,0 +1,147 @@
+[
+	{
+		"id": "admire_de_low1",
+		"intensity": "low",
+		"interactions": [
+			"m_c saw r_r being rude.",
+			"m_c heard r_r say something mean.",
+			"m_c is annoyed by r_r's negative comments."
+		]
+	},
+	{
+		"id": "admire_de_low2",
+		"intensity": "low",
+		"interactions": [
+			"m_c complains about something r_r did.",
+			"m_c notices that r_r doesn't want to help out.",
+			"m_c doesn't understand why r_r is being so rude."
+		],
+		"reaction_random_cat": {
+			"admiration": "decrease"
+		}
+	},
+	{
+		"id": "admire_de_medium1",
+		"interactions": [
+			"m_c saw r_r take the last piece of prey from the fresh-kill pile.",
+			"m_c thinks r_r has a strange sense of humor.",
+			"m_c is frustrated that r_r won't take {PRONOUN/r_r/poss} actions more seriously.",
+			"m_c feels like r_r isn't taking {PRONOUN/r_r/poss} own personal health seriously."
+		]
+	},
+	{
+		"id": "admire_de_medium2",
+		"interactions": [
+			"m_c tried to bring r_r's behaviour up to them, but it turned into a fight that someone else had to break up.",
+			"m_c confronted r_r about {PRONOUN/r_r/poss} bad attitude but that only makes r_r act out more.",
+			"m_c is disappointed when r_r doesn't uphold a promise."
+		],
+		"reaction_random_cat": {
+			"admiration": "decrease"
+		}
+	},
+	{
+		"id": "admire_de_medium3",
+		"interactions": [
+			"m_c and r_r had to fix something around camp and argued about how to fix it. It ended up being fixed by some other rabbit in the end.",
+			"m_c notices that r_r has been avoiding {PRONOUN/r_r/poss} responsibilities lately.",
+			"m_c and r_r were supposed to be working together today, but they can never agree long enough to accomplish anything.",
+			"m_c is frustrated after finishing a task that r_r was supposed to do."
+		],
+		"reaction_random_cat": {
+			"admiration": "decrease"
+		},
+		"main_status_constraint": [
+			"elder",
+			"apprentice",
+			"warrior",
+			"owsla apprentice",
+			"owsla",
+			"healer apprentice",
+			"healer",
+			"deputy",
+			"leader"
+		],
+		"random_status_constraint": [
+			"elder",
+			"apprentice",
+			"warrior",
+			"owsla apprentice",
+			"owsla",
+			"healer apprentice",
+			"healer",
+			"deputy",
+			"leader"
+		]
+	},
+	{
+		"id": "admire_adult_de_med1",
+		"interactions": [
+			"m_c saw r_r miss an easy catch today.",
+			"m_c is disappointed in r_r's subpar work lately.",
+			"m_c is let down by r_r's sloppy performance during a sparring session.",
+			"r_r was supposed to be showing m_c a cool battle move but messed up so badly it made m_c cringe."
+		],
+		"main_status_constraint": [
+			"apprentice",
+			"warrior",
+			"deputy",
+			"leader"
+		],
+		"random_status_constraint": [
+			"apprentice",
+			"warrior",
+			"deputy",
+			"leader"
+		]
+	},
+	{
+		"id": "admire_adult_de_med2",
+		"interactions": [
+			"m_c has noticed r_r isn't doing a lot of work lately.",
+			"m_c is disappointed in r_r's lack of initiative.",
+			"m_c notices that r_r seems to disappear whenever difficult tasks are being discussed."
+		],
+		"main_status_constraint": [
+			"elder",
+			"apprentice",
+			"warrior",
+			"deputy",
+			"leader",
+			"healer",
+			"owsla"
+		],
+		"random_status_constraint": [
+			"apprentice",
+			"warrior",
+			"owsla apprentice",
+			"owsla",
+			"healer apprentice",
+			"healer",
+			"deputy",
+			"leader"
+		]
+	},
+	{
+		"id": "admire_de_high1",
+		"intensity": "high",
+		"interactions": [
+			"m_c heard an ugly rumor about r_r.",
+			"m_c overheard r_r spreading a hurtful rumor."
+		]
+	},
+	{
+		"id": "admire_de_high2",
+		"intensity": "high",
+		"interactions": [
+			"m_c had a difficult conversation with r_r, and they both ended up resentful of each other.",
+			"m_c was noticeably distracted while r_r was trying to tell a story.",
+			"m_c and r_r have a long discussion about goals and aspirations, and find that they don't agree on many things.",
+			"m_c spent a long time talking with r_r and was disappointed by r_r's lack of interest.",
+			"m_c asks r_r about something complicated and regrets it almost immediately when r_r misses the point."
+		],
+		"reaction_random_cat": {
+			"admiration": "decrease"
+		}
+	}
+]

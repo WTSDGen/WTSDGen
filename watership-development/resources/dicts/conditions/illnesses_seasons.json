@@ -1,0 +1,25 @@
+{
+    "Spring":{
+        "running nose": 2,
+        "stomachache": 1
+    },
+    "Summer":{
+        "fleas": 2,
+        "stomachache":1,
+        "heat exhaustion":3,
+        "heat stroke":1
+    },
+    "Autumn":{
+        "stomachache":1,
+        "greencough": 1,
+        "kitcough": 4,
+        "running nose": 3
+    },
+    "Autumn":{
+        "stomachache":1,
+        "greencough": 3,
+        "running nose": 1,
+        "kitcough": 4,
+        "chokecough": 3
+    }
+}

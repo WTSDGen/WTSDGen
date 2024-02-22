@@ -1,0 +1,47 @@
+[
+	{
+		"id": "group_4_negative_gossip",
+		"rabbit_amount": 4,
+		"intensity": "low",
+		"interactions": ["m_c is gossiping with r_r1 about r_r2 and r_r3"],
+		"relationship_constraint": {
+			"m_c_to_r_r2": ["dislike_10"],
+			"r_r1_to_r_r2": ["dislike_10"],
+			"m_c_to_r_r3": ["dislike_10"],
+			"r_r1_to_r_r3": ["dislike_10"]
+		},
+		"specific_reaction":{
+			"m_c_to_r_r1": {
+				"comfortable": "increase"
+			},
+			"m_c_to_r_r2": {
+				"platonic": "decrease",
+				"dislike": "increase"
+			},
+			"r_r1_to_r_r2": {
+				"platonic": "decrease",
+				"dislike": "increase"
+			},
+			"r_r2_to_m_c":{
+				"dislike": "increase"
+			},
+			"r_r2_to_r_r1":{
+				"dislike": "increase"
+			},
+			"m_c_to_r_r3": {
+				"platonic": "decrease",
+				"dislike": "increase"
+			},
+			"r_r1_to_r_r3": {
+				"platonic": "decrease",
+				"dislike": "increase"
+			},
+			"r_r3_to_m_c":{
+				"dislike": "increase"
+			},
+			"r_r3_to_r_r1":{
+				"dislike": "increase"
+			}
+		}
+	}
+]

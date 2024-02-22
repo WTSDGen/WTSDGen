@@ -1,0 +1,326 @@
+[
+	{
+		"id": "dislike_inc_low1",
+		"intensity": "low",
+		"interactions": [
+			"m_c had r_r bump into {PRONOUN/m_c/object}, and {PRONOUN/r_r/subject} didn't even apologize!",
+			"r_r stepped on m_c's foot and pretended not to notice."
+		]
+	},
+	{
+		"id": "dislike_inc_low2",
+		"intensity": "low",
+		"interactions": [
+			"m_c had a disagreement with r_r about something or other.",
+			"m_c and r_r argued about something trivial and neither of them apologized.",
+			"m_c said something really rude to r_r.",
+			"m_c didn't tell r_r about the feather stuck to {PRONOUN/r_r/poss} face, so r_r spent the whole day looking silly."
+		],
+		"reaction_random_cat": {
+			"dislike": "increase"
+		}
+	},
+	{
+		"id": "dislike_inc_med1",
+		"intensity": [
+			"m_c wishes r_r would take things more seriously."
+		]
+	},
+	{
+		"id": "dislike_inc_med2",
+		"interactions": [
+			"m_c ignores r_r.",
+			"m_c had a huge argument with r_r.",
+			"m_c had a spat with r_r over a piece of prey on the fresh-kill pile."
+		],
+		"reaction_random_cat": {
+			"dislike": "increase"
+		}
+	},
+	{
+		"id": "dislike_inc_med3",
+		"interactions": [
+			"m_c had a disagreement with r_r while on patrol earlier.",
+			"m_c stole r_r's catch right out from under {PRONOUN/r_r/poss} claws.",
+			"m_c prays that {PRONOUN/m_c/subject} {VERB/m_c/aren't/isn't} on patrol with r_r tomorrow.",
+			"m_c sighs loudly every time r_r does anything on patrol."
+		],
+		"main_status_constraint": [
+			"apprentice",
+			"warrior",
+			"deputy",
+			"leader"
+		],
+		"random_status_constraint": [
+			"apprentice",
+			"warrior",
+			"deputy",
+			"leader"
+		],
+		"reaction_random_cat": {
+			"dislike": "increase"
+		}
+	},
+	{
+		"id": "dislike_inc_med4",
+		"interactions": [
+			"m_c is thinking about how r_r wronged {PRONOUN/m_c/object}.",
+			"m_c is watching r_r scornfully.",
+			"m_c is glaring daggers at r_r."
+		],
+		"main_trait_constraint": [
+			"vengeful"
+		]
+	},
+	{
+		"id": "dislike_inc_med5",
+		"interactions": [
+			"r_r is asking m_c to tell {PRONOUN/r_r/object} about how good {PRONOUN/r_r/subject} {VERB/m_c/look/looks}.",
+			"r_r offends m_c with {PRONOUN/r_r/poss} brutal honesty.",
+			"r_r is boasting about {PRONOUN/r_r/poss} accomplishments to m_c, but m_c isn't impressed.",
+			"r_r gets really close to m_c's face while talking and grosses m_c out with {PRONOUN/r_r/poss} bad breath."
+		],
+		"random_trait_constraint": [
+			"shameless"
+		]
+	},
+	{
+		"id": "dislike_inc_med6",
+		"interactions": [
+			"r_r pulled a prank on m_c.",
+			"r_r blamed m_c for {PRONOUN/r_r/poss} own mistake.",
+			"r_r won't stop bothering m_c."
+		],
+		"random_trait_constraint": [
+			"troublesome"
+		]
+	},
+	{
+		"id": "dislike_effect_other1",
+		"relationship_constraint": [
+			"dislike_40"
+		],
+		"interactions": [
+			"r_r is spreading a rumor about m_c.",
+			"r_r is mocking m_c.",
+			"r_r is telling others about how terrible m_c can really be.",
+			"r_r leaves as soon as m_c arrives and refuses to be nearby."
+		]
+	},
+	{
+		"id": "dislike_kit_inc_med1",
+		"interactions": [
+			"m_c trips over r_r.",
+			"m_c had to nip r_r on the rump because {PRONOUN/r_r/subject} {VERB/r_r/were/was} being naughty.",
+			"m_c growls at r_r to get out from under {PRONOUN/m_c/poss} paws.",
+			"m_c snaps at r_r's annoying antics."
+		],
+		"main_status_constraint": [
+			"elder",
+			"apprentice",
+			"warrior",
+			"owsla apprentice",
+			"owsla",
+			"healer apprentice",
+			"healer",
+			"deputy",
+			"leader"
+		],
+		"random_status_constraint": [
+			"kitten"
+		],
+		"reaction_random_cat": {
+			"dislike": "increase"
+		}
+	},
+	{
+		"id": "dislike_dep_leader_inc_med1",
+		"interactions": [
+			"m_c punishes r_r with extra work.",
+			"m_c divides r_r into extra patrols.",
+			"m_c gives r_r a particularly hard task, expecting {PRONOUN/r_r/object} to fail.",
+			"m_c threatens r_r with never passing {PRONOUN/r_r/poss} assessment!",
+			"m_c tells other cats that r_r is not doing well in {PRONOUN/r_r/poss} training."
+		],
+		"main_status_constraint": [
+			"deputy",
+			"leader"
+		],
+		"random_status_constraint": [
+			"apprentice",
+			"warrior"
+		],
+		"reaction_random_cat": {
+			"dislike": "increase"
+		}
+	},
+	{
+		"id": "dislike_med_inc_med1",
+		"interactions": [
+			"m_c gives r_r bitter herbs on purpose.",
+			"m_c accuses r_r of complaining over something trivial and wasting {PRONOUN/m_c/poss} time.",
+			"m_c always tends to r_r last."
+		],
+		"main_status_constraint": [
+			"healer apprentice",
+			"healer"
+		],
+		"reaction_random_cat": {
+			"dislike": "increase"
+		}
+	},
+	{
+		"id": "dislike_inc_high1",
+		"intensity": "high",
+		"interactions": [
+			"m_c thinks r_r is being annoying.",
+			"m_c can't stand being around r_r."
+		]
+	},
+	{
+		"id": "dislike_inc_high2",
+		"intensity": "high",
+		"interactions": [
+			"m_c had a fight with r_r.",
+			"m_c had a heated argument with r_r and said some very hurtful things.",
+			"m_c argues with r_r in front of other cats and reveals something embarrassing."
+		],
+		"reaction_random_cat": {
+			"dislike": "increase"
+		}
+	},
+	{
+		"id": "dislike_inc_high3",
+		"intensity": "high",
+		"relationship_constraint": [
+			"dislike_50"
+		],
+		"interactions": [
+			"m_c shudders at the sound of r_r's voice.",
+			"m_c will do anything to avoid being anywhere near r_r.",
+			"m_c refuses to do any work with r_r."
+		]
+	},
+	{
+		"id": "dislike_inc_high4",
+		"intensity": "high",
+		"interactions": [
+			"m_c accuses r_r of being a bad leader.",
+			"m_c accuses r_r of not taking care of the Clan.",
+			"m_c accuses r_r of not putting the Clan first."
+		],
+		"relationship_constraint": [
+			"dislike_50"
+		],
+		"random_status_constraint": [
+			"leader"
+		]
+	},
+	{
+		"id": "dislike_inc_high5",
+		"intensity": "high",
+		"interactions": [
+			"m_c accuses r_r of being a bad deputy.",
+			"m_c scoffs at r_r's instructions.",
+			"m_c says that r_r is such a bad deputy {PRONOUN/r_r/subject} should step down."
+		],
+		"relationship_constraint": [
+			"dislike_50"
+		],
+		"random_status_constraint": [
+			"deputy"
+		],
+		"reaction_random_cat": {
+			"dislike": "increase"
+		}
+	},
+	{
+		"id": "dislike_inc_high6",
+		"intensity": "high",
+		"interactions": [
+			"m_c is scolding r_r.",
+			"m_c is bossing r_r around.",
+			"m_c and r_r are arguing about something important and risking the Clan's safety."
+		],
+		"main_status_constraint": [
+			"elder",
+			"healer",
+			"deputy",
+			"leader"
+		],
+		"reaction_random_cat": {
+			"platonic": "decrease",
+			"comfortable": "decrease",
+			"admiration": "decrease",
+			"trust": "decrease"
+		}
+	},
+	{
+		"id": "dislike_inc_high7",
+		"intensity": "high",
+		"interactions": [
+			"m_c thinks {PRONOUN/m_c/subject} should be deputy instead of r_r.",
+			"m_c is tired from r_r putting {PRONOUN/m_c/object} on so many patrols.",
+			"m_c rolls {PRONOUN/m_c/poss} eyes whenever r_r assigns patrols.",
+			"m_c tries to convince other cats that r_r should step down from being deputy."
+		],
+		"relationship_constraint": [
+			"dislike_40"
+		],
+		"random_status_constraint": [
+			"deputy"
+		],
+		"main_status_constraint": [
+			"apprentice",
+			"warrior"
+		],
+		"also_influences": {
+			"jealousy": "increase"
+		}
+	},
+	{
+		"id": "dislike_kit_de_med1",
+		"interactions": [
+			"m_c sticks {PRONOUN/m_c/poss} tongue out at r_r",
+			"m_c makes stinky faces at r_r for seemingly no reason."
+		],
+		"main_status_constraint": [
+			"kitten"
+		],
+		"reaction_random_cat": {
+			"dislike": "increase"
+		}
+	},
+	{
+		"id": "dislike_kit_de_med2",
+		"interactions": [
+			"m_c tried to have a friendly discussion with r_r about what prey tastes best, but it turned into an argument.",
+			"m_c and r_r always end up arguing over what games to play.",
+			"m_c is not playing fairly with r_r!"
+		],
+		"main_status_constraint": [
+			"kitten"
+		],
+		"random_status_constraint": [
+			"kitten"
+		],
+		"reaction_random_cat": {
+			"dislike": "increase"
+		}
+	},
+	{
+		"id": "dislike_kit_inc_med3",
+		"interactions": [
+			"m_c whines that r_r won't play with {PRONOUN/m_c/object}, even though {PRONOUN/r_r/subject}{VERB/r_r/'re/'s} always around camp.",
+			"m_c doesn't understand why r_r won't let {PRONOUN/m_c/object} play in the healer den."
+		],
+		"main_status_constraint": [
+			"kitten"
+		],
+		"random_status_constraint": [
+			"elder",
+			"owsla apprentice",
+			"healer apprentice"
+		]
+	}
+]

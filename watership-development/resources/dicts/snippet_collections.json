@@ -1,0 +1,540 @@
+{
+  "comment": [
+    "add new snippets to the relevant list:",
+    "prophecy list can have more amorphous and dreamy concepts",
+    "omen list should be more physical, should feel odd and meaningful, but grounded in reality",
+    "dream list should focus on emotional feelings rather than specific happenings",
+    "clair (clairvoyance) list should focus on amorphous feelings of things that already happened or could happen",
+
+    "be sure to put your snippet in the relevant 'sense' rabbitegory (if the list has sense rabbitegories).",
+    "general lists are meant to hold the snippets that fit in any biome",
+    "the lists within the lists are where we hold the snippets",
+    "snippets that are grouped together in one list are similar enough that we don't want them appearing in the same event together",
+    "thus only one snippet will be chosen from that list to be shuffled into the pool of potential snippets"
+  ],
+  "prophecy_list": {
+    "sight": {
+      "general": [
+        ["blood pooling on the ground", "blood dripping from a leaf"],
+        ["spread claws", "a rabbit's paw devoid of claws"],
+        ["snarling teeth", "bloodied teeth"],
+        ["a bird's feather"],
+        ["soft fur"],
+        ["sunlight glinting off a plant"],
+        ["pouring rain", "storms never-ending", "a rainstorm on a sunny day"],
+        ["hail pounding the ground"],
+        ["snow falling softly", "a blizzard raging"],
+        ["wind howling"],
+        ["bright sunshine", "the sun", "the sun blotted out by a great shadow", "a wolf eating the sun", "a rabbit pulling the sun from the sky", "a weasel stealing the sun", "a rabbit's form blocking the sun"],
+        ["blinding light", "a trail of light stretching through the camp"],
+        ["blazing heat"],
+        ["dark clouds", "a bloody red cloud", "rolling clouds", "clouds covering the sky", "a single beam of moonlight from the clouds"],
+        ["rushing fire", "fire engulfing a rabbit", "fire covering the camp", "fire trapped in stone", "the grass in flames", "an animal leaping from flames"],
+        ["flooding water", "water flowing upwards"],
+        ["mud splattered on the rocks"],
+        ["rocks falling"],
+        ["the earth ripping", "a deep pit in the ground", "a great hole opening up in the earth", "the ground tearing itself open"],
+        ["a freshly-dug grave", "a fore-boding grave"],
+        ["the falling petals of a flower", "petals drifting in the breeze", "a flower missing one petal"],
+        ["honey dripping", "a dripping honeycomb"],
+        ["spreading frost", "a frosty morning", "frost covering the warren"],
+        ["falling trees"],
+        ["a dry river still flowing with water", "a clear pool of water", "a rippling pool of water", "a pool of water with something just below the surface", "claw-marks on a still puddle", "a rainbow on the water"],
+        ["yew berries", "wilting herbs", "bountiful herbs"],
+        ["the moon", "a blackbird covering the moon", "a bleeding moon"],
+        ["the stars", "the stars falling from the sky", "the stars slowly disappearing", "dozens of new stars", "twinkling stars"],
+        ["frozen paws"],
+        ["an unyielding fog", "a sufforabbiting fog"],
+        ["an oppressive darkness", "darkness unending", "a panther-black night", "darkness despite the shining sun"],
+        ["the young rabbit's den", "the threarah's den", "the nursery", "the adult rabbit's den", "the elder's den"],
+        ["a deep lake"],
+        ["a snake eating it's own tail"],
+        ["a ghostly pair of eyes"],
+        ["two pawprints overlapping"],
+        ["a broken rabbit hutch"],
+        ["the glowing lights of a hrududu"],
+        ["skeletal trees against the sky"],
+        ["abandoned farmhouses", "spreading buildings"],
+        ["a tattered piece of clothing"],
+        ["the reflection of a lion", "a tiger's reflection"],
+        ["a twig burning from both ends"],
+        ["the grin of a wolf"],
+        ["a lost object finally returned", "a missing possession finally found"],
+        ["a figure with the voice of Frith"],
+        ["a rabbit not yet born"],
+        ["a rabbit nearly forgotten"],
+        ["a rabbit covered in blood"],
+        ["a rabbit standing beside an ithé"],
+        ["stones dissolving in water"]
+      ],
+      "forest": [
+        ["the forest folding in on itself"]
+
+      ],
+      "plains": [
+        ["a blood soaked field"]
+
+      ],
+      "beach": [
+        
+      ],
+      "mountainous": [
+
+      ]
+    },
+    "sound": {
+      "general": [
+        ["echoing snarls", "the growl of a friend", "the growls of an enemy", "growl from the dark", "thumping", "the thump of a friend", "an enemy's thump"],
+        ["wailing cries"],
+        ["a thundering voice"],
+        ["a kit's purr", "the squeak of a newborn", "the squeal of kits"],
+        ["the sound of barking"],
+        ["howling in the distance", "a distant howl of pain", "pfeffa howling to the moon"],
+        ["a monster roaring"],
+        ["the purring of a friend", "the purr of an enemy", "the purr of a mother", "a rumbling purr"],
+        ["the squeak of a rat being killed", "the squeal of dying mice"],
+        ["a bird call", "bird song on a clear morning"],
+        ["crashing waves", "the roar of waves in the distance"],
+        ["the sounds of battle", "the screams of fighting rabbits"],
+        ["the rushing sound of a river"],
+        ["their own voice answering them"],
+        ["the sound of cracking ice"],
+        ["the sound of a heartbeat"],
+        ["a whispered message", "whispers of hope long past"],
+        ["a dying promise"],
+        ["a rabbit's final words"]
+
+      ],
+      "forest": [
+
+      ],
+      "plains": [
+
+      ],
+      "beach": [
+
+      ],
+      "mountainous": [
+
+      ]
+    },
+    "smell": {
+      "general": [
+        ["the smell of the healing den"],
+        ["the scent of mint"],
+        ["the scent of another warren"],
+        ["the scent of someone long dead"],
+        ["the smell of sickness"],
+        ["the scent of herbs"],
+        ["pawsteps that smell like no rabbit"],
+        ["the scent of milk far from the nursery"]
+      ],
+      "forest": [
+
+      ],
+      "plains": [
+
+      ],
+      "beach": [
+
+      ],
+      "mountainous": [
+
+      ]
+    },
+    "emotional": {
+      "general": [
+        ["the excitement of an trainee", "a trainee's vigor", "the naivety of a young rabbit"],
+        ["the strength of the owsla", "the steadfastness of the owsla", "an owsla's loyalty"],
+        ["the ache of an elder's bones", "the wisdom of an elder"],
+        ["the sensation of falling"],
+        ["the feeling of flight"],
+        ["a half-remembered promise"],
+        ["a foreboding feeling"],
+        ["the embrace of a family"]
+      ],
+      "forest": [
+
+      ],
+      "plains": [
+
+      ],
+      "beach": [
+
+      ],
+      "mountainous": [
+
+      ]
+    },
+    "touch": {
+      "general": [
+        ["the brush of a pelt against their own"],
+        ["the touch of a mentor to a trainee's forehead"],
+        ["the warmth of a parent"]
+      ],
+      "forest": [
+
+      ],
+      "plains": [
+
+      ],
+      "beach": [
+
+      ],
+      "mountainous": [
+
+      ]
+    }
+  },
+
+  "omen_list": {
+    "sight": {
+      "general": [
+        ["a five-pointed leaf", "a star-shaped leaf", "an oddly torn leaf"],
+        ["a stone of two halves perfectly fitting together", "a stone with shining chips in it", "a stone with odd patterns on it", "a sparkling stone"],
+        ["a crooked-jawed squirrel"],
+        ["an odd pile of soft downy fur", "a tuft of homba fur", "a tuft of lendri fur", "a charred scrap of fur"],
+        ["a shard of glass"],
+        ["withered yew berries"],
+        ["a strangely shaped cloud", "a rabbit shaped cloud"],
+        ["a gleaming feather", "an oddly shaped feather", "a broken feather", "tattered feathers"],
+        ["the tooth of a large predator", "the claw of a large predator", "an old bloody claw"],
+        ["an eagle's talon", "the talon of a hawk"],
+        ["a split acorn"],
+        ["a piece of fresh prey already rotting"],
+        ["a shell shining with the colors of water"],
+        ["a branch that looks whole but comes apart with a gentle touch", "a stick rotted through"],
+        ["a three-eyed fish"],
+        ["a two-headed adder", "a dead snake eating it's own tail", "a perfectly shed snake-skin"],
+        ["a glowing bug fallen into the middle of camp"],
+        ["a pawprint of red on rock"],
+        ["destroyed herbs", "wilting herbs"],
+        ["a bird's broken egg", "a perfectly intact yet hollow bird's egg"],
+        ["a dew covered spider's web"],
+        ["a torn collar"],
+        ["the bones of a rodent", "a cracked mouse skull", "a cracked rabbit skull"],
+        ["a shining beetle shell"],
+        ["a green moth"],
+        ["an emaciated vole", "an emaciated rabbit", "an emaciated mouse"],
+        ["a headless centipede"],
+        ["an abandoned bee-stinger"],
+        ["a miraculously burning reed"],
+        ["a shed whisker"]
+      ],
+      "forest": [
+
+      ],
+      "plains": [
+
+      ],
+      "beach": [
+
+      ],
+      "mountainous": [
+
+      ]
+    },
+    "sound": {
+      "general": [
+        ["a whispering on the wind"],
+        ["the sound of a rabbit no longer here"]
+      ],
+      "forest": [
+
+      ],
+      "plains": [
+
+      ],
+      "beach": [
+
+      ],
+      "mountainous": [
+
+      ]
+    },
+    "smell": {
+      "general": [
+        ["the scent of spoiled queen's milk"],
+        ["the scent of a long dead rabbit"]
+
+      ],
+      "forest": [
+
+      ],
+      "plains": [
+
+      ],
+      "beach": [
+
+      ],
+      "mountainous": [
+
+      ]
+    },
+    "emotional": {
+      "general": [
+        ["a pervasive feeling of dread"],
+        ["the feeling of ants crawling through fur", "the drag of a claw through fur"],
+        ["the faint feeling of fangs on skin"],
+        ["the feeling of a hidden onlooker", "the oppressive feeling of eyes unseen"],
+        ["the stillness that comes before disaster"]
+      ],
+      "forest": [
+
+      ],
+      "plains": [
+
+      ],
+      "beach": [
+
+      ],
+      "mountainous": [
+
+      ]
+    },
+    "touch": {
+      "general": [
+
+      ],
+      "forest": [
+
+      ],
+      "plains": [
+
+      ],
+      "beach": [
+
+      ],
+      "mountainous": [
+
+      ]
+    }
+  },
+
+  "dream_list": [
+    ["hunger", "starvation", "gluttony", "ravenous hunger"],
+    ["cold", "warmth", "heat", "burning"],
+    ["loneliness", "apathy"],
+    ["irritation"],
+    ["want", "need"],
+    ["loss", "grief"],
+    ["a crush", "love", "romance"],
+    ["hate", "hatred"],
+    ["admiration", "respect"],
+    ["disapproval"],
+    ["ambition"],
+    ["self-assurance", "confidence", "self-confidence"],
+    ["greed"],
+    ["envy", "jealousy"],
+    ["parental pride", "pride"],
+    ["calm"],
+    ["anxiety", "nervousness"],
+    ["happiness"],
+    ["contentment"],
+    ["pain"],
+    ["vengeful thoughts", "vengeance"],
+    ["achievement"],
+    ["sorrow"],
+    ["turmoil"],
+    ["worry"],
+    ["horror", "terror"],
+    ["fear", "foreboding", "dread"],
+    ["danger"],
+    ["bloodlust"],
+    ["hope"],
+    ["curiosity"],
+    ["excitement", "thrill"],
+    ["secrecy"],
+    ["desperation"]
+  ],
+
+  "clair_list": {
+    "comment_clair": [
+    "when the clair_list is called it'll also pull the dream list along with it, this is bc the dream list items are",
+    "appropriate for the clair_list but the clair_list items aren't all appropriate for the dream_list"
+  ],
+    "sound": {
+      "general": [
+        ["the rumble of many paws over the ground"],
+        ["echoes of a past conversation", "echoes of a past argument"],
+        ["whispers of a deed long past", "whispers of a secret long lost"],
+        ["a betrayal on the wind"],
+        ["the crackling of a burning branch"],
+        ["the whisper of voices rapidly fading"],
+        ["the sound of wingbeats in the wind"],
+        ["the sounds of a heated argument"],
+        ["near silent pawsteps"],
+        ["the soft noises of kits nursing"],
+        ["a peal of laughter"],
+        ["distant wails of grief"]
+      ],
+      "forest": [
+
+      ],
+      "plains": [
+
+      ],
+      "beach": [
+
+      ],
+      "mountainous": [
+
+      ]
+    },
+    "smell": {
+      "general": [
+        ["the smell of pet food"],
+        ["a strange acidic scent"],
+        ["the smell of dirt baked by the sun"],
+        ["the smell of rain"]
+      ],
+      "forest": [
+
+      ],
+      "plains": [
+
+      ],
+      "beach": [
+
+      ],
+      "mountainous": [
+
+      ]
+    },
+    "emotional": {
+      "general": [
+        ["blood spilt in battle", "a battle from long ago", "the terror of a battle field"],
+        ["a war won", "a battle lost"],
+        ["an old rendezvous", "a friendly meeting", "a truce between enemies"],
+        ["a rabbit's last breath"],
+        ["a promise kept", "a half-remembered promise", "a promise already broken", "a promise not yet made"],
+        ["a story half-remembered"],
+        ["the excitement of a trainee", "a trainee's vigor", "the naivety of a young rabbit"],
+        ["the strength of the owsla", "the steadfastness of the owsla", "the owsla's loyalty"],
+        ["the ache of an elder's bones", "an elder's wisdom"],
+        ["drowning"],
+        ["lingering grief", "grief's sharp impact"],
+        ["a newborn's innocence","the loss of innocence"],
+        ["a memory being forgotten", "a fading memory", "a memory long lost"],
+        ["forgetting something important", "forgetting a secret once precious"],
+        ["wishing for something now missing", "longing for a long lost possession"],
+        ["hatred for a dear friend"],
+        ["knowing a secret that can never be revealed"],
+        ["a truth unbelieved", "a truth concealed", "a truth never revealed"],
+        ["a weakness in their legs"],
+        ["a belly so empty they feel nauseous"],
+        ["a home no longer welcoming", "a home long lost", "a home once forgotten"],
+        ["oozing corruption"]
+      ],
+      "forest": [
+
+      ],
+      "plains": [
+
+      ],
+      "beach": [
+
+      ],
+      "mountainous": [
+
+      ]
+    },
+    "touch": {
+      "general": [
+        ["deathly still air", "an unseen fire's heat"],
+        ["trembling stones"],
+        ["falling through the air", "flying through the air"],
+        ["the warmth of a parent", "the embrace of a family","the warmth of family in the darkness before a kit's eyes open"],
+        ["the slip of wet fur", "teeth snapping against fur", "claws against a scruff"],
+        ["a mentor's touch to a trainee's forehead"],
+        ["slipping on muddy earth despite the dry ground", "sinking into muddy earth"],
+        ["paws damp with water", "paws damp with blood", "paws heavy with blood"],
+        ["another rabbit's violent shove"],
+        ["sharpening one's claws against stone"],
+        ["wind whipping through fur"]
+      ],
+      "forest": [
+
+      ],
+      "plains": [
+
+      ],
+      "beach": [
+
+      ],
+      "mountainous": [
+
+      ]
+    },
+    "taste": {
+      "general": [
+        ["the bitter taste of poppy seeds", "the taste of bitter herbs", "the taste of blood in the air"],
+        ["the lingering taste of iron on the tongue"],
+        ["the volatile taste of berries"]
+      ],
+      "forest": [
+
+      ],
+      "plains": [
+
+      ],
+      "beach": [
+
+      ],
+      "mountainous": [
+
+      ]
+    }
+  },
+
+  "story_list": {
+    "comment_story": [
+    "the general list shouldn't have any 'the rabbit who ___' snippets, as we don't want to have more than one of these in an event",
+    "only add 'the rabbit who ___' snippets to biome lists, you can add one snippet to multiple biomes if you feels it fits in more than one"
+    ],
+    "general": [
+      ["The Thieving Fox"],
+      ["The Tenacious Rabbit", "El-ahrairah, the Rabbit Prince"],
+      ["The Revenge of Inlé", "The Witch Hare"],
+      ["Prince Rainbow", "Frith's Creation of the World","Rabscuttle and the Owsla","The Cougar's Claws"],
+      ["The Place of No Stars", "The Black Rabbit of Inlé"],
+      ["The Great Tail-Chaser"],
+      ["The Hole In The Sky"]
+    ],
+    "forest": [
+      ["The Rabbit Who Became a Porcupine", "The Rabbit Who Carried the Sun", "The Rabbit Who Grew Into an Oak", "The Willow Rabbit",
+        "The Lendri Who Befriended a Rabbit","The Rabbits Made of Light"],
+      ["The Old Forests of the Ancestors", "The Forest's Origin", "The First Seed","The Squirrel Who Planted the Forest"],
+      ["The Star Bugs"],
+      ["The Broken Burrows"]
+
+    ],
+    "plains": [
+      ["The Rabbit Who Dug a Tunnel Through The World", "The Blind Hunter Who Saved The Warren", "The Rabbit Without a Song",
+        "The Rabbit Who Carried The Sun", "The Rabbit Made From The Earth", "The Rabbits Made of Light", "The Great Worm-rabbit"],
+      ["the Hrududu"],
+      ["How The Great Skytowers Came To Be"],
+      ["The Metal Trees of the Ithé "],
+      ["The Weasel's Lie"],
+      ["The Sun-drown Place"]
+
+    ],
+    "beach": [
+      ["The Cursed Rabbit", "The Rabbit Who Carried The Sun"],
+      ["The Dolphin's Farewell"],
+      ["The Dead's Token"],
+      ["The Ocean's Tears", "The Crying Sky"]
+
+    ],
+    "mountainous": [
+      ["The Eagle Who Became a Rabbit", "The Doe Who Traded Her Voice", "The Rabbit Who Flew", "The Rabbit Who Carried The Sun",
+      "The Rabbits Made of Light"],
+      ["The Mountain's Shadow"],
+      ["The Hummingbird's Feather"],
+      ["The Betrayal of the Ravens"],
+      ["The Dancing Sky"],
+      ["The Sun-drown Place"]
+
+    ]
+  }
+}

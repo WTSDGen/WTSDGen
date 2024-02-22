@@ -1,0 +1,152 @@
+[
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "death"
+        ],
+        "death_text": "m_c grows weaker and weaker. r_r saw m_c slowly have less and less energy, until {PRONOUN/m_c/subject} didn't wake up one morning.",
+        "history_text": [
+            "m_c died from starvation.",
+            null
+        ],
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "death"
+        ],
+        "death_text": "r_r noticed how thin m_c got. r_r wanted to give m_c some prey, but found {PRONOUN/m_c/object} cold in the nursery.",
+        "history_text": [
+            "m_c died from starvation.",
+            null
+        ],
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "empathetic",
+            "loving",
+            "responsible"
+        ],
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "death"
+        ],
+        "death_text": "m_c complains about how hungry {PRONOUN/m_c/subject} {VERB/m_c/are/is}. Soon after, {PRONOUN/m_c/subject} sadly {VERB/m_c/walk/walks} with {PRONOUN/m_c/poss} ancestors.",
+        "history_text": [
+            "m_c died from starvation.",
+            null
+        ],
+        "rabbit_trait": [
+            "bossy",
+            "bouncy",
+            "troublesome"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "death"
+        ],
+        "death_text": "m_c was found dead in the nursery, rolled-up to a tiny furball.",
+        "history_text": [
+            "m_c died from starvation.",
+            null
+        ],
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "starving"
+        ],
+        "death_text": "m_c asks r_r if there is prey left that {PRONOUN/m_c/subject} may have, because {PRONOUN/m_c/subject} {VERB/m_c/are/is} so hungry.",
+        "history_text": [
+            null,
+            null
+        ],
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "starving"
+        ],
+        "death_text": "m_c's stomach rumbles loudly, but {PRONOUN/m_c/subject} {VERB/m_c/try/tries} to hide the fact that {PRONOUN/m_c/subject} {VERB/m_c/are/is} starving.",
+        "history_text": [
+            null,
+            null
+        ],
+        "rabbit_trait": [
+            "quiet",
+            "nervous",
+            "insecure"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "starving"
+        ],
+        "death_text": "m_c demands that r_r bring {PRONOUN/m_c/object} prey, because {PRONOUN/m_c/subject} {VERB/m_c/are/is} really hungry.",
+        "history_text": [
+            null,
+            null
+        ],
+        "rabbit_trait": [
+            "bossy",
+            "impulsive",
+            "attention-seeker",
+            "noisy"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    }
+]

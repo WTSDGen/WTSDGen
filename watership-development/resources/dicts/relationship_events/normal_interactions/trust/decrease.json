@@ -1,0 +1,170 @@
+[
+	{
+		"id": "trust_de_low1",
+		"intensity": "low",
+		"interactions": [
+			"m_c doesn't think that r_r has been completely honest lately.",
+			"m_c thinks r_r has been acting strangely."
+		]
+	},
+	{
+		"id": "trust_de_low2",
+		"intensity": "low",
+		"interactions": [
+			"m_c shared a embarrassing story about r_r {PRONOUN/m_c/subject} {VERB/m_c/were/was} asked not to share..."
+		],
+		"reaction_random_cat": {
+			"trust": "decrease"
+		}
+	},
+	{
+		"id": "trust_de_med1",
+		"interactions": [
+			"m_c caught r_r in a lie.",
+			"r_r let m_c down while m_c was counting on {PRONOUN/r_r/object}."
+		]
+	},
+	{
+		"id": "trust_de_med2",
+		"interactions": [
+			"m_c said {PRONOUN/m_c/subject}'d cover for r_r, but when it came time, {PRONOUN/m_c/subject} got r_r in trouble."
+		],
+		"reaction_random_cat": {
+			"trust": "decrease"
+		}
+	},
+	{
+		"id": "trust_de_med3",
+		"interactions": [
+			"r_r is gossiping about m_c.",
+			"m_c is spreading a rumor about r_r."
+		],
+		"random_trait_constraint": [
+			"sneaky"
+		]
+	},
+	{
+		"id": "trust_kit_de_med1",
+		"interactions": [
+			"m_c constantly pulling pranks on r_r.",
+			"m_c is relentlessly pestering r_r."
+		],
+		"relationship_constraint": [
+			"dislike_40"
+		],
+		"main_status_constraint": [
+			"kitten"
+		],
+		"reaction_random_cat": {
+			"trust": "decrease",
+			"dislike": "increase"
+		}
+	},
+	{
+		"id": "trust_de_high1",
+		"intensity": "high",
+		"interactions": [
+			"m_c goes to tell a secret to r_r only for r_r to tell someone else's secret to {PRONOUN/m_c/object}.",
+			"m_c turned to r_r in a time of need, only for r_r to abandon {PRONOUN/m_c/object}."
+		]
+	},
+	{
+		"id": "trust_de_high2",
+		"intensity": "high",
+		"interactions": [
+			"m_c tries to scare r_r."
+		],
+		"relationship_constraint": [
+			"dislike_40"
+		],
+		"reaction_random_cat": {
+			"trust": "decrease"
+		}
+	},
+	{
+		"id": "trust_for_medrabbit_de_high1",
+		"intensity": "high",
+		"interactions": [
+			"m_c can never seem explain {PRONOUN/r_r/poss} health in a way that makes r_r listen...",
+			"m_c feels like r_r is downplaying the severity of m_c's health concerns.",
+			"m_c accuses r_r of not taking care of cats properly.",
+			"m_c doesn't bother to ask r_r for help with a minor injury, worried that {PRONOUN/r_r/subject} might make it worse.",
+			"m_c complains that r_r doesn't seem to understand signs from StarClan very well.",
+			"m_c feels worse after r_r gave {PRONOUN/m_c/object} the wrong treatment for something minor."
+		],
+		"random_status_constraint": [
+			"healer"
+		]
+	},
+	{
+		"id": "trust_for_medrabbit_de_high2",
+		"intensity": "high",
+		"interactions": [
+			"m_c is dissatisfied that r_r can't seem to get rid of {PRONOUN/m_c/poss} chronic pain.",
+			"m_c is upset that r_r seems to ignore them more than the other cats.",
+			"m_c thinks that r_r prioritizes other rabbit's issues instead of m_c's chronic ones."
+		],
+		"main_status_constraint": [
+			"elder"
+		],
+		"random_status_constraint": [
+			"healer"
+		]
+	},
+	{
+		"id": "trust_for_medrabbit_de_high3",
+		"intensity": "high",
+		"interactions": [
+			"m_c accuses r_r of treating cats incorrectly on purpose!",
+			"m_c saw r_r bringing deathberries into the medicine den.",
+			"r_r was rough with m_c during a recent treatment.",
+			"m_c isn't sure why r_r became a healer at all since {PRONOUN/r_r/subject} {VERB/r_r/seem/seems} to not like helping any cats.",
+			"m_c wouldn't be surprised if r_r faked signs from StarClan..."
+		],
+		"random_status_constraint": [
+			"healer"
+		],
+		"random_trait_constraint": [
+			"cold",
+			"bloodthirsty",
+			"vengeful"
+		]
+	},
+	{
+		"id": "trust_for_medrabbit_de_high4",
+		"intensity": "high",
+		"interactions": [
+			"m_c is shocked when r_r casually admits forgetting a basic treatment.",
+			"m_c growls frustratingly at r_r when {PRONOUN/r_r/subject} {VERB/r_r/don't/doesn't} pay attention to m_c's health concerns... again.",
+			"m_c looks for r_r for treatment on a minor wound, only to find {PRONOUN/r_r/object} playing with catmint!",
+			"m_c hopes to never have a serious illness with r_r in charge of treatments...",
+			"m_c complains that r_r never takes {PRONOUN/r_r/poss} role of healer seriously."
+		],
+		"random_status_constraint": [
+			"healer"
+		],
+		"random_trait_constraint": [
+			"oblivious",
+			"childish"
+		]
+	},
+	{
+		"id": "trust_for_leader_de_high1",
+		"intensity": "high",
+		"interactions": [
+			"m_c cowers away from r_r after r_r barks an order at {PRONOUN/m_c/object}.",
+			"After hearing r_r's most recent demands, m_c is concerned about the future of the Clan.",
+			"m_c doesn't believe that r_r has the Clan's best interests in mind.",
+			"m_c doesn't understand how StarClan could grant a rabbit as cold and uncaring as r_r nine lives.",
+			"When it comes down to it, m_c doesn't think {PRONOUN/m_c/subject} could follow r_r's every order."
+		],
+		"random_status_constraint": [
+			"leader"
+		],
+		"random_trait_constraint": [
+			"cold",
+			"bloodthirsty",
+			"vengeful"
+		]
+	}
+]

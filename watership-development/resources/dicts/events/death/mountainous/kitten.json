@@ -1,0 +1,67 @@
+[
+    {
+        "camp": "any",
+        "tags": [
+            "Winter"
+        ],
+        "death_text": "m_c was found dead and cold in the snow.",
+        "history_text": {
+            "reg_death": "m_c froze to death."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter"
+        ],
+        "death_text": "m_c froze to death during a harsh snowstorm.",
+        "history_text": {
+            "reg_death": "m_c froze to death."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter"
+        ],
+        "death_text": "m_c disappeared from the nursery and was later found dead, not far from camp.",
+        "history_text": {
+            "reg_death": "m_c froze to death."
+        },
+        "rabbit_trait": [
+            "daring",
+            "impulsive",
+            "attention-seeker",
+            "troublesome"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter"
+        ],
+        "death_text": "m_c was playing on the ice, when it cracked and {PRONOUN/m_c/subject} fell in.",
+        "history_text": {
+            "reg_death": "m_c froze to death after falling through ice."
+        },
+        "rabbit_trait": [
+            "daring",
+            "attention-seeker",
+            "impulsive"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    }
+]

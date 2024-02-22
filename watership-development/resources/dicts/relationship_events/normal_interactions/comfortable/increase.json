@@ -1,0 +1,243 @@
+[
+	{
+		"id": "comfort_inc_low1",
+		"intensity": "low",
+		"interactions": [
+			"m_c finds a bit of fluff that smells like r_r and adds it to {PRONOUN/m_c/poss} nest.",
+			"m_c has a friendly chat with r_r that leaves them both feeling happy."
+		]
+	},
+	{
+		"id": "comfort_inc_low2",
+		"intensity": "low",
+		"interactions": [
+			"m_c quickly apologizes after bumping into r_r. They have a small laugh about it.",
+			"m_c has been spending time with r_r lately.",
+			"m_c shares a joke about a neighboring Clan with r_r.",
+			"m_c reassures r_r about something that was bothering {PRONOUN/r_r/object}."
+		],
+		"reaction_random_cat": {
+			"comfortable": "increase"
+		}
+	},
+	{
+		"id": "comfort_inc_low3",
+		"intensity": "low",
+		"interactions": [
+			"m_c is asking r_r to check {PRONOUN/m_c/object} for ticks.",
+			"m_c is happy to see r_r is the rabbit who is helping {PRONOUN/m_c/object} today."
+		],
+		"main_status_constraint": [
+			"elder"
+		],
+		"random_status_constraint": [
+			"apprentice",
+			"medicine apprentice",
+			"owsla apprentice"
+		]
+	},
+	{
+		"id": "comfort_inc_med1",
+		"interactions": [
+			"m_c helps r_r pick burrs out of {PRONOUN/r_r/poss} fur."
+		]
+	},
+	{
+		"id": "comfort_inc_med2",
+		"interactions": [
+			"m_c has snuggled up against r_r.",
+			"m_c chats with r_r about {PRONOUN/r_r/poss} day.",
+			"m_c basks in the sun with r_r.",
+			"m_c just told r_r a hilarious joke.",
+			"m_c settles near r_r to eat {PRONOUN/m_c/poss} fresh-kill.",
+			"m_c bumps heads with r_r reassuringly."
+		],
+		"reaction_random_cat": {
+			"comfortable": "increase"
+		}
+	},
+	{
+		"id": "comfort_inc_med3",
+		"interactions": [
+			"m_c is sharing the latest gossip {PRONOUN/m_c/subject} heard over the border with r_r.",
+			"m_c tells r_r {PRONOUN/m_c/subject}'ll save {PRONOUN/r_r/object} a piece of fresh-kill.",
+			"m_c playfully teases r_r for missing a catch.",
+			"m_c gives r_r some feathers from the bird {PRONOUN/m_c/subject} caught to line {PRONOUN/r_r/poss} nest.",
+			"m_c is delighted to be working with r_r today."
+		],
+		"main_status_constraint": [
+			"apprentice",
+			"warrior",
+			"deputy",
+			"leader"
+		],
+		"random_status_constraint": [
+			"apprentice",
+			"warrior",
+			"deputy",
+			"leader"
+		]
+	},
+	{
+		"id": "comfort_inc_med4",
+		"interactions": [
+			"r_r is listening to m_c's woes.",
+			"r_r is listening to m_c's troubles.",
+			"r_r noticed m_c was struggling, and offered to help {PRONOUN/m_c/object}."
+		],
+		"random_trait_constraint": [
+			"empathetic"
+		]
+	},
+	{
+		"id": "comfort_inc_med5",
+		"interactions": [
+			"r_r gave m_c {PRONOUN/m_c/poss} favorite piece of prey.",
+			"r_r is being quite considerate with m_c.",
+			"r_r took the time to help m_c work through a technique {PRONOUN/m_c/subject} {VERB/m_c/are/is} struggling with."
+		],
+		"random_trait_constraint": [
+			"thoughtful"
+		]
+	},
+	{
+		"id": "comfort_inc_med6",
+		"interactions": [
+			"r_r curled around m_c to share warmth.",
+			"r_r lets m_c have the last piece of fresh-kill.",
+			"r_r is listening to m_c's problems.",
+			"r_r gives m_c an item {PRONOUN/m_c/subject} may like."
+		],
+		"random_trait_constraint": [
+			"compassionate"
+		]
+	},
+	{
+		"id": "comfort_inc_med7",
+		"interactions": [
+			"m_c is watching the shooting stars with r_r.",
+			"m_c calmly explains hunting techniques to r_r again for the fourth time today.",
+			"m_c helps r_r with a tedious task and it makes the whole day a lot easier."
+		],
+		"random_trait_constraint": [
+			"patient"
+		]
+	},
+	{
+		"id": "comfortable_kit_inc_med1",
+		"interactions": [
+			"m_c wants to snuggle with r_r."
+		],
+		"main_status_constraint": [
+			"kitten"
+		]
+	},
+	{
+		"id": "comfortable_kit_inc_med2",
+		"interactions": [
+			"m_c wants to snuggle with r_r.",
+			"m_c is hiding under a bush from r_r, but {PRONOUN/m_c/subject} can't stop giggling."
+		],
+		"main_status_constraint": [
+			"kitten"
+		],
+		"reaction_random_cat": {
+			"platonic": "increase"
+		}
+	},
+	{
+		"id": "comfortable_kit_inc_med3",
+		"interactions": [
+			"m_c spent the whole day playing {PRONOUN/m_c/poss} favorite games with r_r.",
+			"m_c had a friendly argument with r_r about which prey tastes the best.",
+			"m_c takes a nap with r_r after a long day playing mossball."
+		],
+		"main_status_constraint": [
+			"kitten"
+		],
+		"random_status_constraint": [
+			"kitten"
+		],
+		"reaction_random_cat": {
+			"platonic": "increase",
+			"comfortable": "increase"
+		},
+		"also_influences": {
+			"platonic": "increase"
+		}
+	},
+	{
+		"id": "comfortable_kit_odd1",
+		"interactions": [
+			"m_c chomps on r_r's ear.",
+			"m_c won't stop copying everything r_r does.",
+			"m_c is demanding r_r's attention."
+		],
+		"main_status_constraint": [
+			"kitten"
+		],
+		"reaction_random_cat": {
+			"dislike": "increase:",
+			"comfortable": "decrease"
+		}
+	},
+	{
+		"id": "comfort_med_inc_medium1",
+		"interactions": [
+			"m_c thanks r_r for checking when {PRONOUN/r_r/subject} {VERB/r_r/ask/asks} if {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} feeling alright.",
+			"m_c drops into the medicine den to ask r_r if {PRONOUN/r_r/subject}{VERB/r_r/'ve/'s} eaten yet."
+		],
+		"random_status_constraint": [
+			"healer",
+			"healer apprentice"
+		],
+		"reaction_random_cat": {
+			"comfortable": "increase",
+			"trust": "increase"
+		}
+	},
+	{
+		"id": "comfort_inc_high1",
+		"intensity": "high",
+		"interactions": [
+			"m_c appreciates how r_r always seems to ask how {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} doing."
+		]
+	},
+	{
+		"id": "comfort_inc_high2",
+		"intensity": "high",
+		"interactions": [
+			"m_c is sharing tongues with r_r.",
+			"m_c offers to groom a hard-to-reach place for r_r, who thanks {PRONOUN/m_c/object} earnestly."
+		],
+		"reaction_random_cat": {
+			"comfortable": "increase"
+		}
+	},
+	{
+		"id": "comfort_inc_high3",
+		"intensity": "high",
+		"interactions": [
+			"m_c feels most like {PRONOUN/m_c/self} when {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} around r_r.",
+			"m_c could recognize r_r just by the sound of {PRONOUN/r_r/poss} paw steps."
+		],
+		"relationship_constraint": [
+			"comfortable_30"
+		]
+	},
+	{
+		"id": "comfort_inc_high4",
+		"intensity": "high",
+		"interactions": [
+			"m_c helps r_r work through something difficult that happened to {PRONOUN/r_r/object}.",
+			"m_c comforts r_r after a nightmare."
+		],
+		"relationship_constraint": [
+			"comfortable_30"
+		],
+		"reaction_random_cat": {
+			"comfortable": "increase",
+			"trust": "increase"
+		}
+	}
+]

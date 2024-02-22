@@ -1,0 +1,33 @@
+[
+    {
+        "id": "gen_dead_chief_rabbit",
+        "thoughts": [
+            "Watches c_n proudly",
+            "Hopes {PRONOUN/m_c/subject} {VERB/m_c/have/has} been a good chief",
+            "Is contemplating {PRONOUN/m_c/poss} legacy",
+            "Thinks {PRONOUN/m_c/subject} could have made a better decision during their life"
+        ]
+    },
+    {
+        "id": "dead_chief_rabbit_to_alive_chief_rabbit",
+        "thoughts": [
+            "Approves of r_r's leadership choices",
+            "Walks in r_r's dreams to impart wisdom and guidance",
+            "Thinks r_r made some bad decisions lately",
+            "Is glad that {PRONOUN/m_c/subject} chose r_r as their successor"
+        ],
+        "random_status_constraint": [
+            "chief rabbit"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+    {
+        "id": "dead_chief_rabbit_founder",
+        "thoughts": [
+            "Is proud of being one of c_n's first chief rabbits"
+        ],
+        "main_backstory_constraint": ["clan_founder"]
+    }
+]

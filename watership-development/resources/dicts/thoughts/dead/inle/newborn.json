@@ -1,0 +1,42 @@
+[
+    {
+        "id": "gen_dead_newborn",
+        "thoughts": [
+            "Squeals pitifully for milk",
+            "Snoozes peacefully",
+            "Wobbles around Inlé happily",
+            "Is drinking milk from a Inlé doe",
+            "Tries opening {PRONOUN/m_c/poss} eyes to see the 'moon' everyone is talking about",
+            "Tries to practice walking to play with the other rabbits",
+            "Attempts to snarl but can only manage a tiny squeak",
+            "Rolls through the fresh grass"
+        ]
+    },
+    {
+        "id": "gen_dead_newborn_to_alive_parent",
+        "thoughts":[
+            "Thinks {PRONOUN/m_c/subject} heard r_r's voice",
+            "Is squealing for r_r",
+            "Searches for r_r's scent",
+            "Blindly reaches out for r_r"
+        ],
+        "relationship_constraint": [
+            "child/parent"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+    {
+        "id": "gen_dead_newborn_to_dead_other",
+        "thoughts":[
+            "Is being watched by r_r",
+            "Is being bathed by r_r",
+            "Is tucked under r_r's belly",
+            "Blindly swipes at r_r's tail"
+        ],
+        "random_living_status": [
+            "Inlé"
+        ]
+    }
+]

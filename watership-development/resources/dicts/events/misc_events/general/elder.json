@@ -1,0 +1,147 @@
+[
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c is brought back to camp after wandering off.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn"
+        ],
+        "event_text": "m_c calls the younger cats to {PRONOUN/m_c/poss} den to tell stories of the Clan's past.",
+        "rabbit_trait": null,
+        "rabbit_skill": [
+            "STORY,1"
+        ],
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "other_rabbit",
+            "other_rabbit_leader"
+        ],
+        "event_text": "m_c speaks to r_r about how to better defend the camp.",
+        "rabbit_trait": null,
+        "rabbit_skill": [
+            "INSIGHTFUL,1"
+        ],
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn"
+        ],
+        "event_text": "m_c helps reinforce the dens in the camp while the rest of the camp is on patrol.",
+        "rabbit_trait": null,
+        "rabbit_skill": [
+            "CAMP,2"
+        ],
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn"
+        ],
+        "event_text": "m_c places small feathers and shining stones near the nest of each Clanmate while they're on patrol.",
+        "rabbit_trait": null,
+        "rabbit_skill": [
+            "CAMP,2"
+        ],
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn"
+        ],
+        "event_text": "m_c keeps an eye on the camp while the warriors are on patrol.",
+        "rabbit_trait": null,
+        "rabbit_skill": [
+            "CAMP,3"
+        ],
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn"
+        ],
+        "event_text": "m_c disappears for a few days, then returns to camp with a acc_singular around {PRONOUN/m_c/poss} neck.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null,
+        "accessories": [
+            "COLLAR"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c awakens with multiple objects stacked on {PRONOUN/m_c/object}, and the sound of giggling cats in the distance.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "Any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "rc_to_mc",
+            "comfort",
+            "respect",
+            "clan_kits"
+        ],
+        "event_text": "m_c calls out to some eager kits, and after they have situated themselves in front of m_c, {PRONOUN/m_c/subject} {VERB/m_c/start/starts} telling the kits a thrilling story of times long past.",
+        "rabbit_skill": [
+            "STORY,1",
+            "LORE,2"
+        ]
+    }
+]

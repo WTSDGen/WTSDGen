@@ -1,0 +1,325 @@
+{
+	"relationship":{
+		"in_decrease_value":{
+			"low": 8,
+			"medium": 12,
+			"high": 16
+		},
+		"max_interaction": 5,
+		"max_interaction_special": 8,
+		"compatibility_effect": 5,
+		"passive_influence_div": 1.5,
+		"chance_for_neutral": 10,
+		"chance_of_special_group": 8,
+		"chance_romantic_not_mate": 15,
+		"comment":[
+			"chance_for_neutral - how high the chance is to make the interaction of the relationship to a 'neutral' instead of negative or positive",
+			"chance_of_special_group - 1/chance often when a group event is happening not all rabbits are considered, only a special group, which is defined in group_types.json",
+			"chance_romantic_not_mate - the base chance of an romantic interaction with another rabbit, when a rabbit has a mate"
+		]
+	},
+	"mates":{
+		"age_range": 40,
+		"override_same_age_group": false,
+		"chance_fulfilled_condition": 5,
+		"chance_friends_to_lovers": 170,
+		"confession": {
+			"make_confession" : {
+				"romantic": 30,
+				"platonic": 15,
+				"dislike": -15,
+				"admiration": 0,
+				"comfortable": 10,
+				"jealousy": 0,
+				"trust": 0
+			},
+			"accept_confession" : {
+				"romantic": 17,
+				"platonic": 15,
+				"dislike": -10,
+				"admiration": 0,
+				"comfortable": 10,
+				"jealousy": 0,
+				"trust": 0
+			}
+		},
+		"mate_condition": {
+			"romantic": 20,
+			"platonic": 30,
+			"dislike": -10,
+			"admiration": 0,
+			"comfortable": 20,
+			"jealousy": 0,
+			"trust": 0
+		},
+		"platonic_to_romantic": {
+			"romantic": 0,
+			"platonic": 30,
+			"dislike": -15,
+			"admiration": 0,
+			"comfortable": 20,
+			"jealousy": 0,
+			"trust": 0
+		},
+		"poly":{
+			"current_mate_condition": {
+				"romantic": 30,
+				"platonic": 0,
+				"dislike": 0,
+				"admiration": 0,
+				"comfortable": 15,
+				"jealousy": -15,
+				"trust": 25
+			},
+			"mates_to_each_other": {
+				"romantic": 0,
+				"platonic": 15,
+				"dislike": -10,
+				"admiration": 0,
+				"comfortable": 15,
+				"jealousy": -15,
+				"trust": 20
+			}
+		},
+		"comment":[
+			"chance_fulfilled_condition - 1/chance of becoming mates when the conditions are fulfilled",
+			"chance_friends_to_lovers - 1/chance of becoming mates, triggers with friends_to_lover (has to be a high number because many relationships are checked each month)",
+			"VALUES IN RELATIONSHIP DICT - 0: no condition; positive number: value has to be higher than number; negative number: value has to be lower than number",
+			"confession (make_confession) - if one rabbit has these feelings for another, they confess (if there are more, the highest romantic will be chosen)",
+			"confession (confess_acceptance) - if these conditions are fulfilled by the opposite rabbit, they accept, otherwise, they reject.",
+			"conditions for mates - both relationships have to fulfill this condition",
+			"poly (current_mate) - which conditions all current mate relationships has to have towards the main rabbit + vise versa",
+			"poly (each_other) - which conditions all current mate relationships haves to have towards the new possible mate + vise versa"
+		]
+	},
+	"new_rabbit": {
+		"parent_buff": {
+			"kitten_to_parent": {
+				"romantic": 0,
+				"platonic": 40,
+				"dislike": 0,
+				"admiration": 30,
+				"comfortable": 40,
+				"jealousy": 0,
+				"trust": 50
+			},
+			"parent_to_kitten": {
+				"romantic": 0,
+				"platonic": 40,
+				"dislike": 0,
+				"admiration": 30,
+				"comfortable": 40,
+				"jealousy": 0,
+				"trust": 30
+			}
+		},
+		"sib_buff": {
+			"rabbit1_to_rabbit2": {
+				"romantic": 0,
+				"platonic": 40,
+				"dislike": 0,
+				"admiration": 10,
+				"comfortable": 40,
+				"jealousy": 0,
+				"trust": 30
+			},
+			"rabbit2_to_rabbit1": {
+				"romantic": 0,
+				"platonic": 40,
+				"dislike": 0,
+				"admiration": 10,
+				"comfortable": 40,
+				"jealousy": 0,
+				"trust": 30
+			}
+		},
+		"rel_buff":{
+			"new_to_warren_rabbit": {
+				"romantic": 0,
+				"platonic": 15,
+				"dislike": 0,
+				"admiration": 10,
+				"comfortable": 15,
+				"jealousy": 0,
+				"trust": 15
+			},
+			"warren_rabbit_to_new":{
+				"romantic": 0,
+				"platonic": 15,
+				"dislike": 0,
+				"admiration": 5,
+				"comfortable": 10,
+				"jealousy": 0,
+				"trust": 10
+			}
+		},
+		"rabbit_amount_welcoming": 3
+	},
+	"pregnancy": {
+		"birth_cooldown": 6,
+		"primary_chance_mated": 80,
+		"primary_chance_unmated": 130,
+		"random_affair_chance": 50,
+		"unmated_random_affair_chance": 10,
+		"one_kitten_possibility": {"young adult": 2, "adult": 4, "senior adult": 6, "senior": 7},
+        "two_kitten_possibility": {"young adult": 10, "adult": 13, "senior adult": 15, "senior": 3},
+        "three_kitten_possibility": {"young adult": 15, "adult": 11, "senior adult": 10, "senior": 2},
+        "four_kitten_possibility": {"young adult": 17, "adult": 15, "senior adult": 5, "senior": 1},
+        "five_kitten_possibility": {"young adult": 10, "adult": 6, "senior adult": 1, "senior": 0},
+        "six_kitten_possibility": {"young adult": 8, "adult": 5, "senior adult": 1, "senior": 0},
+        "seven_kitten_possibility": {"young adult": 6, "adult": 4, "senior adult": 0, "senior": 0},
+        "max_kitten_possibility": {"young adult": 4, "adult": 3, "senior adult": 0, "senior": 0},
+		"min_kittens": 1,
+		"max_kittens": 8,
+		"comment": [
+			"primary mated - 1/chance for kittens, relationship and other factors will influence this chance",
+			"primary unmated - 1/chance for kittens, relationship and other factors will influence this chance",
+			"The kitten number is incremental. It is 1-6 as default so if you change these numbers, you should probably keep this in mind.",
+			"As in, your max kittens number should probably be 5 more than the min kittens number.",
+			"But that's not required - just makes more sense that way with how the litters are generated."
+		]
+	},
+	"rabbit_generation": {
+		"base_permanent_condition": 90,
+		"base_male_tortie": 13,
+		"base_female_tortie": 4,
+		"base_heterochromia": 120,
+		"direct_inheritance": 15,
+		"wildcard_tortie": 9,
+		"vit_chance": 8,
+		"random_point_chance": 5
+	},
+	"rabbit_name_controls": {
+		"always_name_after_appearance": false,
+		"allow_eye_names": true,
+		"comment": [
+			"Set always_name_after_appearance to true if you always want rabbits named after the color of their pelt.",
+			"This overrides the chances of it otherwise. If rabbits can't find a pelt color, they will choose from normal_prefixes",
+			"So as not to cause an error - false by default",
+			"allow_eye_names allows rabbits to be named after the color of their eyes - true by default"
+		]
+	},
+	"accessory_generation": {
+		"base_acc_chance": 150,
+		"med_modifier": -80,
+		"baby_modifier": -20,
+		"elder_modifier": 20,
+		"happy_trait_modifier": -30,
+		"grumpy_trait_modifier": 30,
+		"ceremony_modifier": -20
+	},
+	"fading": {
+		"age_to_fade": 200,
+		"opacity_at_fade": 20,
+		"visual_fading_speed": 5
+	},
+	"roles": {
+		"owsla_app_chance": 30,
+		"base_medicine_app_chance": 41,
+		"become_owsla_chances": {
+			"rabbit": 400,
+			"elder": 4000
+		}
+	},
+	"lost_rabbit": {
+		"rejoin_chance": 20
+	},
+	"rabbit_ages": {
+		"newborn": [0, 0],
+		"kitten": [1, 4],
+		"adolescent": [5, 11],
+		"young adult": [12, 47],
+        "adult": [48, 84],
+        "senior adult": [85, 99],
+        "senior": [100, 216],
+		"comment": [
+			"These HAVE to be in the correct order: where one ends, the next one begins on the next number.",
+			"If you DON'T DO THIS, your game WILL break."
+		]
+	},
+    "rabbit_sprites": {
+        "sick_sprites": true,
+        "comment": "Set this to false to disable sick sprites."
+    },
+	"patrol_generation": {
+		"classic_difficulty_modifier": 1,
+		"expanded_difficulty_modifier": 2.5,
+		"cruel season_difficulty_modifier": 3,
+		"win_stat_rabbit_modifier": 10,
+		"better_stat_modifier": 5,
+		"best_stat_modifier": 10,
+		"fail_stat_rabbit_modifier": -15,
+		"chance_of_romance_patrol": 16,
+		"debug_ensure_patrol_id": null,
+		"comment": [
+			"the Cruel Season difficulty modifier needs to have a space rather than an underscore,",
+			"due to how it's written in the save files. So don't try to 'fix' it."
+		]
+	},
+	"death_related": {
+		"chief_rabbit_death_chance": 125,
+		"classic_death_chance": 500,
+		"expanded_death_chance": 350,
+		"cruel season_death_chance": 300,
+		"war_death_modifier_threarah": 95,
+		"war_death_modifier": 250,
+		"base_random_murder_chance": 25,
+		"base_murder_kill_chance": 170,
+		"old_age_death_start": 120,
+		"old_age_death_curve": 5,
+		"comment": [
+			"old_age_death_curve is a multiplier that affects the chances of rabbits dying once they are over old_age_death_start months.",
+			"Average life expectancy with default old_age_death_start of 150 months:",
+			"1 = 189 months, 2 = 178, 3 = 172, 4.5 (default) = 168, 8 = 163, 20 = 158"
+		]
+	},
+	"condition_related": {
+		"expanded_illness_chance": 250,
+		"cruel season_illness_chance": 200,
+		"classic_injury_chance": 450,
+		"expanded_injury_chance": 250,
+		"cruel season_injury_chance": 150,
+		"permanent_condition_chance": 20,
+		"war_injury_modifier": 100
+	},
+	"warren_creation": {
+		"rerolls": 3,
+		"comment": "Set this to -1 for it to be infinite"
+	},
+	"graduation": {
+		"base_app_timeskip_ex": [[3, 12],[5, 6]],
+		"base_med_app_timeskip_ex": [[2, 7],[2, 3]],
+		"max_rusasi_age": {
+			"healer rusasi": 30,
+			"rusasi": 25,
+			"owsla rusasi": 25
+		},
+		"min_graduating_age": 10
+	},
+	"save_load": {
+		"load_integrity_checks": true
+	},
+	"sorting": {
+		"sort_dead_by_total_age": true,
+		"sort_rank_by_death": true,
+        "sort_by_rel_total": true,
+		"comment": [
+			"sort_dead_by_total_age - true: sort dead rabbits by total age (in the order they were born); false: sort dead rabbits by their age at the time of death.",
+            "sort_rank_by_death - true: when filtering dead rabbits by rank, list them in the order they died; false: when filtering dead rabbits by rank, sort dead rabbits by total age (in the order they were born).",
+            "sort_by_rel_total - true: sort a rabbit's relationships by the sum of their values; false: they will be sorted in the order they were added."
+		]
+	},
+	"fun": {
+		"april_fools": false,
+		"all_rabbits_are_newborn": false,
+		"newborns_can_roam": false,
+		"newborns_can_patrol": false,
+		"always_halloween": false
+	},
+	"theme": {
+		"dark_mode_background": [57, 50, 36],
+		"light_mode_background": [206, 194, 168]
+	},
+	"lock_season": false, 
+	"comment": "Forces the season to be locked at the Clan's starting_season"
+}

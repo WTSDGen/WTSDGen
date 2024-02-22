@@ -1,0 +1,185 @@
+[
+    {
+        "id": "owsla_to_dead_owsla",
+        "thoughts": [
+            "Wishes {PRONOUN/m_c/subject} could ask r_r for advice"
+        ],
+        "random_status_constraint": [
+            "owsla"
+        ],
+        "random_living_status": [
+            "Inlé"
+        ]
+    },
+    {
+        "id": "owsla_to_alive_owsla",
+        "thoughts": [
+            "Is discussing new battle strategies with r_r",
+            "Is training hard with r_r",
+            "Thinks r_r was too soft on a rulebreaker",
+            "Thinks r_r was too hard on a rulebreaker"
+        ],
+        "random_status_constraint": [
+            "owsla",
+            "owsla rusasi"
+        ]
+    },
+    {
+        "id": "owsla_to_alive_owsla_app",
+        "thoughts": [
+            "Makes note of r_r's journey as a trainee"
+        ],
+        "random_status_constraint": [
+            "owsla rusasi"
+        ]
+    },
+    {
+        "id": "owsla_to_alive_kittens",
+        "thoughts": [
+            "Took a break from guarding to play with the kittens",
+            "Wonders if {PRONOUN/m_c/subject} could take time off to help out with the kittens"
+        ],
+        "random_status_constraint": [
+            "kitten"
+        ]
+    },
+    {
+        "id": "owsla_to_alive_chief_rabbit",
+        "thoughts": [
+            "Is hoping r_r notices {PRONOUN/m_c/poss} improvement",
+            "Thinks {PRONOUN/m_c/subject} could do a better job as chief",
+            "Thinks {PRONOUN/m_c/subject} would do a worse job as chief",
+            "Isn't envious of the chief's position right now"
+        ],
+        "random_status_constraint": [
+            "chief rabbit"
+        ]
+    },
+    {
+        "id": "owsla_to_alive_elder",
+        "thoughts": [
+            "Tired of elder guard duty"
+        ],
+        "random_status_constraint": [
+            "elder"
+        ]
+    },
+    {
+        "id": "owsla_gen",
+        "thoughts": [
+            "Is complaining about being sent on a harvesting run"
+
+        ]
+    },
+    {
+        "id": "altruistic_owsla",
+        "thoughts": [
+            "Wonders why everyone can't just get along"
+        ],
+        "main_trait_constraint": [
+            "altruistic"
+        ]
+    },
+    {
+        "id": "bloodthirsty_owsla",
+        "thoughts": [
+            "Went too hard on a rulebreaker",
+            "Smiles when {PRONOUN/m_c/poss} captain is chewed out",
+            "Thinks rulebreakers should have their ears chewed off",
+            "Sees the story of Woundwort as aspirational rather than cautionary"
+        ],
+        "main_trait_constraint": [
+            "bloodthirsty"
+        ]
+    },
+    {
+        "id": "cold_owsla",
+        "thoughts": [
+            "Doesn't react when a trainee gets hurt"
+        ],
+        "main_trait_constraint": [
+            "cold"
+        ]
+    },
+    {
+        "id": "empathetic_owsla",
+        "thoughts": [
+            "Felt bad for a rulebreaker",
+            "Thinks the warren can be more forgiving",
+            "Is questioning the need for owsla",
+            "Wondering if farm raids hurt the ithé"
+        ],
+        "main_trait_constraint": [
+            "empathetic"
+        ]
+    },
+    {
+        "id": "fierce_owsla",
+        "thoughts": [
+            "Is fighting the urge to shake some sense into a warrenmate",
+            "Drew blood during the last spar",
+            "Considering 'removing' the captain once and for all"
+        ],
+        "main_trait_constraint": [
+            "fierce"
+        ]
+    },
+    {
+        "id": "insecure_owsla",
+        "thoughts": [
+            "Is worried {PRONOUN/m_c/subject} may have made things worse"
+        ],
+        "main_trait_constraint": [
+            "insecure"
+        ]
+    },
+    {
+        "id": "loving_owsla",
+        "thoughts": [
+            "Was told {PRONOUN/m_c/subject} {VERB/m_c/were/was} too soft again",
+            "Unsure if {PRONOUN/m_c/subject} {VERB/m_c/were/was} really a good pick for owsla"
+        ],
+        "main_trait_constraint": [
+            "loving"
+        ]
+    },
+    {
+        "id": "nervous_owsla",
+        "thoughts": [
+            "Terrified of battle"
+        ],
+        "main_trait_constraint": [
+            "nervous"
+        ]
+    },
+    {
+        "id": "righteous_owsla",
+        "thoughts": [
+            "Thinks the rules need to be stricter"
+        ],
+        "main_trait_constraint": [
+            "righteous"
+        ]
+    },
+    {
+        "id": "troublesome_owsla",
+        "thoughts": [
+            "Solves problems by starting them"
+        ],
+        "main_trait_constraint": [
+            "troublesome"
+        ]
+    },
+    {
+        "id": "vengeful_owsla",
+        "thoughts": [
+            "Dwelling on a recent loss",
+            "Thinks rabbits should be disallowed from leaving"
+        ],
+        "main_trait_constraint": [
+            "vengeful"
+        ]
+    }
+]
+
+

@@ -1,0 +1,116 @@
+[
+    {
+        "id": "gen_dead_kitten",
+        "thoughts": [
+            "Wants to find Inlé cats to play with",
+            "Is imagining what it would be like to be a grown rabbit",
+            "Is imagining what it would be like to be a healer",
+            "Is imagining what it would be like to be a owsla",
+            "Is sad {PRONOUN/m_c/subject} couldn't experience being a rusasi",
+            "Doesn't really understand what being in Inlé means"
+        ]
+    },
+    {
+        "id": "dead_kitten_to_dead_other_older",
+        "thoughts": [
+            "Is nagging r_r to play with {PRONOUN/m_c/object}",
+            "Is begging r_r to tell {PRONOUN/m_c/object} stories",
+            "Is following r_r around",
+            "Is sticking closely to r_r",
+            "Is asking r_r uncomfortable questions about life and death"
+        ],
+        "random_living_status": [
+            "Inlé"
+        ],
+        "random_age_constraint": [
+            "adolescent",
+            "young adult",
+            "adult",
+            "senior adult",
+            "senior"
+        ]
+    },
+    {
+        "id": "dead_kitten_to_dead_other_kitten",
+        "thoughts": [
+            "Is happy to have r_r to play with",
+            "Is playing hide and seek with r_r"
+        ],
+        "random_living_status": [
+            "Inlé"
+        ],
+        "random_age_constraint": [
+            "kitten"
+        ]
+    },
+    {
+        "id": "dead_kitten_to_dead_other_newborn",
+        "thoughts": [
+            "Can't wait for r_r to grow up, so they can play together"
+        ],
+        "random_living_status": [
+            "Inlé"
+        ],
+        "random_age_constraint": [
+            "newborn"
+        ]
+    },
+    {
+        "id": "dead_kitten_to_alive_other_kitten",
+        "thoughts": [
+            "Is sad because {PRONOUN/m_c/subject} can't play with r_r"
+        ],
+        "random_living_status": [
+            "living"
+        ],
+        "random_age_constraint": [
+            "kitten"
+        ]
+    },
+    {
+        "id": "dead_kitten_to_alive_parent",
+        "thoughts": [
+            "Is missing r_r",
+            "Wonders if r_r is missing {PRONOUN/m_c/object} too",
+            "Is sad about being apart from r_r"
+        ],
+        "relationship_constraint": [
+            "child/parent"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+    {
+        "id": "dead_kitten_to_alive_kitten_sibling",
+        "thoughts":[
+            "Wishes {PRONOUN/m_c/subject} could become trainees with r_r",
+            "Misses playing with r_r",
+            "Hopes that r_r doesn't think that {PRONOUN/m_c/subject} {VERB/m_c/is/are} angry with {PRONOUN/r_r/object}"
+        ],
+        "relationship_constraint": [
+            "siblings"
+        ],
+        "random_living_status": [
+            "living"
+        ],
+        "random_age_constraint": [
+            "kitten"
+        ]
+    },
+    {
+        "id": "dead_kitten_to_dead_kitten_sibling",
+        "thoughts": [
+            "Is glad that at least {PRONOUN/m_c/subject} {VERB/m_c/have/has} r_r"
+        ],
+        "relationship_constraint": [
+            "siblings"
+        ],
+        "random_living_status": [
+            "Inlé"
+        ],
+        "random_age_constraint": [
+            "kitten"
+        ]
+    }
+]

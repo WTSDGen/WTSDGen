@@ -1,0 +1,152 @@
+[
+    {
+        "injury": "bruises",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c tried to sneak out of the camp, but fell and got a bruise before {PRONOUN/m_c/subject} even left the safety of the camp walls.",
+        "rabbit_trait": [
+            "daring",
+            "impulsive",
+            "inquisitive",
+            "troublesome"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "bruises",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c snuck out of camp and returned a bit bruised, but brimming with pride despite the scolding {PRONOUN/m_c/subject} {VERB/m_c/were/was} given.",
+        "rabbit_trait": [
+            "daring",
+            "impulsive",
+            "inquisitive",
+            "troublesome"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "bruises",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c play-fought a bit too hard and got a little bruised.",
+        "rabbit_trait": [
+            "daring",
+            "bouncy",
+            "bullying",
+            "impulsive",
+            "noisy",
+            "troublesome"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "scrapes",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c tried to sneak out of the camp, but fell and scraped {PRONOUN/m_c/poss} paw before {PRONOUN/m_c/subject} even left the safety of the camp walls.",
+        "rabbit_trait": [
+            "daring",
+            "impulsive",
+            "inquisitive",
+            "troublesome"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "scrapes",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c snuck out of camp and returned scraped up, but brimming with pride despite the scolding {PRONOUN/m_c/subject} {VERB/m_c/were/was} given.",
+        "rabbit_trait": [
+            "daring",
+            "impulsive",
+            "inquisitive",
+            "troublesome"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "scrapes",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c play-fought a bit too hard and scraped {PRONOUN/m_c/self} up.",
+        "rabbit_trait": [
+            "daring",
+            "bouncy",
+            "bullying",
+            "impulsive",
+            "noisy",
+            "troublesome"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "headache",
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c woke up with a mild headache, but got up to play anyways, trying to ignore the nagging pain.",
+        "history_text": null,
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "severe headache",
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c woke up with a splitting headache, and couldn't get out of {PRONOUN/m_c/poss} nest. {PRONOUN/m_c/subject/CAP} spent the entire day curled up in the nursery, trying to avoid light and noise so that the throbbing pain could subside.",
+        "history_text": null,
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "reduce_half"
+        ],
+        "event_text": "The Clan gathered much food to save, the more the better, but after one night the fresh-kill pile was drastically reduced and paw prints where found on the ground.",
+        "history_text": [
+            null,
+            null
+        ],
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    }
+]

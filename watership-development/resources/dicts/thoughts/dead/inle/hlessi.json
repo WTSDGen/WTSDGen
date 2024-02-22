@@ -1,0 +1,11 @@
+[{
+    "id": "general_hlessi_dead_thoughts",
+    "thoughts": [
+        "Wonders how {PRONOUN/m_c/subject} ended up here",
+        "Admires {PRONOUN/m_c/poss} glossy fur",
+        "Enjoys the warm sun against {PRONOUN/m_c/poss} back"
+    ],
+    "main_status_constraint": [
+        "hlessi"
+    ]
+}]

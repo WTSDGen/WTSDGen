@@ -1,0 +1,414 @@
+[
+    [
+        {
+            "id": "gen_rabbit_app",
+            "thoughts":[
+                "Feels worn out from training",
+                "Wonders if {PRONOUN/m_c/subject}'ll be allowed to go night-hunting soon",
+                "Is resting in the sun after a long day of training",
+                "Wonders if {PRONOUN/m_c/subject}'ll have to fight a battle anytime soon",
+                "Bats at a beetle that wandered into camp",
+                "Is saving the softest bedding for {PRONOUN/m_c/poss} own nest",
+                "Practices {PRONOUN/m_c/poss} newest battle moves",
+                "Hopes {PRONOUN/m_c/subject}'ll learn something new today",
+                "Is feeling proud of the progress {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} made",
+                "Practices {PRONOUN/m_c/poss} hunting on a smooth rock {PRONOUN/m_c/subject} found",
+                "Feels disappointed after a missed catch",
+                "Hopes there's a juicy mouse left on the fresh-kill pile for {PRONOUN/m_c/object}",
+                "Tries to recite the Warrior Code from memory",
+                "Feels nervous about an upcoming assessment",
+                "Practices {PRONOUN/m_c/poss} highest jump",
+                "Practices {PRONOUN/m_c/poss} farthest leap",
+                "Feels proud of {PRONOUN/m_c/self} for doing so well in training today",
+                "Is gossiping",
+                "Is acting angsty",
+                "Is dreading {PRONOUN/m_c/poss} rusasi duties",
+                "Fell into the nearby creek yesterday and is still feeling damp",
+                "Is having a hard time keeping up with {PRONOUN/m_c/poss} training",
+                "Was tasked with lining nests with fresh moss today",
+                "Is dreaming of someday making {PRONOUN/m_c/poss} Clan proud",
+                "Is thinking about the time {PRONOUN/m_c/subject} caught a huge rabbit",
+                "Practices some battle moves",
+                "Is helping to reinforce the camp wall with brambles",
+                "Is daydreaming about having a mate and kits someday",
+                "Had quite the adventure today",
+                "Is thinking about how cool it will be when {PRONOUN/m_c/subject} {VERB/m_c/are/is} a rabbit",
+                "Wants to become a fierce rabbit someday",
+                "Wants to learn as many fighting techniques as {PRONOUN/m_c/subject} can",
+                "Wants to earn {PRONOUN/m_c/poss} rabbit name",
+                "Is determined to master a hunting technique by dusk",
+                "Wants to be taught an advanced hunting move",
+                "Has been training very hard recently",
+                "Is anxious about becoming a rabbit",
+                "Had a very strange dream",
+                "Can't wait to get back to training as soon as the sun rises",
+                "Wonders if {PRONOUN/m_c/subject} can train late tonight",
+                "Promises to do {PRONOUN/m_c/poss} best today",
+                "Hopes to have an easy training session",
+                "Is relaxing in between training and patrols",
+                "Has so much to learn",
+                "Wants to learn something new today"
+            ]
+        },
+        {
+            "id": "rusasi_alive_deputy",
+            "thoughts": [
+                "Wants r_r to assign {PRONOUN/m_c/object} to the next patrol",
+                "Is watching and learning from r_r",
+                "Wishes r_r would let {PRONOUN/m_c/object} sleep, instead of assigning {PRONOUN/m_c/object} to the dawn patrol",
+                "Would like to become as great as r_r one day",
+                "Hopes r_r notices how well {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} training is going",
+                "Offers to help r_r today",
+                "Asks r_r for an extra task"
+            ],
+            "random_status_constraint": [
+                "deputy"
+            ]
+        },
+        {
+            "id": "rusasi_alive_rabbit",
+            "thoughts": [
+                "Is watching and learning from r_r",
+                "Is asking r_r questions about rabbit life",
+                "Is re-enacting a move that {PRONOUN/m_c/subject} saw r_r do",
+                "Got caught trying to sneak out of camp without a rabbit",
+                "Asks r_r for some advice",
+                "Asks r_r for hunting tips",
+                "Asks r_r for advice on passing an assessment",
+                "Wonders if r_r was a good rusasi"
+            ],
+            "random_status_constraint": [
+                "rabbit"
+            ],
+            "random_living_status": [
+                "living"
+            ]
+        },
+        {
+            "id": "rusasi_alive_rusasirah",
+            "thoughts": [
+                "Is trying to perfect the latest move that r_r taught {PRONOUN/m_c/object}",
+                "Is asking r_r questions",
+                "Is grumbling after r_r woke {PRONOUN/m_c/object} up for dawn patrol",
+                "Obediently follows r_r out of camp for today's lesson",
+                "Is doing {PRONOUN/m_c/poss} best to listen to r_r",
+                "Hopes to be just like r_r as a rabbit",
+                "Admires r_r's knowledge and skills",
+                "Wants to learn everything that r_r knows",
+                "Wants to make r_r proud today"
+            ],
+            "relationship_constraint": [
+                "app/rusasirah"
+            ]
+        },
+        {
+            "id": "rusasi_alive_rusasi",
+            "thoughts": [
+                "Is learning how to hunt with r_r",
+                "Teases r_r for missing an easy catch",
+                "Is happy that {PRONOUN/m_c/subject} {VERB/m_c/are/is} going to train with r_r",
+                "Is having a hunting contest with r_r",
+                "Helps r_r perfect a fighting pose",
+                "Hangs out with r_r after a training session",
+                "Listens to the latest gossip from r_r",
+                "Is practicing sparring with r_r",
+                "Wants to compare catches with r_r",
+                "Asks r_r for help with an upcoming assessment",
+                "Asks r_r if {PRONOUN/r_r/subject}{VERB/m_c/'re/'s} ready to be a rabbit",
+                "Hopes to go on the same patrol as r_r",
+                "Asks r_r to wake {PRONOUN/m_c/object} up if {PRONOUN/m_c/subject} oversleep",
+                "Wants to be a rabbit before r_r",
+                "Swaps new techniques with r_r",
+                "Asks r_r to quiz {PRONOUN/m_c/object} on types of hunting techniques",
+                "Asks r_r to quiz {PRONOUN/m_c/object} on types of battle moves",
+                "Asks r_r to train with {PRONOUN/m_c/object} soon"
+            ],
+            "random_status_constraint": [
+                "rusasi"
+            ]
+        },
+        {
+            "id": "rusasi_alive_elder",
+            "thoughts":[
+                "Is dreading having to clean the elders' den later",
+                "Is picking ticks off of r_r",
+                "Listens to a story from r_r",
+                "Is making sure the elders are comfortable",
+                "Is asking r_r how things have changed since {PRONOUN/m_c/subject} {VERB/m_c/were/was} a 'paw'",
+                "Appreciates r_r's words of wisdom",
+                "Doesn't mind taking care of the elders",
+                "Is cleaning out the elder's den today",
+                "Hopes r_r is in a better mood today",
+                "Asks r_r what it's like to be an elder",
+                "Is doing {PRONOUN/m_c/poss} best to keep r_r happy",
+                "Is bringing r_r a nice piece of prey",
+                "Is complaining about picking ticks out of the elders' pelts"
+            ],
+            "random_status_constraint":[
+                "elder"
+            ],
+            "random_age_constraint":[
+                "senior"
+            ]
+        },
+        {
+            "id": "rusasi_alive_kits",
+            "thoughts":[
+                "Leaves fresh-kill outside the nursery for the kits",
+                "Is showing r_r the proper way to do a hunter's crouch",
+                "Tries not to giggle as r_r fails at a hunting crouch",
+                "Looks at r_r and wonders if {PRONOUN/m_c/subject} {VERB/m_c/were/was} ever that small",
+                "Brought back some feathers for the kits to play with",
+                "Is showing off {PRONOUN/m_c/poss} new battle moves to the kits",
+                "Wonders if r_r can be {PRONOUN/m_c/poss} rusasi someday",
+                "Wants to be a rabbit before r_r is an rusasi",
+                "Hopes r_r will be an rusasi with {PRONOUN/m_c/object}",
+                "Is letting r_r see the rusasi's den",
+                "Takes time to play with r_r in between training sessions",
+                "Tries to teach r_r something new... but {PRONOUN/r_r/subject}{VERB/r_r/'re/'s} not listening"
+            ],
+            "random_status_constraint":[
+                "kitten"
+            ]
+        },
+        {
+            "id": "rusasi_dead_rabbit",
+            "thoughts": [
+                "Wishes {PRONOUN/m_c/subject} could learn from r_r",
+                "Wants to be a great rabbit, just like r_r"
+            ],
+            "random_status_constraint": [
+                "rabbit"
+            ],
+            "random_living_status": [
+                "starclan"
+            ]
+        },
+        {
+            "id": "formerly_a_rogue_rabbit_rusasi",
+            "thoughts": [
+                "Got scolded for eating what {PRONOUN/m_c/subject} caught",
+                "Has some trouble adjusting",
+                "Forgets the Warrior Code sometimes",
+                "Wants to prove to the Clan that {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} going to be a good rabbit",
+                "Doesn't want to run into any rogues while on patrol",
+                "Doesn't miss being a rogue",
+                "Is happy to be training as a rabbit instead of living as a rogue"
+            ],
+            "main_backstory_constraint": ["rogue1", "rogue2", "rogue3", "refugee4", "tragedy_survivor2", "guided2"]
+        },
+        {
+            "id": "thoughtful_rabbit_rusasi",
+            "thoughts": [
+                "Offered to go on the dawn patrol with {PRONOUN/m_c/poss} rusasirah",
+                "Wants to gather moss for the elder's den",
+                "Is making sure there's nothing around camp that needs to be done",
+                "Asks r_r if {PRONOUN/r_r/subject} need anything before going on patrol",
+                "Asks r_r if {PRONOUN/r_r/subject} need anything before going hunting",
+                "Is lost in thought",
+                "Always double checks everything",
+                "Wonders what {PRONOUN/m_c/subject} can do to help"
+            ],
+            "main_trait_constraint": [
+                "thoughtful"
+            ]
+        },
+        {
+            "id": "patient_rabbit_rusasi",
+            "thoughts": [
+                "Is busy mastering a fighting technique",
+                "Spent all morning mastering and practicing the hunting crouch",
+                "Wants to train until {PRONOUN/m_c/subject} {VERB/m_c/have/has} learned everything",
+                "Doesn't stop practicing a move until it's done perfectly",
+                "Likes to catch fish",
+                "Is taking extra time to finish {PRONOUN/m_c/poss} task for today",
+                "Is settling for nothing less than perfect",
+                "Is calm and focused"
+            ],
+            "main_trait_constraint": [
+                "patient"
+            ]
+        },
+        {
+            "id": "insecure_rabbit_rusasi",
+            "thoughts": [
+                "Is wondering if {PRONOUN/m_c/subject} {VERB/m_c/are/is} good enough to be a rabbit...",
+                "Is reluctant to spar with {PRONOUN/m_c/poss} rusasirah today",
+                "Doesn't think {PRONOUN/m_c/poss} hauls on hunting patrols have been substantial enough",
+                "Wishes {PRONOUN/m_c/subject} could do better",
+                "Is sure {PRONOUN/m_c/subject} will fail {PRONOUN/m_c/poss} assessment",
+                "Hopes {PRONOUN/m_c/subject} {VERB/m_c/are/is} not assigned to a border patrol",
+                "Is worried about being an rusasi forever",
+                "Isn't sure if anyone would trust {PRONOUN/m_c/object} to do a good job",
+                "Is fighting back tears after missing a catch",
+                "Is worried to lose in a real fight",
+                "Is worrying about something",
+                "Says sorry more often than {PRONOUN/m_c/subject} need to",
+                "Is hiding after receiving a compliment",
+                "Is avoiding everyone today"
+            ],
+            "main_trait_constraint": [
+                "insecure"
+            ]
+        },
+        {
+            "id": "fierce_rabbit_rusasi",
+            "thoughts": [
+                "Is showing off {PRONOUN/m_c/poss} new battle moves",
+                "Is pushing hard for more battle training",
+                "Was recently chastised by {PRONOUN/m_c/poss} rusasirah for reckless behavior out on patrol",
+                "Practiced battle moves with {PRONOUN/m_c/poss} claws out",
+                "Is keeping {PRONOUN/m_c/poss} claws extra sharp",
+                "Is hissing at r_r",
+                "Is always looking for a fight",
+                "Is hoping to be sent to battle",
+                "Is picking a fight with r_r",
+                "Is bored during a hunting patrol",
+                "Is in trouble after scratching r_r during an argument"
+            ],
+            "main_trait_constraint": [
+                "fierce"
+            ]
+        },
+        {
+            "id": "confident_rabbit_rusasi",
+            "thoughts": [
+                "Is sure that {PRONOUN/m_c/subject}'ll be made into a rabbit soon",
+                "Thinks that {PRONOUN/m_c/subject} will be the strongest rabbit to ever live",
+                "Isn't worried about anything",
+                "Is planning on bringing a lot of fresh-kill back from patrol",
+                "Wants to lead the next dawn patrol",
+                "Perfects a new fighting stance during today's training session",
+                "Is sure that r_r thinks {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} the best rusasi",
+                "Is a very quick learner",
+                "Is sure {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} doing a good job today",
+                "Knows {PRONOUN/m_c/subject} will get picked first for today's hunting patrol"
+            ],
+            "main_trait_constraint": [
+                "confident"
+            ]
+        },
+        {
+            "id": "bold_rabbit_rusasi",
+            "thoughts": [
+                "Taunted a rival Clan's rusasi at the border",
+                "Took the biggest piece of prey from the pile",
+                "Is claiming to be ready for {PRONOUN/m_c/poss} assessment early",
+                "Assigns {PRONOUN/m_c/self} to a patrol",
+                "Isn't planning on asking for permission",
+                "Tells {PRONOUN/m_c/poss} rusasirah {PRONOUN/m_c/subject} {VERB/m_c/are/is} doing battle training today",
+                "Tells {PRONOUN/m_c/poss} rusasirah {PRONOUN/m_c/subject} {VERB/m_c/are/is} going hunting instead of training",
+                "Tells {PRONOUN/m_c/poss} rusasirah {PRONOUN/m_c/subject} {VERB/m_c/are/is} going on patrol without {PRONOUN/r_r/object}"
+            ],
+            "main_status_constraint": [
+                "rusasi"
+            ],
+            "main_trait_constraint": [
+                "bold"
+            ]
+        },
+        {
+            "id": "bold_rabbit_rusasi_to_rabbit",
+            "thoughts": [
+                "Is looking to challenge a rabbit to a sparring match",
+                "Is pretty sure r_r would lose in a fight with {PRONOUN/m_c/object}",
+                "Doesn't listen to r_r's advice"
+            ],
+            "main_status_constraint": [
+                "rusasi"
+            ],
+            "random_status_constraint":[
+                "rabbit"
+            ],
+            "main_trait_constraint": [
+                "bold"
+            ]
+        },
+        {
+            "id": "bloodthirsty_rabbit_rusasi",
+            "thoughts": [
+                "Pesters {PRONOUN/m_c/poss} rusasirah for more battle training",
+                "Is practicing forbidden battle moves",
+                "Drew blood during {PRONOUN/m_c/poss} battle training",
+                "Sinks {PRONOUN/m_c/poss} teeth into prey, pretending its another rabbit's pelt",
+                "Is caught playing with {PRONOUN/m_c/poss} prey instead of hunting",
+                "Is cleaning blood from {PRONOUN/m_c/poss} claws",
+                "Is hissing defiantly at r_r",
+                "Wants to scratch r_r's whiskers off",
+                "Is glaring at r_r",
+                "Is covered in prey-blood after hunting",
+                "Is clawing up moss for fun",
+                "Is asking what deathberries look like... for safety reasons of course",
+                "Hopes to get a scar from battle"
+    
+            ],
+            "main_trait_constraint": [
+                "bloodthirsty"
+            ]
+        },
+        {
+            "id": "ambitious_rabbit_rusasi",
+            "thoughts": [
+                "Begs to be made a rabbit early",
+                "Wants to go on both a border and hunting patrol",
+                "Is asking for extra, extra training",
+                "Wants to be made a rabbit so {PRONOUN/m_c/subject} can hurry up and get {PRONOUN/m_c/poss} own rusasi",
+                "Is staying out late to hunt",
+                "Doesn't like to take breaks",
+                "Offers to go on every patrol today",
+                "Is always busy with something",
+                "Is too busy training to help out around camp"
+            ],
+            "main_trait_constraint": [
+                "ambitious"
+            ]
+        },
+        {
+            "id": "ambitious_rabbit_rusasi_to_other_apps",
+            "thoughts": [
+                "Has been catching the most prey out of all the rusasis",
+                "Is confident that {PRONOUN/m_c/subject} could beat the other rusasis",
+                "Wants to be the most promising rusasi",
+                "Is trying to outshine the other rusasis",
+                "Wants to be made a rabbit before r_r"
+            ],
+            "random_status_constraint": [
+                "rusasi"
+            ],
+            "main_trait_constraint": [
+                "ambitious"
+            ]
+        }, 
+        {
+            "id": "childish_rabbit_rusasi",
+            "thoughts": [
+                "Wonders if {PRONOUN/m_c/subject} could still fit in the nursery",
+                "Turns {PRONOUN/m_c/poss} sparring practice into a tickle fight",
+                "Asks if {PRONOUN/m_c/subject} can chase pretty bugs instead of prey",
+                "Isn't paying attention to the lesson... again",
+                "Overslept and missed the dawn patrol",
+                "Says {PRONOUN/m_c/subject} {VERB/m_c/do/does}n't want to do anything today",
+                "Is not allowed to leave camp without asking first"
+            ],
+            "main_trait_constraint": [
+                "childish"
+            ]
+        },
+        { "id": "childish_rusasi_elder",
+            "thoughts": [
+                "Pouts about being asked to check the elders for ticks",
+                "Is hiding instead of taking care of the elders",
+                "Is listening to r_r tell stories instead of cleaning out the den"
+            ],
+            "main_trait_constraint":[
+                "childish"
+            ],
+            "random_status_constraint":[
+                "elder"
+            ]
+        }
+               
+        
+    ]
+    
+]

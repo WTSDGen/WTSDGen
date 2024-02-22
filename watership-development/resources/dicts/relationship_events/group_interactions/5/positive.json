@@ -1,0 +1,67 @@
+[
+    {
+	"id": "much_ado_about_nothing",
+	"biome": ["Any"],
+	"season": ["Any"],
+	"intensity": "high",
+	"rabbit_amount": 5,
+	"interactions": [
+		"m_c, r_r1, and r_r2 decide they're going to get r_r3 and r_r4 together. They talk about how much r_r3 loves r_r4 in front of r_r4, and, to their pleasure, find the two talking later."
+	],
+	"status_constraint": {
+		"m_c": ["warrior", "elder", "owsla"],
+		"r_r1": ["warrior", "elder", "owsla"],
+		"r_r2": ["warrior", "elder", "owsla"]
+	},
+	"relationship_constraint": {
+		"m_c_to_r_r3": ["platonic_40"],
+        "m_c_to_r_r4": ["platonic_40"],
+        "r_r1_to_r_r3": ["platonic_40"],
+        "r_r1_to_r_r4": ["platonic_40"],
+        "r_r2_to_r_r3": ["platonic_40"],
+        "r_r2_to_r_r4": ["platonic_40"]
+	},
+	"specific_reaction": {
+	
+		"r_r3_to_r_r4": {
+			"romantic": "increase",
+			"dislike": "decrease",
+			"comfortable": "increase",
+			"trust": "increase"
+		},
+        	"r_r4_to_r_r3": {
+			"romantic": "increase",
+			"dislike": "decrease",
+			"admiration": "increase",
+			"comfortable": "increase",
+			"jealousy": "neutral",
+			"trust": "increase"
+		},
+        "m_c_to_r_r1": {
+			"comfortable": "increase",
+			"trust": "increase"
+		},
+        "m_c_to_r_r2": {
+			"comfortable": "increase",
+			"trust": "increase"
+		},
+		"r_r1_to_r_r2": {
+			"comfortable": "increase",
+			"trust": "increase"
+		},
+        "r_r1_to_m_c": {
+			"comfortable": "increase",
+			"trust": "increase"
+		},
+        "r_r2_to_m_c": {
+			"comfortable": "increase",
+			"trust": "increase"
+		},
+        "r_r2_to_r_r1": {
+			"comfortable": "increase",
+			"trust": "increase"
+		}
+        
+	}
+}
+]

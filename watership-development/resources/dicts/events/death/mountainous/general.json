@@ -1,0 +1,185 @@
+[
+    {
+        "camp": "any",
+        "tags": [
+            "Autumn",
+            "Winter"
+        ],
+        "death_text": "m_c was buried alive in an avalanche.",
+        "history_text": {
+            "reg_death": "m_c was buried alive in an avalanche."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn"
+        ],
+        "death_text": "m_c was buried alive in a landslide.",
+        "history_text": {
+            "reg_death": "m_c was buried alive in a landslide."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring"
+        ],
+        "death_text": "m_c was buried alive in a mudslide.",
+        "history_text": {
+            "reg_death": "m_c was buried alive in a mudslide."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "death_text": "m_c slipped off a cliff onto the sharp rocks at the bottom.",
+        "history_text": {
+            "reg_death": "m_c slipped off the edge of a cliff."
+        },
+        "rabbit_trait": [
+            "playful",
+            "childish"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter"
+        ],
+        "death_text": "m_c froze to death during a harsh snowstorm.",
+        "history_text": {
+            "reg_death": "m_c froze to death."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter"
+        ],
+        "death_text": "m_c was found dead and cold in the snow.",
+        "history_text": {
+            "reg_death": "m_c froze to death."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter"
+        ],
+        "death_text": "m_c was walking on the ice, when it cracked and {PRONOUN/m_c/subject} fell in.",
+        "history_text": {
+            "reg_death": "m_c froze to death after falling through ice."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "other_rabbit",
+            "murder",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "rc_to_mc",
+            "neg_platonic",
+            "dislike"
+        ],
+        "death_text": "m_c was pushed off a cliff onto the sharp rocks at the bottom. The culprit is unknown.",
+        "history_text": {
+            "reg_death": "m_c was pushed off a cliff by r_r.",
+            "reg_murder_unrevealed": "m_c was pushed off a cliff by an unknown killer."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_skill": [
+            "CLEVER,2",
+            "HUNTER,3"
+        ],
+        "rabbit_negate_skill": [
+            "PROPHET,3",
+            "OMEN,3",
+            "FIGHTER,3"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "other_rabbit",
+            "murder",
+            "revealed",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "rc_to_mc",
+            "neg_platonic",
+            "dislike"
+        ],
+        "death_text": "m_c was pushed off a cliff onto the sharp rocks at the bottom. r_r stands above {PRONOUN/m_c/object}, watching as they fall.",
+        "history_text": {
+            "reg_death": "m_c was pushed off a cliff by r_r.",
+            "reg_murder_unrevealed": "m_c was pushed off a cliff by an unknown killer."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_skill": [
+            "HUNTER,3",
+            "FIGHTER,2"
+        ],
+        "rabbit_negate_skill": [
+            "PROPHET,3",
+            "OMEN,3",
+            "FIGHTER,3"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "war"
+        ],
+        "death_text": "m_c was killed by a falling boulder pushed from a cliff above {PRONOUN/m_c/object} by o_c warriors.",
+        "history_text": {
+            "reg_death": "m_c was crushed by a falling boulder.",
+            "lead_death": "{VERB/m_c/were/was} crushed by a falling boulder."
+        }
+    }
+]

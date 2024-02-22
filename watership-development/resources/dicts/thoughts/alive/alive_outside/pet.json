@@ -1,0 +1,133 @@
+[
+    {
+        "id": "general_pet_thoughts",
+        "thoughts": [
+            "Engages in loaf mode",
+            "Cuddles with {PRONOUN/m_c/poss} ithé",
+            "Begs for food from {PRONOUN/m_c/poss} ithé",
+            "Is sunning in {PRONOUN/m_c/poss} yard",
+            "Doesn't want to go to the vet",
+            "Is resting in a hutch",
+            "Was taken to the vet recently",
+            "Is looking at the forest, daydreaming about hunting a mouse",
+            "Is foraging for a gift for {PRONOUN/m_c/poss} ithé",
+            "Is running away from a warren rabbit",
+            "Is hiding from a rowf",
+            "Is being friendly with {PRONOUN/m_c/poss} ithé's dog",
+            "Is peering at a fish tank",
+            "Is looking for trouble",
+            "Is following {PRONOUN/m_c/poss} ithé",
+            "Is stretched out on {PRONOUN/m_c/poss} bed",
+            "Wishes {PRONOUN/m_c/poss} ithé cared more about {PRONOUN/m_c/object}",
+            "Saw strange rabbits pass {PRONOUN/m_c/poss} ithé's den",
+            "Is hanging with {PRONOUN/m_c/poss} ithé",
+            "Is playing with the ithé's young",
+            "Is enjoying a nice meal",
+            "Trying to escape from bath time",
+            "Heard stories about the nearby wild warrens",
+            "Is sleeping near a heating vent",
+            "Is sleeping in a loaf position on the bed",
+            "Is listening to frightening stories about wild rabbits",
+            "Is thumping at {PRONOUN/m_c/poss} ithé",
+            "Wants to go outside",
+            "Has the zoomies",
+            "Is looking out the window",
+            "Is eating yogurt treats",
+            "Lays in {PRONOUN/m_c/poss} bed",
+            "Got stuck under the couch",
+            "Is trying to bark at a rowf",
+            "Has been left in a room with the door closed",
+            "Managed to escape {PRONOUN/m_c/poss} hutch",
+            "Is enjoying some time outside",
+            "Wonders if this is the life for {PRONOUN/m_c/object}",
+            "Heard a scary story about the warrens",
+            "Wonders what the warrens are like",
+            "Wishes there were more rabbits living with {PRONOUN/m_c/object}",
+            "Got scared after hearing stories about the warren rabbits",
+            "Saw a strange black rabbit in the distance",
+            "Was fighting with {PRONOUN/m_c/self} in a mirror",
+            "Wonders if fresh produce is better than {PRONOUN/m_c/poss} dry food",
+            "Heard about a strange warren nearby",
+            "Is proud of {PRONOUN/m_c/poss} large belly",
+            "Was lounging on {PRONOUN/m_c/poss} window sill, looking at the wild beyond",
+            "Just saw a flaming ball in the sky",
+            "Bit {PRONOUN/m_c/poss} ithé who tried to pet {PRONOUN/m_c/object}",
+            "Is throwing a hissy fit at the vet",
+            "Doesn't want to go to the vet",
+            "Is hiding under the bed",
+            "Is lying about whether {PRONOUN/m_c/subject} {VERB/m_c/have/had} been fed",
+            "Is stuck with a cone of shame",
+            "Binkied!",
+            "Had a weird dream recently and wonders what it means",
+            "Was naughty, but {PRONOUN/m_c/poss} ithé can't stay mad at {PRONOUN/m_c/object}",
+            "Is getting yelled at for being naughty",
+            "Doesn't understand why {PRONOUN/m_c/poss} ithé is mad at {PRONOUN/m_c/object}"
+        ]
+    },
+    {
+        "id": "pet_shameless_thoughts",
+        "thoughts":[
+            "Stole food the second {PRONOUN/m_c/poss} ithé turned their head",
+            "Is sleeping in the rabbit's bed"
+        ],
+        "main_trait_constraint":[
+            "shameless"
+        ]
+    },
+    {
+        "id": "pet_kitten_and_adolescent_thoughts",
+        "thoughts": [
+            "Plays with a crinkly ball",
+            "Plays with a chew stick",
+            "Looks out the window at the birds",
+            "RUNNING!",
+            "Wonders if {PRONOUN/m_c/subject} could survive in the wild",
+            "Tries to look cute for the ithé's young",
+            "Mumbles in annoyance when {PRONOUN/m_c/poss} ithé won't let {PRONOUN/m_c/object} chew the furniture",
+            "Wonders if {PRONOUN/m_c/poss} littermates are nearby"
+        ],
+        "main_age_constraint": [
+            "kitten",
+            "adolescent"
+        ]
+    },
+    {
+        "id": "pet_adolescent_thoughts",
+        "thoughts": [
+            "Is hogging the bed from {PRONOUN/m_c/poss} siblings",
+            "Is playing with a new toy {PRONOUN/m_c/poss} ithé got {PRONOUN/m_c/object}"
+        ],
+        "main_age_constraint": [
+            "adolescent"
+        ]
+    },
+    {
+        "id": "pet_adult_thoughts",
+        "thoughts": [
+            "Is begging for food",
+            "Heard the squeals of a recent battle in the distance"
+        ],
+        "main_age_constraint": [
+            "young adult",
+            "adult",
+            "senior adult"
+        ]
+    },
+    {
+        "id": "pet_senior_thoughts",
+        "thoughts": [
+            "Is enjoying the sun on {PRONOUN/m_c/poss} back",
+            "Is glad that {PRONOUN/m_c/poss} ithé have taken care of them for so long",
+            "Wishes {PRONOUN/m_c/subject} had as much energy as the younger rabbits",
+            "Smiled at the new younger kitten {PRONOUN/m_c/poss} ithé got",
+            "Is worried if {PRONOUN/m_c/poss} ithé would be sad when {PRONOUN/m_c/subject} {VERB/m_c/are/is} gone",
+            "Is snoring by a warm hearth",
+            "Wonders what would have happened if {PRONOUN/m_c/subject} left to be a hlessi at a younger age",
+            "Took {PRONOUN/m_c/poss} time climbing on {PRONOUN/m_c/poss} fence",
+            "Shakes {PRONOUN/m_c/poss} head when {PRONOUN/m_c/subject} spotted a cold doe and their kittens"
+        ],
+        "main_age_constraint": [
+            "senior"
+        ]
+    }
+]

@@ -1,0 +1,168 @@
+[
+	{
+		"id": "comfort_de_low1",
+		"intensity": "low",
+		"interactions": [
+			"m_c overheard a joke from r_r {PRONOUN/m_c/subject} didn't get.",
+			"m_c tries to have a conversation with r_r but it ends up awkward when neither of them speak up.",
+			"m_c caught r_r rolling {PRONOUN/r_r/subject} eyes after m_c asked for help."
+		]
+	},
+	{
+		"id": "comfort_de_low2",
+		"intensity": "low",
+		"interactions": [
+			"m_c said something that rubbed r_r the wrong way.",
+			"m_c was being condescending towards r_r all day long.",
+			"r_r is upset after spending the day with m_c's bad attitude."
+		],
+		"reaction_random_cat": {
+			"comfortable": "decrease"
+		}
+	},
+	{
+		"id": "comfort_de_med1",
+		"interactions": [
+			"m_c finds the way r_r acts increasingly uncomfortable.",
+			"m_c thinks r_r has been acting stuck up and rude."
+		]
+	},
+	{
+		"id": "comfort_kit_de_med1",
+		"interactions": [
+			"m_c feels like r_r was too rough while playing.",
+			"m_c doesn't think r_r was playing fair.",
+			"m_c accuses r_r of cheating during a game of hide-n-seek!"
+		],
+		"main_status_constraint": [
+			"kitten"
+		],
+		"random_status_constraint": [
+			"kitten"
+		]
+	},
+	{
+		"id": "comfort_de_med2",
+		"interactions": [
+			"m_c called r_r the wrong name."
+		],
+		"reaction_random_cat": {
+			"comfortable": "decrease"
+		}
+	},
+	{
+		"id": "comfort_de_med3",
+		"interactions": [
+			"r_r is following m_c around.",
+			"r_r tells m_c that {PRONOUN/m_c/poss} pelt looks like a different color today."
+		],
+		"random_trait_constraint": [
+			"strange"
+		]
+	},
+	{
+		"id": "comfort_de_med4",
+		"interactions": [
+			"r_r talks to m_c a bit too enthusiastically about how best to kill prey.",
+			"r_r started a fight with m_c.",
+			"m_c was startled after r_r snarled viciously during a trivial disagreement."
+		],
+		"random_trait_constraint": [
+			"bloodthirsty"
+		]
+	},
+	{
+		"id": "comfort_de_med5",
+		"interactions": [
+			"r_r hissed at m_c.",
+			"r_r tells m_c to leave {PRONOUN/r_r/object} alone.",
+			"r_r is glaring at m_c from across the camp."
+		],
+		"random_trait_constraint": [
+			"cold"
+		]
+	},
+	{
+		"id": "comfort_inc_med6",
+		"interactions": [
+			"r_r crashes into m_c while eager for the new day.",
+			"r_r rejects m_c's advice without letting {PRONOUN/m_c/object} finish.",
+			"r_r interrupts m_c during a conversation."
+		],
+		"random_trait_constraint": [
+			"impulsive"
+		]
+	},
+	{
+		"id": "comfort_de_high1",
+		"intensity": "high",
+		"interactions": [
+			"m_c bristles after being scolded by r_r."
+		]
+	},
+	{
+		"id": "comfort_de_high2",
+		"intensity": "high",
+		"interactions": [
+			"m_c is telling jokes about r_r.",
+			"m_c hisses at r_r over something small."
+		],
+		"reaction_random_cat": {
+			"comfortable": "decrease"
+		}
+	},
+	{
+		"id": "comfort_de_high3",
+		"intensity": "high",
+		"interactions": [
+			"m_c shivers after noticing r_r following {PRONOUN/m_c/object} around like a shadow.",
+			"m_c feels a chill after noticing r_r is nearby.",
+			"Watching r_r stalk silently around camp makes m_c feel uneasy.",
+			"m_c doesn't like the way r_r seems to overwhelm the camp with {PRONOUN/r_r/poss} presence.",
+			"Even though r_r is a respectable clanmate, m_c can't help but think {PRONOUN/r_r/subject} might be up to no good..."
+		],
+		"random_trait_constraint": [
+			"bloodthirsty",
+			"cold",
+			"vengeful"
+		]
+	},
+	{
+		"id": "comfort_de_high4",
+		"intensity": "high",
+		"interactions": [
+			"m_c doesn't like the way that r_r seems to enjoy {PRONOUN/r_r/poss} influence over the Clan.",
+			"Much to m_c's dismay, r_r has asked {PRONOUN/m_c/object} to do another difficult task.",
+			"m_c thinks that r_r is casting a dark shadow over the whole Clan's reputation.",
+			"m_c is worried that r_r might be sending the Clan down a dark path."
+		],
+		"random_trait_constraint": [
+			"bloodthirsty",
+			"cold",
+			"vengeful"
+		],
+		"random_status_constraint": [
+			"leader",
+			"deputy"
+		]
+	},
+	{
+		"id": "comfort_de_high5",
+		"intensity": "high",
+		"interactions": [
+			"m_c notices that r_r doesn't seem to care if {PRONOUN/r_r/poss} treatments hurt.",
+			"m_c overhears r_r complaining about giving herbs to cats that don't 'deserve' them.",
+			"m_c is startled at r_r's views on sharing herbs with other Clans.",
+			"m_c bristles after seeing r_r add more deathberries to {PRONOUN/r_r/poss} herb storage."
+		],
+		"random_trait_constraint": [
+			"bloodthirsty",
+			"cold",
+			"vengeful"
+		],
+		"random_status_constraint": [
+			"healer",
+			"healer apprentice"
+		]
+	}
+]

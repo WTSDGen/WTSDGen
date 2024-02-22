@@ -1,0 +1,23 @@
+[
+    {
+        "id": "lost_owsla_thoughts",
+        "thoughts": [
+            "Hopes that the warren's kittens are doing well",
+            "Misses the warmth of the owsla den",
+            "Hopes {PRONOUN/m_c/poss} friends from c_n are doing okay",
+            "Dreams about hunting for {PRONOUN/m_c/poss} warren"
+        ]
+    },
+    {
+        "id": "lost_owsla_to_apprentices",
+        "thoughts": [
+            "Wonders if the trainees of the warren are now full officers"
+        ],
+        "random_status_constraint": [
+            "owsla_rusasi"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    }
+]

@@ -1,0 +1,12 @@
+[{
+    "id": "general_hlessi_dead_thoughts",
+    "thoughts": [
+        "Wanders around {PRONOUN/m_c/poss} old warren",
+        "Catches sight of Clan cats near {PRONOUN/m_c/poss} old warren",
+        "Explores places {PRONOUN/m_c/subject} {VERB/m_c/were/was} afraid to go in life",
+        "Digging aimlessly"
+    ],
+    "main_status_constraint": [
+        "hlessi"
+    ]
+}]

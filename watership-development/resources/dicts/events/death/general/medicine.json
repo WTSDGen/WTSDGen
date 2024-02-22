@@ -1,0 +1,92 @@
+[
+    {
+        "camp": "any",
+        "tags": [
+            "war",
+            "other_warren",
+            "rel_down",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "death_text": "o_c warriors broke into the camp and killed m_c, after damaging the herb stores.",
+        "history_text": {
+            "reg_death": "m_c was killed when o_c warriors broke into camp."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null,
+        "rabbit_negate_skill": [
+            "FIGHTER,2",
+            "OMEN,3",
+            "PROPHET,3"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "other_rabbit",
+            "other_warren",
+            "hostile",
+            "rel_down",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "rc_to_mc",
+            "respect",
+            "trust"
+        ],
+        "death_text": "m_c was killed by a o_c warrior while pulling an injured Clanmate away from battle.",
+        "history_text": {
+            "reg_death": "m_c was killed by a o_c warrior while trying to aid an injured Clanmate."
+        },
+        "rabbit_trait": [
+            "compassionate",
+            "calm",
+            "bold",
+            "ambitious",
+            "daring",
+            "fierce",
+            "empathetic",
+            "loving",
+            "loyal",
+            "responsible",
+            "thoughtful"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null,
+        "rabbit_negate_skill": [
+            "FIGHTER,2"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "classic",
+            "Winter"
+        ],
+        "death_text": "m_c caught greencough while caring for {PRONOUN/m_c/poss} patients, and couldn't manage to fight it off.",
+        "history_text": {
+            "reg_death": "m_c died of greencough."
+        },
+        "rabbit_trait": [
+            "compassionate",
+            "calm",
+            "bold",
+            "ambitious",
+            "fierce",
+            "empathetic",
+            "loving",
+            "loyal",
+            "responsible",
+            "thoughtful"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    }
+]

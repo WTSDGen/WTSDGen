@@ -1,0 +1,202 @@
+[
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "war",
+            "other_warren",
+            "rel_up"
+        ],
+        "event_text": "m_c goes to o_c in an attempt to ease the tension of war between the Clans: it goes well, and o_c begins to draw back from c_n's territory!",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "war",
+            "other_warren",
+            "rel_down"
+        ],
+        "event_text": "m_c goes to o_c in an attempt to ease the tension of war between the Clans: it doesn't go well, and o_c further advances in c_n's territory.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "other_rabbit",
+            "other_rabbit_adult",
+            "rc_to_mc",
+            "comfort",
+            "trust",
+            "neg_dislike"
+        ],
+        "event_text": "m_c pulls r_r to the side, quietly asking {PRONOUN/r_r/object} about {PRONOUN/r_r/poss} crush on a fellow Clanmate.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "other_rabbit",
+            "other_rabbit_kit",
+            "platonic",
+            "comfort",
+            "neg_dislike"
+        ],
+        "event_text": "m_c spots r_r looking a little bit lonely, and invites {PRONOUN/r_r/object} to watch as {PRONOUN/m_c/subject} {VERB/m_c/perform/performs} {PRONOUN/m_c/poss} duties.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "war",
+            "other_rabbit_leader",
+            "other_rabbit"
+        ],
+        "event_text": "m_c is conversing with r_r about ways to potentially end this war without bloodshed.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "calm",
+            "careful",
+            "insecure",
+            "lonesome",
+            "loyal",
+            "nervous",
+            "compassionate",
+            "faithful",
+            "loving",
+            "responsible",
+            "thoughtful",
+            "wise",
+            "inquisitive",
+            "childish",
+            "playful"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "war",
+            "other_rabbit_leader",
+            "other_rabbit"
+        ],
+        "event_text": "m_c is conversing with r_r about ways to potentially end this war- but not without bloodshed.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "bold",
+            "charismatic",
+            "confident",
+            "daring",
+            "righteous",
+            "ambitious",
+            "bloodthirsty",
+            "cold",
+            "fierce",
+            "shameless",
+            "strict",
+            "troublesome",
+            "vengeful",
+            "sneaky",
+            "strange"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "war",
+            "other_rabbit_leader",
+            "other_rabbit"
+        ],
+        "event_text": "m_c is giving r_r bad war advice on purpose.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "bold",
+            "charismatic",
+            "confident",
+            "daring",
+            "righteous",
+            "ambitious",
+            "bloodthirsty",
+            "cold",
+            "fierce",
+            "shameless",
+            "strict",
+            "troublesome",
+            "vengeful",
+            "sneaky",
+            "strange"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "war",
+            "other_rabbit_leader"
+        ],
+        "event_text": "m_c is checking in on every rabbit in the camp to make sure everyone is staying healthy in the midst of war.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "calm",
+            "careful",
+            "insecure",
+            "lonesome",
+            "loyal",
+            "nervous",
+            "compassionate",
+            "faithful",
+            "loving",
+            "responsible",
+            "thoughtful",
+            "wise",
+            "inquisitive",
+            "childish",
+            "playful"
+        ]
+    }
+]

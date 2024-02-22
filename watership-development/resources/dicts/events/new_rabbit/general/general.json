@@ -1,0 +1,765 @@
+[
+    {
+        "camp": "any",
+        "tags": [
+            "adoption",
+            "m_c",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming",
+            "neutral",
+            "hostile"
+        ],
+        "event_text": "m_c finds an abandoned kitten and names {PRONOUN/n_c/object} n_c.",
+        "hlessi": true,
+        "kitten": true,
+        "backstory": [
+            "abandoned1"
+        ],
+        "new_name": true,
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "adoption",
+            "m_c",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming",
+            "neutral",
+            "hostile"
+        ],
+        "event_text": "m_c finds an abandoned kitten and names {PRONOUN/n_c/object} n_c.",
+        "pet": true,
+        "kitten": true,
+        "backstory": [
+            "abandoned1",
+            "abandoned4"
+        ],
+        "new_name": true,
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming"
+        ],
+        "event_text": "A hlessi brings their kitten named n_c_pre to the warren, stating they no longer can care for {PRONOUN/n_c/object}.",
+        "hlessi": true,
+        "kitten": true,
+        "backstory": [
+            "abandoned2"
+        ],
+        "new_name": true,
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming"
+        ],
+        "event_text": "An escaped hutch rabbit brings their kitten named n_c_pre to the warren, stating they no longer can care for {PRONOUN/n_c/object}.",
+        "pet": true,
+        "kitten": true,
+        "backstory": [
+            "abandoned2"
+        ],
+        "new_name": true,
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming"
+        ],
+        "event_text": "A rogue brings their kitten named n_c_pre to the warren, stating they no longer can care for {PRONOUN/n_c/object}.",
+        "hlessi": true,
+        "kitten": true,
+        "backstory": [
+            "abandoned2"
+        ],
+        "new_name": true,
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "m_c",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming",
+            "neutral",
+            "hostile"
+        ],
+        "event_text": "m_c finds a hlessi named n_c_pre, who joins the warren.",
+        "hlessi": true,
+        "backstory": [
+            "hlessi1",
+            "hlessi2",
+            "refugee2",
+            "tragedy_survivor4",
+            "guided3"
+        ],
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "m_c",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming",
+            "neutral",
+            "hostile"
+        ],
+        "event_text": "m_c finds a hlessi named n_c_pre, who joins the warren. The hlessi decides to take on a new name and start fresh, and is now called n_c.",
+        "hlessi": true,
+        "backstory": [
+            "hlessi1",
+            "hlessi2",
+            "refugee2",
+            "tragedy_survivor4",
+            "guided3"
+        ],
+        "new_name": true,
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming"
+        ],
+        "event_text": "A hlessi waits on the border for a patrol, asking to join the warren.",
+        "hlessi": true,
+        "backstory": [
+            "hlessi1",
+            "hlessi2",
+            "refugee2",
+            "tragedy_survivor4",
+            "guided3"
+        ],
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming"
+        ],
+        "event_text": "A hlessi waits on the border for a patrol, asking to join the warren. The hlessi decides to take on a new name to represent a new life, and is now called n_c.",
+        "hlessi": true,
+        "backstory": [
+            "hlessi1",
+            "hlessi2",
+            "refugee2",
+            "tragedy_survivor4",
+            "guided3"
+        ],
+        "new_name": true,
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "m_c",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming",
+            "neutral",
+            "hostile"
+        ],
+        "event_text": "m_c finds an escaped hutch rabbit named n_c_pre, who joins the warren.",
+        "pet": true,
+        "backstory": [
+            "pet1",
+            "pet2",
+            "pet3",
+            "refugee3",
+            "tragedy_survivor3",
+            "guided1"
+        ],
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "m_c",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming",
+            "neutral",
+            "hostile"
+        ],
+        "event_text": "m_c finds an escaped hutch rabbit named n_c_pre, who joins the warren. The escaped hutch rabbit decides to take on a new name to reflect a new life, and is now called n_c.",
+        "pet": true,
+        "backstory": [
+            "pet1",
+            "pet2",
+            "pet3",
+            "refugee3",
+            "tragedy_survivor3",
+            "guided1"
+        ],
+        "new_name": true,
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming"
+        ],
+        "event_text": "A escaped hutch rabbit waits on the border for a patrol, asking to join the warren.",
+        "pet": true,
+        "backstory": [
+            "pet1",
+            "pet2",
+            "pet3",
+            "refugee3",
+            "tragedy_survivor3",
+            "guided1"
+        ],
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "welcoming",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming"
+        ],
+        "event_text": "A escaped hutch rabbit waits on the border for a patrol, asking to join the warren. The escaped hutch rabbit decides to take on a new name free of the past, and is now called n_c.",
+        "pet": true,
+        "backstory": [
+            "pet1",
+            "pet2",
+            "pet3",
+            "refugee3",
+            "tragedy_survivor3",
+            "guided1"
+        ],
+        "new_name": true,
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "m_c",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming",
+            "neutral",
+            "hostile"
+        ],
+        "event_text": "m_c finds a rogue named n_c_pre, who joins the warren.",
+        "hlessi": true,
+        "backstory": [
+            "rogue1",
+            "rogue2",
+            "rogue3",
+            "refugee4",
+            "tragedy_survivor2",
+            "guided2"
+        ],
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "m_c",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming",
+            "neutral",
+            "hostile"
+        ],
+        "event_text": "m_c finds a rogue named n_c_pre, who joins the warren. The rogue decides to take on a new name, and is now called n_c.",
+        "hlessi": true,
+        "backstory": [
+            "rogue1",
+            "rogue2",
+            "rogue3",
+            "refugee4",
+            "tragedy_survivor2",
+            "guided2"
+        ],
+        "new_name": true,
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming"
+        ],
+        "event_text": "A rogue waits on the border for a patrol, asking to join the warren.",
+        "hlessi": true,
+        "backstory": [
+            "rogue1",
+            "rogue2",
+            "rogue3",
+            "refugee4",
+            "tragedy_survivor2",
+            "guided2"
+        ],
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming"
+        ],
+        "event_text": "A rogue waits on the border for a patrol, asking to join the warren. The rogue decides to take on a new name to represent a new life, and is now called n_c.",
+        "hlessi": true,
+        "backstory": [
+            "rogue1",
+            "rogue2",
+            "rogue3",
+            "refugee4",
+            "tragedy_survivor2",
+            "guided2"
+        ],
+        "new_name": true,
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "m_c",
+            "neutral",
+            "new_warrior",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming"
+        ],
+        "event_text": "m_c finds a warrior from o_c named n_c, who asks to join the warren.",
+        "other_warren": true,
+        "backstory": [
+            "defector1",
+            "defector2",
+            "ostracized_warrior",
+            "disgraced1",
+            "refugee1",
+            "tragedy_survivor1",
+            "guided4"
+        ],
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "new_warrior",
+            "neutral",
+            "injured",
+            "major_injury",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming",
+            "neutral"
+        ],
+        "event_text": "An injured rabbit from o_c asks to join, in exchange for healing.",
+        "other_warren": true,
+        "backstory": [
+            "defector1",
+            "defector2",
+            "ostracized_warrior",
+            "disgraced1",
+            "refugee1",
+            "tragedy_survivor1",
+            "guided4"
+        ],
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "adoption",
+            "m_c",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming"
+        ],
+        "event_text": "A o_c doe decides to leave their litter with you. m_c takes them as {PRONOUN/m_c/poss} own.",
+        "other_warren": true,
+        "litter": true,
+        "backstory": [
+            "abandoned2",
+            "abandoned3"
+        ],
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "adoption",
+            "m_c",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming",
+            "neutral"
+        ],
+        "event_text": "m_c finds an abandoned litter, and decides to adopt them as {PRONOUN/m_c/poss} own.",
+        "hlessi": true,
+        "litter": true,
+        "backstory": [
+            "abandoned2",
+            "abandoned1",
+            "abandoned4"
+        ],
+        "new_name": true,
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "adoption",
+            "m_c",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming"
+        ],
+        "event_text": "A hlessi leaves their litter to the warren. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
+        "hlessi": true,
+        "litter": true,
+        "backstory": [
+            "abandoned2"
+        ],
+        "new_name": true,
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "adoption",
+            "m_c",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming"
+        ],
+        "event_text": "A escaped hutch rabbit leaves their litter to the warren. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
+        "pet": true,
+        "litter": true,
+        "backstory": [
+            "abandoned2"
+        ],
+        "new_name": true,
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "adoption",
+            "m_c",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "welcoming"
+        ],
+        "event_text": "A rogue leaves their litter to the warren. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
+        "hlessi": true,
+        "litter": true,
+        "backstory": [
+            "abandoned2"
+        ],
+        "new_name": true,
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "hostile"
+        ],
+        "event_text": "While the warren has no love for outsiders, sometimes new blood is needed. A patrol heads out and finds a wandering rabbit to bring into the warren. The new rabbit, n_c_pre takes on a new name.",
+        "hlessi": true,
+        "backstory": [
+            "tragedy_survivor4",
+            "tragedy_survivor2",
+            "rogue3",
+            "rogue1",
+            "hlessi1"
+        ],
+        "new_name": true,
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "war"
+        ],
+        "reputation": [
+            "hostile"
+        ],
+        "event_text": "A member of o_c defects in the war and chooses to join c_n.",
+        "other_warren": true,
+        "backstory": [
+            "defector2",
+            "disgraced1",
+            "refugee1",
+            "tragedy_survivor1"
+        ],
+        "new_name": false
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "reputation": [
+            "hostile"
+        ],
+        "event_text": "A member of o_c defects from their birth warren and chooses to join c_n.",
+        "other_warren": true,
+        "backstory": [
+            "defector2",
+            "disgraced1",
+            "refugee1",
+            "tragedy_survivor1",
+            "defector2"
+        ],
+        "new_name": false
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "war"
+        ],
+        "reputation": [
+            "hostile"
+        ],
+        "event_text": "n_c, the deputy of o_c, has defected to c_n in the war.",
+        "other_warren": true,
+        "backstory": [
+            "defector1",
+            "disgraced1",
+            "refugee1",
+            "tragedy_survivor1"
+        ],
+        "new_name": false
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "war",
+            "medicine_rabbit"
+        ],
+        "reputation": [
+            "hostile"
+        ],
+        "event_text": "n_c, the medicine rabbit of o_c, has defected to c_n in the war.",
+        "other_warren": true,
+        "backstory": [
+            "medicine_rabbit",
+            "defector1",
+            "disgraced1",
+            "refugee1",
+            "tragedy_survivor1"
+        ],
+        "new_name": false
+    }
+]

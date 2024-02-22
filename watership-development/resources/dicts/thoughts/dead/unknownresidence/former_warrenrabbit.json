@@ -1,0 +1,13 @@
+[{
+    "id": "general_formerwarrenrabbit_dead_thoughts",
+    "thoughts": [
+        "Wanders around {PRONOUN/m_c/poss} old warren",
+        "Explores places {PRONOUN/m_c/subject} {VERB/m_c/were/was} afraid to go in life",
+        "Hunts for prey, despite not feeling hungry",
+        "Watches {PRONOUN/m_c/poss} old warrenmates",
+        "Wondering why the black rabbit of Inlé never fetched them"
+    ],
+    "main_status_constraint": [
+        "former warrenrabbit"
+    ]
+}]

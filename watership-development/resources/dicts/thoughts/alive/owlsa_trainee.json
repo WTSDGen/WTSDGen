@@ -1,0 +1,411 @@
+[
+    {
+        "id": "gen_owsla_app",
+        "thoughts":[
+            "Feels worn out from training",
+            "Wonders if {PRONOUN/m_c/subject}'ll be allowed to go night-training soon",
+            "Is resting in the sun after a long day of training",
+            "Wonders if {PRONOUN/m_c/subject}'ll have to fight a battle anytime soon",
+            "Thumps at a beetle that wandered into camp",
+            "Is saving the softest bedding for {PRONOUN/m_c/poss} own nest",
+            "Practices {PRONOUN/m_c/poss} newest battle moves",
+            "Hopes {PRONOUN/m_c/subject}'ll learn something new today",
+            "Is feeling proud of the progress {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} made",
+            "Practices {PRONOUN/m_c/poss} hunting on a smooth rock {PRONOUN/m_c/subject} found",
+            "Feels disappointed after a failed battle session",
+            "Hopes there's a dandelion left on the feed pile for {PRONOUN/m_c/object}",
+            "Tries to recite the Owsla Code from memory",
+            "Feels nervous about an upcoming assessment",
+            "Practices {PRONOUN/m_c/poss} highest jump",
+            "Practices {PRONOUN/m_c/poss} farthest leap",
+            "Feels proud of {PRONOUN/m_c/self} for doing so well in training today",
+            "Is gossiping",
+            "Is acting angsty",
+            "Is dreading {PRONOUN/m_c/poss} trainee duties",
+            "Fell into the nearby creek yesterday and is still feeling damp",
+            "Is having a hard time keeping up with {PRONOUN/m_c/poss} training",
+            "Was tasked with lining nests with fresh moss today",
+            "Is dreaming of someday making {PRONOUN/m_c/poss} warren proud",
+            "Is thinking about the time {PRONOUN/m_c/subject} fought a huge rabbit... and won!",
+            "Practices some battle moves",
+            "Is helping to reinforce the camp wall with brambles",
+            "Is daydreaming about having a mate and kits someday",
+            "Had quite the adventure today",
+            "Is thinking about how cool it will be when {PRONOUN/m_c/subject} {VERB/m_c/are/is} part of the Owsla",
+            "Wants to become a fierce warrior someday",
+            "Wants to learn as many fighting techniques as {PRONOUN/m_c/subject} can",
+            "Wants to earn {PRONOUN/m_c/poss} place in the warren",
+            "Is determined to master a battle technique by dusk",
+            "Wants to be taught an advanced move",
+            "Has been training very hard recently",
+            "Is anxious about graduating",
+            "Had a very strange dream",
+            "Can't wait to get back to training as soon as the sun rises",
+            "Wonders if {PRONOUN/m_c/subject} can train late tonight",
+            "Promises to do {PRONOUN/m_c/poss} best today",
+            "Hopes to have an easy training session",
+            "Is relaxing in between training and patrols",
+            "Has so much to learn",
+            "Wants to learn something new today"
+        ]
+    },
+    {
+        "id": "apprentice_alive_captain",
+        "thoughts": [
+            "Wants r_r to assign {PRONOUN/m_c/object} to the next patrol",
+            "Is watching and learning from r_r",
+            "Wishes r_r would let {PRONOUN/m_c/object} sleep, instead of assigning {PRONOUN/m_c/object} to the dawn patrol",
+            "Would like to become as great as r_r one day",
+            "Hopes r_r notices how well {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} training is going",
+            "Offers to help r_r today",
+            "Asks r_r for an extra task"
+        ],
+        "random_status_constraint": [
+            "captain"
+        ]
+    },
+    {
+        "id": "apprentice_alive_owsla",
+        "thoughts": [
+            "Is watching and learning from r_r",
+            "Is asking r_r questions about Owsla life",
+            "Is re-enacting a move that {PRONOUN/m_c/subject} saw r_r do",
+            "Got caught trying to sneak out of camp without an adult",
+            "Asks r_r for some advice",
+            "Asks r_r for fighting tips",
+            "Asks r_r for advice on passing an assessment",
+            "Wonders if r_r was a good trainee"
+        ],
+        "random_status_constraint": [
+            "owsla"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+    {
+        "id": "apprentice_alive_mentor",
+        "thoughts": [
+            "Is trying to perfect the latest move that r_r taught {PRONOUN/m_c/object}",
+            "Is asking r_r questions",
+            "Is grumbling after r_r woke {PRONOUN/m_c/object} up for dawn patrol",
+            "Obediently follows r_r out of the burrow for today's lesson",
+            "Is doing {PRONOUN/m_c/poss} best to listen to r_r",
+            "Hopes to be just like r_r as a guard",
+            "Admires r_r's knowledge and skills",
+            "Wants to learn everything that r_r knows",
+            "Wants to make r_r proud today"
+        ],
+        "relationship_constraint": [
+            "app/mentor"
+        ]
+    },
+    {
+        "id": "apprentice_alive_apprentice",
+        "thoughts": [
+            "Is learning how to hunt with r_r",
+            "Teases r_r for missing an easy catch",
+            "Is happy that {PRONOUN/m_c/subject} {VERB/m_c/are/is} going to train with r_r",
+            "Is having a hunting contest with r_r",
+            "Helps r_r perfect a fighting pose",
+            "Hangs out with r_r after a training session",
+            "Listens to the latest gossip from r_r",
+            "Is practicing sparring with r_r",
+            "Wants to compare catches with r_r",
+            "Asks r_r for help with an upcoming assessment",
+            "Asks r_r if {PRONOUN/r_r/subject}{VERB/m_c/'re/'s} ready to be a real guard",
+            "Hopes to go on the same patrol as r_r",
+            "Asks r_r to wake {PRONOUN/m_c/object} up if {PRONOUN/m_c/subject} oversleep",
+            "Wants to graduate before r_r",
+            "Swaps new techniques with r_r",
+            "Asks r_r to quiz {PRONOUN/m_c/object} on types of hunting techniques",
+            "Asks r_r to quiz {PRONOUN/m_c/object} on types of battle moves",
+            "Asks r_r to train with {PRONOUN/m_c/object} soon"
+        ],
+        "random_status_constraint": [
+            "apprentice"
+        ]
+    },
+    {
+        "id": "apprentice_alive_elder",
+        "thoughts":[
+            "Is dreading having to clean the elders' den later",
+            "Is picking ticks off of r_r",
+            "Listens to a story from r_r",
+            "Is making sure the elders are comfortable",
+            "Is asking r_r how things have changed since {PRONOUN/m_c/subject} {VERB/m_c/were/was} young",
+            "Appreciates r_r's words of wisdom",
+            "Doesn't mind taking care of the elders",
+            "Is cleaning out the elder's den today",
+            "Hopes r_r is in a better mood today",
+            "Asks r_r what it's like to be an elder",
+            "Is doing {PRONOUN/m_c/poss} best to keep r_r happy",
+            "Is bringing r_r a nice leaf",
+            "Is complaining about picking ticks out of the elders' pelts"
+        ],
+        "random_status_constraint":[
+            "elder"
+        ],
+        "random_age_constraint":[
+            "senior"
+        ]
+    },
+    {
+        "id": "apprentice_alive_kits",
+        "thoughts":[
+            "Leaves hay outside the nursery for the kits",
+            "Is showing r_r the proper way to do a threatening thump",
+            "Tries not to giggle as r_r fails to look threatening",
+            "Looks at r_r and wonders if {PRONOUN/m_c/subject} {VERB/m_c/were/was} ever that small",
+            "Brought back some feathers for the kits to play with",
+            "Is showing off {PRONOUN/m_c/poss} new battle moves to the kits",
+            "Wonders if r_r can be {PRONOUN/m_c/poss} trainee someday",
+            "Wants to be owsla before r_r grows up",
+            "Hopes r_r will be an trainee with {PRONOUN/m_c/object}",
+            "Is letting r_r see the owsla's den",
+            "Takes time to play with r_r in between training sessions",
+            "Tries to teach r_r something new... but {PRONOUN/r_r/subject}{VERB/r_r/'re/'s} not listening"
+        ],
+        "random_status_constraint":[
+            "kit"
+        ]
+    },
+    {
+        "id": "apprentice_dead_owsla",
+        "thoughts": [
+            "Wishes {PRONOUN/m_c/subject} could learn from r_r",
+            "Wants to be a great fighter, just like r_r"
+        ],
+        "random_status_constraint": [
+            "warrior"
+        ],
+        "random_living_status": [
+            "Inlé"
+        ]
+    },
+    {
+        "id": "formerly_a_rogue_owsla_apprentice",
+        "thoughts": [
+            "Got scolded for eating what {PRONOUN/m_c/subject} found",
+            "Has some trouble adjusting",
+            "Forgets the Owsla Code sometimes",
+            "Wants to prove to the warren that {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} going to be a good fighter",
+            "Doesn't want to run into any rogues while on patrol",
+            "Doesn't miss being a rogue",
+            "Is happy to be training as a warren rabbit instead of living as a rogue"
+        ],
+        "main_backstory_constraint": ["rogue1", "rogue2", "rogue3", "refugee4", "tragedy_survivor2", "guided2"]
+    },
+    {
+        "id": "thoughtful_owsla_apprentice",
+        "thoughts": [
+            "Offered to go on the dawn patrol with {PRONOUN/m_c/poss} mentor",
+            "Wants to gather moss for the elder's den",
+            "Is making sure there's nothing around camp that needs to be done",
+            "Asks r_r if {PRONOUN/r_r/subject} need anything before going on patrol",
+            "Asks r_r if {PRONOUN/r_r/subject} need anything before going out",
+            "Is lost in thought",
+            "Always double checks everything",
+            "Wonders what {PRONOUN/m_c/subject} can do to help"
+        ],
+        "main_trait_constraint": [
+            "thoughtful"
+        ]
+    },
+    {
+        "id": "patient_owsla_apprentice",
+        "thoughts": [
+            "Is busy mastering a fighting technique",
+            "Spent all morning mastering and practicing a good kick",
+            "Wants to train until {PRONOUN/m_c/subject} {VERB/m_c/have/has} learned everything",
+            "Doesn't stop practicing a move until it's done perfectly",
+            "Likes to watch fish",
+            "Is taking extra time to finish {PRONOUN/m_c/poss} task for today",
+            "Is settling for nothing less than perfect",
+            "Is calm and focused"
+        ],
+        "main_trait_constraint": [
+            "patient"
+        ]
+    },
+    {
+        "id": "insecure_owsla_apprentice",
+        "thoughts": [
+            "Is wondering if {PRONOUN/m_c/subject} {VERB/m_c/are/is} good enough to be owsla...",
+            "Is reluctant to spar with {PRONOUN/m_c/poss} mentor today",
+            "Doesn't think {PRONOUN/m_c/poss} work on patrols has been substantial enough",
+            "Wishes {PRONOUN/m_c/subject} could do better",
+            "Is sure {PRONOUN/m_c/subject} will fail {PRONOUN/m_c/poss} assessment",
+            "Hopes {PRONOUN/m_c/subject} {VERB/m_c/are/is} not assigned to a border patrol",
+            "Is worried about being an trainee forever",
+            "Isn't sure if anyone would trust {PRONOUN/m_c/object} to do a good job",
+            "Is fighting back tears after losing a spar",
+            "Is worried to lose in a real fight",
+            "Is worrying about something",
+            "Says sorry more often than {PRONOUN/m_c/subject} need to",
+            "Is hiding after receiving a compliment",
+            "Is avoiding everyone today"
+        ],
+        "main_trait_constraint": [
+            "insecure"
+        ]
+    },
+    {
+        "id": "fierce_owsla_apprentice",
+        "thoughts": [
+            "Is showing off {PRONOUN/m_c/poss} new battle moves",
+            "Is pushing hard for more battle training",
+            "Was recently chastised by {PRONOUN/m_c/poss} mentor for reckless behaviour out on patrol",
+            "Practiced battle moves with {PRONOUN/m_c/poss} without holding back",
+            "Is keeping {PRONOUN/m_c/poss} claws extra sharp",
+            "Is thumping at r_r",
+            "Is always looking for a fight",
+            "Is hoping to be sent to battle",
+            "Is picking a fight with r_r",
+            "Is bored during a patrol",
+            "Is in trouble after scratching r_r during an argument"
+        ],
+        "main_trait_constraint": [
+            "fierce"
+        ]
+    },
+    {
+        "id": "confident_owsla_apprentice",
+        "thoughts": [
+            "Is sure that {PRONOUN/m_c/subject}'ll be made into the captain soon",
+            "Thinks that {PRONOUN/m_c/subject} will be the strongest guard to ever live",
+            "Isn't worried about anything",
+            "Is planning on bringing a lot of stories back from patrol",
+            "Wants to lead the next dawn patrol",
+            "Perfects a new fighting stance during today's training session",
+            "Is sure that r_r thinks {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} the best apprentice",
+            "Is a very quick learner",
+            "Is sure {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} doing a good job today",
+            "Knows {PRONOUN/m_c/subject} will get picked first for today's patrol"
+        ],
+        "main_trait_constraint": [
+            "confident"
+        ]
+    },
+    {
+        "id": "bold_owsla_apprentice",
+        "thoughts": [
+            "Taunted a rival warren's trainee at the border",
+            "Took the biggest flower from the pile",
+            "Is claiming to be ready for {PRONOUN/m_c/poss} assessment early",
+            "Assigns {PRONOUN/m_c/self} to a patrol",
+            "Isn't planning on asking for permission",
+            "Tells {PRONOUN/m_c/poss} mentor {PRONOUN/m_c/subject} {VERB/m_c/are/is} doing battle training today",
+            "Tells {PRONOUN/m_c/poss} mentor {PRONOUN/m_c/subject} {VERB/m_c/are/is} resting instead of training",
+            "Tells {PRONOUN/m_c/poss} mentor {PRONOUN/m_c/subject} {VERB/m_c/are/is} going on patrol without {PRONOUN/r_r/object}"
+        ],
+        "main_status_constraint": [
+            "apprentice"
+        ],
+        "main_trait_constraint": [
+            "bold"
+        ]
+    },
+    {
+        "id": "bold_owsla_apprentice_to_owsla",
+        "thoughts": [
+            "Is looking to challenge a real owsla to a sparring match",
+            "Is pretty sure r_r would lose in a fight with {PRONOUN/m_c/object}",
+            "Doesn't listen to r_r's advice"
+        ],
+        "main_status_constraint": [
+            "apprentice"
+        ],
+        "random_status_constraint":[
+            "owsla"
+        ],
+        "main_trait_constraint": [
+            "bold"
+        ]
+    },
+    {
+        "id": "bloodthirsty_owsla_apprentice",
+        "thoughts": [
+            "Pesters {PRONOUN/m_c/poss} mentor for more battle training",
+            "Is practicing forbidden battle moves",
+            "Drew blood during {PRONOUN/m_c/poss} battle training",
+            "Sinks {PRONOUN/m_c/poss} teeth into a vegetable, pretending its another rabbit's pelt",
+            "Is caught playing with {PRONOUN/m_c/poss} food instead of eating",
+            "Is cleaning blood from {PRONOUN/m_c/poss} claws",
+            "Is thumping defiantly at r_r",
+            "Wants to scratch r_r's ears off",
+            "Is glaring at r_r",
+            "Is covered in blood after sparring",
+            "Is digging up moss for fun",
+            "Is asking what yew berries look like... for safety reasons of course",
+            "Hopes to get a scar from battle"
+
+        ],
+        "main_trait_constraint": [
+            "bloodthirsty"
+        ]
+    },
+    {
+        "id": "ambitious_owsla_apprentice",
+        "thoughts": [
+            "Begs to be made owsla early",
+            "Wants to go on both a border and training patrol",
+            "Is asking for extra, extra training",
+            "Wants to be made a guard so {PRONOUN/m_c/subject} can hurry up and get {PRONOUN/m_c/poss} own trainee",
+            "Is staying out late to explore",
+            "Doesn't like to take breaks",
+            "Offers to go on every patrol today",
+            "Is always busy with something",
+            "Is too busy training to help out around the burrow"
+        ],
+        "main_trait_constraint": [
+            "ambitious"
+        ]
+    },
+    {
+        "id": "ambitious_owsla_apprentice_to_other_apps",
+        "thoughts": [
+            "Has been winning the most fights out of all the trainees",
+            "Is confident that {PRONOUN/m_c/subject} could beat the other trainees",
+            "Wants to be the most promising trainee",
+            "Is trying to outshine the other trainees",
+            "Wants to be made owsla before r_r"
+        ],
+        "random_status_constraint": [
+            "apprentice"
+        ],
+        "main_trait_constraint": [
+            "ambitious"
+        ]
+    }, 
+    {
+        "id": "childish_owsla_apprentice",
+        "thoughts": [
+            "Wonders if {PRONOUN/m_c/subject} could still fit in the nursery",
+            "Turns {PRONOUN/m_c/poss} sparring practice into a tickle fight",
+            "Asks if {PRONOUN/m_c/subject} can chase pretty bugs instead of enemy rabbits",
+            "Isn't paying attention to the lesson... again",
+            "Overslept and missed the dawn patrol",
+            "Says {PRONOUN/m_c/subject} {VERB/m_c/do/does}n't want to do anything today",
+            "Is not allowed to leave the burrow without asking first"
+        ],
+        "main_trait_constraint": [
+            "childish"
+        ]
+    },
+    { "id": "childish_apprentice_elder",
+        "thoughts": [
+            "Pouts about being asked to check the elders for ticks",
+            "Is hiding instead of taking care of the elders",
+            "Is listening to r_r tell stories instead of cleaning out the den"
+        ],
+        "main_trait_constraint":[
+            "childish"
+        ],
+        "random_status_constraint":[
+            "elder"
+        ]
+    }
+           
+    
+]

@@ -1,0 +1,262 @@
+[
+    {
+        "id": "general_med_rabbit_app_to_dead_Inlé_newborn1",
+        "thoughts": [
+            "Wonders if {PRONOUN/m_c/subject} would have gotten the chance to do r_r's first check-up",
+            "Can still smell the bitter herbs that {PRONOUN/m_c/subject} desperately fetched to try and save r_r's life",
+            "Thought {PRONOUN/m_c/subject} heard r_r's squeaks, but was wrong",
+            "Contemplates how short r_r's life was and how much {PRONOUN/r_r/subject} {VERB/m_c/are/is} missing",
+            "Is questioning if r_r would grow up in Inlé or stay a newborn",
+            "Prays that r_r is healthy and receives the strength {PRONOUN/r_r/subject} need to grow in Inlé",
+            "Is finally accepting {PRONOUN/m_c/subject} did all {PRONOUN/m_c/subject} could to save r_r",
+            "Is pondering which role r_r would have been",
+            "Ponders how Inlérah would deal with r_r",
+            "Thought {PRONOUN/m_c/subject} encountered r_r while scavenging for herbs, but it was a trick of {PRONOUN/m_c/poss} mind",
+            "Is listening to the reason behind r_r's name with a fond smile",
+            "Wonders if newborn kittens grow up to be adults or stay young forever in Inlé",
+            "Is asking Inlé why they take newborns away from them",
+            "Prays that all the newborn kittens in Inlé get enough food to stay strong",
+            "Is contemplating Inlé and why they would allow newborns to pass",
+            "Is reflecting on r_r's pelt, and is sad {PRONOUN/m_c/subject} never knew {PRONOUN/r_r/poss} eye color",
+            "Was startled to meet a newborn kitten while dreaming and ponders what it meant",
+            "Was spooked when {PRONOUN/m_c/subject} encountered a ghostly newborn while collecting herbs, which disappeared when noticed",
+            "Is asking {PRONOUN/m_c/poss} rusasirah why Inlé allows newborns to leave them like this",
+            "Is vowing to never let another newborn join Inlérah's ranks"
+        ],
+        "random_status_constraint": [
+            "newborn"
+        ],
+        "random_living_status": [
+            "Inlé"
+        ]
+    },
+    {
+        "id": "plain_med_rabbit_app_to_dead_Inlé_newborn",
+        "thoughts": [
+            "Is wondering if r_r was a part of the stars last night",
+            "Thought {PRONOUN/m_c/subject} heard r_r's squeaks, but it was just the wind",
+            "Is questioning who would provide for r_r in Inlé",
+            "Wonders if r_r would have played with the insects in the grass if {PRONOUN/r_r/subject} had time to grow up",
+            "Questions if r_r's spirit exists in the tall grasses",
+            "Thought {PRONOUN/m_c/subject} saw r_r's spirit hanging around the nursery tunnel",
+            "Wonders if r_r gets to venture out of the tunnels in Inlé",
+            "Thought {PRONOUN/m_c/subject} saw r_r playing with the roots of the tree, but sadly shakes off the thought",
+            "Was surprised to find r_r's spot in the nursery warm, despite {PRONOUN/r_r/object} being with Frith now",
+            "Is pondering if r_r would stay in tunnels or go out an explore the territory in Inlé",
+            "Wonders if the newborns in Inlé will ever get to play and run across open fields",
+            "Prays to Inlé that the passed newborn kittens get to feel the wind across their pelt"
+        ],
+        "biome":[
+            "Plains"
+        ],
+        "random_living_status": [
+            "Inlé"
+        ]
+    },
+    {
+        "id": "med_rabbit_app_dead_app",
+        "thoughts": [
+            "Is wondering if r_r would have been {PRONOUN/m_c/poss} friend",
+            "Wonders if {PRONOUN/m_c/subject} would have swapped secrets with r_r"
+        ],
+        "random_status_constraint": [
+            "apprentice",
+            "owsla rusasi",
+            "healer rusasi"
+        ],
+        "random_living_status": [
+            "Inlé"
+        ]
+    },
+    {
+        "id": "med_rabbit_app_gen",
+        "thoughts": [
+            "Is wondering if {PRONOUN/m_c/subject} {VERB/m_c/are/is} good enough to become a healer",
+            "Helps apply a poultice to a small wound",
+            "Is enjoying learning all of the herbs a healer needs!",
+            "Is memorizing the names of all the herbs",
+            "Is practicing applying cobwebs to wounds",
+            "Is sorting out all the old herbs from the den",
+            "Makes sure the nests in the healing den are as comfortable as possible",
+            "Is ready to take care of any patients",
+            "Is a bit overwhelmed at everything there is to learn about healing",
+            "Is learning the best way to remove a thorn from a paw pad",
+            "Is learning how to treat a burn",
+            "Is learning how to tell the difference between a minor bloody cough and a fatal one from the color",
+            "Is taking {PRONOUN/m_c/poss} training very seriously",
+            "Is learning the early signs of infection",
+            "Is memorizing all the places mint grows",
+            "Wonders if Inlé will send {PRONOUN/m_c/object} a practice sign before a real one",
+            "Is neatly stacking bundles of herbs after drying"
+        ]
+    },
+    {
+        "id": "med_rabbit_app_to_dead_SC_kitten",
+        "thoughts": [
+            "Is wondering if r_r would have bothered {PRONOUN/m_c/object} while {PRONOUN/m_c/subject} {VERB/m_c/were/was} sorting herbs",
+            "Wonders if {PRONOUN/m_c/subject} would have had to treat r_r for kittencough",
+            "Wonders if r_r would have wanted to be a healer too"
+        ],
+        "random_status_constraint": [
+            "kitten"
+        ],
+        "random_living_status": [
+            "Inlé"
+        ]
+    },
+    {
+        "id": "med_rabbit_alive_rusasi",
+        "thoughts": [
+            "Wonders if r_r would have been a better healer",
+            "Wishes the other apprentices could understand how {PRONOUN/m_c/subject} feel",
+            "Wishes {PRONOUN/m_c/subject} understood the apprentice's inside jokes",
+            "Hopes r_r will come with {PRONOUN/m_c/object} to help gather herbs",
+            "Is assuring r_r that everything is okay",
+            "Is wondering if Inlérah is visiting r_r's dreams",
+            "Is realizing how lonely it can be to be a healer rusasi",
+            "Is watching other apprentices train"
+        ],
+        "random_status_constraint": [
+            "apprentice",
+            "owsla rusasi",
+            "healer rusasi"
+        ]
+    },
+    {
+        "id": "medicine_rabbit_rusasi_alive_elder",
+        "thoughts": [
+            "Was asked to gather fresh moss for the elders' bedding",
+            "Plans to visit the elders soon",
+            "Is checking in on the elder's den",
+            "Plans to help the elders with their ticks",
+            "Is helping to repair the elder's den",
+            "Is making sure r_r is breathing okay",
+            "Is hoping to make r_r feel younger today",
+            "Is learning how to relieve r_r's joint pain",
+            "Is studying the effects of aging with r_r's reluctant help"
+        ],
+        "random_status_constraint": [
+            "elder"
+        ]
+    },
+    {
+        "id": "medicine_rabbit_rusasi_to_medicine_rabbit1",
+        "thoughts": [
+            "Wants to help r_r gather fresh herbs",
+            "Is watching r_r work",
+            "Asks r_r about the best way to help with bee stings",
+            "Is asking r_r for guidance about a recent dream",
+            "Asks r_r how to tell something is a sign from Inlé",
+            "Hopes to learn from r_r's expertise",
+            "Asks r_r how to tell the difference between a sprain and a dislorabbited joint"
+        ],
+        "random_status_constraint": [
+            "healer"
+        ]
+    },
+    {
+        "id": "insecure_medicine_rabbit_rusasi",
+        "thoughts": [
+            "Is wondering if {PRONOUN/m_c/subject} {VERB/m_c/are/is} a good enough healer rusasi",
+            "Is always worrying about {PRONOUN/m_c/poss} patients",
+            "Is worried about a spring cough outbreak",
+            "Is terrified of misdiagnosing something serious",
+            "Isn't sure if {PRONOUN/m_c/subject} can handle the stress of caring for the warren",
+            "Is holding back tears after using the wrong herbs",
+            "Is upset after {PRONOUN/m_c/subject} froze at the sight of blood from a minor wound"
+        ],
+        "main_trait_constraint": [
+            "insecure",
+            "nervous"
+        ]
+    },
+    {
+        "id": "bloodthirsty_and_cold_medicine_rabbit_rusasi",
+        "thoughts": [
+            "Is hoping {PRONOUN/m_c/poss} can find yew berries",
+            "Wants to learn some battle moves... just in case",
+            "Is keeping something hidden in the back of healing den",
+            "Is wondering if Frith uses springtime illness to weed out the weaker members of the warren",
+            "Doesn't understand the point of keeping sickly old elders healthy with precious herbs",
+            "Is seen secretly leaving the warren to wash {PRONOUN/m_c/poss} paws in a creek",
+            "Is studying the effects of yew"
+        ],
+        "main_trait_constraint": [
+            "bloodthirsty",
+            "cold",
+            "vengeful",
+            "fierce"
+        ]
+    },
+    {
+        "id": "nice_medicine_rabbit_rusasi",
+        "thoughts": [
+            "Is vowing to help any rabbit in need",
+            "Is looking to Inlé for guidance in a difficult decision",
+            "Is thinking about how to keep the warren safe and healthy",
+            "Is dreaming about taking care of a patient",
+            "Is arguing that rogues and hlessi deserve help too"
+        ],
+        "main_trait_constraint": [
+            "thoughtful",
+            "righteous",
+            "loving",
+            "compassionate",
+            "sincere"
+        ]
+    },
+    {
+        "id": "nice_medicine_rabbit_rusasi_to_meanie_med",
+        "thoughts": [
+            "Is unsure of r_r's treatment methods",
+            "Is wondering why r_r decided to be a healer",
+            "Is worried r_r likes to hurt patients",
+            "Is skeptical of r_r as a healer",
+            "Is startled to find r_r has a stock pile of yew berries"
+        ],
+        "main_trait_constraint": [
+            "thoughtful",
+            "righteous",
+            "loving",
+            "compassionate",
+            "sincere"
+        ],
+        "random_trait_constraint": [
+            "bloodthirsty",
+            "cold",
+            "vengeful",
+            "fierce"
+        ],
+        "random_status_constraint": [
+            "healer"
+        ]
+    },
+    {
+        "id": "medicine_rabbit_rusasi_meanie_to_meanie_med",
+        "thoughts": [
+            "Is plotting the downfall of c_n with r_r",
+            "Is meeting secretly with r_r to discuss a new 'treatment' method",
+            "Is helping r_r secretly gather yew berries",
+            "Is delighted to find r_r feels the same way about weak rabbits",
+            "Is glad r_r is against sharing life saving herbs with enemy warrens",
+            "Is standing with r_r, both glaring over their newest vict-, erm, 'patients'",
+            "Is learning the best way to make a death look like a medical accident from r_r",
+            "Is discussing attacking other healers with r_r"
+        ],
+        "random_trait_constraint": [
+            "bloodthirsty",
+            "cold",
+            "vengeful",
+            "fierce"
+        ],
+        "random_status_constraint": [
+            "healer"
+        ],
+        "main_trait_constraint": [
+            "bloodthirsty",
+            "cold",
+            "vengeful",
+            "fierce"
+        ]
+    }
+]

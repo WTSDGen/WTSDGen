@@ -1,0 +1,79 @@
+[
+    {
+        "camp": "any",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_warrior",
+            "murder",
+            "revealed",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "rc_to_mc",
+            "dislike",
+            "neg_platonic",
+            "jealousy"
+        ],
+        "death_text": "m_c was murdered by r_r in cold blood, with the hope of taking {PRONOUN/m_c/poss} place.",
+        "history_text": {
+            "reg_death": "m_c was murdered by r_r.",
+            "reg_murder_unrevealed": "m_c was murdered by an unknown killer."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "ambitious",
+            "cold",
+            "righteous",
+            "loyal",
+            "vengeful",
+            "sneaky",
+            "bloodthirsty"
+        ],
+        "other_rabbit_skill": [
+            "FIGHTER,2"
+        ],
+        "rabbit_negate_skill": [
+            "FIGHTER,2"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_warrior",
+            "murder",
+            "revealed",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "rc_to_mc",
+            "dislike",
+            "neg_platonic",
+            "jealousy"
+        ],
+        "death_text": "m_c was murdered by r_r in cold blood. r_r staged the death as an accident, and hopes to take {PRONOUN/m_c/poss} place.",
+        "history_text": {
+            "reg_death": "m_c was secretly murdered by r_r.",
+            "reg_murder_unrevealed": "m_c was murdered by an unknown killer."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "ambitious",
+            "cold",
+            "righteous",
+            "loyal",
+            "vengeful",
+            "sneaky"
+        ],
+        "other_rabbit_skill": [
+            "CLEVER,2"
+        ],
+        "rabbit_negate_skill": [
+            "FIGHTER,2"
+        ]
+    }
+]

@@ -1,0 +1,69 @@
+[
+	{
+		
+		"id": "rom_dec_high1",
+		"intensity": "high",
+		"interactions": [
+			"m_c gave a gift to r_r, but {PRONOUN/r_r/subject} turned up {PRONOUN/r_r/poss} nose at the offering.",
+			"m_c heard r_r express an ideal {PRONOUN/m_c/subject} cannot agree with.",
+			"m_c heard r_r talking badly about {PRONOUN/m_c/object}.",
+			"m_c catches r_r staring at another rabbit."
+		]
+	},
+	{
+		"id": "rom_dec_medium1",
+		"intensity": "medium",
+		"interactions": [
+			"m_c feels like r_r hasn't been paying much attention to {PRONOUN/m_c/object} lately.",
+			"m_c is upset that r_r tried to give {PRONOUN/m_c/object} {PRONOUN/m_c/poss} least favorite prey - surely {PRONOUN/r_r/subject} {VERB/r_r/know/knows} what {PRONOUN/m_c/subject} {VERB/m_c/like/likes}!",
+			"m_c wishes r_r would stop giving {PRONOUN/m_c/object} gifts, as {PRONOUN/m_c/poss} nest is getting too full.",
+			"m_c hates the gift r_r gave {PRONOUN/m_c/object}."
+		],
+		"relationship_constraint": [
+			"romantic_40"
+		]
+	},
+	{
+		"id": "rom_dec_medium2",
+		"intensity": "medium",
+		"interactions": [
+			"m_c told r_r to stop padding after {PRONOUN/m_c/object} like a lost kit.",
+			"m_c worries that r_r isn't being honest with their relationship.",
+			"m_c can't stand r_r's snoring in {PRONOUN/r_r/poss} nest."
+		],
+		"relationship_constraint": [
+			"romantic_40",
+			"dislike_40"
+		]
+	},
+	{
+		"id": "rom_dec_medium3",
+		"intensity": "medium",
+		"interactions": [
+			"m_c is starting to have doubts about {PRONOUN/m_c/poss} feelings for r_r.",
+			"m_c heard a rumor that r_r likes someone else.",
+			"m_c worries that r_r will never feel the same way {PRONOUN/m_c/subject} {VERB/m_c/do/does}.",
+			"m_c noticed r_r flirting with someone else.",
+			"m_c heard r_r discussing potential mates but {PRONOUN/m_c/poss} name never came up.",
+			"m_c thinks {PRONOUN/m_c/poss} dreams might not come true with r_r."
+		]
+	},
+	{
+		"id": "rom_dec_low3",
+		"intensity": "low",
+		"interactions": [
+			"m_c feels ignored by r_r.",
+			"m_c didn't get the joke r_r was telling."
+		]
+	},
+	{
+		"id": "rom_dec_medium4",
+		"intensity": "medium",
+		"interactions": [
+			"m_c had a disagreement with r_r over kits."
+		],
+		"relationship_constraint": [
+			"mates"
+		]
+	}
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "camp": "any",
+        "tags": [
+            "Spring", 
+            "Summer", 
+            "Autumn"
+        ],
+        "death_text": "m_c had not realized {PRONOUN/m_c/poss} fatal mistake until {PRONOUN/m_c/subject} felt {PRONOUN/m_c/poss} paws get clammy and {PRONOUN/m_c/poss} blood, once burning hot and dry after being out in the sun with no water nor shade, turned cold. As the world turned right-side up and {PRONOUN/m_c/poss} consciousness faded right before {PRONOUN/m_c/poss} eyes, m_c knew {PRONOUN/m_c/subject} {VERB/m_c/were/was}beyond saving, as dehydration and overheating claimed the last bits of {PRONOUN/m_c/poss} strength.",
+        "history_text": {
+                        "reg_death": "m_c succumbed to dehydration and overheating."
+                        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,        
+        "other_rabbit_skill": null
+     },
+     {
+        "camp": "any",
+        "tags": [
+            "Spring", 
+            "Summer", 
+            "Autumn",
+            "other_rabbit",
+            "other_rabbit_mentor"
+        ],
+        "death_text": "r_r noticed m_c hadn't shown up for training again, yet after further prodding realized {PRONOUN/m_c/subject} hadn't been at camp for a few days. However, r_r never expected to find m_c like this: dead and dried out, their tattered pelt lifeless and dull.",
+        "history_text": {
+                        "reg_death": "m_c died due to dehydration and overheating."
+                        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,        
+        "other_rabbit_skill": null  
+     },
+     {
+        "camp": "any",
+        "tags": [
+         "Spring", 
+         "Summer", 
+         "Autumn",
+         "other_rabbit",
+         "other_rabbit_adult"
+        ],
+        "death_text": "r_r realizes {PRONOUN/r_r/subject} {VERB/r_r/haven't/hasn't} seen m_c around camp for a few days. Checking {PRONOUN/m_c/subject} favorite spots yields nothing, so r_r decides to go out and search for {PRONOUN/m_c/object} in the Clans' territory. However, r_r could never have expected to find m_c's shriveled-up body, clearly dead for some time now.",
+        "history_text": {
+                     "reg_death": "m_c died due to dehydration and heat exhaustion."
+                 },
+        "rabbit_trait": null,
+         "rabbit_skill": null,
+         "other_rabbit_trait": null,        
+         "other_rabbit_skill": null 
+     },
+     {
+        "camp": "any",
+        "tags": [
+         "Spring", 
+         "Summer", 
+         "Autumn",
+         "other_rabbit",
+         "other_rabbit_parent"
+        ],
+        "death_text": "r_r is frantic with worry; m_c, {PRONOUN/r_r/poss} child, hadn't been seen around camp, no matter who {PRONOUN/r_r/subject} asked and where {PRONOUN/r_r/subject} searched. It's not until r_r stumbles across m_c's body, withered under the sun, that, with a despairing sound, {PRONOUN/r_r/subject} {VERB/r_r/realize/realizes} {PRONOUN/r_r/poss} greatest fears have come true.",
+        "history_text": {
+                     "reg_death": "m_c shriveled up under the sun because of heat exhaustion and dehydration."
+                 },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,        
+        "other_rabbit_skill": null 
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring", 
+            "Summer", 
+            "Autumn"
+        ],
+        "death_text": "m_c couldn't speak, yell for help, or beg StarClan to give {PRONOUN/m_c/subject} a sign they were still with {PRONOUN/m_c/object}, {PRONOUN/m_c/poss}  tongue having swelled up inside {PRONOUN/m_c/poss} dried mouth. As m_c collapses, feeling {PRONOUN/m_c/poss} body internally shut down because of dehydration and heat exhaustion, {PRONOUN/m_c/subject} pray that {PRONOUN/m_c/poss} clanmates locate m_c's body before {PRONOUN/m_c/subject} become unrecognizable under the sun.",
+        "history_text": {
+                        "reg_death": "m_c was claimed by dehydration and heat exhaustion."
+                        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,        
+        "other_rabbit_skill": null
+     },
+     {
+        "camp": "any",
+        "tags": [
+            "Spring", 
+            "Summer", 
+            "Autumn",
+            "other_rabbit",
+            "other_rabbit_mentor"
+        ],
+        "death_text": "m_c knew {PRONOUN/m_c/subject} made a mistake, as {PRONOUN/m_c/subject} felt {PRONOUN/m_c/poss} last bits of strength slip away from {PRONOUN/m_c/object} and {PRONOUN/m_c/poss} heart stopped beating. {PRONOUN/m_c/poss/CAP} body only discovered days later, r_r wailing at the shriveled body of {PRONOUN/r_r/poss} apprentice, who succumbed to heat and dehydration.",
+        "history_text": {
+                        "reg_death": "m_c succumbed to dehydration and heat exhaustion."
+                        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,        
+        "other_rabbit_skill": null  
+     },
+     {
+        "camp": "any",
+        "tags": [
+         "Spring", 
+         "Summer", 
+         "Autumn",
+         "other_rabbit",
+         "other_rabbit_adult"
+        ],
+        "death_text": "It was purely accidental that r_r stumbled across m_c's decaying body in the sunlight, simply hoping to stretch {PRONOUN/r_r/poss} paws outside of camp. Now, r_r must explain to m_c's remaining family or friends that {PRONOUN/m_c/subject} {VERB/m_c/are/is} never returning home, having been caught unprepared under the treacherous sun.",
+        "history_text": {
+                     "reg_death": "m_c was caught outside unprepared for the heat, dying because of dehydration and overheating."
+                 },
+        "rabbit_trait": null,
+         "rabbit_skill": null,
+         "other_rabbit_trait": null,        
+         "other_rabbit_skill": null 
+     },
+     {
+        "camp": "any",
+        "tags": [
+         "Spring", 
+         "Summer", 
+         "Autumn",
+         "other_rabbit",
+         "other_rabbit_parent"
+        ],
+        "death_text": "m_c  never meant to meet StarClan this way, rotting away under the sun after fainting from dehydration, heat exhaustion, and overexertion. r_r tragically discovers {PRONOUN/m_c/poss} body, unable to stop {PRONOUN/r_r/poss} desperate wails at the site of {PRONOUN/r_r/poss} child's body.",
+        "history_text": {
+                     "reg_death": "m_c tragically died due to dehydration and overheating."
+                 },
+        "rabbit_trait": null,
+         "rabbit_skill": null,
+         "other_rabbit_trait": null,        
+         "other_rabbit_skill": null 
+     },
+     {
+        "camp": "any",
+        "tags": [
+         "Spring", 
+         "Summer", 
+         "Autumn",
+         "other_rabbit",
+         "other_rabbit_adult"
+        ],
+        "death_text": "r_r's mournful sounds pierced through c_n's territory as {PRONOUN/r_r/subject} stumble on the lifeless, decaying corpse of m_c. m_c had disappeared from camp days ago, having not returned, but only now did r_r understand why  {PRONOUN/r_r/poss} child didn't come back home; m_c was caught out in the treacherous sun, ill-prepared, succumbing to dehydration and exhaustion.",
+        "history_text": {
+                     "reg_death": "m_c died because of overheating and dehydration."
+                 },
+        "rabbit_trait": null,
+         "rabbit_skill": null,
+         "other_rabbit_trait": null,        
+         "other_rabbit_skill": null 
+     },
+     {
+        "camp": "any",
+        "tags": [
+         "Spring", 
+         "Summer", 
+         "Autumn",
+         "other_rabbit",
+         "other_rabbit_app",
+         "rc_to_mc",
+        "neg_romantic"
+        ],
+        "death_text": "m_c asked r_r to meet them at their unique spot, which r_r readily accepted and journeyed through the territory. Yet, with a heartbroken sound that clawed its way out of r_r's throat, {PRONOUN/r_r/subject} {VERB/r_r/stumble/stumbles} upon m_c's body, passing from dehydration; r_r curses m_c for tainting what could have been a good memory of {PRONOUN/r_r/inposs}.",
+        "history_text": {
+                     "reg_death": "m_c was caught unprepared out in the heat, dying due to dehydration and heatexhustion."
+                 },
+        "rabbit_trait": null,
+         "rabbit_skill": null,
+         "other_rabbit_trait": [
+                                "ambitious", 
+                                "bloodthirsty", 
+                                "cold", 
+                                "fierce", 
+                                "shameless", 
+                                "strict", 
+                                "troublesome", 
+                                "vengeful"
+        ],        
+         "other_rabbit_skill": null 
+     },
+     {
+        "camp": "any",
+        "tags": [
+         "Spring", 
+         "Summer", 
+         "Autumn",
+         "other_rabbit",
+         "other_rabbit_app"
+        ],
+        "death_text": "m_c asked r_r to meet them at their unique spot, which r_r readily accepted and journeyed through the territory. Yet, with a heartbroken sound that clawed its way out of r_r's throat, {PRONOUN/r_r/subject} {VERB/r_r/stumble/stumbles} upon m_c's body, passing from dehydration.",
+        "history_text": {
+                     "reg_death": "m_c was caught unprepared out in the heat, dying due to dehydration and heatexhustion."
+                 },
+        "rabbit_trait": null,
+         "rabbit_skill": null,
+         "other_rabbit_trait": null,        
+         "other_rabbit_skill": null 
+     },
+     {
+        "camp": "any",
+        "tags": [
+         "Spring", 
+         "Summer", 
+         "Autumn",
+         "other_rabbit",
+         "other_rabbit_app"
+        ],
+        "death_text": "m_c had invited r_r out days earlier, aiming to train and grow closer together. However, when r_r arrived, m_c never showed up; m_c wasn't seen around camp, nor had {PRONOUN/m_c/subject} been to training. It wasn't until r_r stumbles upon {PRONOUN/m_c/poss} body, the former succumbing to dehydration and exhaustion, that {PRONOUN/r_r/subject} understands why.",
+        "history_text": {
+                     "reg_death": "m_c was ill-prepared for the heat and succumbed to dehydration."
+                 },
+        "rabbit_trait": null,
+         "rabbit_skill": null,
+         "other_rabbit_trait": null,        
+         "other_rabbit_skill": null 
+     }
+]

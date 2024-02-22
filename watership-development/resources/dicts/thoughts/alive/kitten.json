@@ -1,0 +1,489 @@
+[
+    {
+        "id": "kitten_dead_kitten",
+        "thoughts": [
+            "Is wondering if r_r would have been {PRONOUN/m_c/poss} friend"
+        ],
+        "random_status_constraint": [
+            "kitten"
+        ],
+        "relationship_constraint": [
+            "stranger"
+        ],
+        "random_living_status": [
+            "Inlé"
+        ]
+    },
+    {
+        "id": "kitten_alive_elder",
+        "thoughts": [
+            "Was nipped on the rump by an elder for being naughty",
+            "Was thumped at by r_r for being too noisy",
+            "Asks r_r what it is like to be so old",
+            "Hopes r_r has a new story to tell {PRONOUN/m_c/object}",
+            "Hopes {PRONOUN/m_c/subject} {VERB/m_c/do/does}n't get as grumpy as r_r when {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} old"
+        ],
+        "random_status_constraint": [
+            "elder"
+        ]
+    },
+    {
+        "id": "gen_kitten",
+        "thoughts": [
+            "Plays moss ball by {PRONOUN/m_c/self}",
+            "Wonders who {PRONOUN/m_c/poss} rusasirah will be",
+            "Wants to take a nap",
+            "Tries to sneak out of camp",
+            "Is rolling around on the ground",
+            "Is chasing {PRONOUN/m_c/poss} tail",
+            "Is playing with a stick",
+            "Is nervous about growing up",
+            "Is excited to grow up",
+            "Is scared after having a nightmare",
+            "Wants to snuggle",
+            "Is bouncing around in excitement",
+            "Whines about being hungry",
+            "Is whining for milk",
+            "Is whimpering in {PRONOUN/m_c/poss} sleep",
+            "Is trying to growl menacingly",
+            "Is adamantly refusing to take {PRONOUN/m_c/poss} nap",
+            "Is kicking pebbles across the clearing",
+            "Is crying after rough-housing too hard with the older rabbits",
+            "Is regretting eating the bug that {PRONOUN/m_c/subject} caught",
+            "Recently took a tumble off of a log",
+            "Is busy mastering a battle move {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} performing incorrectly",
+            "Is hatching a plan to sneak out of the burrow and play",
+            "Is running like a whirlwind around the burrow",
+            "Is pretending to be the chief rabbit",
+            "Doesn't want to grow up yet...",
+            "Got in trouble for bringing thorns into the nest",
+            "Is sniffing a bug",
+            "Is hiding in the nursery",
+            "Has tiny little paws",
+            "Is extra fluffy today",
+            "Dreams about being captain",
+            "Is frightened after hearing a scary story",
+            "Wants to be big someday",
+            "Wants to have fun",
+            "Is playing pretend"
+        ]
+    },
+    {
+        "id": "kitten_older_rabbits",
+        "thoughts": [
+            "Is asking older rabbits how kittens are born",
+            "Wishes other rabbits would stop babying {PRONOUN/m_c/object}",
+            "Is hiding from other rabbits",
+            "Is annoying older rabbits",
+            "Is asking the older rabbits about how kittens are made",
+            "Is pestering older rabbits to play with {PRONOUN/m_c/object}"
+        ],
+        "random_age_constraint": [
+            "adolescent",
+            "young adult",
+            "adult",
+            "senior adult",
+            "senior"
+        ]
+    },
+    {
+        "id": "kitten_alive_med_rabbit",
+        "thoughts": [
+            "Refuses to eat the herbs the healer has given {PRONOUN/m_c/object} for {PRONOUN/m_c/poss} tummy",
+            "Hides in the healers herb stores",
+            "Is asking the healer about Inlé",
+            "Is asking the healer why all the herbs have to be stinky and gross",
+            "Wants to follow the healer everywhere"
+        ],
+        "random_status_constraint": [
+            "healer",
+            "healer rusasi"
+        ]
+    },
+    {
+        "id": "bouncy_kitten",
+        "thoughts": [
+            "Is pretending to be a homba and strutting about",
+            "Is pawing at r_r's tail from behind them",
+            "Wants to play forever",
+            "Is running circles around r_r",
+            "Is trying to catch {PRONOUN/m_c/poss} tail",
+            "Vows to never take another nap",
+            "Is racing around the clearing... again... and again",
+            "Is running in circles",
+            "Wants r_r to see how fast {PRONOUN/m_c/subject} can run",
+            "Wants r_r to see how far {PRONOUN/m_c/subject} can jump",
+            "Wants to race with r_r",
+            "Doesn't like naps",
+            "Claims {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} the fastest rabbit ever",
+            "Thinks {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} faster than a rabbit",
+            "Is begging r_r to play with {PRONOUN/m_c/object}"
+        ],
+        "main_trait_constraint": [
+            "bouncy"
+        ]
+    },
+    {
+        "id": "bullying_kitten",
+        "thoughts": [
+            "Knocks over r_r",
+            "Makes fun of r_r's insecurities",
+            "Is making a mean face at r_r",
+            "Says r_r is boring and no fun",
+            "Teases r_r all day long",
+            "Calls r_r stinky",
+            "Nips r_r",
+            "Is thinking about taking r_r's food",
+            "Is trying to look tough",
+            "Says pets can't be real rabbits",
+            "Says r_r's 'real' parents were rogues",
+            "Is starting rumors about r_r",
+            "Tells r_r that nobody likes {PRONOUN/r_r/object}",
+            "Is chewing everything {PRONOUN/m_c/subject} can get {PRONOUN/m_c/poss} teeth in"
+        ],
+        "main_trait_constraint": [
+            "bullying"
+        ]
+    },
+    {
+        "id": "charming_kitten",
+        "thoughts": [
+            "Is rolling around cutely while older rabbits look upon {PRONOUN/m_c/object}",
+            "Is rubbing up against the older rabbits' legs",
+            "Is hoping the patrol will come back with a special gift for {PRONOUN/m_c/object} like usual",
+            "Is trying to purr {PRONOUN/m_c/poss} way out of trouble with the healer",
+            "Is absolutely adorable",
+            "Is grinding softly",
+            "Is waiting patiently for {PRONOUN/m_c/poss} turn",
+            "Is always on {PRONOUN/m_c/poss} best behavior",
+            "Likes to help others",
+            "Wants to be everybunny's friend",
+            "Is asking r_r about {PRONOUN/r_r/poss} day",
+            "Is squeaky clean"
+        ],
+        "main_trait_constraint": [
+            "charming"
+        ]
+    },
+    {
+        "id": "daring_kitten",
+        "thoughts": [
+            "Is attempting to pounce on the tail of r_r",
+            "Tries to sneak out of warren with a patrol",
+            "Is boldly walking out of the burrow",
+            "Is taking the biggest leaf of cabbage",
+            "Demands to be on the next border patrol",
+            "Isn't scared of anything",
+            "Is climbing way too high",
+            "Is telling other rabbits that {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} the captain now",
+            "Wants to catch a pfeffa for once",
+            "Thinks {PRONOUN/m_c/subject} can outsmart a homba",
+            "Wants to guard the nursery",
+            "Is sure {PRONOUN/m_c/subject} could fight a lendri",
+            "Is sneaking into the chief rabbit's nest",
+            "Sticks {PRONOUN/m_c/poss} paw into an old snake hole",
+            "Isn't afraid of the dark at all"
+
+        ],
+        "main_trait_constraint": [
+            "daring"
+        ]
+    },
+    {
+        "id": "daydreamer_kitten",
+        "thoughts": [
+            "Thinks {PRONOUN/m_c/subject} saw the black rabbit of Inlé in {PRONOUN/m_c/poss} dreams",
+            "Is mesmerized by the night sky",
+            "Thinks {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} the chief rabbit of {PRONOUN/m_c/poss} own warren",
+            "Bosses around imaginary owsla as captain",
+            "Wonders what it would be like to be chief rabbit",
+            "Sorts blades of grass like a healer would",
+            "Stares into nothing in particular",
+            "Makes up a tale on the spot for the other kittens",
+            "Is annoying the elders for more tales",
+            "Wonders what the ancient warrens were like",
+            "Wonders what it would be like to live in a different warren",
+            "Is pretending to be captain of Ithérah's owsla",
+            "Wants r_r to pretend to be {PRONOUN/m_c/poss} rusasi",
+            "Is pretending to be a rock",
+            "Is going everywhere backwards today",
+            "Asks r_r if {PRONOUN/r_r/subject} like to daydream too",
+            "Is telling r_r another story, and another, and another, and...",
+            "Wonders what it would be like to have a fish for a tail",
+            "Wants to learn everything they can and more",
+            "Tells the best stories"
+        ],
+        "main_trait_constraint": [
+            "daydreamer"
+        ]
+    },
+    {
+        "id": "impulsive_kitten",
+        "thoughts": [
+            "Is streaking across the clearing",
+            "Is stuck on a rock... again",
+            "Is complaining of a tummy ache after eating too much",
+            "Is awfully close to getting a nip on the rump for misbehaving",
+            "Is waiting for an opportunity to sprint out of sight",
+            "Is tired of waiting to be big",
+            "Doesn't think twice about anything",
+            "Speaks without thinking and gets scolded for being rude",
+            "Doesn't have time to listen to rules",
+            "Is rushing off without listening again",
+            "Asks for forgiveness, not permission",
+            "Isn't listening at all",
+            "Wasn't paying attention and tripped",
+            "Ate a bug",
+            "Has SO much energy",
+            "Is zooming around"
+        ],
+        "main_trait_constraint": [
+            "impulsive"
+        ]
+    },
+    {
+        "id": "nervous_kitten",
+        "thoughts": [
+            "Was startled by a croaking frog",
+            "Is doing {PRONOUN/m_c/poss} best not to get stepped on",
+            "Is trying to stop {PRONOUN/m_c/poss} paws from shaking",
+            "Is nervous about leaving {PRONOUN/m_c/poss} siblings",
+            "Doesn't want to be big yet",
+            "Is thinking about how nervous {PRONOUN/m_c/subject} {VERB/m_c/are/is}",
+            "Is worrying about {PRONOUN/m_c/poss} family and friends",
+            "Is trying to be brave",
+            "Is worried about making mistakes",
+            "Is feeling shaky",
+            "Is worried that {PRONOUN/m_c/subject} won't do a good enough job",
+            "Is trying not to shake with nerves",
+            "Is trying to stay calm",
+            "Wants to stay in {PRONOUN/m_c/poss} den a little longer",
+            "Is reminding {PRONOUN/m_c/self} that it will be okay",
+            "Is scared of r_r",
+            "Recently jumped at the sight of {PRONOUN/m_c/poss} own shadow",
+            "Is having trouble falling asleep",
+            "Is crying quietly",
+            "Is too overwhelmed lately",
+            "Is hiding from everybunny",
+            "Is worried about r_r",
+            "Has tears in {PRONOUN/m_c/poss} eyes",
+            "Never wants to leave the burrow when {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} older",
+            "Asks r_r if it's safe",
+            "Is checking on r_r",
+            "Hopes there is enough food for everybunny",
+            "Has a lot on {PRONOUN/m_c/poss} mind"
+        ],
+        "main_trait_constraint": [
+            "nervous"
+        ]
+    },
+    {
+        "id": "quiet_kitten",
+        "thoughts": [
+            "Is too good at playing hide-and-seek",
+            "Is asked to speak up",
+            "Plays quietly alone with a feather in front of the nursery",
+            "Is very excited for {PRONOUN/m_c/poss} nap",
+            "Doesn't have much to say",
+            "Is happy being alone sometimes",
+            "Thinks r_r is too loud",
+            "Purrs quietly to {PRONOUN/m_c/self}",
+            "Doesn't make a sound today",
+            "Is acting very shy",
+            "Is playing by {PRONOUN/m_c/self}",
+            "Is yawning again",
+            "Is hiding behind r_r",
+            "Doesn't want to play right now",
+            "Is very sleepy",
+            "Doesn't like to squeal",
+            "Finds somewhere comfy to nap"
+        ],
+        "main_trait_constraint": [
+            "quiet"
+        ]
+    },
+    {
+        "id": "sweet_kitten",
+        "thoughts": [
+            "Is pretending to be the healer",
+            "Plucks petals from a marigold to add to nests",
+            "Offers to leave the burrow to collect moss, but can't, because {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} a kitten",
+            "Compliments an older rabbit on how their fur looks today",
+            "Wants to help others",
+            "Is so very cute",
+            "Has a cute little nose",
+            "Twitches {PRONOUN/m_c/poss} whiskers",
+            "Is checking on other rabbits",
+            "Wants r_r to be happy",
+            "Binkies all day long",
+            "Has soft paws",
+            "Wouldn't hurt a fly",
+            "Wonders how r_r is feeling today",
+            "Cheers r_r on",
+            "Is the cutest kitten in the warren",
+            "Loves to be helpful"
+        ],
+        "main_trait_constraint": [
+            "sweet"
+        ]
+    },
+    {
+        "id": "troublesome_kitten",
+        "thoughts": [
+            "Is thinking about mischief",
+            "Is wondering what trouble {PRONOUN/m_c/subject} can create",
+            "Is wondering about the unknown",
+            "Is planning to be naughty",
+            "Is thinking about being in trouble",
+            "Is trying to get out of trouble",
+            "Is scrambling the healers herbs",
+            "Is thinking of how to cause trouble",
+            "Is planning to annoy an elder",
+            "Is trying very hard to look innocent",
+            "Is thinking about play-fighting with {PRONOUN/m_c/poss} littermates",
+            "Is putting thorns in r_r's bedding",
+            "Is thinking about stealing herbs from the healing den",
+            "Is sneaking out of the burrow",
+            "Is saying bad words",
+            "Is tripping other rabbits",
+            "Jumps out of a hiding spot, startling r_r",
+            "Is taking the bedding from other rabbits nests",
+            "Is up to no good... again",
+            "Splashes around in a puddle, getting r_r all wet",
+            "Is not allowed to leave the nursery for the rest of the day after pranking r_r",
+            "Is trying to scare r_r",
+            "Is covered in mud"
+        ],
+        "main_trait_constraint": [
+            "troublesome"
+        ]
+    },
+    {
+        "id": "lonesome_kitten",
+        "thoughts": [
+            "Is feeling alone",
+            "Wishes {PRONOUN/m_c/subject} had friends",
+            "Wants somebunny to talk to",
+            "Doesn't understand why {PRONOUN/m_c/subject} {VERB/m_c/are/is} always left out",
+            "Hopes to make a friend today",
+            "Is talking to some bugs",
+            "Is sitting all alone",
+            "Wants to be friends with r_r but doesn't know how",
+            "Wonders what it's like to be a hlessi",
+            "Wants to stay in {PRONOUN/m_c/poss} nest today",
+            "Thought about talking to r_r but changed {PRONOUN/m_c/poss} mind"
+        ],
+        "main_trait_constraint": [
+            "lonesome"
+        ]
+    },
+    {
+        "id": "attention-seeker_kitten",
+        "thoughts": [
+            "Wakes r_r in the middle of the night to ask a question about snails",
+            "Wakes up early to say hello to the dawn patrol",
+            "Follows r_r around so closely that {PRONOUN/m_c/subject} step on {PRONOUN/r_r/poss} paw",
+            "Says hello to r_r at least 10 times in a row, until {PRONOUN/r_r/subject} finally {VERB/r_r/say/says} hello back",
+            "Is showing everybunny the bug {PRONOUN/m_c/subject} caught earlier",
+            "Is in r_r's way... again",
+            "Squeals loudly in the middle of the clearing for absolutely no reason",
+            "Begs for life-saving herbs to cure {PRONOUN/m_c/poss} minor scrape",
+            "Is calling a warren meeting, before r_r rudely interrupts {PRONOUN/m_c/object}"
+        ],
+        "main_trait_constraint": [
+            "attention-seeker"
+        ]
+    },
+    {
+        "id": "noisy_kitten",
+        "thoughts": [
+            "Is practicing a mighty roar",
+            "Squeals as loud as {PRONOUN/m_c/subject} can",
+            "Challenges r_r to a squeal-off",
+            "Loudly explains why being quiet is super boring",
+            "Honk honk honk honk honk honk honk honk honk honk",
+            "Was asked many times to please, please be quiet",
+            "Is purring loudly",
+            "Wakes r_r from a perfectly good nap with {PRONOUN/m_c/poss} incessant grunting",
+            "Doesn't know why everybunny wants to be quiet all the time. No fun!",
+            "Wakes up early to sing with the birds",
+            "Is practicing bird calls"
+        ],
+        "main_trait_constraint": [
+            "noisy"
+        ]
+    },
+    {
+        "id": "insecure_kitten",
+        "thoughts": [
+            "Doesn't think {PRONOUN/m_c/subject} will ever be a good rabbit",
+            "Thinks r_r doesn't like {PRONOUN/m_c/object}",
+            "Is too shy to go to the food pile alone",
+            "Hides sheepishly behind r_r",
+            "Is afraid other rabbits will think {PRONOUN/m_c/subject} {VERB/m_c/are/is} silly",
+            "Doesn't want to grow up because {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} afraid of disappointing the warren",
+            "Hates making mistakes",
+            "Is afraid of being in the way"
+        ],
+        "main_trait_constraint": [
+            "insecure"
+        ]
+    },
+    {
+        "id": "polite_kitten",
+        "thoughts": [
+            "Always says please and thank you",
+            "Is making sure not to be in anybunny's way",
+            "Asks r_r if {PRONOUN/m_c/subject} can help with something",
+            "Is keeping {PRONOUN/m_c/poss} fur nice and clean",
+            "Would never dream of being in trouble",
+            "Is quiet when other rabbits are talking",
+            "Is being very patient today",
+            "Wants to always do the right thing",
+            "Is extra quiet during warren meetings... even though {PRONOUN/m_c/subject} should be in the nursery",
+            "Is helping clean out the nursery"
+        ],
+        "main_trait_constraint": [
+            "polite"
+        ]
+    },
+    {
+        "id": "know-it-all_kitten",
+        "thoughts": [
+            "Has already learned every plant",
+            "Doesn't need r_r to tell them anything",
+            "Tells r_r a fact about snails, and another, and another...",
+            "Is able to name 20 kinds of bird",
+            "Memorized the rules ages ago",
+            "Corrects r_r on something trivial",
+            "Swears {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} never, EVER, wrong about ANYTHING",
+            "Is reciting facts about different kinds of beetles in the middle of the burrow",
+            "Tells r_r that {PRONOUN/r_r/subject} should really know more about different kinds of moss by now",
+            "Is shocked r_r doesn't know more about slugs",
+            "Is practicing identifying different types of leaves",
+            "Thinks {PRONOUN/m_c/subject} {VERB/m_c/are/is} smarter than r_r"
+        ],
+        "main_trait_constraint": [
+            "know-it-all"
+        ]
+    },
+    {
+        "id": "bossy_kitten",
+        "thoughts": [
+            "Can't wait to be captain so {PRONOUN/m_c/subject} can assign patrols",
+            "Tells r_r to find {PRONOUN/m_c/object} extra juicy veggies",
+            "Wants to be chief rabbit so everybunny will have to listen to {PRONOUN/m_c/object} all the time",
+            "Tells r_r to change the bedding in the nursery",
+            "Tells r_r to play with {PRONOUN/m_c/object}",
+            "Is mad no one will listen to {PRONOUN/m_c/object}",
+            "Is in trouble for ordering rabbits around again",
+            "Never says please or thank you",
+            "Is rushing r_r",
+            "Tells r_r to hurry up already"
+        ],
+        "main_trait_constraint": [
+            "bossy"
+        ]
+    }
+]
+

@@ -1,0 +1,106 @@
+[
+	{
+		"id": "jel_de_low1",
+		"intensity": "low",
+		"interactions": [
+			"m_c thinks r_r is very helpful!"
+		]
+	},
+	{
+		"id": "jel_de_med1",
+		"interactions": [
+			"m_c surprises r_r with something nice."
+		]
+	},
+	{
+		"id": "jel_de_med2",
+		"interactions": [
+			"m_c swaps favorite prey with r_r."
+		],
+		"reaction_random_cat": {
+			"jealousy": "decrease"
+		}
+	},
+	{
+		"id": "jel_de_med3",
+		"interactions": [
+			"m_c always thought r_r had it all figured out, so {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} surprised when r_r asks for help."
+		],
+		"main_status_constraint": [
+			"kitten",
+			"apprentice",
+			"owsla apprentice",
+			"healer apprentice",
+			"warrior"
+		],
+		"random_status_constraint": [
+			"warrior",
+			"elder",
+			"healer",
+			"owsla",
+			"deputy"
+		]
+	},
+	{
+		"id": "jealousy_app_de_med1",
+		"interactions": [
+			"m_c has been listening to r_r talk about how hard training has been.",
+			"m_c comforts r_r after a hard day's training."
+		],
+		"main_status_constraint": [
+			"apprentice",
+			"owsla apprentice",
+			"healer apprentice"
+		],
+		"random_status_constraint": [
+			"healer apprentice",
+			"apprentice",
+			"owsla apprentice"
+		],
+		"reaction_random_cat": {
+			"comfortable": "increase",
+			"platonic": "increase"
+		},
+		"also_influences": {
+			"platonic": "increase"
+		}
+	},
+	{
+		"id": "jealousy_app_de_med2",
+		"interactions": [
+			"m_c has been listening to r_r talk about how difficult herb memorization is.",
+			"m_c helps r_r wash mouse bile off of {PRONOUN/r_r/poss} paws."
+		],
+		"main_status_constraint": [
+			"apprentice",
+			"owsla apprentice",
+			"healer apprentice"
+		],
+		"random_status_constraint": [
+			"healer apprentice"
+		],
+		"reaction_random_cat": {
+			"comfortable": "increase"
+		},
+		"also_influences": {
+			"admiration": "increase"
+		}
+	},
+	{
+		"id": "jel_de_high1",
+		"intensity": "high",
+		"interactions": [
+			"m_c is really surprised that r_r's life isn't as easy as {PRONOUN/m_c/subject} thought it was."
+		]
+	},
+	{
+		"id": "jel_de_high2",
+		"intensity": "high",
+		"interactions": [
+			"m_c sees that r_r's piece of prey looks tastier and asks if {PRONOUN/r_r/subject}'d like to swap. {PRONOUN/r_r/subject/CAP} {VERB/r_r/agree/agrees} happily, saying {PRONOUN/r_r/subject} {VERB/r_r/like/likes} that one better."
+		],
+		"reaction_random_cat": {
+			"jealousy": "decrease"
+		}
+	}
+]

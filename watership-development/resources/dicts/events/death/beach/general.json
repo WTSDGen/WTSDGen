@@ -1,0 +1,123 @@
+[
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "no_body"
+        ],
+        "death_text": "m_c was washed out to sea, never to be seen again.",
+        "history_text": {
+            "reg_death": "m_c was washed out to sea."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "death_text": "m_c was poisoned by a sea creature and died.",
+        "history_text": {
+            "reg_death": "m_c was killed by a poisonous sea creature."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_injure",
+            "water in their lungs",
+            "shock",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "no_body",
+            "rc_to_mc",
+            "platonic",
+            "neg_dislike",
+            "respect",
+            "trust"
+        ],
+        "death_text": "m_c was lost to the sea while trying to save r_r from drowning.",
+        "history_text": {
+            "reg_death": "m_c was lost to the sea while trying to save r_r."
+        },
+        "rabbit_trait": [
+            "altruistic",
+            "bold",
+            "ambitious",
+            "compassionate",
+            "daring",
+            "confident",
+            "fierce",
+            "loyal",
+            "loving",
+            "empathetic",
+            "responsible"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Summer",
+            "classic"
+        ],
+        "death_text": "m_c died from dehydration and heat stroke.",
+        "history_text": {
+            "reg_death": "m_c died of dehydration and heat stroke."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "camp3",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "no_body"
+        ],
+        "death_text": "m_c found {PRONOUN/m_c/self} staring at an odd shadow in the sea. One distracted paw slipped and {PRONOUN/m_c/subject} fell into the waves where something large and unseen tangled around {PRONOUN/m_c/object}, dragging {PRONOUN/m_c/object} into the abyss. ",
+        "history_text": {
+            "reg_death": "m_c was taken by a mysterious sea creature."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "war"
+        ],
+        "death_text": "m_c drowned after being pushed out to sea by o_c warriors.",
+        "history_text": {
+            "reg_death": "m_c was pushed out to sea by enemy warriors."
+        }
+    }
+]

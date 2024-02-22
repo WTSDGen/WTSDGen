@@ -1,0 +1,383 @@
+[
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c is scolded after sneaking out of camp.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_adult",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c falls into a river, but is saved by r_r.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c was playing with acc_plural earlier, and decides to wear some of them.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null,
+        "accessories": [
+            "RED FEATHERS",
+            "BLUE FEATHERS",
+            "JAY FEATHERS"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "other_rabbit_parent",
+            "other_rabbit",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "No matter how hard r_r tries, there's always something stuck in m_c's fur.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null,
+        "accessories": [
+            "HERBS",
+            "PETALS",
+            "DRY HERBS"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "other_rabbit",
+            "to_both",
+            "platonic",
+            "comfort",
+            "trust",
+            "respect",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c is just too cute - r_r gives {PRONOUN/m_c/object} a pretty acc_singular as a gift.",
+        "rabbit_trait": [
+            "sweet",
+            "polite"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null,
+        "accessories": [
+            "WILD",
+            "PLANT"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_kit",
+            "to_both",
+            "platonic",
+            "comfort",
+            "trust",
+            "neg_dislike",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "r_r gives m_c a pretty acc_singular {PRONOUN/r_r/subject} found while playing.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null,
+        "accessories": [
+            "WILD",
+            "PLANT"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_kit",
+            "to_both",
+            "dislike",
+            "jealousy",
+            "neg_platonic",
+            "neg_trust",
+            "neg_comfort",
+            "neg_respect",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c starts bringing a pretty acc_singular everywhere {PRONOUN/m_c/subject} {VERB/m_c/go/goes}, and r_r loudly complains that {PRONOUN/r_r/subject} {VERB/r_r/want/wants} one, too.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "bullying",
+            "impulsive",
+            "attention-seeker"
+        ],
+        "other_rabbit_skill": null,
+        "accessories": [
+            "WILD",
+            "PLANT"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "other_rabbit",
+            "other_rabbit_parent"
+        ],
+        "event_text": "m_c finds some acc_singular to wear in {PRONOUN/m_c/poss} fur to impress r_r!",
+        "rabbit_trait": [
+            "attention-seeker",
+            "charming"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null,
+        "accessories": [
+            "WILD",
+            "PLANT"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "other_rabbit",
+            "other_rabbit_kit",
+            "to_both",
+            "platonic",
+            "comfort",
+            "trust"
+        ],
+        "event_text": "m_c and r_r sneak out of camp to chase butterflies.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Autumn",
+            "other_rabbit",
+            "other_rabbit_kit",
+            "to_both",
+            "platonic",
+            "comfort",
+            "trust"
+        ],
+        "event_text": "m_c and r_r play with the leaves around the camp.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Summer",
+            "other_rabbit",
+            "other_rabbit_kit",
+            "to_both",
+            "platonic",
+            "comfort",
+            "trust"
+        ],
+        "event_text": "m_c and r_r chase fireflies around the camp, while the older warriors try to sleep.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter",
+            "other_rabbit",
+            "other_rabbit_kit",
+            "to_both",
+            "platonic",
+            "comfort",
+            "trust"
+        ],
+        "event_text": "m_c and r_r make little snow lumps at the entrance to the camp.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter",
+            "other_rabbit",
+            "other_rabbit_kit",
+            "to_both",
+            "platonic",
+            "comfort",
+            "trust"
+        ],
+        "event_text": "m_c and r_r flick snow at the older warriors, giggling as they hide behind the nursery.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "other_rabbit",
+            "other_rabbit_kit"
+        ],
+        "event_text": "m_c and r_r try to sneak out of camp, but are caught and returned to the nursery.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Summer",
+            "Spring"
+        ],
+        "event_text": "m_c picks some flowers around the camp to bring back to the medicine den.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Summer"
+        ],
+        "event_text": "m_c chases fireflies around the camp, while the older warriors sleep.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Autumn",
+            "other_rabbit",
+            "other_rabbit_kit",
+            "to_both",
+            "platonic",
+            "comfort",
+            "trust"
+        ],
+        "event_text": "m_c and r_r lead a small leaf-gathering hunt, which the adult cats watch with amused purrs.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "war",
+            "clan_kits",
+            "other_rabbit",
+            "other_rabbit_parent",
+            "mc_to_rc",
+            "comfort"
+        ],
+        "event_text": "m_c is being comforted by r_r after having nightmares about the big, bad o_c cats."
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer"
+        ],
+        "event_text": "m_c caught an insect while sneaking outside of the camp and proudly wears its wings as a trophy of {PRONOUN/m_c/poss} journey.",
+        "accessories": [
+            "MOTH WINGS",
+            "CICADA WINGS"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags":[
+            "Autumn"
+        ],
+        "event_text": "As the wind brings many fallen leaves in the camp, m_c picks a acc_singular to decorate {PRONOUN/m_c/poss} pelt.",
+        "accessories": [
+            "OAK LEAVES",
+            "MAPLE LEAF"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring"
+        ],
+        "event_text": "As the wind blows many petals in the camp, m_c picks a few to decorate {PRONOUN/m_c/self}.",
+        "accessories": [
+            "PETALS"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Leafbare"
+        ],
+        "event_text": "m_c sneaked out of camp, and brought back with them some acc_singular from when {PRONOUN/m_c/poss} fur got snagged in a bush.",
+        "accessories": [
+            "HOLLY",
+            "JUNIPER"
+        ]
+    }
+]

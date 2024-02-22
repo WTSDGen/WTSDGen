@@ -1,0 +1,131 @@
+[
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "death_text": "m_c died in a training accident.",
+        "history_text": {
+            "reg_death": "m_c died in a training accident."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "other_warren",
+            "hostile",
+            "neutral",
+            "rel_down",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "death_text": "m_c was killed by o_c warriors when {PRONOUN/m_c/subject} accidentally wandered over the border.",
+        "history_text": {
+            "reg_death": "m_c was killed by o_c warriors after accidentally trespassing."
+        },
+        "rabbit_trait": [
+            "nervous",
+            "strange",
+            "childish",
+            "troublesome",
+            "lonesome"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "other_warren",
+            "hostile",
+            "neutral",
+            "rel_down",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "death_text": "m_c was killed by o_c warriors after deliberately going over the border.",
+        "history_text": {
+            "reg_death": "m_c was killed by o_c warriors after deliberately trespassing."
+        },
+        "rabbit_trait": [
+            "daring",
+            "bold",
+            "confident",
+            "playful",
+            "fierce",
+            "ambitious",
+            "bloodthirsty",
+            "fierce",
+            "shameless",
+            "troublesome",
+            "vengeful",
+            "strange",
+            "sneaky"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "other_warren",
+            "hostile",
+            "neutral",
+            "rel_down",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "death_text": "m_c died in a border skirmish against o_c.",
+        "history_text": {
+            "reg_death": "m_c died in a border skirmish against o_c."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "multi_death",
+            "other_rabbit_app",
+            "other_warren",
+            "hostile",
+            "neutral",
+            "rel_down",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "death_text": "m_c and r_r are killed in a border skirmish against o_c.",
+        "history_text": {
+            "reg_death": "m_c died in a border skirmish against o_c."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null,
+        "rabbit_negate_skill": [
+            "FIGHTER,2"
+        ],
+        "other_rabbit_negate_skill": [
+            "great fighter",
+            "excellent fighter"
+        ]
+    }
+]

@@ -1,0 +1,1010 @@
+{
+  "virtues": {
+    "comment": "THIS DICT DOES NOTHING - it's purely here for quick reference of some possible virtues, you are not constrained to using these nor should you use these lists",
+    "queen_virtues": ["affection", "compassion", "empathy", "duty", "protection", "pride"],
+    "rabbit_virtues": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"],
+    "kit_virtues": ["adventure", "curiosity", "forgiveness", "hope", "perspective", "protection"],
+    "app_virtues": ["happiness", "honesty", "humor", "justice", "mentoring", "trust"],
+    "elder_virtues": ["empathy", "grace", "humility", "integrity", "persistence", "resilience"],
+    "med_rabbit_virtues": ["clear sight", "devotion", "faith", "healing", "patience", "selflessness", "wisdom"],
+    "prev_lead_virtues": ["endurance in the face of hardship", "knowing when to fight and when to choose peace", "leadership through the darkest times", "loyalty to {PRONOUN/m_c/poss} warren", "the strength to overcome {PRONOUN/m_c/poss} fears", "tireless energy"]
+  },
+  
+  "intros": {
+    "default": {
+      "tags": [],
+      "lead_trait": [],
+      "text": [
+        "m_c {VERB/m_c/close/closes} {PRONOUN/m_c/poss} eyes and {VERB/m_c/are/is} immediately surrounded by {PRONOUN/m_c/poss} fire and shadow, light and dark."
+      ]
+    },
+    "new_warren": {
+      "tags": ["new_warren"],
+      "lead_trait": [],
+      "text": [
+        "As m_c dreams that night, {PRONOUN/m_c/subject} {VERB/m_c/find/finds} {PRONOUN/m_c/self} surrounded by light and shadow, light and dark. A ghostly landscape surrounds {PRONOUN/m_c/object} and a single black rabbit sat within a clearing."
+      ]
+    },
+    "bloodthirsty": {
+      "tags": [],
+      "lead_trait": ["bloodthirsty"],
+      "text": [
+            "As m_c dreams that night, {PRONOUN/m_c/subject} {VERB/m_c/find/finds} {PRONOUN/m_c/self} surrounded by light and shadow, light and dark. A ghostly landscape surrounds {PRONOUN/m_c/object} and a single black rabbit sat within a clearing, ears pinned back in agitation."
+      ]
+
+    }
+  },
+
+  "default_life": {
+          "text": "r_r approaches, dipping {PRONOUN/r_r/poss} head in greeting. \"I grant you [virtue].\" {PRONOUN/r_r/subject/CAP} {VERB/r_r/meow/meows}, before slipping back into the crowd.",
+          "virtue": ["energy", "strength", "wisdom"]
+        },
+
+  "lives": {
+    "only_guide": {
+      "tags": ["new_warren", "guide"],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": [],
+      "life_giving": [
+        {
+          "text": "The black rabbit approaches {PRONOUN/m_c/object} and, although the rabbit is unfamiliar, their meeting still feels like a reunion with an old friend. \"You recognize me, don't you? You meet me tonight, but the rabbits under your care will all meet me one day when they join Frith. For now,\" the rabbit presses {PRONOUN/r_r/poss} nose to m_c's forehead, \"Take this gift, to help you [virtue].\"",
+          "virtue": ["endure in the face of hardship", "know when to fight and when to choose peace", "have the strength to overcome your fears", "lead with tireless energy", "see the dawn behind the darkness", "find wisdom in desperate times"]
+        }
+      ]
+    },
+
+    "unknown_ghosts": {
+      "tags": ["unknown_blessing"],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": [],
+      "life_giving": [
+        {
+          "text": "Suddenly, the mist at the edge of the clearing takes shape. Dozens of wispy spirits from the Black Rabbit's own owsla emerge, quickly surrounding m_c. \"We grant you your remaining [life_num] virtues.\"  Individually, each voice is distant, but together, the force of their words shakes m_c to {PRONOUN/m_c/poss} core.  \"Use them well, with our blessing.\"  And in a heartbeat, they were gone.",
+          "virtue": []
+        }
+      ]
+    },
+
+    "benevolent_adult": {
+      "tags": [],
+      "lead_trait": [],
+      "star_trait": ["faithful", "loving", "responsible", "thoughtful", "wise", "charismatic"],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "r_r pads up to the new chief rabbit, softly touching {PRONOUN/r_r/poss} nose to m_c's head. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} the virtue of [virtue].",
+          "virtue": ["affection", "compassion", "empathy", "duty", "protection", "pride"]
+        }
+      ]
+    },
+
+    "parent": {
+      "tags": ["chief_rabbit_parent"],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "young rabbit", "captain", "healer rusasi", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "m_c is breathless when {PRONOUN/m_c/subject} {VERB/m_c/see/sees} r_r approach. Fierce pride burns in r_r's eyes as {PRONOUN/r_r/subject} {VERB/r_r/greet/greets} {PRONOUN/r_r/poss} child, pressing {PRONOUN/r_r/poss} nose to m_c's forehead and giving {PRONOUN/m_c/object} the virtue of [virtue].",
+          "virtue": ["courage in the face of hardship", "unconditional love", "compassion", "protection", "endurance through thick and thin", "empathy", "pride", "forgiveness"]
+        }
+      ]
+    },
+
+    "parent_exiled": {
+      "tags": ["chief_rabbit_parent"],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": ["exiled"],
+      "life_giving": [
+        {
+          "text": "m_c is breathless when {PRONOUN/m_c/subject} {VERB/m_c/see/sees} r_r approach. Fierce pride, and a bit of guilt, burns in r_r's eyes as {PRONOUN/r_r/subject} {VERB/r_r/greet/greets} {PRONOUN/r_r/poss} child, pressing {PRONOUN/r_r/poss} nose to m_c's forehead and giving {PRONOUN/m_c/object} the virtue of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/whisper/whispers} a quick apology for what {PRONOUN/r_r/subject}{VERB/r_r/'ve'/'s'} done, before {PRONOUN/r_r/subject} {VERB/r_r/turn/turns} and {VERB/r_r/walk/walks} back into the gloom.",
+          "virtue": ["courage in the face of hardship", "unconditional love", "compassion", "protection", "endurance through thick and thin", "empathy", "pride", "forgiveness"]
+        }
+      ]
+    },
+    
+    "child": {
+      "tags": ["chief_rabbit_child"],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "young rabbit", "captain", "healer rusasi", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "It feels like a dream when r_r emerges from the star-filled crowd. m_c can barely stand {PRONOUN/m_c/poss} ground, resisting the temptation to run forward and press into {PRONOUN/m_c/poss} kitten's fur. Love shines in r_r's eyes as {PRONOUN/r_r/subject} {VERB/r_r/give/gives} the virtue of [virtue].",
+          "virtue": ["courage in the face of hardship", "unconditional love", "compassion", "protection", "endurance through thick and thin", "empathy", "pride", "forgiveness"]
+        }
+      ]
+    },
+    
+    "benevolent_adult_bloodthirsty_lead": {
+      "tags": [],
+      "lead_trait": ["bloodthirsty"],
+      "star_trait": ["faithful", "loving", "responsible", "thoughtful", "wise", "charismatic"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "young rabbit", "captain", "healer rusasi", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "r_r stalks up to the new chief rabbit, eyes burning with unexpected ferocity. {PRONOUN/r_r/subject/CAP} {VERB/r_r/touch/touches} {PRONOUN/r_r/poss} nose to m_c's head, giving {PRONOUN/m_c/object} the virtue of [virtue]. m_c reels back with the emotion of the emotions that course through {PRONOUN/m_c/object}.",
+          "virtue": ["affection", "compassion", "empathy", "duty", "protection", "pride"]
+        }
+      ]
+    },
+
+    "default_rabbit": {
+      "tags": [],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": ["rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "r_r walks up to m_c, offering the virtue of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/smile/smiles}, and {VERB/r_r/state/states} that the warren will do well under m_c's leadership.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "r_r steps forward to give m_c the virtue of [virtue]. m_c grits {PRONOUN/m_c/poss} teeth as the life rushes into {PRONOUN/m_c/object}.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "r_r dips {PRONOUN/r_r/poss} head in greeting. Energy surges through m_c's pelt as {PRONOUN/m_c/subject} {VERB/m_c/receive/receives} the virtue of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/reassure/reassures} m_c that {PRONOUN/m_c/subject} {VERB/m_c/are/is} almost done.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+    "rabbit_bloodthirsty_lead": {
+      "tags": [],
+      "lead_trait": ["bloodthirsty"],
+      "star_trait": [],
+      "rank": ["rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "r_r walks up to m_c, giving {PRONOUN/m_c/object} the virtue of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/pause/pauses}, then {VERB/r_r/shake/shakes} {PRONOUN/r_r/poss} head, heading back into the ranks of Inlé.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "A new rabbit approaches. r_r steps forward to give m_c the virtue of [virtue]. m_c yowls in pain as the life rushes into {PRONOUN/m_c/object}.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "r_r approaches. Pain surges through m_c's pelt as {PRONOUN/m_c/subject} receive the virtue of [virtue]. r_r watches dispassionately.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+    
+    "adventurous_rabbit": {
+      "tags": [],
+      "lead_trait": ["adventurous"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy", "medicine rabbit young rabbit", "owsla young rabbit"],
+      "life_giving": [
+        {
+          "text": "r_r waltzes up to m_c's side like a whirlwind, {PRONOUN/r_r/poss} fur sticking up in all angles. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} the new chief rabbit the virtue of [virtue] before dashing off into the crowd of starlight.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "r_r presses {PRONOUN/r_r/poss} nose to m_c's forehead, offering the virtue of [virtue]. Before {PRONOUN/r_r/subject} {VERB/r_r/return/returns} to the line of Inlé rabbits, {PRONOUN/r_r/subject} {VERB/r_r/whisper/whispers} to keep an eye on c_n, not just the horizons.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "After giving a small lecture on the blessings and curses of being so open minded to what lay beyond the border, r_r happily gives m_c the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+
+    "ambitious_rabbit": {
+      "tags": [],
+      "lead_trait": ["ambitious"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy", "medicine rabbit young rabbit", "owsla young rabbit"],
+      "life_giving": [
+        {
+          "text": "r_r steps in front of m_c, a worried look crossing {PRONOUN/r_r/poss} features for a moment before {PRONOUN/r_r/subject} {VERB/r_r/shake/shakes} {PRONOUN/r_r/poss} head. {PRONOUN/r_r/subject/CAP} {VERB/r_r/press/presses} {PRONOUN/r_r/poss} muzzle against m_c's and give the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "With a calm whisper that m_c should keep {PRONOUN/m_c/poss} ambitions in check and not lose {PRONOUN/m_c/self} to greed, r_r delivers the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+  
+  	"bold_rabbit": {
+      "tags": [],
+      "lead_trait": ["bold"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy", "medicine rabbit young rabbit", "owsla young rabbit"],
+      "life_giving": [
+        {
+          "text": "Knowing that c_n may tread upon new ground under m_c's leadership, r_r carefully gives the virtue of [virtue] and urges caution before being so bold.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "r_r grunts out a warning to the new chief rabbit to not be so thick-headed in the future. Bold action can yield victory, but would the cost of life be worth it? r_r lets the question sink in after giving the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "r_r gave m_c a searching look, hesitation crossing {PRONOUN/r_r/poss} features before placing {PRONOUN/r_r/poss} muzzle against m_c's head. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} the virtue of [virtue] and stepped away as quietly as {PRONOUN/r_r/subject} came.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+  
+    "calm_rabbit": {
+      "tags": [],
+      "lead_trait": ["calm"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy", "medicine rabbit young rabbit", "owsla young rabbit"],
+      "life_giving": [
+        {
+          "text": "With a graceful gait, r_r treads forward, {PRONOUN/r_r/poss} serene presence washing over m_c like one would be put under a spell. In the moment of peace, r_r tenderly extends an offer; a life infused with the essence of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "Paws treading softly, as if the very ground beneath recognizes {PRONOUN/r_r/poss} sacred touch, r_r gracefully navigates the hallowed path that leads to m_c. In the depths of {PRONOUN/r_r/poss} tranquil gaze, a reflection of countless moons shines forth, a testament to the unmatched wisdom that resides within. {PRONOUN/r_r/subject/CAP} inches forward, offering the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+  
+    "careful_rabbit": {
+      "tags": [],
+      "lead_trait": ["careful"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy", "medicine rabbit young rabbit", "owsla young rabbit"],
+      "life_giving": [
+        {
+          "text": "r_r steps forward to m_c, holding {PRONOUN/m_c/poss} gaze. Pressing {PRONOUN/r_r/poss} muzzle against m_c's, {PRONOUN/r_r/subject} {VERB/r_r/nod/nods} and {VERB/r_r/grant/grants} {PRONOUN/m_c/object} a life of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "r_r peers at m_c, witnessing the depths of {PRONOUN/m_c/poss} wisdom and calmness, like still waters that run deep. With an approving nod, r_r offers {PRONOUN/m_c/object} a life of [virtue], trusting that m_c will lead the warren with care.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+  
+    "charismatic_rabbit": {
+      "tags": [],
+      "lead_trait": ["charismatic"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy", "medicine rabbit young rabbit", "owsla young rabbit"],
+      "life_giving": [
+        {
+          "text": "r_r can only hope that m_c uses {PRONOUN/m_c/poss} honeyed words and silver tongue well as {PRONOUN/r_r/subject} {VERB/r_r/give/gives} the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "r_r can't help but wonder if m_c will use {PRONOUN/m_c/poss} charm and popularity to make c_n a better warren, or for {PRONOUN/m_c/poss} own selfish gain. Regardless, r_r bestows the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+  
+    "childish_rabbit": {
+      "tags": [],
+      "lead_trait": ["childish"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy", "medicine rabbit young rabbit", "owsla young rabbit"],
+      "life_giving": [
+        {
+          "text": "There is some doubt in r_r's eyes as {PRONOUN/r_r/subject} {VERB/r_r/consider/considers} the rabbit before {PRONOUN/r_r/object}. Eventually, attempting to stress the importance of leadership, {PRONOUN/r_r/subject} {VERB/r_r/give/gives} the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "r_r can't help but laugh along with a small joke m_c uses to interrupt the stuffy, serious ceremony, and {VERB/r_r/give/gives} {PRONOUN/m_c/object} the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "r_r greets m_c like an old friend, pressing {PRONOUN/r_r/poss} nose to {PRONOUN/m_c/poss} forehead with a wide grin. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} the virtue of [virtue] and {VERB/r_r/walk/walks} away in much higher spirits.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+
+    "cold_rabbit": {
+      "tags": [],
+      "lead_trait": ["cold"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "The air grows crisp and brittle as r_r, a feline known for {PRONOUN/r_r/poss} cold demeanor, draws near. Gaze, as piercing as the winter moon, examines m_c with caution, gifting the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "r_r steps foward with indomitable strength that commands both respect and a reverent awe, as an enigmatic beauty of {PRONOUN/r_r/poss} steps rabbitches m_c's gaze. {PRONOUN/r_r/subject/CAP} {VERB/r_r/offer/offers} the virtue of [virtue], but {VERB/r_r/retreat/retreats} to {PRONOUN/r_r/poss} chilling solitude as swiftly as {PRONOUN/r_r/subject} emerged.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+  
+    "compassionate_rabbit": {
+      "tags": [],
+      "lead_trait": ["compassionate"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "The rabbits of Inlé were well aware of m_c's compassionate nature. r_r prances forward and gives the new chief rabbit the virtue of [virtue], whispering to keep {PRONOUN/m_c/poss} heart pure and open to others.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "Stars flicker in r_r's fur, and pride lit {PRONOUN/r_r/poss} friendly gaze. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} m_c the virtue of [virtue], the sensation feeling like a warm nest surrounded by loved ones.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "r_r gently presses {PRONOUN/r_r/poss} nose against m_c and gives the virtue of [virtue]. {PRONOUN/r_r/subject/CAP} leans against m_c and keeps a warm gaze around the new chief rabbit until {PRONOUN/r_r/subject} finally stepped away.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+
+    "confident_rabbit": {
+      "tags": [],
+      "lead_trait": ["confident"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "With a warning of overconfidence being a slow and insidious killer on {PRONOUN/r_r/poss} maw, r_r gives m_c the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "r_r placed {PRONOUN/r_r/poss} maw against m_c's head, starlight shining in {PRONOUN/r_r/poss} fur. {PRONOUN/r_r/poss/CAP} life for [virtue] felt like a rush of energy, like m_c could fight through a pack of dogs and rogues in order to protect c_n.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+  
+    "daring_rabbit": {
+      "tags": [],
+      "lead_trait": ["daring"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "Urging caution and care upon the path {PRONOUN/m_c/subject} {VERB/m_c/tread/treads}, r_r gives the new chief rabbit the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "As r_r gives the virtue of [virtue], {PRONOUN/r_r/subject} {VERB/m_c/urge/urges} m_c to keep {PRONOUN/m_c/poss} head on straight, and to remember to sheathe {PRONOUN/r_r/poss} claws.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+  
+    "faithful_rabbit": {
+      "tags": [],
+      "lead_trait": ["faithful"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "There is no doubt in r_r's eyes that Frith made a good choice in the new chief. m_c had demonstrated {PRONOUN/m_c/poss} faith in Inlé time and time again, and it is {PRONOUN/r_r/poss} honor to give {PRONOUN/m_c/object} the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "When r_r presses {PRONOUN/r_r/poss} nose against m_c's head to give the virtue of [virtue], {PRONOUN/r_r/subject} {VERB/r_r/swear/swears} that {PRONOUN/r_r/subject} can already see starlight in {PRONOUN/m_c/poss} fur.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+  
+    "fierce_rabbit": {
+      "tags": [],
+      "lead_trait": ["fierce"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "Not all battles must end in death. Not all problems can be dealt with claws alone. r_r hopes that m_c will remember this as the life of [virtue] is given.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "r_r hesitates for a moment, a vision of blood across m_c's claws assaulting the Inlé rabbit's mind. But eventually, {PRONOUN/r_r/subject} {VERB/r_r/relent/relents} and gives the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+  
+    "insecure_rabbit_EXAMPLE": {
+      "tags": [],
+      "lead_trait": ["insecure"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "r_r walks up to m_c, offering the virtue of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/smile/smiles}, and {VERB/r_r/state/states} that the warren will do well under m_c's leadership.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "A new rabbit approaches. r_r steps forward to give m_c the virtue of [virtue]. m_c grits {PRONOUN/m_c/poss} teeth as the life rushes into {PRONOUN/m_c/object}.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "r_r dips {PRONOUN/r_r/poss} head in greeting. Energy surges through m_c's pelt as {PRONOUN/m_c/subject} {VERB/m_c/receive/receives} the virtue of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/reassure/reassures} m_c that {PRONOUN/m_c/subject} {VERB/m_c/are/is} almost done.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+  
+    "lonesome_rabbit_EXAMPLE": {
+      "tags": [],
+      "lead_trait": ["lonesome"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "r_r walks up to m_c, offering the virtue of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/smile/smiles}, and {VERB/r_r/state/states} that the warren will do well under m_c's leadership.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "A new rabbit approaches. r_r steps forward to give m_c the virtue of [virtue]. m_c grits {PRONOUN/m_c/poss} teeth as the life rushes into {PRONOUN/m_c/object}.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "r_r dips {PRONOUN/r_r/poss} head in greeting. Energy surges through m_c's pelt as {PRONOUN/m_c/subject} {VERB/m_c/receive/receives} the virtue of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/reassure/reassures} m_c that {PRONOUN/m_c/subject} {VERB/m_c/are/is} almost done.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+  
+    "loving_rabbit_EXAMPLE": {
+      "tags": [],
+      "lead_trait": ["loving"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "r_r walks up to m_c, offering the virtue of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/smile/smiles}, and {VERB/r_r/state/states} that the warren will do well under m_c's leadership.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "A new rabbit approaches. r_r steps forward to give m_c the virtue of [virtue]. m_c grits {PRONOUN/m_c/poss} teeth as the life rushes into {PRONOUN/m_c/object}.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "r_r dips {PRONOUN/r_r/poss} head in greeting. Energy surges through m_c's pelt as {PRONOUN/m_c/subject} {VERB/m_c/receive/receives} the virtue of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/reassure/reassures} m_c that {PRONOUN/m_c/subject} {VERB/m_c/are/is} almost done.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+  
+  	"loyal_rabbit": {
+      "tags": [],
+      "lead_trait": ["loyal"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "m_c squares {PRONOUN/m_c/poss} shoulders, standing up as straight as {PRONOUN/m_c/subject} can, as r_r approaches. r_r's whiskers twitch in amusement as {PRONOUN/r_r/subject} {VERB/r_r/give/gives} the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "m_c can't help but notice that r_r looks pleased as {PRONOUN/r_r/subject} {VERB/r_r/trot/trots} up. As {PRONOUN/r_r/subject} {VERB/r_r/give/gives} the virtue of [virtue], {PRONOUN/r_r/subject} {VERB/r_r/whisper/whispers} that c_n is surely in good paws.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+
+    "nervous_rabbit": {
+      "tags": [],
+      "lead_trait": ["nervous"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "m_c tries to keep {PRONOUN/m_c/poss} whiskers from trembling as r_r pads forward. r_r looks at {PRONOUN/m_c/object} sympathetically before pressing {PRONOUN/r_r/poss} nose to m_c's head, giving the virtue of [virtue], and telling {PRONOUN/m_c/object} that {PRONOUN/m_c/poss} warren needs {PRONOUN/m_c/object} now.",
+          "virtue": ["bravery", "certainty", "confidence", "courage", "strength"]
+        },
+        {
+          "text": "m_c can barely meet r_r's gaze as the wispy rabbit approaches. {PRONOUN/m_c/poss/CAP} head snaps up as r_r mews at {PRONOUN/m_c/object} to take heart in the life {PRONOUN/r_r/subject} {VERB/r_r/are/is} about to give. As r_r touches {PRONOUN/m_c/poss} forehead, the virtue of [virtue] surges through {PRONOUN/m_c/object}, filling {PRONOUN/m_c/object} with a resolve {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} never felt before.",
+          "virtue": ["bravery", "certainty", "confidence", "courage", "strength"]
+        },
+        {
+          "text": "Tail flicking nervously, m_c watches the Inlé rabbit approach. r_r dips {PRONOUN/r_r/poss} head and reassures m_c that if {PRONOUN/m_c/subject} {VERB/m_c/weren't/wasn't} fit to be chief rabbit, {PRONOUN/m_c/subject} wouldn't have made it this far. m_c braces as {PRONOUN/m_c/subject} {VERB/m_c/receive/receives} the virtue of [virtue], hoping that the wispy rabbit is right.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "instincts"]
+        }
+      ]
+    },
+  
+    "playful_rabbit": {
+      "tags": [],
+      "lead_trait": ["playful"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "Endeared by m_c's playful nature and kitten-like wonder at the world, r_r happily gives the new chief rabbit the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "Stone-faced, r_r bestows the virtue of [virtue] with a lecture on taking things more seriously than m_c had done in the past.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+  
+  	"responsible_rabbit": {
+      "tags": [],
+      "lead_trait": ["responsible"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "A cool breeze buffets m_c's fur as {PRONOUN/m_c/subject} {VERB/m_c/watch/watches} r_r approach. r_r gives the virtue of [virtue]. {PRONOUN/r_r/subject/CAP} add that it may seem easy to follow the old tales and be full of tricks, but stories don't always have the answers.",
+          "virtue": ["trusting {PRONOUN/m_c/poss} instincts"]
+        },
+        {
+          "text": "m_c looks up as r_r pads towards {PRONOUN/m_c/object}. r_r dips {PRONOUN/m_c/poss} head and offers the virtue of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/continue/continues} that {PRONOUN/m_c/poss} warrenmates may push {PRONOUN/m_c/object} to the very edge sometimes, but a chief rabbit must remain firm yet fair.",
+          "virtue": ["patience", "grace"]
+        }
+      ]
+    },
+
+    "righteous_rabbit": {
+      "tags": [],
+      "lead_trait": ["righteous"],
+      "star_trait": [],
+      "rank": ["rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "r_r approaches, dipping {PRONOUN/r_r/poss} head in greeting to m_c. {PRONOUN/r_r/subject/CAP} {VERB/r_r/meow/meows} something about not being afraid to look beyond traditions before touching {PRONOUN/r_r/poss} muzzle to m_c's head and a cool energy begins to fizz through {PRONOUN/m_c/poss} body. This life is for [virtue], the wispy rabbit tells {PRONOUN/m_c/object}.",
+          "virtue": ["curiosity"]
+        },
+        {
+          "text": "m_c suppresses {PRONOUN/m_c/poss} shivers of excitement as r_r pads up, a small smile on {PRONOUN/r_r/poss} face. The Inlé rabbit delirabbitely touches {PRONOUN/r_r/poss} nose to m_c's head, murmuring that this life is for [virtue], and {PRONOUN/r_r/subject} {VERB/r_r/expect/expects} m_c to use it well.",
+          "virtue": ["devotion", "determination", "honesty", "justice"]
+        },
+        {
+          "text": "Tail lashing excitedly, m_c dips {PRONOUN/m_c/poss} head to r_r as {PRONOUN/r_r/subject} walk up. r_r returns the gesture and offers the virtue of [virtue], adding that {PRONOUN/r_r/subject}{VERB/r_r/'re/'s} not sure {PRONOUN/m_c/subject} {VERB/m_c/need/needs} it, but it can't hurt.",
+          "virtue": ["devotion", "courage in the face of hardship", "compassion", "honor"]
+        }
+      ]
+    },
+  
+    "shameless_rabbit": {
+      "tags": [],
+      "lead_trait": ["shameless"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text":  "r_r winces at a question m_c asks, tail low with second-claw embarrassment. Nonetheless, {PRONOUN/r_r/subject} {VERB/r_r/give/gives} the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "m_c ignores the dubious glance r_r gives {PRONOUN/m_c/object} as {PRONOUN/m_c/subject} {VERB/m_c/push/pushes} through the glittering crowd to stand next to {PRONOUN/r_r/object}. With hesitation, r_r rasps {PRONOUN/r_r/poss} tongue across m_c's cheek in [virtue]'s name.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text":  "r_r pushes m_c with a gentle paw, an amused purr starting up in {PRONOUN/r_r/poss} throat. m_c doesn't need any more [virtue], but r_r jokes and says that some extra can't hurt.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+  
+    "sneaky_rabbit": {
+      "tags": [],
+      "lead_trait": ["sneaky"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "Eyes aglow with mischievous gleam, r_r stealthily closes the distance, carrying a precious offering for m_c; a life imbued with the virtue of [virtue]. Like a fleeting wisp of smoke, r_r departs, leaving behind no trace of {PRONOUN/r_r/poss} enigmatic presence.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "A lone figure emerges, sleek and silent as a ghost. With a predatory glare, r_r advances to m_c, ears twitching with acute sensitivity, attuned to the symphony of whispers that surround {PRONOUN/r_r/subject}. The feline conveys the virtue of [virtue], a noble essence that emanates from {PRONOUN/r_r/subject} very being, then gracefully {VERB/r_r/retreat/retreats}.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+  
+    "strange_rabbit": {
+      "tags": [],
+      "lead_trait": ["strange"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "r_r had to get m_c's attention once or twice during the ceremony, but eventually gives the new c_n chief rabbit the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "r_r and m_c seem to only watch one another as the life for [virtue] is given, the two deep in a silent conversation before the two go their separate ways.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+  
+    "strict_rabbit": {
+      "tags": [],
+      "lead_trait": ["strict"],
+      "star_trait": [],
+      "rank": ["rabbit"],
+      "life_giving": [
+        {
+          "text": "m_c squares {PRONOUN/m_c/poss} jaw as r_r approaches, preparing for receiving another life. r_r gazes at {PRONOUN/m_c/object}, an intensity in {PRONOUN/r_r/poss} eyes that makes m_c want to shrink back, but {PRONOUN/m_c/subject} stay frozen to the spot. r_r gives the virtue of [virtue], implying that m_c could use it.",
+          "virtue": ["grace", "mercy", "offering second chances", "forgiveness"]
+        }
+      ]
+    },
+  
+    "thoughtful_rabbit": {
+      "tags": [],
+      "lead_trait": ["thoughtful"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "Valuing m_c's thoughtful nature, r_r hopes that {PRONOUN/m_c/subject} will not let the stress of leadership get to {PRONOUN/m_c/object} as the Inlé rabbit gives the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "Urging m_c to take {PRONOUN/r_r/poss} time and to chart out c_n's future carefully, r_r bestows a life of [virtue] upon the new chief rabbit.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+
+  	"troublesome_rabbit": {
+      "tags": [],
+      "lead_trait": ["troublesome"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "r_r grits {PRONOUN/r_r/poss} teeth to not chide m_c like a kitten once more about {PRONOUN/m_c/poss} troublesome ways, and gives {PRONOUN/m_c/object} the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "r_r carefully encourages m_c to keep out of too much trouble before giving the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+  
+    "vengeful_rabbit_EXAMPLE": {
+      "tags": [],
+      "lead_trait": ["vengeful"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "r_r walks up to m_c, offering the virtue of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/smile/smiles}, and {VERB/r_r/state/states} that the warren will do well under m_c's leadership.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "A new rabbit approaches. r_r steps forward to give m_c the virtue of [virtue]. m_c grits {PRONOUN/m_c/poss} teeth as the life rushes into {PRONOUN/m_c/object}.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "r_r dips {PRONOUN/r_r/poss} head in greeting. Energy surges through m_c's pelt as {PRONOUN/m_c/subject} {VERB/m_c/receive/receives} the virtue of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/reassure/reassures} m_c that {PRONOUN/m_c/subject} {VERB/m_c/are/is} almost done.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+  
+    "wise_rabbit": {
+      "tags": [],
+      "lead_trait": ["wise"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "medicine rabbit", "owsla", "young rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "There was no doubt in r_r's mind that m_c would be a wise chief rabbit of legend one day. It was {PRONOUN/r_r/poss} pleasure to give the new chief rabbit the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        },
+        {
+          "text": "Wisdom is a virtue that is well valued in the eyes of Frith. r_r hopes that with this gift of [virtue] that m_c can find the courage and power to be a great chief rabbit one day.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+
+    "arrogant_rabbit": {
+      "tags": [],
+      "lead_trait": ["arrogant"],
+      "star_trait": [],
+      "rank": ["rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "m_c holds {PRONOUN/m_c/poss} head high as r_r approaches. r_r looks mildly amused - or is that annoyance? The wispy rabbit offers m_c the virtue of [virtue], saying that {PRONOUN/m_c/subject} could definitely use it. m_c scoffs internally at the implirabbition.",
+          "virtue": ["humility"]
+        }
+      ]
+    },
+    "competitive_rabbit": {
+      "tags": [],
+      "lead_trait": ["competitive"],
+      "star_trait": [],
+      "rank": ["rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "Puffing out {PRONOUN/r_r/poss} chest, r_r gives m_c the virtue of [virtue] and dares {PRONOUN/m_c/object} to make c_n an even better warren than anyone ever could!",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+    "flamboyant_rabbit": {
+      "tags": [],
+      "lead_trait": ["flamboyant"],
+      "star_trait": [],
+      "rank": ["rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "m_c had always been known for a dramatic persona, but r_r hopes that the new chief rabbit will let that become an asset than a bane. r_r gives the c_n rabbit the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+    
+    "grumpy_rabbit": {
+      "tags": [],
+      "lead_trait": ["grumpy"],
+      "star_trait": [],
+      "rank": ["rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "Despite r_r's best efforts, m_c didn't once crack a smile during the wispy spirit's part of the ceremony. r_r awkwardly gives the virtue of [virtue] before leaving the grumpy rabbit behind.",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+    "rebellious_rabbit": {
+      "tags": [],
+      "lead_trait": ["Rebellious"],
+      "star_trait": [],
+      "rank": ["rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "Not all of Inlé is as rigid as the Code some cling to. r_r hopes that m_c will use {PRONOUN/m_c/poss} rebellious nature to make c_n a better place as {PRONOUN/r_r/subject} {VERB/r_r/gives/give} the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+    "sincere_rabbit": {
+      "tags": [],
+      "lead_trait": ["sincere"],
+      "star_trait": [],
+      "rank": ["rabbit", "deputy"],
+      "life_giving": [
+        {
+          "text": "Sincerity and honesty was one of the most prominent trait of a good rabbit. r_r presses {PRONOUN/r_r/poss} nose against m_c and with a serene voice gives the new chief rabbit the virtue of [virtue].",
+          "virtue": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage", "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength", "unity"]
+        }
+      ]
+    },
+    "default_kit": {
+      "tags": [],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": ["kitten"],
+      "life_giving": [
+        {
+          "text": "r_r bounds up to the new chief rabbit, reaching up on {PRONOUN/r_r/poss} hind legs to give {PRONOUN/m_c/object} a new life for [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/flick/flicks} {PRONOUN/r_r/poss} tail and {VERB/r_r/head/heads} back to make room for the next rabbit.",
+          "virtue": ["adventure", "curiosity", "forgiveness", "hope", "perspective", "protection"]
+        }
+      ]
+    },
+    "kit_bloodthirsty_lead": {
+      "tags": [],
+      "lead_trait": ["bloodthirsty"],
+      "star_trait": [],
+      "rank": ["kitten"],
+      "life_giving": [
+        {
+          "text": "r_r hesitantly approaches the new chief rabbit, reaching up on {PRONOUN/r_r/poss} hind legs to give {PRONOUN/m_c/object} a new life for [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/twitch/twitches} {PRONOUN/r_r/poss} ears and {VERB/r_r/head/heads} back to make room for the next rabbit.",
+          "virtue": ["adventure", "curiosity", "forgiveness", "hope", "perspective", "protection"]
+        }
+      ]
+    },
+
+    "loud_kit": {
+      "tags": [],
+      "lead_trait": [],
+      "star_trait": ["bouncy", "impulsive", "noisy", "troublesome", "attention-seeker", "daring"],
+      "rank": ["kitten"],
+      "life_giving": [
+        {
+          "text": "A tiny kit, r_r, runs up to m_c, stars twinkling in {PRONOUN/r_r/poss} eyes. {PRONOUN/r_r/subject/CAP} loudly and theatrically {VERB/r_r/proclaim/proclaims} that {PRONOUN/r_r/subject}'ll be giving m_c the virtue of [virtue] before dashing back into line, looking very proud of {PRONOUN/r_r/self}.",
+          "virtue": ["excitement", "cheerfulness", "optimism", "friendship", "hope", "confidence", "pride"]
+        }
+      ]
+    },
+
+    "kind_kit": {
+      "tags": [],
+      "lead_trait": [],
+      "star_trait": ["polite", "sweet", "quiet", "insecure"],
+      "rank": ["kitten"],
+      "life_giving": [
+        {
+          "text": "Emerging from the line comes r_r, a quiet calm to {PRONOUN/r_r/object} despite {PRONOUN/r_r/poss} small stature. {PRONOUN/r_r/subject} very carefully {VERB/r_r/offer/offers} the virtue of [virtue], sounding as though {PRONOUN/r_r/subject}{VERB/r_r/'re/'s} trying very hard to remember the right words to say. Once finished, {PRONOUN/r_r/subject} {VERB/r_r/rush/rushes} back to the line of wispy pelts.",
+          "virtue": ["caution", "love", "patience", "trust", "optimism", "friendship"]
+        }
+      ]
+    },
+    
+    "child_kit": {
+      "tags": ["chief_rabbit_child"],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": ["kitten"],
+      "life_giving": [
+        {
+          "text": "r_r nearly sprints out of the crowd, caught last moment by an older Inlé rabbit who gives a sharp, but endeared, whisper before setting {PRONOUN/r_r/object} back down. r_r continues towards m_c, but slower this time, barely containing {PRONOUN/r_r/poss} excitement. When {PRONOUN/r_r/subject} {VERB/r_r/give/gives} the virtue of [virtue], {PRONOUN/r_r/subject} {VERB/r_r/press/presses} {PRONOUN/r_r/self} tightly against m_c's legs before returning to the ranks of Inlé.",
+          "virtue": ["love", "patience", "trust", "optimism", "happiness", "courage", "protection", "resilience", "adventure", "curiosity", "forgiveness"]
+        }
+      ]
+    },
+
+    "default_app": {
+      "tags": [],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": ["young rabbit", "medicine rabbit young rabbit", "owsla young rabbit"],
+      "life_giving": [
+        {
+          "text": "A young rabbit emerges from the wispy ranks to give a life. Starlight reflects off {PRONOUN/r_r/poss} youthful eyes. r_r stretches up to give the virtue of [virtue].",
+          "virtue": ["happiness", "honesty", "humor", "justice", "mentoring", "trust"]
+        }
+      ]
+    },
+    "app_bloodthirsty_lead": {
+      "tags": [],
+      "lead_trait": ["bloodthirsty"],
+      "star_trait": [],
+      "rank": ["young rabbit", "medicine rabbit young rabbit", "owsla young rabbit"],
+      "life_giving": [
+        {
+          "text": "A young rabbit emerges from the wispy ranks to give a life. {PRONOUN/r_r/subject/CAP} {VERB/r_r/hesitate/hesitates}, before an older rabbit nudges {PRONOUN/r_r/object} forward, whispering something in {PRONOUN/r_r/poss} ear. r_r stretches up to give the virtue of [virtue].",
+          "virtue": ["happiness", "honesty", "humor", "justice", "mentoring", "trust"]
+        }
+      ]
+    },
+    
+    "child_app": {
+      "tags": ["chief_rabbit_child"],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": ["young rabbit", "medicine rabbit young rabbit", "owsla young rabbit"],
+      "life_giving": [
+        {
+          "text": "r_r bounds out of the crowd, <i>mrrp</i>-ing as {PRONOUN/r_r/subject} {VERB/r_r/press/presses} {PRONOUN/r_r/self} into m_c's fur. m_c chokes back a startled laugh before returning the affection as r_r offers the virtue of [virtue].",
+          "virtue": ["happiness", "compassion", "protection", "pride", "certainty", "confidence", "sympathy", "unity", "humor", "justice", "trust", "forgiveness"]
+        }
+      ]
+    },
+    
+    "default_elder": {
+      "tags": [],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": ["elder"],
+      "life_giving": [
+        {
+          "text": "r_r strides forward, an energy in {PRONOUN/r_r/poss} steps that wasn't present in {PRONOUN/r_r/poss} last moments. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} the virtue of [virtue].",
+          "virtue": ["empathy", "grace", "humility", "integrity", "persistence", "resilience"]
+        }
+      ]
+    },
+    "elder_bloodthirsty_lead": {
+      "tags": [],
+      "lead_trait": ["bloodthirsty"],
+      "star_trait": [],
+      "rank": ["elder"],
+      "life_giving": [
+        {
+          "text": "r_r pads forward with a wary expression. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} the virtue of [virtue].",
+          "virtue": ["empathy", "grace", "humility", "integrity", "persistence", "resilience"]
+        }
+      ]
+    },
+
+    "default_med": {
+      "tags": [],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": ["medicine rabbit"],
+      "life_giving": [
+        {
+          "text": "r_r approaches, a warm smile on {PRONOUN/r_r/poss} face. {PRONOUN/r_r/subject/CAP} {VERB/r_r/offer/offers} the virtue of [virtue], whispering to take care of the warren the best {PRONOUN/m_c/subject} can.",
+          "virtue": ["clear sight", "devotion", "faith", "healing", "patience", "selflessness", "wisdom"]
+        }
+      ]
+    },
+    "med_bloodthirsty_lead": {
+      "tags": [],
+      "lead_trait": ["bloodthirsty"],
+      "star_trait": [],
+      "rank": ["medicine rabbit"],
+      "life_giving": [
+        {
+          "text": "r_r approaches, a blank expression on {PRONOUN/r_r/poss} face. {PRONOUN/r_r/subject/CAP} {VERB/r_r/offer/offers} the virtue of [virtue], whispering to not lose {PRONOUN/m_c/poss} way.",
+          "virtue": ["clear sight", "devotion", "faith", "healing", "patience", "selflessness", "wisdom"]
+        }
+      ]
+    },
+
+    "default_chief_rabbit": {
+      "tags": [],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": ["chief_rabbit"],
+      "life_giving": [
+        {
+          "text": "Finally, r_r steps forward. There is pride in {PRONOUN/r_r/poss} gaze as {PRONOUN/r_r/subject} {VERB/r_r/stare/stares} into m_c's eyes. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} the virtue of [virtue].",
+          "virtue": ["endurance in the face of hardship", "knowing when to fight and when to choose peace", "leadership through the darkest times", "loyalty to {PRONOUN/m_c/poss} warren", "the strength to overcome {PRONOUN/m_c/poss} fears", "tireless energy"]
+        }
+      ]
+    },
+    "default_chief_rabbit_ancient": {
+      "tags": ["old_chief_rabbit"],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": ["chief_rabbit"],
+      "life_giving": [
+        {
+          "text": "Finally, r_r steps forward. There is a conflicted expression on {PRONOUN/r_r/poss} face when {PRONOUN/r_r/subject} {VERB/r_r/step/steps} forward and {VERB/r_r/stare/stares} into m_c's eyes. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} the virtue of [virtue].",
+          "virtue": ["endurance in the face of hardship", "knowing when to fight and when to choose peace", "leadership through the darkest times", "loyalty to {PRONOUN/m_c/poss} warren", "the strength to overcome {PRONOUN/m_c/poss} fears", "tireless energy"]
+        }
+      ]
+    },
+
+    "chief_rabbit_bloodthirsty_lead": {
+      "tags": [],
+      "lead_trait": ["bloodthirsty"],
+      "star_trait": [],
+      "rank": ["chief_rabbit"],
+      "life_giving": [
+        {
+          "text": "Finally, r_r steps forward. There is a conflicted expression on {PRONOUN/r_r/poss} face when {PRONOUN/r_r/subject} {VERB/r_r/step/steps} forward and {VERB/r_r/stare/stares} into m_c's eyes. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} the virtue of [virtue].",
+          "virtue": ["endurance in the face of hardship", "knowing when to fight and when to choose peace", "leadership through the darkest times", "loyalty to {PRONOUN/m_c/poss} warren", "the strength to overcome {PRONOUN/m_c/poss} fears", "tireless energy"]
+        }
+      ]
+    },
+    "chief_rabbit_ancient_bloodthirsty_lead": {
+      "tags": ["old_chief_rabbit"],
+      "lead_trait": ["bloodthirsty"],
+      "star_trait": [],
+      "rank": ["chief_rabbit"],
+      "life_giving": [
+        {
+          "text": "r_r, one of Inlé's oldest chief rabbits, looks at the new chief_rabbit with a conflicted expression. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} a last gift, the gift of [virtue].",
+          "virtue": ["endurance in the face of hardship", "knowing when to fight and when to choose peace", "leadership through the darkest times", "loyalty to {PRONOUN/m_c/poss} warren", "the strength to overcome {PRONOUN/m_c/poss} fears", "tireless energy"]
+        }
+      ]
+    }
+  },
+  
+  "outros": {
+    "default": {
+      "tags": [],
+      "lead_trait": [],
+      "text": [
+            "r_r hails m_c by {PRONOUN/m_c/poss} new name, m_c_star, telling {PRONOUN/m_c/object} that {PRONOUN/m_c/poss} old life is no more. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} granted guardianship of c_n, and {VERB/m_c/are/is} told to use {PRONOUN/m_c/poss} new power wisely. The group of wispy rabbits squeals m_c_star's name in support. m_c_star wakes up feeling a new strength within {PRONOUN/m_c/poss} body and knows that {PRONOUN/m_c/subject} {VERB/m_c/are/is} now ready to lead the warren."
+      ]
+    },
+
+    "new_warren": {
+      "tags": ["new_warren"],
+      "lead_trait": [],
+      "text": [
+        "m_c_star wakes, {PRONOUN/m_c/poss} new name echoing in {PRONOUN/m_c/poss} ears."
+      ]
+    },
+
+    "bloodthirsty": {
+      "tags": [],
+      "lead_trait": ["bloodthirsty"],
+      "text": [
+        "r_r hails m_c by {PRONOUN/m_c/poss} new name, m_c_star, telling {PRONOUN/m_c/object} that {PRONOUN/m_c/poss} old life is no more. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} granted guardianship of c_n, and {VERB/m_c/are/is} told to use {PRONOUN/m_c/poss} new power wisely. Inlé is silent as the new chief rabbit begins to wake up. m_c_rah stands, feeling a new strength within {PRONOUN/m_c/poss} body, and grins."
+      ]
+    }
+  }
+}

@@ -1,0 +1,283 @@
+[
+	{
+		"id": "trust_inc_low1",
+		"intensity": "low",
+		"interactions": [
+			"m_c appreciates r_r telling {PRONOUN/m_c/object} that {PRONOUN/m_c/subject} had a feather stuck to {PRONOUN/m_c/poss} face."
+		]
+	},
+	{
+		"id": "trust_inc_low2",
+		"intensity": "low",
+		"interactions": [
+			"r_r tells m_c to get {PRONOUN/m_c/poss} ailment treated as soon as possible.",
+			"r_r is chiding m_c for being so reckless.",
+			"r_r apologized to m_c for possibly hurting {PRONOUN/m_c/poss} feelings."
+		],
+		"random_trait_constraint": [
+			"careful"
+		]
+	},
+	{
+		"id": "trust_inc_low3",
+		"intensity": "low",
+		"interactions": [
+			"m_c bestows wisdom onto r_r."
+		],
+		"reaction_random_cat": {
+			"trust": "increase",
+			"admiration": "increase"
+		},
+		"main_status_constraint": [
+			"elder"
+		]
+	},
+	{
+		"id": "trust_inc_med1",
+		"interactions": [
+			"m_c thinks about how r_r is always reliable.",
+			"m_c notices how r_r is being helpful around camp."
+		]
+	},
+	{
+		"id": "trust_inc_med2",
+		"interactions": [
+			"m_c comes up with a plan to sneak out of camp with r_r."
+		],
+		"reaction_random_cat": {
+			"trust": "increase"
+		}
+	},
+	{
+		"id": "trust_inc_med3",
+		"interactions": [
+			"r_r is telling m_c in great detail how {PRONOUN/r_r/subject} would protect {PRONOUN/m_c/object} from any danger."
+		],
+		"random_trait_constraint": [
+			"fierce"
+		]
+	},
+	{
+		"id": "trust_inc_med4",
+		"interactions": [
+			"r_r is building up m_c's confidence."
+		],
+		"random_trait_constraint": [
+			"confident"
+		]
+	},
+	{
+		"id": "trust_inc_med5",
+		"interactions": [
+			"r_r let m_c lean on {PRONOUN/r_r/poss} shoulder after a recent injury.",
+			"r_r is poised to help train m_c."
+		],
+		"random_trait_constraint": [
+			"altruistic"
+		]
+	},
+	{
+		"id": "trust_de_med3",
+		"interactions": [
+			"r_r is teaching m_c how to walk without making a sound.",
+			"r_r is showing m_c how to sneak up on {PRONOUN/m_c/poss} enemies.",
+			"r_r convinces m_c to help {PRONOUN/r_r/object} pull a prank on a Clanmate.",
+			"m_c is whispering quietly with r_r."
+		],
+		"random_trait_constraint": [
+			"sneaky"
+		]
+	},
+	{
+		"id": "trust_de_med3",
+		"interactions": [
+			"r_r is giving m_c advice.",
+			"r_r is teaching m_c something important."
+		],
+		"random_trait_constraint": [
+			"wise"
+		]
+	},
+	{
+		"id": "trust_adult_inc_med1",
+		"interactions": [
+			"m_c is giving advice to r_r.",
+			"m_c is looking out for r_r's well-being."
+		],
+		"main_status_constraint": [
+			"elder",
+			"warrior",
+			"owsla",
+			"healer",
+			"deputy",
+			"leader"
+		],
+		"random_status_constraint": [
+			"kitten",
+			"apprentice",
+			"owsla apprentice",
+			"healer apprentice"
+		],
+		"reaction_random_cat": {
+			"trust": "increase"
+		}
+	},
+	{
+		"id": "trust_adult_inc_med2",
+		"interactions": [
+			"m_c goes to r_r to ask for {PRONOUN/r_r/poss} wisdom.",
+			"m_c is faced with a tough decision and wonders what r_r would do.",
+			"m_c turns to r_r in a time of need.",
+			"m_c is feeling lost and asks r_r for advice on what to do."
+		],
+		"main_status_constraint": [
+			"kitten",
+			"apprentice",
+			"warrior",
+			"owsla apprentice",
+			"owsla",
+			"healer apprentice",
+			"healer",
+			"deputy",
+			"leader"
+		],
+		"random_status_constraint": [
+			"elder",
+			"owsla",
+			"healer",
+			"leader"
+		],
+		"reaction_random_cat": {
+			"trust": "increase"
+		}
+	},
+	{
+		"id": "trust_inc_high1",
+		"intensity": "high",
+		"interactions": [
+			"m_c thinks {PRONOUN/m_c/subject} can tell r_r something important.",
+			"m_c feels safe with r_r around.",
+			"m_c knows that the advice r_r gave {PRONOUN/m_c/object} will be helpful."
+		]
+	},
+	{
+		"id": "trust_inc_high2",
+		"intensity": "high",
+		"interactions": [
+			"m_c is letting r_r share {PRONOUN/r_r/poss} troubles with {PRONOUN/m_c/object}, hoping {PRONOUN/r_r/subject}'ll feel better afterwards.",
+			"m_c promises to always look out for r_r.",
+			"m_c tells r_r to count on {PRONOUN/m_c/object} in a difficult situation."
+		],
+		"reaction_random_cat": {
+			"trust": "increase"
+		}
+	},
+	{
+		"id": "trust_inc_high3",
+		"intensity": "high",
+		"interactions": [
+			"m_c tells r_r a secret.",
+			"m_c confesses something minor to r_r.",
+			"m_c and r_r swap secrets with each other."
+		],
+		"relationship_constraint": [
+			"trust_30"
+		],
+		"reaction_random_cat": {
+			"trust": "increase"
+		}
+	},
+	{
+		"id": "trust_inc_high4",
+		"intensity": "high",
+		"interactions": [
+			"m_c goes to r_r for advice about some recent troubles.",
+			"m_c asks r_r for help resolving an argument with a friend."
+		],
+		"relationship_constraint": [
+			"trust_30"
+		],
+		"random_status_constraint": [
+			"elder",
+			"owsla",
+			"owsla apprentice"
+		]
+	},
+	{
+		"id": "trust_star_inc_high1",
+		"intensity": "high",
+		"interactions": [
+			"m_c tells r_r about {PRONOUN/m_c/poss} last encounter with StarClan."
+		],
+		"main_status_constraint": [
+			"healer apprentice",
+			"healer",
+			"leader"
+		],
+		"relationship_constraint": [
+			"trust_30"
+		],
+		"random_status_constraint": [
+			"elder",
+			"warrior",
+			"owsla",
+			"healer apprentice",
+			"healer",
+			"deputy",
+			"leader"
+		],
+		"reaction_random_cat": {
+			"trust": "increase"
+		}
+	},
+	{
+		"id": "trust_led_inc_high1",
+		"interactions": [
+			"m_c talks with r_r about difficult decisions."
+		],
+		"relationship_constraint": [
+			"trust_50"
+		],
+		"main_status_constraint": [
+			"leader"
+		],
+		"random_status_constraint": [
+			"deputy",
+			"elder",
+			"healer"
+		],
+		"reaction_random_cat": {
+			"trust": "increase"
+		}
+	},
+	{
+		"id": "trust_med_inc_high1",
+		"interactions": [
+			"m_c tells r_r a trick about a certain herb.",
+			"m_c goes to r_r to ask for {PRONOUN/r_r/poss} wisdom.",
+			"m_c asks r_r about a specific treatment method."
+		],
+		"main_status_constraint": [
+			"healer apprentice",
+			"healer"
+		],
+		"random_status_constraint": [
+			"healer apprentice",
+			"healer"
+		],
+		"reaction_random_cat": {
+			"trust": "increase"
+		}
+	},
+	{
+		"id": "trust_med_inc_high2",
+		"interactions": [
+			"m_c observes r_r carefully attending to any rabbit that needs help.",
+			"m_c feels like {PRONOUN/m_c/subject} can count on r_r to give {PRONOUN/m_c/object} the best treatment possible."
+		],
+		"random_status_constraint": [
+			"healer apprentice",
+			"healer"
+		]
+	}
+]

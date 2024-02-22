@@ -1,0 +1,431 @@
+# pylint: disable=line-too-long
+import os
+import platform
+import subprocess
+import traceback
+import logging
+
+import pygame
+import pygame_gui
+import ujson
+
+from scripts.rabbit.rabbits import Rabbit
+from scripts.game_structure.game_essentials import game, screen_x, screen_y, MANAGER
+from scripts.game_structure.image_button import UIImageButton
+from scripts.utility import get_text_box_theme, scale, quit  # pylint: disable=redefined-builtin
+from .Screens import Screens
+from ..housekeeping.datadir import get_data_dir
+from ..housekeeping.version import get_version_info
+
+
+logger = logging.getLogger(__name__)
+
+with open('resources/warrensettings.json', 'r', encoding='utf-8') as f:
+    settings_dict = ujson.load(f)
+
+class WarrenSettingsScreen(Screens):
+    """
+    Screen handles all warren-specfic settings
+    """
+    text_size = {
+        '0': 'small',
+        '1': 'medium',
+        '2': 'big'
+    }  # How text sizes will show up on the screen
+    bool = {True: 'Yes', False: 'No', None: 'None'}
+    sub_menu = 'general'
+
+    # This is set to the current settings when the screen is opened.
+    # All edits are made directly to game.settings, however, when you
+    #  leave the screen,game.settings will be reverted based on this variable
+    #   However, if settings are saved, edits will also be made to this variable.
+    settings_at_open = {}
+
+    # Have the settings been changed since the page was open or since settings were saved?
+    settings_changed = False
+
+    # Contains the checkboxes
+    checkboxes = {}
+    # Contains the text for the checkboxes.
+    checkboxes_text = {}
+
+    def handle_event(self, event):
+        """
+        TODO: DOCS
+        """
+        if event.type == pygame_gui.UI_TEXT_BOX_LINK_CLICKED:
+            if platform.system() == 'Darwin':
+                subprocess.Popen(["open", "-u", event.link_target])
+            elif platform.system() == 'Windows':
+                os.system(f"start \"\" {event.link_target}")
+            elif platform.system() == 'Linux':
+                subprocess.Popen(['xdg-open', event.link_target])
+        if event.type == pygame_gui.UI_BUTTON_START_PRESS:
+            if event.ui_element == self.open_data_directory_button:
+                if platform.system() == 'Darwin':
+                    subprocess.Popen(["open", "-R", get_data_dir()])
+                elif platform.system() == 'Windows':
+                    os.startfile(get_data_dir())  # pylint: disable=no-member
+                elif platform.system() == 'Linux':
+                    try:
+                        subprocess.Popen(['xdg-open', get_data_dir()])
+                    except OSError:
+                        logger.exception("Failed to call to xdg-open.")
+                return
+            elif event.ui_element == self.relation_settings_button:
+                self.open_relation_settings()
+                return
+            elif event.ui_element == self.general_settings_button:
+                self.open_general_settings()
+                return
+            elif event.ui_element == self.role_settings_button:
+                self.open_roles_settings()
+                return
+            elif event.ui_element == self.warren_stats_button:
+                self.open_warren_stats()
+                return
+            self.handle_checkbox_events(event)
+            self.menu_button_pressed(event)
+
+    def handle_checkbox_events(self, event):
+        """
+        TODO: DOCS
+        """
+        if event.ui_element in self.checkboxes.values():
+            for key, value in self.checkboxes.items():
+                if value == event.ui_element:
+                    game.warren.switch_setting(key)
+                    self.settings_changed = True
+                    #self.update_save_button()
+                           
+                    opens = {
+                        "general": self.open_general_settings,
+                        "relation": self.open_relation_settings,
+                        "role": self.open_roles_settings,
+                        'stats': self.open_warren_stats
+                    }
+
+                    scroll_pos = None
+                    if "container_general" in self.checkboxes_text and \
+                            self.checkboxes_text["container_general"].vert_scroll_bar:
+                        scroll_pos = self.checkboxes_text["container_general"].vert_scroll_bar.start_percentage
+
+                    if self.sub_menu in opens:
+                        opens[self.sub_menu]()
+
+                    if scroll_pos is not None:
+                        self.checkboxes_text["container_general"].vert_scroll_bar.set_scroll_from_start_percentage(
+                            scroll_pos)
+
+                    break
+
+    def screen_switches(self):
+        """
+        TODO: DOCS
+        """
+        self.settings_changed = False
+        self.show_menu_buttons()
+        self.set_disabled_menu_buttons(["stats"])
+
+        self.general_settings_button = UIImageButton(
+            scale(pygame.Rect((200, 280), (300, 60))),
+            "",
+            object_id="#general_settings_button",
+            manager=MANAGER)
+        self.relation_settings_button = UIImageButton(
+            scale(pygame.Rect((500, 280), (300, 60))),
+            "",
+            object_id="#relation_settings_button",
+            manager=MANAGER)
+        self.role_settings_button = UIImageButton(
+            scale(pygame.Rect((800, 280), (300, 60))),
+            "",
+            object_id="#role_settings_button",
+            manager=MANAGER)
+        self.warren_stats_button = UIImageButton(
+            scale(pygame.Rect((1100, 280), (300, 60))),
+            "",
+            object_id="#warren_stats_button",
+            manager=MANAGER)
+
+        
+        self.open_data_directory_button = UIImageButton(
+            scale(pygame.Rect((50, 1290), (356, 60))),
+            "",
+            object_id="#open_data_directory_button",
+            manager=MANAGER,
+            tool_tip_text="Opens the data directory. "
+                          "This is where save files "
+                          "and logs are stored.")
+
+        if get_version_info().is_sandboxed:
+            self.open_data_directory_button.hide()
+
+        self.sub_menu = 'general'
+        self.open_general_settings()
+        self.refresh_checkboxes()
+
+    def exit_screen(self):
+        """
+        TODO: DOCS
+        """
+        self.clear_sub_settings_buttons_and_text()
+        self.general_settings_button.kill()
+        del self.general_settings_button
+        self.relation_settings_button.kill()
+        del self.relation_settings_button
+        self.role_settings_button.kill()
+        del self.role_settings_button
+        self.open_data_directory_button.kill()
+        del self.open_data_directory_button
+        self.warren_stats_button.kill()
+        del self.warren_stats_button
+
+    def open_general_settings(self):
+        """Opens and draws general_settings"""
+        self.enable_all_menu_buttons()
+        self.general_settings_button.disable()
+        self.clear_sub_settings_buttons_and_text()
+        self.sub_menu = 'general'
+
+        self.checkboxes_text[
+            "container_general"] = pygame_gui.elements.UIScrollingContainer(
+            scale(pygame.Rect((0, 490), (1400, 600))), manager=MANAGER)
+
+        n = 0
+        for code, desc in settings_dict['general'].items():
+            x_val = 450
+            if len(desc) == 4 and isinstance(desc[3], list):
+                x_val += 50
+            
+            self.checkboxes_text[code] = pygame_gui.elements.UITextBox(
+                desc[0],
+                scale(pygame.Rect((x_val, n * 78), (1000, 78))),
+                container=self.checkboxes_text["container_general"],
+                object_id=get_text_box_theme("#text_box_30_horizleft_pad_0_8"),
+                manager=MANAGER)
+            self.checkboxes_text[code].disable()
+            n += 1
+
+        self.checkboxes_text[
+            "container_general"].set_scrollable_area_dimensions(
+            (1360 / 1600 * screen_x, (n * 78 + 80) / 1400 * screen_y))
+
+        self.checkboxes_text['instr'] = pygame_gui.elements.UITextBox(
+            "Change the general warren-specfic settings",
+            scale(pygame.Rect((200, 370), (1200, 100))),
+            object_id=get_text_box_theme("#text_box_30_horizcenter"),
+            manager=MANAGER)
+
+        # This is where the actual checkboxes are created. I don't like
+        #   how this is separated from the text boxes, but I've spent too much time to rewrite it.
+        #   It has to separated because the checkboxes must be updated when settings are changed.
+        #   Fix if you want. - keyraven
+        self.refresh_checkboxes()
+
+    def open_roles_settings(self):
+        """Opens and draws relation_settings"""
+        self.enable_all_menu_buttons()
+        self.role_settings_button.disable()
+        self.clear_sub_settings_buttons_and_text()
+        self.sub_menu = 'role'
+
+        self.checkboxes_text[
+            "container_role"] = pygame_gui.elements.UIScrollingContainer(
+            scale(pygame.Rect((0, 490), (1400, 600))), manager=MANAGER)
+
+        n = 0
+        for code, desc in settings_dict['role'].items():
+            # Handle nested
+            x_val = 450
+            if len(desc) == 4 and isinstance(desc[3], list):
+                x_val += 50
+            
+            self.checkboxes_text[code] = pygame_gui.elements.UITextBox(
+                desc[0],
+                scale(pygame.Rect((x_val, n * 78), (1000, 78))),
+                container=self.checkboxes_text["container_role"],
+                object_id=get_text_box_theme("#text_box_30_horizleft_pad_0_8"),
+                manager=MANAGER)
+            self.checkboxes_text[code].disable()
+            n += 1
+
+        self.checkboxes_text['instr'] = pygame_gui.elements.UITextBox(
+            "Change warren-specfic settings regarding rabbit roles",
+            scale(pygame.Rect((200, 370), (1200, 100))),
+            object_id=get_text_box_theme("#text_box_30_horizcenter"),
+            manager=MANAGER)
+
+        self.refresh_checkboxes()
+
+    def open_relation_settings(self):
+        """Opens and draws relation_settings"""
+        self.enable_all_menu_buttons()
+        self.relation_settings_button.disable()
+        self.clear_sub_settings_buttons_and_text()
+        self.sub_menu = 'relation'
+
+        self.checkboxes_text[
+            "container_relation"] = pygame_gui.elements.UIScrollingContainer(
+            scale(pygame.Rect((0, 490), (1400, 600))), manager=MANAGER)
+
+        n = 0
+        for code, desc in settings_dict['relation'].items():
+            x_val = 450
+            if len(desc) == 4 and isinstance(desc[3], list):
+                x_val += 50
+            
+            self.checkboxes_text[code] = pygame_gui.elements.UITextBox(
+                desc[0],
+                scale(pygame.Rect((x_val, n * 78), (1000, 78))),
+                container=self.checkboxes_text["container_relation"],
+                object_id=get_text_box_theme("#text_box_30_horizleft_pad_0_8"),
+                manager=MANAGER)
+            self.checkboxes_text[code].disable()
+            n += 1
+
+        self.checkboxes_text['instr'] = pygame_gui.elements.UITextBox(
+            "Change warren-specfic settings regarding rabbit relationships",
+            scale(pygame.Rect((200, 370), (1200, 100))),
+            object_id=get_text_box_theme("#text_box_30_horizcenter"),
+            manager=MANAGER)
+
+        self.refresh_checkboxes()
+
+    def open_warren_stats(self):
+        self.enable_all_menu_buttons()
+        self.warren_stats_button.disable()
+        self.clear_sub_settings_buttons_and_text()
+        self.sub_menu = 'stats'
+        
+        # Stats determination time. 
+        faded_rabbits = len(game.warren.faded_ids)
+        living_rabbits = 0
+        med_rabbits = 0
+        rabbits = 0
+        rusasis = 0
+        med_rabbit_rusasis = 0
+        owsla_rusasis = 0
+        owsla = 0
+        elders = 0
+        kits = 0
+        rabbits_outside = 0
+        inle = 0
+        df = 0
+        ur = 0
+        for rabbit in Rabbit.all_rabbits_list:
+            if rabbit.faded:
+                faded_rabbits += 1
+                continue
+            
+            if rabbit.dead:
+                if rabbit.df:
+                    df += 1
+                elif rabbit.outside:
+                    ur += 1
+                else:
+                    inle += 1
+                continue
+                        
+            if rabbit.outside:
+                rabbits_outside += 1
+                continue
+            
+            living_rabbits += 1
+            if rabbit.status == "healer":
+                med_rabbits += 1
+            elif rabbit.status == "healer rusasi":
+                med_rabbit_rusasis += 1
+            elif rabbit.status == "rabbit":
+                rabbits += 1
+            elif rabbit.status == "rusasi":
+                rusasis += 1
+            elif rabbit.status == "owsla rusasi":
+                owsla_rusasis += 1
+            elif rabbit.status == "owsla":
+                owsla += 1
+            elif rabbit.status == "elder":
+                elders += 1
+            elif rabbit.status in ("newborn", "kit"):
+                kits += 1
+                    
+        text = f"Living Warren Rabbits: {living_rabbits}\n" \
+        f"Inle Rabbits: {inle}\n" \
+        f"Lightless Rabbits: {df}\n" \
+        f"Unknown Residence Rabbits: {ur}\n" \
+        f"Healers: {med_rabbits}\n" \
+        f"Healer Apprentices: {med_rabbit_rusasis}\n" \
+        f"Rabbits: {rabbits}\n" \
+        f"Rusasis: {rusasis}\n" \
+        f"Owsla: {owsla}\n" \
+        f"Owsla Trainees: {owsla_rusasis}\n" \
+        f"Elders: {elders}\n" \
+        f"Kits and Newborns: {kits}\n" \
+        f"Faded Rabbits: {faded_rabbits}"
+        
+        self.checkboxes_text["stat_box"] = pygame_gui.elements.UITextBox(text,
+                                                                         scale(pygame.Rect((300, 400, 1060, 690))),
+                                                                         object_id=get_text_box_theme("#text_box_30_horizcenter"))
+
+    def refresh_checkboxes(self):
+        """
+        TODO: DOCS
+        """
+        # Kill the checkboxes. No mercy here.
+        for checkbox in self.checkboxes.values():
+            checkbox.kill()
+        self.checkboxes = {}
+
+        n = 0
+        for code, desc in settings_dict[self.sub_menu].items():
+            if game.warren.warren_settings[code]:
+                box_type = "#checked_checkbox"
+            else:
+                box_type = "#unchecked_checkbox"
+                
+            # Handle nested
+            disabled = False
+            x_val = 340
+            if len(desc) == 4 and isinstance(desc[3], list):
+                x_val += 50
+                disabled = game.warren.warren_settings.get(desc[3][0], not desc[3][1]) != desc[3][1]
+                
+            self.checkboxes[code] = UIImageButton(
+                scale(pygame.Rect((x_val, n * 78), (68, 68))),
+                "",
+                object_id=box_type,
+                container=self.checkboxes_text["container_" +
+                                                self.sub_menu],
+                tool_tip_text=desc[1])
+            
+            if disabled:
+                self.checkboxes[code].disable()
+
+            
+            n += 1
+
+    def clear_sub_settings_buttons_and_text(self):
+        """
+        TODO: DOCS
+        """
+        for checkbox in self.checkboxes.values():
+            checkbox.kill()
+        self.checkboxes = {}
+        for text in self.checkboxes_text.values():
+            text.kill()
+        self.checkboxes_text = {}
+
+    def enable_all_menu_buttons(self):
+        """
+        TODO: DOCS
+        """
+        self.general_settings_button.enable()
+        self.relation_settings_button.enable()
+        self.role_settings_button.enable()
+        self.warren_stats_button.enable()
+
+    def on_use(self):
+        """
+        TODO: DOCS
+        """
+

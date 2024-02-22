@@ -1,0 +1,44 @@
+[
+    {
+        "patrol_id": "pln_bord_shortswim1",
+        "biome": ["plains"],
+        "season": ["greenleaf"],
+        "types": ["border"],
+        "tags": [],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 1,
+        "max_cats": 1,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "r_r looks at the small watering hole {PRONOUN/r_r/subject} {VERB/r_r/pass/passes} by on the way to mark the border, and debates if {PRONOUN/r_r/subject} should stop for a quick swim to cool off.",
+        "decline_text": "r_r decides to continue with the patrol instead.",
+        "chance_of_success": 50,
+        "success_outcomes": [
+            {
+                "text": "They stop to swim for a few moments and feel rejuvenated, cooled and ready to continue.",
+                "exp": 5,
+                "weight": 20
+            },
+            {
+                "text": "{PRONOUN/r_r/subject/CAP} {VERB/r_r/keep/keeps} going, responsibly, although r_r wades through the watering hole as {PRONOUN/r_r/subject} {VERB/r_r/do/does}, letting the water cool {PRONOUN/r_r/poss} paws pleasantly.",
+                "exp": 5,
+                "weight": 20,
+                "stat_trait": [
+                    "responsible",
+                    "thoughtful",
+                    "loyal",
+                    "righteous",
+                    "cold",
+                    "strict"
+                ]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "{PRONOUN/r_r/subject/CAP} get distracted while splashing in the water. r_r swears {PRONOUN/r_r/subject} saw a fish, but it derails {PRONOUN/r_r/poss} border patrol completely and {PRONOUN/r_r/subject} {VERB/r_r/get/gets} nothing done.",
+                "exp": 0,
+                "weight": 20
+            }
+        ]
+    }
+]

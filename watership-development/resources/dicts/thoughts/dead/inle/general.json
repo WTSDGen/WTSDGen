@@ -1,0 +1,353 @@
+[
+    {
+        "id": "general_dead_thoughts",
+        "thoughts": [
+            "Is feeling quite lazy",
+            "Is spending a considerable amount of time grooming",
+            "Is looking forward to today",
+            "Is feeling down...",
+            "Is feeling happy!",
+            "Is curious about other warrens",
+            "Is feeling sassy today",
+            "Is thinking about a message to send",
+            "Wishes {PRONOUN/m_c/subject} {VERB/m_c/were/was} still alive",
+            "Is admiring Inlé territory",
+            "Is thinking about {PRONOUN/m_c/poss} life",
+            "Is missing a loved one",
+            "Is hoping to meet with a healer soon",
+            "Is admiring the stars in {PRONOUN/m_c/poss} fur",
+            "Is watching over a warren ceremony",
+            "Is hoping to give a life to a new chief rabbit",
+            "Is hoping {PRONOUN/m_c/subject} will be remembered",
+            "Is watching over the warren",
+            "Is worried about the warren",
+            "Is relaxing in Frith's light",
+            "Is wondering about the ithé",
+            "Is thinking about {PRONOUN/m_c/poss} ancient ancestors",
+            "Is worried about the rabbits in the lightless lands",
+            "Is thinking of advice to give to a healer",
+            "Is exploring Inlé",
+            "Is sad seeing how the warren has changed",
+            "Wishes {PRONOUN/m_c/subject} could speak to old friends",
+            "Is sneezing on moondust",
+            "Is comforting another Inlé rabbit",
+            "Is exploring Inlé's extensive burrows",
+            "Can feel some rabbit forgetting {PRONOUN/m_c/object}..."
+        ],
+        "random_living_status":[
+            "living",
+            "Inlé",
+            "darkforest",
+            "unknownresidence"
+        ]
+    },
+    {
+        "id": "general_dead_to_dead_other",
+        "thoughts": [
+            "Is grooming r_r",
+            "Has been spending time with r_r lately",
+            "Is acting huffy at r_r",
+            "Is sharing food with r_r",
+            "Is curious about r_r",
+            "Is talking with r_r",
+            "Doesn't want to talk to r_r",
+            "Is having a serious fight with r_r",
+            "Wants to spend more time with r_r",
+            "Is thinking about future prophecies with r_r",
+            "Is watching over the warren with r_r",
+            "Is listening to long-forgotten stories about the warren",
+            "Is gossiping with r_r"
+        ],
+        "random_living_status": [
+            "Inlé"
+        ]
+    },
+    {
+        "id": "founder_dead_to_dead_other",
+        "thoughts": [
+            "Is speaking with r_r about how c_n came to be",
+            "Is telling other Inlé rabbits stories of c_n's beginning"
+        ],
+        "main_age_constraint": [
+            "adolescent",
+            "young adult",
+            "adult",
+            "senior adult",
+            "senior"
+        ],
+        "main_backstory_constraint": ["warren_founder"],
+        "random_living_status": [
+            "Inlé"
+        ]
+    },
+    {
+        "id": "founder_dead_to_dead_other_founder",
+        "thoughts": [
+            "Is reminiscing with r_r about how c_n came to be",
+            "Is speaking with r_r about how the warren they founded had changed"
+        ],
+        "main_age_constraint": [
+            "adolescent",
+            "young adult",
+            "adult",
+            "senior adult",
+            "senior"
+        ],
+        "main_backstory_constraint": ["warren_founder"],
+        "random_backstory_constraint": ["warren_founder"],
+        "random_living_status": [
+            "Inlé"
+        ]
+    },
+    {
+        "id": "general_dead_to_alive_other",
+        "thoughts": [
+            "Is watching over r_r",
+            "Is curious about what r_r is doing",
+            "Wants to send a message to r_r",
+            "Is currently walking in the dreams of r_r",
+            "Is proud of r_r",
+            "Is disappointed in r_r",
+            "Wants to warn r_r",
+            "Has been following the growth of r_r",
+            "Has seen r_r's future demise",
+            "Is looking to visit r_r in a dream soon",
+            "Accidentally found {PRONOUN/m_c/self} in r_r's dreams the other night",
+            "Knows what r_r's secret is and wants to tell some rabbit",
+            "Is judging r_r"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+    {
+        "id": "founder_dead_to_alive_kitten",
+        "thoughts": [
+            "Is watching over the newest additions to {PRONOUN/m_c/poss} warren"
+        ],
+        "main_age_constraint": [
+            "adolescent",
+            "young adult",
+            "adult",
+            "senior adult",
+            "senior"
+        ],
+        "main_backstory_constraint": ["warren_founder"],
+        "random_status_constraint": [
+            "kitten"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+    {
+        "id": "gen_dead_med_rabbit",
+        "thoughts": [
+            "Regrets leaving the warren one healer short",
+            "Is worried about the warren's ability to survive the latest illness",
+            "Looks after the newborns in Inlé",
+            "Is watching c_n, ready to send an omen"
+        ],
+        "main_status_constraint": [
+            "healer",
+            "healer rusasi"
+        ]
+    },
+    {
+        "id": "dead_med_rabbit_to_alive_med_rabbit",
+        "thoughts": [
+            "Has an important message for r_r",
+            "Is distraught that {PRONOUN/m_c/subject} can't help r_r take care of the warren",
+            "Sends an omen of things to come to r_r",
+            "Is excited that {PRONOUN/m_c/subject} {VERB/m_c/are/is} able to help c_n by sharing a new prophecy",
+            "Whispers useful suggestions in r_r's ears",
+            "Sends a vision of an undiscovered herb patch to r_r",
+            "Lets {PRONOUN/m_c/poss} scent linger near r_r, if only for a moment"
+        ],
+        "main_status_constraint": [
+            "healer",
+            "healer rusasi"
+        ],
+        "random_status_constraint": [
+            "healer",
+            "healer rusasi"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+    {
+        "id": "dead_med_rabbit_to_alive_other",
+        "thoughts": [
+            "Sends an omen of things to come to r_r"
+        ],
+        "main_status_constraint": [
+            "healer",
+            "healer rusasi"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+    {
+        "id": "dead_med_rabbit_to_dead_other",
+        "thoughts": [
+            "Shares {PRONOUN/m_c/poss} knowledge with r_r",
+            "Is discussing warren matters with r_r"
+        ],
+        "main_status_constraint": [
+            "healer",
+            "healer rusasi"
+        ],
+        "random_living_status": [
+            "Inlé"
+        ]
+    },
+    {
+        "id": "dead_med_rabbit_to_dead_newborn",
+        "thoughts": [
+            "Softly describes the sun to r_r",
+            "Hums calming melodies to soothe r_r"
+        ],
+        "main_status_constraint": [
+            "healer",
+            "healer rusasi"
+        ],
+        "random_living_status": [
+            "Inlé"
+        ],
+        "random_age_constraint": [
+            "newborn"
+        ]
+    },
+    {
+        "id": "dead_child_to_alive_child_sibling",
+        "thoughts":[
+            "Wants to let r_r know {PRONOUN/m_c/subject} {VERB/m_c/are/is} okay",
+            "Wishes {PRONOUN/m_c/subject} could play with r_r",
+            "Is watching r_r play"
+        ],
+        "main_age_constraint": [
+            "newborn",
+            "kitten"
+        ],
+        "relationship_constraint": [
+            "siblings"
+        ],
+        "random_living_status": [
+            "living"
+        ],
+        "random_age_constraint": [
+            "newborn",
+            "kitten"
+        ]
+    },
+    {
+        "id": "gen_dead_owsla_app",
+        "thoughts": [
+            "Wants to use {PRONOUN/m_c/poss} training to help Inlérah",
+            "Is sad {PRONOUN/m_c/subject} couldn't complete {PRONOUN/m_c/poss} training",
+            "Tries to continue {PRONOUN/m_c/poss} training on {PRONOUN/m_c/poss} own",
+            "Is listening intently to other Inlé rabbits' stories"
+        ],
+        "main_status_constraint": [
+            "healer rusasi",
+            "owsla rusasi"
+        ]
+    },
+    {
+        "id": "dead_app_to_dead_other",
+        "thoughts": [
+            "Is asking r_r questions about {PRONOUN/m_c/poss} life",
+            "Is listening to r_r's stories",
+            "Wants to show r_r a new skill {PRONOUN/m_c/subject} learned"
+        ],
+        "main_status_constraint": [
+            "apprentice",
+            "healer rusasi",
+            "owsla rusasi"
+        ],
+        "random_living_status": [
+            "Inlé"
+        ]
+    },
+    {
+        "id": "dead_app_to_alive_app_sibling",
+        "thoughts":[
+            "Wishes {PRONOUN/m_c/subject} could train with r_r"
+        ],
+        "main_status_constraint": [
+            "owsla rusasi"
+        ],
+        "relationship_constraint": [
+            "siblings"
+        ],
+        "random_living_status": [
+            "living"
+        ],
+        "random_status_constraint": [
+            "owsla rusasi"
+        ]
+    },
+    {
+        "id": "dead_app_to_alive_rusasirah",
+        "thoughts": [
+            "Hopes {PRONOUN/m_c/subject} made r_r proud"
+        ],
+        "main_status_constraint": [
+            "apprentice",
+            "healer rusasi",
+            "owsla rusasi"
+        ],
+        "relationship_constraint": [
+            "app/rusasirah"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+    {
+        "id": "dead_rusasirah_to_alive_app",
+        "thoughts": [
+            "Hopes {PRONOUN/m_c/subject} {VERB/m_c/have/has} been a good rusasirah to r_r",
+            "Wishes {PRONOUN/m_c/subject} could have finished training r_r",
+            "Hopes r_r is training well under {PRONOUN/r_r/poss} new rusasirah"
+        ],
+        "relationship_constraint": [
+            "rusasirah/app"
+        ],
+        "random_status_constraint": [
+            "apprentice",
+            "owsla rusasi",
+            "healer rusasi"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+    {
+        "id": "gen_dead_to_alive_sibling",
+        "thoughts": [
+            "Watches r_r grow and live the life {PRONOUN/m_c/subject} could never have",
+            "Wishes {PRONOUN/m_c/subject} could tell r_r how proud {PRONOUN/m_c/subject} {VERB/m_c/are/is} of {PRONOUN/r_r/object}",
+            "Celebrates r_r's successes with {PRONOUN/r_r/object}",
+            "Is proud of who r_r has become"
+        ],
+        "relationship_constraint": [
+            "siblings"
+        ],
+        "random_living_status": [
+            "living"
+        ]
+    },
+    {
+        "id": "gen_dead_owsla",
+        "thoughts": [
+            "Is guarding Inlé... despite having free from the Thousand"
+        ],
+        "main_status_constraint": [
+            "owsla",
+            "owsla rusasi"
+        ]
+    }
+]

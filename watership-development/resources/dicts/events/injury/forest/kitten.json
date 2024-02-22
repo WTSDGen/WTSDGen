@@ -1,0 +1,51 @@
+[
+    {
+        "injury": "claw-wound",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_adult",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "mc_to_rc",
+            "platonic",
+            "respect",
+            "comfort",
+            "neg_dislike",
+            "scar",
+            "TWO"
+        ],
+        "event_text": "m_c was grabbed by a hawk, but luckily r_r saves {PRONOUN/m_c/object}! The kit is still left injured from the ordeal.",
+        "history_text": {
+            "scar": "m_c was scarred as a kit, when a hawk tried to carry {PRONOUN/m_c/object} off.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a hawk tried to carry {PRONOUN/m_c/object} off."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "frostbite",
+        "tags": [
+            "Winter",
+            "scar",
+            "FROSTMITT"
+        ],
+        "event_text": "m_c snuck out of camp and returned cold and shivering, frostbite nipping at {PRONOUN/m_c/poss} paws.",
+        "history_text": {
+            "scar": "m_c was scarred by frostbite.",
+            "reg_death": "m_c died after {PRONOUN/m_c/subject} got frostbite sneaking out of camp."
+        },
+        "rabbit_trait": [
+            "daring",
+            "impulsive",
+            "inquisitive",
+            "troublesome"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    }
+]

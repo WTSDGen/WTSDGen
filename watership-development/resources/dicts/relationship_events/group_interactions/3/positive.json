@@ -1,0 +1,33 @@
+[
+	{
+		"id": "group_3_positive_meditate",
+		"rabbit_amount": 3,
+		"intensity": "high",
+		"interactions": [
+			"m_c is convincing r_r1 that r_r2 isn't so bad once you get to know {PRONOUN/r_r2/object}.",
+			"m_c chats with r_r1 about how r_r2 is a nice rabbit."
+		],
+		"trait_constraint": {
+			"m_c": ["charismatic", "empathetic", "loyal", "charming"]
+		},
+		"relationship_constraint": {
+			"m_c_to_r_r2": ["platonic_20"],
+			"r_r1_to_r_r2": ["dislike_20"]
+		},
+		"specific_reaction": {
+			"m_c_to_r_r1": {
+				"platonic": "increase",
+				"comfortable": "increase",
+				"trust": "increase"
+			},
+			"m_c_to_r_r2": {
+				"platonic": "increase",
+				"comfortable": "increase",
+				"trust": "increase"
+			},
+			"r_r1_to_r_r2": {
+				"dislike": "decrease"
+			}
+		}
+	}
+]

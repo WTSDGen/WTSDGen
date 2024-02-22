@@ -1,0 +1,399 @@
+[
+    {
+        "id": "adventurous_healer",
+        "thoughts": [
+            "Heads out of warren territories to look for new herbs",
+            "Purposefully planted herbs in hard-to-reach areas",
+            "Purposefully planted herbs in hard-to-reach areas",
+            "Is exploring unclaimed lands while searching for herbs",
+            "Climbed a tree to gather alder bark instead of clawing the trunk",
+            "Thinks about visiting Inlé, just to explore their burrows",
+            "Asks the captain to go on patrol",
+            "Begs the chief rabbit to give {PRONOUN/m_c/object} the bounciest kitten as {PRONOUN/m_c/poss} apprentice",
+            "Is showing the kittens herbs by taking them on adventures in the territory",
+            "Helps the chief rabbit with their duties while the captain is on patrol",
+            "Offers to help the queens with lendri rides for the kittens",
+            "Uses extra herbs just to go gather more"
+        ],
+        "main_trait_constraint": [
+            "adventurous"
+        ]
+    },
+    {
+        "id": "ambitious_healer",
+        "thoughts": [
+            "Insists on taking on more tasks",
+            "Spends all day gathering herbs",
+            "Can't wait until Inlé sends an omen"
+        ],
+        "main_trait_constraint": [
+            "ambitious"
+        ]
+    },
+    {
+        "id": "bloodthirsty_healer",
+        "thoughts": [
+            "Is gathering yew berries",
+            "Has been disappearing a lot lately",
+            "Insists only on treating rabbits who need it",
+            "Is ripping some leaves to shreds",
+            "Debates becoming owsla",
+            "Gives the wrong herbs to a rabbit on purpose",
+            "Wishes {PRONOUN/m_c/subject} {VERB/m_c/weren't/wasn't} confined to this life",
+            "Is stocking up on yew berries",
+            "Is stocking up on yew berries",
+            "Is stocking up on nightshade",
+            "Is stocking up on watermint",
+            "Put herbs in prey to give rabbits stomachaches",
+            "Refused to treat anyone today",
+            "Is upset that {PRONOUN/m_c/subject} can't fight alongside the owsla",
+            "Wishes to fight alongside the owsla",
+            "Thinks {PRONOUN/m_c/subject}'d be an amazing chief rabbit",
+            "Talks to the chief rabbit and captain about war",
+            "Ignores the low herb stocks, instead practicing battle moves"
+        ],
+        "main_trait_constraint": [
+            "bloodthirsty"
+        ]
+    },
+    {
+        "id": "bold_healer",
+        "thoughts": [
+            "Decides to try a new herb as treatment for an injury"
+        ],
+        "main_trait_constraint": [
+            "bold"
+        ]
+    },
+    {
+        "id": "calm_healer",
+        "thoughts": [
+            "Stays composed when treating a severe injury"
+        ],
+        "main_trait_constraint": [
+            "calm"
+        ]
+    },
+    {
+        "id": "careful_healer",
+        "thoughts": [
+            "Counts and recounts the poppy seeds",
+            "Makes sure none of the herbs get mixed up"
+        ],
+        "main_trait_constraint": [
+            "careful"
+        ]
+    },
+    {
+        "id": "charismatic_healer",
+        "thoughts": [
+            "Is doing {PRONOUN/m_c/poss} daily checkup on the elders"
+        ],
+        "main_trait_constraint": [
+            "charismatic"
+        ]
+    },
+    {
+        "id": "childish_healer",
+        "thoughts": [
+            "Bounces excitedly",
+            "Plays with some wind-swept catmint"
+        ],
+        "main_trait_constraint": [
+            "childish"
+        ]
+    },
+    {
+        "id": "cold_healer",
+        "thoughts": [
+            "Grumbles as a rabbit asks for herbs for a simple bellyache",
+            "Has better things to do than pull splinters out of paws"
+        ],
+        "main_trait_constraint": [
+            "cold"
+        ]
+    },
+    {
+        "id": "compassionate_healer",
+        "thoughts": [
+            "Works long into the night taking care of the warren",
+            "Helps a rabbit regain their strength",
+            "Declines to eat when food is low",
+            "Listens to the owsla rusasis complain about their training"
+        ],
+        "main_trait_constraint": [
+            "compassionate"
+        ]
+    },
+    {
+        "id": "confident_healer",
+        "thoughts": [
+            "Is proud of {PRONOUN/m_c/poss} ability to care for {PRONOUN/m_c/poss} warrenmates",
+            "Does not doubt {PRONOUN/m_c/self} while treating a rabbit"
+        ],
+        "main_trait_constraint": [
+            "confident"
+        ]
+    },
+    {
+        "id": "daring_healer",
+        "thoughts": [
+            "Steals catmint from a ithé garden... despite that being an owsla job"
+        ],
+        "main_trait_constraint": [
+            "daring"
+        ]
+    },  
+    {
+        "id": "faithful_healer",
+        "thoughts": [
+            "Has been hearing the voices of Inlé rabbits..."
+        ],
+        "main_trait_constraint": [
+            "faithful"
+        ]
+    },
+    {
+        "id": "fierce_healer",
+        "thoughts": [
+            "Insists on joining battle training once a month"
+        ],
+        "main_trait_constraint": [
+            "fierce"
+        ]
+    },
+    {
+        "id": "insecure_healer",
+        "thoughts": [
+            "Is saying that {PRONOUN/m_c/subject} {VERB/m_c/don't/doesn't} deserve {PRONOUN/m_c/poss} role"
+        ],
+        "main_trait_constraint": [
+            "insecure"
+        ]
+    },
+    {
+        "id": "lonesome_healer",
+        "thoughts": [
+            "Is wishing {PRONOUN/m_c/subject} could have a mate and kittens",
+            "Wishes {PRONOUN/m_c/poss} warrenmates could understand {PRONOUN/m_c/poss} struggles",
+            "Wishes there were more healers in the warren",
+            "Wonders why the rabbits won't share food with {PRONOUN/m_c/object}",
+            "Wishes {PRONOUN/m_c/subject} could make friends with someone",
+            "Wishes the rabbits shared an interest in herbs",
+            "Wants to talk to the chief rabbit about having a new apprentice",
+            "Wishes for an apprentice, as {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} a bit lonely",
+            "Hasn't talked to any rabbits for a few days"
+        ],
+        "main_trait_constraint": [
+            "lonesome"
+        ]
+    },
+    {
+        "id": "loving_healer",
+        "thoughts": [
+            "Watches over some newborn kittens"
+        ],
+        "main_trait_constraint": [
+            "loving"
+        ],
+        "random_status_constraint":[
+            "newborn"
+        ]
+    },
+    {
+        "id": "loyal_healer",
+        "thoughts": [
+            "Refuses to share gossip",
+            "Refuses to give another warren's healer some herbs"
+        ],
+        "main_trait_constraint": [
+            "loyal"
+        ]
+    },
+    {
+        "id": "nervous_healer",
+        "thoughts": [
+            "Recounts the amount of catmint in {PRONOUN/m_c/poss} stores"
+        ],
+        "main_trait_constraint": [
+            "nervous"
+        ]
+    },
+    {
+        "id": "playful_healer",
+        "thoughts": [
+            "Excitedly teaches the kittens about basic herbs",
+            "Indulges the kittens as they play hide and seek around the medicine den."
+        ],
+        "main_trait_constraint": [
+            "playful"
+        ]
+    },
+    {
+        "id": "responsible_healer",
+        "thoughts": [
+            "Ensures that all of {PRONOUN/m_c/poss} duties are taken care of",
+            "Ignores the rumbling in {PRONOUN/m_c/poss} stomach in favor of treating rabbits"
+        ],
+        "main_trait_constraint": [
+            "responsible"
+        ]
+    },
+    {
+        "id": "righteous_healer",
+        "thoughts": [
+            "Gives herbs to an injured hlessi"
+        ],
+        "main_trait_constraint": [
+            "righteous"
+        ]
+    },
+    {
+        "id": "shameless_healer",
+        "thoughts": [
+            "Refuses to groom {PRONOUN/m_c/self}"
+        ],
+        "main_trait_constraint": [
+            "shameless"
+        ]
+    },
+    {
+        "id": "sneaky_healer",
+        "thoughts": [
+            "Seems to be hiding something in the medicine {PRONOUN/m_c/subject} {VERB/m_c/give/gives} to the chief rabbit"
+        ],
+        "main_trait_constraint": [
+            "sneaky"
+        ]
+    },
+    {
+        "id": "strange_healer",
+        "thoughts": [
+            "Insists everyone eat chamomile leaves at midnight",
+            "Sleeps in the middle of the clearing",
+            "Looks dazed",
+            "Thumps at the kittens randomly"
+        ],
+        "main_trait_constraint": [
+            "strange"
+        ]
+    },
+    {
+        "id": "strict_healer",
+        "thoughts": [
+            "Forbids anyone from disturbing {PRONOUN/m_c/object} when working"
+        ],
+        "main_trait_constraint": [
+            "strict"
+        ]
+    },
+    {
+        "id": "thoughtful_healer",
+        "thoughts": [
+            "Realizes what an omen might mean"
+        ],
+        "main_trait_constraint": [
+            "thoughtful"
+        ]
+    },
+    {
+        "id": "troublesome_healer",
+        "thoughts": [
+            "Mixes up herbs"
+        ],
+        "main_trait_constraint": [
+            "troublesome"
+        ]
+    },
+    {
+        "id": "vengeful_healer",
+        "thoughts": [
+            "Refuses to treat a rabbit that once bullied {PRONOUN/m_c/object}"
+        ],
+        "main_trait_constraint": [
+            "vengeful"
+        ]
+    },
+    {
+        "id": "wise_healer",
+        "thoughts": [
+            "Tells an ancient tale about Frith"
+        ],
+        "main_trait_constraint": [
+            "wise"
+        ]
+    },
+    {
+        "id": "med_rabbit_dead_SC_gen",
+        "thoughts": [
+            "Wishes {PRONOUN/m_c/subject} could visit r_r in Inlé",
+            "Was given a prophecy by r_r",
+            "Was sent an omen by r_r",
+            "Is dreaming about r_r who gives {PRONOUN/m_c/object} a message",
+            "Is visited by r_r",
+            "Senses r_r is nearby",
+            "Saw r_r in a dream, warning {PRONOUN/m_c/object} about... something",
+            "Is asking for guidance from r_r",
+            "Is wondering desperately why r_r wasn't there when {PRONOUN/m_c/subject} needed {PRONOUN/r_r/object}",
+            "Is sure that {PRONOUN/m_c/subject} saw r_r appear in the forest today... why?"
+        ],
+        "main_status_constraint": [
+            "healer",
+            "healer apprentice"
+        ],
+        "random_living_status": [
+            "Inlé"
+        ]
+    },
+    {
+        "id": "med_rabbit_dead_DF_gen",
+        "thoughts": [
+            "Is visited by r_r",
+            "Senses r_r is nearby",
+            "Thought {PRONOUN/m_c/subject} heard a low rumbling behind {PRONOUN/m_c/object}, but nothing was there",
+            "Received an ominous and dark message from r_r",
+            "Has been hearing the voices of evil creatures...",
+            "Debates whether or not to ask r_r for guidance, knowing where {PRONOUN/r_r/subject} {VERB/r_r/are/is}"
+        ],
+        "random_living_status": [
+            "darkforest"
+        ]
+    },
+    {
+        "id": "med_rabbit_gen",
+        "thoughts": [
+            "Is looking for herbs",
+            "Is organizing the herb stores",
+            "Is drying some herbs",
+            "Is interpreting an omen",
+            "Is interpreting a prophecy",
+            "Hopes for a message from Frith soon",
+            "Is feeling stressed taking care of the warren",
+            "Is making new nests",
+            "Wishes {PRONOUN/m_c/subject} had an extra set of paws",
+            "Is reciting the names of herbs aloud",
+            "Was startled awake in the wee hours by a vivid dream",
+            "Is running low on lavender",
+            "Plans to go out gathering herbs today",
+            "Is looking forward to dusk",
+            "Is struggling to remember all of the names of herbs",
+            "Is helping organize the herb stores",
+            "Made a mess of the herbs and is panicking",
+            "Has been hearing the voices of Inlé rabbits...",
+            "Has the foul taste of bitter herbs in {PRONOUN/m_c/poss} mouth",
+            "Is wondering if {PRONOUN/m_c/subject} could borrow some catmint from the other warrens",
+            "Is happy that {PRONOUN/m_c/subject} chose life as a healer",
+            "Is proud of {PRONOUN/m_c/poss} ability to care for {PRONOUN/m_c/poss} warrenmates"
+        ]
+    },
+    {
+        "id": "med_rabbit_alive_apprentice",
+        "thoughts": [
+            "Is thinking about taking on a new apprentice"
+        ],
+        "random_status_constraint": [
+            "apprentice",
+            "kitten"
+        ]
+    }     
+]

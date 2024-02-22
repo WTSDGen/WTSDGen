@@ -1,0 +1,120 @@
+[
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c thinks about retiring.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "other_warren",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c travels to o_c to bring them an important message.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c travels to the other Clans to bring them an important message.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "war"
+        ],
+        "event_text": "As the deputy, m_c is doing {PRONOUN/m_c/poss} best to prepare for leadership in the case that the worst happens."
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "war",
+            "other_rabbit",
+            "other_rabbit_leader",
+            "mc_to_rc",
+            "platonic",
+            "respect",
+            "trust"
+        ],
+        "event_text": "m_c is struggling to accept the fact that {PRONOUN/m_c/subject} may have to step up as leader if r_r loses {PRONOUN/r_r/poss} last life. How could {PRONOUN/m_c/subject} {VERB/m_c/go/goes} on without {PRONOUN/m_c/poss} beloved leader? How difficult will it to be to lead in {PRONOUN/r_r/poss} stead?",
+        "rabbit_trait": [
+            "insecure",
+            "lonesome",
+            "nervous"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "war",
+            "other_rabbit",
+            "other_rabbit_leader"
+        ],
+        "event_text": "m_c is struggling to accept the fact that {PRONOUN/m_c/subject} may have to step up as leader if r_r loses {PRONOUN/r_r/poss} last life.",
+        "rabbit_trait": [
+            "insecure",
+            "lonesome",
+            "nervous"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "war",
+            "other_rabbit",
+            "other_rabbit_elder"
+        ],
+        "event_text": "m_c is heavily relying on the tactical advice and experience of the elders, namely r_r.",
+        "rabbit_trait": [
+            "insecure",
+            "lonesome",
+            "nervous"
+        ],
+        "other_rabbit_skill": [
+            "INSIGHTFUL,1",
+            "TEACHER,3",
+            "CLEVER,3",
+            "CAMP,3"
+        ]
+    }
+]

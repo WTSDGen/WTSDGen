@@ -1,0 +1,21 @@
+[
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "death"
+        ],
+        "death_text": "m_c feels that {PRONOUN/m_c/subject} {VERB/m_c/don't/doesn't} have enough energy to stand up and remain here.",
+        "history_text": [
+            null,
+            "starved"
+        ],
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "reduce_half"
+        ],
+        "event_text": "The Clan worked hard to gather plenty of fresh-kill, but woke up to find pawprints leading away from the fresh-kill pile, and missing prey.",
+        "history_text": [
+            null,
+            null
+        ],
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "death",
+            "reduce_half"
+        ],
+        "event_text": "m_c woke up in the middle of the night to a strange noise. No one else was awake, or so {PRONOUN/m_c/subject} thought, until seeing someone at the fresh-kill pile. Before m_c could realize {PRONOUN/m_c/poss} mistake, sharp canine teeth were at {PRONOUN/m_c/poss} throat, ensuring the Clan wakes up to find {PRONOUN/m_c/poss} nest empty, and the prey gone.",
+        "history_text": [
+            "m_c was killed by a fox that snuck into camp.",
+            "{VERB/m_c/were/was} killed by a fox that snuck into camp"
+        ],
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "multi_death",
+            "reduce_eighth",
+            "other_rabbit"
+        ],
+        "event_text": "m_c was taking some prey from the fresh-kill pile only to find a couple of rats! In the midst of battle, {PRONOUN/m_c/subject} called to r_r for help. Together they fought off the rats, but not without their losses.",
+        "history_text": [
+            "m_c was killed by a couple of rats while defending the fresh-kill pile.",
+            "{VERB/m_c/were/was} killed by a couple of rats while defending the fresh-kill pile"
+        ],
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "rat bite",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "multi_injury",
+            "reduce_eighth",
+            "other_rabbit"
+        ],
+        "event_text": "m_c was taking some prey from the fresh-kill pile only to find a couple of rats! In the midst of battle, {PRONOUN/m_c/subject} called to r_r for help. Together they fought off the rats, but got injured in the process.",
+        "history_text": [
+            "{VERB/m_c/were/was} hurt while defending the fresh-kill pile from a couple of rats.",
+            "Died from {PRONOUN/m_c/poss} wounds after defending the fresh-kill pile from a couple of rats.",
+            "{VERB/m_c/were/was} killed defending the fresh-kill pile from a couple of rats"
+        ],
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "rat bite",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "injury",
+            "reduce_eighth"
+        ],
+        "event_text": "m_c was taking some prey from the fresh-kill pile only to find a couple of rats! While m_c managed to fight off every last rat, {PRONOUN/m_c/subject} got injured in the process.",
+        "history_text": [
+            "{VERB/m_c/were/was} hurt while defending the fresh-kill pile from a couple of rats.",
+            "Died from {PRONOUN/m_c/poss} wounds after defending the fresh-kill pile from a couple of rats.",
+            "{VERB/m_c/were/was} killed defending the fresh-kill pile from a couple of rats"
+        ],
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    }
+]

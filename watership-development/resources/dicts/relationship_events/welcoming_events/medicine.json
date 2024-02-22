@@ -1,0 +1,9 @@
+[
+         {
+		            "id": "med1",
+		            "interactions":[
+				"m_c offers r_r herbs lessons, to prevent {PRONOUN/r_r/object} from eating deathberries inadvertently",
+                        	"m_c introduces {PRONOUN/m_c/self} as c_n's healer and asks r_r to warn {PRONOUN/m_c/object} at any sign of sickness." 
+		            ]
+          }
+  ]

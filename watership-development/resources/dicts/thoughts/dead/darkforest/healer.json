@@ -1,0 +1,31 @@
+[    
+      { 
+        "id": "dark_forest_medrabbit_to_living_other_medrabbit",
+        "thoughts": [
+            "Is indirabbiting to r_r the closest bush of yew berries",
+            "Is deliberately whispering contradicting herbs to r_r so {PRONOUN/r_r/subject} will make a mistake",
+            "Wants to switch herbs places in the store so r_r will accidentally poison a warrenmate"
+            ],  
+        "random_status_constraint": [
+                "healer",
+                "healer rusasi"
+            ],
+         "random_living_status": [
+                "living"
+            ]
+     
+       },
+       {
+         "id": "dark_forest_medrabbit_to_living_medrabbit_apprentice",
+         "thoughts": [
+               "Hopes r_r will follow the path {PRONOUN/m_c/subject} took",
+               "Is trying to teach r_r poisonous herbs in {PRONOUN/r_r/poss} dreams"
+            ],
+        "random_status_constraint": [
+              "healer apprrentice"
+            ],
+        "random_living_status" : [
+              "living"
+            ]
+       }
+]

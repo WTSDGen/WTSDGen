@@ -1,0 +1,355 @@
+[
+    {
+        "camp": "any",
+        "tags": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "other_rabbit",
+            "other_rabbit_warrior"
+        ],
+        "event_text": "m_c and r_r take a late night patrol out of camp to watch the sun rise.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "other_rabbit",
+            "other_rabbit_warrior"
+        ],
+        "event_text": "m_c and r_r take an early evening patrol out of camp to watch the moon rise.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter",
+            "other_rabbit",
+            "other_rabbit_warrior"
+        ],
+        "event_text": "m_c encourages r_r to play in the snow with {PRONOUN/m_c/object} during a patrol.",
+        "rabbit_trait": "playful",
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "other_rabbit",
+            "other_rabbit_mate",
+            "romantic",
+            "comfort",
+            "trust"
+        ],
+        "event_text": "m_c gifts {PRONOUN/m_c/poss} beloved r_r with a acc_singular to wear in {PRONOUN/m_c/poss} pelt.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null,
+        "accessories": [
+            "WILD",
+            "PLANT"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "other_rabbit",
+            "other_rabbit_mate",
+            "romantic",
+            "comfort",
+            "trust"
+        ],
+        "event_text": "m_c gives r_r a acc_singular to make up for a bad fight between them.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null,
+        "accessories": [
+            "WILD",
+            "PLANT"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn"
+        ],
+        "event_text": "m_c disappears for a few days, then returns to camp with a acc_singular around {PRONOUN/m_c/poss} neck.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null,
+        "accessories": [
+            "COLLAR"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "other_warren",
+            "rel_up"
+        ],
+        "event_text": "m_c was seen speaking calmly to a rabbit from o_c.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "other_warren",
+            "rel_down"
+        ],
+        "event_text": "m_c was seen arguing, and borderline-fighting, with a rabbit from o_c.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "other_warren"
+        ],
+        "event_text": "m_c was seen racing along the border with {PRONOUN/m_c/poss} rival from o_c.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "other_warren"
+        ],
+        "event_text": "m_c was loitering around o_c's border, looking for a specific rabbit.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c was seen talking calmly to a loner, before both cats went their separate ways.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "other_warren"
+        ],
+        "event_text": "m_c was seen touching noses with someone from o_c. Scandalous!",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c was seen touching noses with a loner. Scandalous!",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c was seen arguing, and borderline-fighting, with a loner.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c was seen in a very serious conversation with a kittypet, who ran away when another patrol approached.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c was seen chasing a kittypet off of the territory.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c was seen chasing a rogue off of the territory.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c was seen touching noses with a rogue. Scandalous!",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c was seen playing with a kittypet over the border.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c was seen taking food from a Twoleg!",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c was caught sharing prey with a rogue, who was chased off by a patrol.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c was caught sharing prey with a kittypet, who was chased off by a patrol.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c was seen touching noses with a kittypet. Scandalous!",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    }
+]

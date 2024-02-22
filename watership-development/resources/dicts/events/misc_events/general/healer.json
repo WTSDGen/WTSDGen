@@ -1,0 +1,346 @@
+[
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c visits the other healers.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "other_warren"
+        ],
+        "event_text": "m_c visits o_c to converse with their healers about an omen StarClan sent.",
+        "rabbit_trait": null,
+        "rabbit_skill": [
+            "STAR,0",
+            "CLAIRVOYANT,0",
+            "OMEN,0",
+            "DREAM,0"
+        ],
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "other_warren"
+        ],
+        "event_text": "m_c visits o_c to congratulate them on their new healer.",
+        "rabbit_trait": null,
+        "rabbit_skill": [
+            "MEDIATOR,1"
+        ],
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "ceremony",
+            "other_rabbit",
+            "other_rabbit_med",
+            "to_both",
+            "platonic",
+            "comfort",
+            "trust",
+            "neg_dislike",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "r_r presents m_c with acc_plural as a congratulations.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null,
+        "accessories": [
+            "WILD",
+            "PLANT"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c always seems to have acc_plural stuck in {PRONOUN/m_c/poss} fur.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null,
+        "accessories": [
+            "HERBS",
+            "PETALS",
+            "DRY HERBS"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "other_rabbit",
+            "other_rabbit_leader"
+        ],
+        "event_text": "m_c speaks to r_r about an omen {PRONOUN/m_c/subject} saw while on patrol recently.",
+        "rabbit_trait": null,
+        "rabbit_skill": [
+            "OMEN,0"
+        ],
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "other_rabbit",
+            "other_rabbit_med"
+        ],
+        "event_text": "m_c speaks to r_r about a potential omen and what it means.",
+        "rabbit_trait": null,
+        "rabbit_skill": [
+            "OMEN,0"
+        ],
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "skill_trait_required"
+        ],
+        "event_text": "m_c walks into the dreams of {PRONOUN/m_c/poss} Clanmates while everyone sleeps.",
+        "rabbit_trait": null,
+        "rabbit_skill": [
+            "DREAM,2"
+        ],
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "skill_trait_required"
+        ],
+        "event_text": "m_c correctly warns the leader of an ambush, thanks to {PRONOUN/m_c/poss} clairvoyant nature.",
+        "rabbit_trait": null,
+        "rabbit_skill": [
+            "CLAIRVOYANT,2"
+        ],
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn"
+        ],
+        "event_text": "m_c spends {PRONOUN/m_c/poss} day communing with StarClan, attempting to figure out a recent prophecy.",
+        "rabbit_trait": null,
+        "rabbit_skill": [
+            "PROPHET,2"
+        ],
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_elder",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c has been worried that c_n will lose the knowledge r_r has gained through {PRONOUN/r_r/poss} long life, but by sitting with r_r and discussing {PRONOUN/r_r/poss} experiences, m_c will ensure the lessons learned in the past are never forgotten.",
+        "rabbit_trait": null,
+        "rabbit_skill": [
+            "LORE,0"
+        ],
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "skill_trait_required"
+        ],
+        "event_text": "m_c tosses in {PRONOUN/m_c/poss} sleep as {PRONOUN/m_c/poss} dreamself pads through the thoughts of {PRONOUN/m_c/poss} Clanmates, picking up snippets of dream_list. {PRONOUN/m_c/subject/CAP} slowly {VERB/m_c/blink/blinks} awake, wondering whose dreams {PRONOUN/m_c/subject} walked in.",
+        "rabbit_trait": null,
+        "rabbit_skill": [
+            "DREAM,2"
+        ],
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn"
+        ],
+        "event_text": "m_c disappears for a few days, then returns to camp with a acc_singular around {PRONOUN/m_c/poss} neck.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null,
+        "accessories": [
+            "COLLAR"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "other_warren"
+        ],
+        "event_text": "m_c was seen loudly bickering with the healer of o_c.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c was seen talking with a traveling loner healer on the border.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "other_warren"
+        ],
+        "event_text": "m_c was seen touching noses with someone from o_c. Scandalous!",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "war"
+        ],
+        "event_text": "m_c's knowledge of herbs and healing is being put to the test, with injuries becoming more severe in the midst of war."
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "war"
+        ],
+        "event_text": "m_c watches every little thing around {PRONOUN/m_c/object} for any omen that indicates what the Clan should do in the war. The losses weigh heavy on the hearts of every rabbit.",
+        "rabbit_skill": [
+            "OMEN,0"
+        ]
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "war"
+        ],
+        "event_text": "m_c preps battle herbs into small bundles to rush to the battlefield in case of severe injuries."
+    },
+    {
+        "tags": [
+            "Winter",
+            "war"
+        ],
+        "event_text": "m_c hopes to find the herbs that c_n needs in the war, and goes to look for them even in this leafbare's harsh weather."
+    },
+    {
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "war"
+        ],
+        "event_text": "c_n is in a badly need of herbs, and m_c knows it, but can't bring {PRONOUN/m_c/self} to leave {PRONOUN/m_c/poss} patients' side."
+    },
+    {
+        "camp": "Any",
+        "tags": [
+            "medicine_cat",
+            "medicine_rabbit_app",
+            "other_rabbit",
+            "mc_to_rc",
+            "dislike"
+        ],
+        "event_text": "m_c is getting increasingly annoyed with r_r because {PRONOUN/r_r/subject} {VERB/r_r/keep/keeps} bothering {PRONOUN/m_c/object} about the most trivial of wounds and aches."
+    }
+
+]

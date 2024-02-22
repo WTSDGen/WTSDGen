@@ -1,0 +1,324 @@
+[
+    {
+        "id": "captain_dead_captain",
+        "thoughts": [
+            "Wishes {PRONOUN/m_c/subject} could speak to r_r to learn how to assign patrols better"
+        ],
+        "random_status_constraint": [
+            "captain"
+        ],
+        "random_living_status": [
+            "inle"
+        ]
+    },
+    {
+        "id": "gen_captain",
+        "thoughts": [
+            "Is assigning owsla to a border patrol",
+            "Is assigning owsla to train",
+            "Is wondering what it would be like to be chief rabbit",
+            "Is stressed about organizing patrols",
+            "Wonders who will give {PRONOUN/m_c/object} their blessings",
+            "Feels overworked",
+            "Is hoping for a break",
+            "Is assigning owsla to the dawn patrol",
+            "Is assigning owsla to train",
+            "Is assigning owsla to patrol the borders",
+            "Can't believe {PRONOUN/m_c/subject} overslept today",
+            "Is unsure of what the rest of the warren thinks of {PRONOUN/m_c/object} as captain"
+        ]
+    },
+    {
+        "id": "captain_alive_chief_rabbit",
+        "thoughts": [
+            "Is doing {PRONOUN/m_c/poss} best to honor {PRONOUN/m_c/poss} warren and {PRONOUN/m_c/poss} chief rabbit",
+            "Must speak with the chief rabbit soon about something {PRONOUN/m_c/subject} found while out on patrol"
+        ],
+        "random_status_constraint": [
+            "chief rabbit"
+        ]
+    },
+    {
+        "id": "captain_alive_apprentices",
+        "thoughts": [
+            "Is assessing the apprentices"
+        ],
+        "random_status_constraint": [
+            "apprentice"
+        ]
+    },
+    {
+        "id": "bloodthirsty_captain_to_gen",
+        "thoughts": [
+            "Is fantasizing about leading the warren into a victorious battle",
+            "Feels a thrill imagining the chaos of a large-scale battle",
+            "Tells the border patrol not to let any intruders go free without a scar to remember them by"
+        ],
+        "main_trait_constraint": [
+            "bloodthirsty"
+        ]
+    },
+    {
+        "id": "bloodthirsty_captain_chief_rabbit",
+        "thoughts": [
+            "Thinks about killing the chief rabbit and staging it as an accident",
+            "Encourages the chief rabbit to start a war"
+        ],
+        "main_trait_constraint": [
+            "bloodthirsty"
+        ],
+        "random_status_constraint": [
+            "chief rabbit"
+        ]
+    },
+    {
+        "id": "strange_captain_to_gen",
+        "thoughts": [
+            "Accidentally assigns the same rabbit to three patrols",
+            "Insists a group of harvesting rabbits to only bring back lettuce",
+            "Goes missing and comes back smelling like garlic",
+            "Is making odd noises",
+            "Giggles at the thought of a bird trying to swim"
+        ],
+        "main_trait_constraint": [
+            "strange"
+        ]
+    },
+    {  
+        "id":"insecure_captain",
+        "thoughts": [
+            "Keeps confirming with the chief rabbit that the patrols {PRONOUN/m_c/subject}{VERB/m_c/'s/'re} organizing sound right",
+            "Hopes {PRONOUN/m_c/subject}'ll make a decent chief rabbit someday",
+            "Wonders how {PRONOUN/m_c/subject} became captain in the first place",
+            "Feels a pang of self-doubt when a patrol returns late",
+            "Questions whether they're respected or just tolerated by the warren",
+            "Worries that their mistakes will lead to the warren's downfall"
+        ],
+        "main_trait_constraint":[
+            "insecure"
+        ]
+    },
+    {  
+        "id":"insecure_captain_chief_rabbit",
+        "thoughts": [
+            "Keeps confirming with the chief rabbit that the patrols {PRONOUN/m_c/subject}{VERB/m_c/'s/'re} organizing sound right"
+        ],
+        "main_trait_constraint":[
+            "insecure"
+        ],
+        "random_status_constraint": [
+            "chief rabbit"
+        ]
+    },
+    {
+        "id": "fierce_captain",
+        "thoughts": [
+            "Is sternly instructing a patrol about the importance of strength in defending the warren",
+            "Feels a rush of adrenaline at the thought of an upcoming battle",
+            "Impressed {PRONOUN/m_c/poss} warrenmates by scaring off an intruder"
+        ],
+        "main_trait_constraint": [
+            "fierce"
+        ]
+    },
+    {
+        "id": "playful_captain",
+        "thoughts": [
+            "Is inventing a fun game to make patrol assignments more engaging",
+            "Is amused by the antics of the younger rabbits",
+            "Finds joy in the simple tasks of a captain's duty"
+        ],
+        "main_trait_constraint": [
+            "playful"
+        ]
+    },
+    {
+        "id": "nervous_captain",
+        "thoughts": [
+            "Is fretting over a recent increase in homba sightings near the burrow",
+            "Feels a twinge of worry about an approaching storm",
+            "Is overthinking a recent encounter with a rival warren"
+        ],
+        "main_trait_constraint": [
+            "nervous"
+        ]
+    },
+    {
+        "id": "ambitious_captain",
+        "thoughts": [
+            "Is imagining the respect {PRONOUN/m_c/subject}'d command as the chief rabbit of the warren",
+            "Is considering innovative strategies to earn more recognition",
+            "Feels a burning desire to prove {PRONOUN/m_c/self} worthy of leadership"
+        ],
+        "main_trait_constraint": [
+            "ambitious"
+        ]
+    },
+    {
+        "id": "ambitious_captain_teacher",
+        "thoughts": [
+            "Is planning a new training curriculum to impress the chief rabbit"
+        ],
+        "random_status_constraint": [
+            "chief rabbit"
+        ],
+        "main_trait_constraint": [
+            "ambitious"
+        ],
+        "main_skill_constraint": [
+            "TEACHER,1"
+        ]
+    },
+    {
+        "id": "wise_captain",
+        "thoughts": [
+            "Is reflecting on a past lesson to make a crucial decision",
+            "Ponders how their decisions will impact the warren in the long term",
+            "Feels a sense of understanding after meditating on an issue"
+        ],
+        "main_trait_constraint": [
+            "wise"
+        ]
+    },
+    {
+        "id": "wise_captain_apprentice",
+        "thoughts": [
+            "Is sharing words of wisdom with a confused apprentice"
+        ],
+        "main_trait_constraint": [
+            "wise"
+        ],
+        "random_status_constraint": [
+            "apprentice"
+        ]
+    },
+    {
+        "id": "rebellious_captain",
+        "thoughts": [
+            "Is questioning the necessity of an outdated tradition"
+        ],
+        "main_trait_constraint": [
+            "rebellious"
+        ]
+    },
+    {
+        "id": "rebellious_captain_chief_rabbit",
+        "thoughts": [
+            "Feels an urge to challenge the chief rabbit's decision for the betterment of the warren",
+            "Decided to change patrol routes on their own, hoping the chief rabbit will see the benefits"
+        ],
+        "main_trait_constraint": [
+            "rebellious"
+        ],
+        "random_status_constraint": [
+            "chief rabbit"
+        ]
+    },
+    {
+        "id": "teacher_captain",
+        "thoughts": [
+            "Is devising an effective teaching strategy for new skills",
+            "Encourages the older rabbits to share their skills and techniques with the younger generations"
+        ],
+        "main_skill_constraint": [
+            "TEACHER,1"
+        ]
+    },
+    {
+        "id": "teacher_captain_apprentice",
+        "thoughts": [
+            "Feels satisfaction watching a trainee master a lesson",
+            "Guides a trainee through their first battle assessment"
+        ],
+        "main_skill_constraint": [
+            "TEACHER,1"
+        ],
+        "random_status_constraint": [
+            "apprentice"
+        ]
+    },
+    {
+        "id": "hunter_captain",
+        "thoughts": [
+            "Makes sure no area of the territory is overharvested",
+            "Feels a rush of anticipation at the prospect of a successful harvest",
+            "Is out surveying the territory for the best harvesting spots to send patrols tomorrow"
+        ],
+        "main_skill_constraint": [
+            "HARVESTER,1"
+        ]
+    },
+    {
+        "id": "fighter_captain",
+        "thoughts": [
+            "Is instructing a group of owsla in advanced combat techniques",
+            "Feels a sense of protection for the warren, ready to defend them at any moment",
+            "Is assessing the warren's physical strength and readiness for potential threats",
+            "Organizes a mock battle to keep the warren's skills sharp"
+        ],
+        "main_skill_constraint": [
+            "FIGHTER,1"
+        ]
+    },
+    {
+        "id": "clever_captain",
+        "thoughts": [
+            "Is solving a complex problem that has been troubling the warren",
+            "Feels intrigued by a recent challenge and is strategizing solutions",
+            "Is considering a unique approach to organizing the patrols"
+        ],
+        "main_skill_constraint": [
+            "CLEVER,1"
+        ]
+    },
+    {
+        "id": "healer_captain",
+        "thoughts": [
+            "Helps a warrenmate get a thorn out of their paw while out on patrol",
+            "Feels empathy for a sick warrenmate and is thinking of ways to help",
+            "Is sharing knowledge about basic herbs with the warren"
+        ],
+        "main_skill_constraint": [
+            "HEALER,1"
+        ]
+    },
+    {
+        "id": "healer_captain_medrabbit",
+        "thoughts": [
+            "Takes a patrol out to gather herbs for the healer"
+        ],
+        "main_skill_constraint": [
+            "HEALER,1"
+        ],
+        "random_status_constraint": [
+            "healer"
+        ]
+    },
+    {
+        "id": "story_captain",
+        "thoughts": [
+            "Is recalling an old story that might inspire the warren in tough times",
+            "Feels inspired to craft a new legend based on recent events",
+            "Uses the stories of old to help guide their decisions"
+        ],
+        "main_skill_constraint": [
+            "STORY,1"
+        ]
+    },
+    {
+        "id": "story_captain_rusasi",
+        "thoughts": [
+            "Is recalling an old story that might inspire the warren in tough times",
+            "Feels inspired to craft a new legend based on recent events",
+            "Uses the stories of old to help guide their decisions",
+            "Is sharing tales of the warren's legacy with wide-eyed apprentices"
+        ],
+        "main_skill_constraint": [
+            "STORY,1"
+        ],
+        "random_status_constraint": [
+            "apprentice"
+        ]
+    }
+
+]

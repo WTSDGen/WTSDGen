@@ -1,0 +1,236 @@
+[
+    {
+        "injury": "bruises",
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c was climbing a tree when {PRONOUN/m_c/subject} fell. Luckily, {PRONOUN/m_c/subject} {VERB/m_c/were/was} only bruised by the incident.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "sprain",
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c trips over an unseen rabbit hole, spraining {PRONOUN/m_c/poss} paw.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "torn pelt",
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c was pushing through some dense shrubs and felt the branches tear painfully at {PRONOUN/m_c/poss} pelt.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "small cut",
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c was climbing a tree and got a splinter from one of the branches.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "small cut",
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c was moving some branches out of the way when {PRONOUN/m_c/subject} got a splinter.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "frostbite",
+        "camp": "any",
+        "tags": [
+            "Autumn",
+            "Winter",
+            "scar",
+            "FROSTTAIL"
+        ],
+        "event_text": "m_c was out wandering the territory for a bit too long and came back with frostbite.",
+        "history_text": {
+            "scar": "m_c was scarred by frostbite.",
+            "reg_death": "m_c died after {PRONOUN/m_c/subject} got frostbite."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "water in their lungs",
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn"
+        ],
+        "event_text": "m_c fell into a river, and inhaled a lot of water before managing to get out. {PRONOUN/m_c/subject/CAP}{VERB/m_c/'ve/'s} been hacking and sputtering ever since.",
+        "history_text": {
+            "reg_death": "m_c died from water-inhalation after falling in the river."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "mangled tail",
+        "camp": "any",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "scar",
+            "MANTAIL"
+        ],
+        "event_text": "m_c's tail was badly injured by a falling tree.",
+        "history_text": {
+            "scar": "m_c was scarred by a falling tree.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a tree fell on {PRONOUN/m_c/object}."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "burn",
+        "camp": "any",
+        "tags": [
+            "Summer",
+            "scar",
+            "BURNRUMP"
+        ],
+        "event_text": "A fire rages through the forest. m_c manages to escape, though not unscathed by the experience.",
+        "history_text": {
+            "scar": "m_c's pelt was burned by a forest fire.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} burns after a forest fire."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "burn",
+        "camp": "any",
+        "tags": [
+            "Summer",
+            "other_rabbit",
+            "other_rabbit_kit",
+            "rc_to_mc",
+            "respect",
+            "comfort",
+            "trust",
+            "platonic",
+            "neg_dislike",
+            "scar",
+            "BURNPAWS"
+        ],
+        "event_text": "The dry greenleaf weather leads to a fire bursting to life in camp, dangerously close to the nursery. There's still one kit inside! m_c dives into the den and makes it out, burnt, but with r_r safely swinging in {PRONOUN/m_c/poss} grasp.",
+        "history_text": {
+            "scar": "m_c's pelt was burned by a forest fire.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} burns after a forest fire."
+        },
+        "rabbit_trait": [
+            "ambitious",
+            "bold",
+            "altruistic",
+            "daring",
+            "fierce",
+            "responsible"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "severe burn",
+        "camp": "any",
+        "tags": [
+            "Summer",
+            "scar",
+            "BURNTAIL"
+        ],
+        "event_text": "A fire rages through the forest and m_c manages to escape, though not unscathed by the experience.",
+        "history_text": {
+            "scar": "m_c's pelt was burned by a forest fire.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} burns after a forest fire."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "severe burn",
+        "camp": "any",
+        "tags": [
+            "Summer",
+            "other_rabbit",
+            "other_rabbit_kit",
+            "rc_to_mc",
+            "respect",
+            "comfort",
+            "trust",
+            "platonic",
+            "neg_dislike",
+            "scar",
+            "BURNBELLY"
+        ],
+        "event_text": "The dry greenleaf weather leads to a fire bursting to life in camp, dangerously close to the nursery. There's still one kit inside! m_c dives into the den and makes it out, burnt, but with r_r safely swinging in {PRONOUN/m_c/poss} grasp.",
+        "history_text": {
+            "scar": "m_c's pelt was burned by a forest fire.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} burns after a forest fire."
+        },
+        "rabbit_trait": [
+            "ambitious",
+            "bold",
+            "altruistic",
+            "daring",
+            "fierce",
+            "responsible"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    }
+]

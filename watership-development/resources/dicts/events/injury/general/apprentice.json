@@ -1,0 +1,1270 @@
+[
+    {
+        "injury": "damaged eyes",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "scar",
+            "FACE"
+        ],
+        "event_text": "m_c mistook a hare for a rabbit while hunting and {PRONOUN/m_c/poss} eyes were scratched, a valuable lesson learnt.",
+        "history_text": {
+            "scar": "m_c was scarred when a hare scratched {PRONOUN/m_c/poss} eyes.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a hare scratched {PRONOUN/m_c/poss} eyes."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "claw-wound",
+        "tags": [
+            "other_warren",
+            "war",
+            "rel_down",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "scar",
+            "SIDE"
+        ],
+        "event_text": "A brutal battle against o_c leaves m_c injured.",
+        "history_text": {
+            "scar": "m_c was scarred in a fight against o_c.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a battle with o_c."
+        }
+    },
+    {
+        "injury": "rabbit bite",
+        "tags": [
+            "other_warren",
+            "war",
+            "rel_down",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "scar",
+            "SIDE"
+        ],
+        "event_text": "m_c came out worse for wear after a border skirmish with o_c.",
+        "history_text": {
+            "scar": "m_c was scarred in a fight against o_c.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a battle with o_c."
+        }
+    },
+    {
+        "injury": "sore",
+        "tags": [
+            "other_warren",
+            "war",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "Heightened battle training has left m_c sore and tired."
+    },
+    {
+        "injury": "bruises",
+        "tags": [
+            "other_warren",
+            "war",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "A harsh sparring session has left m_c bruised. {PRONOUN/m_c/subject/CAP} {VERB/m_c/worry/worries} that {PRONOUN/m_c/subject} will do badly in a real fight against o_c."
+    },
+    {
+        "injury": "mangled leg",
+        "tags": [
+            "other_warren",
+            "war",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "scar",
+            "MANLEG"
+        ],
+        "event_text": "A horrible battle between c_n and o_c patrols after the two patrols traded insults at the border. m_c is left badly injured.",
+        "history_text": {
+            "scar": "m_c was scarred after a fight with o_c cats.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting with o_c cats."
+        }
+    },
+    {
+        "injury": "rabbit bite",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_mentor",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "mc_to_rc",
+            "neg_respect",
+            "neg_trust",
+            "neg_comfort",
+            "dislike",
+            "neg_platonic",
+            "scar",
+            "CATBITE"
+        ],
+        "event_text": "m_c was injured recklessly fighting a rogue that {PRONOUN/m_c/poss} mentor, r_r, encouraged {PRONOUN/m_c/object} to attack.",
+        "history_text": {
+            "scar": "m_c was scarred fighting a rogue that {PRONOUN/m_c/poss} mentor, r_r, encouraged {PRONOUN/m_c/object} to attack.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to fight a rogue."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "adventurous",
+            "ambitious",
+            "bloodthirsty",
+            "bold",
+            "cold",
+            "daring",
+            "fierce",
+            "righteous",
+            "shameless",
+            "strict",
+            "troublesome",
+            "vengeful"
+        ],
+        "other_rabbit_skill": [
+            "FIGHTER,1"
+        ]
+    },
+    {
+        "injury": "rabbit bite",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_mentor",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "mc_to_rc",
+            "neg_respect",
+            "neg_trust",
+            "neg_comfort",
+            "dislike",
+            "neg_platonic",
+            "scar",
+            "CATBITE"
+        ],
+        "event_text": "m_c was injured recklessly fighting an enemy warrior that {PRONOUN/m_c/poss} mentor, r_r, encouraged {PRONOUN/m_c/object} to attack.",
+        "history_text": {
+            "scar": "m_c was scarred fighting an enemy warrior that {PRONOUN/m_c/poss} mentor, r_r, encouraged {PRONOUN/m_c/object} to attack.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to fight an enemy warrior."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "adventurous",
+            "ambitious",
+            "bloodthirsty",
+            "bold",
+            "cold",
+            "daring",
+            "fierce",
+            "righteous",
+            "shameless",
+            "strict",
+            "troublesome",
+            "vengeful"
+        ],
+        "other_rabbit_skill": [
+            "FIGHTER,1"
+        ]
+    },
+    {
+        "injury": "bite-wound",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_mentor",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "mc_to_rc",
+            "neg_respect",
+            "neg_trust",
+            "neg_comfort",
+            "dislike",
+            "neg_platonic",
+            "scar",
+            "LEGBITE"
+        ],
+        "event_text": "m_c was injured recklessly fighting a dog that {PRONOUN/m_c/poss} mentor, r_r, encouraged {PRONOUN/m_c/object} to attack.",
+        "history_text": {
+            "scar": "m_c was scarred fighting a dog that {PRONOUN/m_c/poss} mentor, r_r, encouraged {PRONOUN/m_c/object} to attack.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to fight a dog."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "adventurous",
+            "ambitious",
+            "bloodthirsty",
+            "bold",
+            "cold",
+            "daring",
+            "fierce",
+            "righteous",
+            "shameless",
+            "strict",
+            "troublesome",
+            "vengeful"
+        ],
+        "other_rabbit_skill": [
+            "FIGHTER,1"
+        ]
+    },
+    {
+        "injury": "bite-wound",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_mentor",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "mc_to_rc",
+            "neg_respect",
+            "neg_trust",
+            "neg_comfort",
+            "dislike",
+            "neg_platonic",
+            "scar",
+            "LEGBITE"
+        ],
+        "event_text": "m_c was injured recklessly fighting a fox that {PRONOUN/m_c/poss} mentor, r_r, encouraged {PRONOUN/m_c/object} to attack.",
+        "history_text": {
+            "scar": "m_c was scarred fighting a dog that {PRONOUN/m_c/poss} mentor, r_r, encouraged {PRONOUN/m_c/object} to attack.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to fight a dog."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "adventurous",
+            "ambitious",
+            "bloodthirsty",
+            "bold",
+            "cold",
+            "daring",
+            "fierce",
+            "righteous",
+            "shameless",
+            "strict",
+            "troublesome",
+            "vengeful"
+        ],
+        "other_rabbit_skill": [
+            "FIGHTER,1"
+        ]
+    },
+    {
+        "injury": "bite-wound",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "scar",
+            "NECKBITE"
+        ],
+        "event_text": "m_c fought a dog and got hurt.",
+        "history_text": {
+            "scar": "m_c was scarred by a dog.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a dog."
+        },
+        "rabbit_trait": [
+            "adventurous",
+            "ambitious",
+            "bloodthirsty",
+            "bold",
+            "daring",
+            "fierce",
+            "vengeful"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "bite-wound",
+        "tags": [
+            "other_rabbit",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "rc_to_mc",
+            "platonic",
+            "respect",
+            "comfort",
+            "trust",
+            "scar",
+            "LEGBITE"
+        ],
+        "event_text": "m_c saved r_r from a fox, but was hurt.",
+        "history_text": {
+            "scar": "m_c was scarred by a fox while rescuing r_r.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after saving r_r from a fox."
+        },
+        "rabbit_trait": [
+            "altruistic",
+            "compassionate",
+            "loving",
+            "empathetic",
+            "responsible",
+            "loyal",
+            "adventurous",
+            "ambitious",
+            "bloodthirsty",
+            "bold",
+            "daring",
+            "fierce",
+            "vengeful"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "rabbit bite",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_mentor",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "mc_to_rc",
+            "neg_respect",
+            "neg_trust",
+            "neg_comfort",
+            "dislike",
+            "neg_platonic",
+            "scar",
+            "CATBITE"
+        ],
+        "event_text": "m_c was hurt by r_r for not defending the territory well enough.",
+        "history_text": {
+            "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor, r_r, for failing to defend the territory well enough.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor hurt {PRONOUN/m_c/object} for failing to defend the territory well enough."
+        },
+        "rabbit_trait": [
+            "insecure",
+            "nervous",
+            "careful",
+            "loving"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "bloodthirsty",
+            "cold",
+            "fierce",
+            "righteous",
+            "strict",
+            "vengeful",
+            "loyal"
+        ],
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "rabbit bite",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_mentor",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "mc_to_rc",
+            "neg_respect",
+            "neg_trust",
+            "neg_comfort",
+            "dislike",
+            "neg_platonic",
+            "scar",
+            "CATBITE"
+        ],
+        "event_text": "m_c was hurt by {PRONOUN/m_c/poss} mentor, r_r, as a punishment for accidentally wandering over the border.",
+        "history_text": {
+            "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor, r_r, for accidentally crossing the border.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor hurt {PRONOUN/m_c/object} for accidentally crossing the border."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "bloodthirsty",
+            "cold",
+            "fierce",
+            "righteous",
+            "strict",
+            "vengeful",
+            "loyal"
+        ],
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "rabbit bite",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_mentor",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "mc_to_rc",
+            "neg_respect",
+            "neg_trust",
+            "neg_comfort",
+            "dislike",
+            "neg_platonic",
+            "scar",
+            "CATBITE"
+        ],
+        "event_text": "m_c was hurt by {PRONOUN/m_c/poss} mentor, r_r, as a punishment for messing with a Twoleg object.",
+        "history_text": {
+            "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor, r_r, for messing with a Twoleg object.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor hurt {PRONOUN/m_c/object} for messing with a Twoleg object."
+        },
+        "rabbit_trait": [
+            "troublesome",
+            "childish",
+            "playful",
+            "adventurous"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "bloodthirsty",
+            "cold",
+            "fierce",
+            "righteous",
+            "strict",
+            "vengeful",
+            "loyal"
+        ],
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "rabbit bite",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_mentor",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "mc_to_rc",
+            "neg_respect",
+            "neg_trust",
+            "neg_comfort",
+            "dislike",
+            "neg_platonic",
+            "scar",
+            "CATBITE"
+        ],
+        "event_text": "m_c was hurt by {PRONOUN/m_c/poss} mentor, r_r, as a punishment for disobeying {PRONOUN/r_r/object}.",
+        "history_text": {
+            "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor, r_r, for disobeying {PRONOUN/r_r/object}.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor hurt {PRONOUN/m_c/object} for disobeying {PRONOUN/r_r/object}."
+        },
+        "rabbit_trait": [
+            "troublesome",
+            "childish",
+            "playful"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "bloodthirsty",
+            "cold",
+            "fierce",
+            "righteous",
+            "strict",
+            "vengeful"
+        ],
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "rabbit bite",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_mentor",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "mc_to_rc",
+            "neg_respect",
+            "neg_trust",
+            "neg_comfort",
+            "dislike",
+            "neg_platonic",
+            "scar",
+            "CATBITE"
+        ],
+        "event_text": "m_c fought with {PRONOUN/m_c/poss} mentor, r_r, and was injured.",
+        "history_text": {
+            "scar": "m_c was scarred after fighting with {PRONOUN/m_c/poss} mentor, r_r.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting with {PRONOUN/m_c/poss} mentor."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "bloodthirsty",
+            "cold",
+            "fierce",
+            "righteous",
+            "strict",
+            "vengeful"
+        ],
+        "other_rabbit_skill": [
+            "FIGHTER,1"
+        ]
+    },
+    {
+        "injury": "rabbit bite",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_mentor",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "mc_to_rc",
+            "neg_respect",
+            "neg_trust",
+            "neg_comfort",
+            "dislike",
+            "neg_platonic",
+            "scar",
+            "CATBITE"
+        ],
+        "event_text": "m_c could not handle {PRONOUN/m_c/poss} mentor's harsh training, and was injured as a result.",
+        "history_text": {
+            "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor, r_r's, harsh training.",
+            "reg_death": "m_c died from wounds caused by {PRONOUN/m_c/poss} mentor's harsh training."
+        },
+        "rabbit_trait": [
+            "careful",
+            "compassionate",
+            "childish",
+            "insecure",
+            "lonesome",
+            "loving",
+            "nervous",
+            "playful",
+            "strange",
+            "thoughtful"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "bloodthirsty",
+            "cold",
+            "fierce",
+            "righteous",
+            "strict",
+            "vengeful"
+        ],
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "rabbit bite",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "scar",
+            "CATBITE"
+        ],
+        "event_text": "m_c fought a rogue and got hurt.",
+        "history_text": {
+            "scar": "m_c was scarred by a rogue.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a rogue."
+        },
+        "rabbit_trait": [
+            "adventurous",
+            "ambitious",
+            "bloodthirsty",
+            "bold",
+            "daring",
+            "fierce",
+            "vengeful"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "bruises",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c trained extra hard to impress {PRONOUN/m_c/poss} mentor, but was a bit too rough with {PRONOUN/m_c/poss} body, and has the bruises to show it.",
+        "rabbit_trait": [
+            "ambitious",
+            "daring",
+            "bold",
+            "loyal"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "bruises",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c took a tumble off a rock while practicing {PRONOUN/m_c/poss} battle moves. {PRONOUN/m_c/subject/CAP}'ll be a bit tender for the next few days.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "bruises",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c was practicing {PRONOUN/m_c/poss} hunting pounce when {PRONOUN/m_c/subject} pounced right into a rock! Ow! {PRONOUN/m_c/subject/CAP} might be sore for a while.",
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "bruises",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c overdid {PRONOUN/m_c/poss} last battle training session, and has been wincing all day. Seems {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} a bit bruised.",
+        "rabbit_trait": [
+            "adventurous",
+            "ambitious",
+            "bold",
+            "daring",
+            "fierce",
+            "troublesome"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "scrapes",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c overdid {PRONOUN/m_c/poss} last battle training session, and has been wincing all day. Seems {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} a bit scraped up.",
+        "rabbit_trait": [
+            "adventurous",
+            "ambitious",
+            "bold",
+            "daring",
+            "fierce",
+            "troublesome"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "sprain",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c trained extra hard to impress {PRONOUN/m_c/poss} mentor, but twisted {PRONOUN/m_c/poss} paw at an awkward angle.",
+        "rabbit_trait": [
+            "ambitious",
+            "daring",
+            "bold",
+            "loyal"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "sprain",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c was rushing around the camp in excitement for a patrol when {PRONOUN/m_c/poss} paw landed wrong on a rock! {PRONOUN/m_c/subject/CAP} took a tumble, and can't help limping the rest of the day.",
+        "rabbit_trait": [
+            "adventurous",
+            "bold",
+            "daring",
+            "playful",
+            "childish"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "sprain",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c snuck out at night on a dare, but soon came hobbling back to camp, head lowered in embarrassment. Seems like {PRONOUN/m_c/poss} paw got caught on something in the dark and caused {PRONOUN/m_c/object} to trip!",
+        "rabbit_trait": [
+            "adventurous",
+            "bold",
+            "childish",
+            "daring",
+            "playful",
+            "ambitious",
+            "troublesome",
+            "insecure",
+            "lonesome",
+            "nervous",
+            "sneaky"
+        ]
+    },
+    {
+        "injury": "sprain",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c overdid {PRONOUN/m_c/poss} last battle training session and sprained a paw.",
+        "rabbit_trait": [
+            "adventurous",
+            "ambitious",
+            "bold",
+            "daring",
+            "fierce",
+            "troublesome"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "cracked pads",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c trained extra hard to impress {PRONOUN/m_c/poss} mentor, but now finds {PRONOUN/m_c/poss} paws to be sore and bleeding.",
+        "rabbit_trait": [
+            "ambitious",
+            "daring",
+            "bold",
+            "loyal"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "sore",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "event_text": "m_c trained extra hard to impress {PRONOUN/m_c/poss} mentor, but is extremely sore when {PRONOUN/m_c/subject} {VERB/m_c/wake/wakes} up the next morning.",
+        "rabbit_trait": [
+            "ambitious",
+            "daring",
+            "bold",
+            "loyal"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "broken bone",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "scar",
+            "MANLEG"
+        ],
+        "event_text": "m_c fought a big dog and was badly injured.",
+        "history_text": {
+            "scar": "m_c was scarred by a big dog.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a big dog."
+        },
+        "rabbit_trait": [
+            "adventurous",
+            "ambitious",
+            "bloodthirsty",
+            "bold",
+            "daring",
+            "fierce",
+            "vengeful"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "broken bone",
+        "tags": [
+            "other_rabbit",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "rc_to_mc",
+            "platonic",
+            "respect",
+            "comfort",
+            "trust",
+            "neg_dislike",
+            "scar",
+            "MANTAIL"
+        ],
+        "event_text": "m_c saved r_r from a big dog, but was badly injured.",
+        "history_text": {
+            "scar": "m_c was scarred by a big dog while rescuing r_r.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after saving r_r from a big dog."
+        },
+        "rabbit_trait": [
+            "altruistic",
+            "compassionate",
+            "loving",
+            "empathetic",
+            "responsible",
+            "loyal",
+            "adventurous",
+            "ambitious",
+            "bloodthirsty",
+            "bold",
+            "daring",
+            "fierce",
+            "vengeful"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "claw-wound",
+        "tags": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "scar",
+            "ONE"
+        ],
+        "event_text": "m_c fought a hawk and got hurt.",
+        "history_text": {
+            "scar": "m_c was scarred by a hawk.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a hawk."
+        },
+        "rabbit_trait": [
+            "adventurous",
+            "ambitious",
+            "bloodthirsty",
+            "bold",
+            "daring",
+            "fierce",
+            "vengeful"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "claw-wound",
+        "tags": [
+            "other_rabbit",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "rc_to_mc",
+            "platonic",
+            "respect",
+            "comfort",
+            "trust",
+            "scar",
+            "TWO"
+        ],
+        "event_text": "m_c saved r_r from a hawk, but was hurt.",
+        "history_text": {
+            "scar": "m_c was scarred by a hawk while rescuing r_r.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after saving r_r from a hawk."
+        },
+        "rabbit_trait": [
+            "altruistic",
+            "compassionate",
+            "loving",
+            "empathetic",
+            "responsible",
+            "loyal",
+            "adventurous",
+            "ambitious",
+            "bloodthirsty",
+            "bold",
+            "daring",
+            "fierce",
+            "vengeful"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "claw-wound",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_mentor",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "mc_to_rc",
+            "neg_respect",
+            "neg_trust",
+            "neg_comfort",
+            "dislike",
+            "neg_platonic",
+            "scar",
+            "BRIDGE"
+        ],
+        "event_text": "m_c was hurt by r_r for not defending the territory well enough.",
+        "history_text": {
+            "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor, r_r, for failing to defend the territory well enough.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor, r_r, hurt {PRONOUN/m_c/object} for failing to defend the territory well enough."
+        },
+        "rabbit_trait": [
+            "insecure",
+            "nervous",
+            "careful",
+            "loving"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "bloodthirsty",
+            "cold",
+            "fierce",
+            "righteous",
+            "strict",
+            "vengeful",
+            "loyal"
+        ],
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "claw-wound",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_mentor",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "mc_to_rc",
+            "neg_respect",
+            "neg_trust",
+            "neg_comfort",
+            "dislike",
+            "neg_platonic",
+            "scar",
+            "TOETRAP"
+        ],
+        "event_text": "m_c was hurt by {PRONOUN/m_c/poss} mentor, r_r, as a punishment for accidentally wandering over the border.",
+        "history_text": {
+            "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor, r_r, for accidentally crossing the border.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor hurt {PRONOUN/m_c/object} for accidentally crossing the border."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "bloodthirsty",
+            "cold",
+            "fierce",
+            "righteous",
+            "strict",
+            "vengeful",
+            "loyal"
+        ],
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "claw-wound",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_mentor",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "mc_to_rc",
+            "neg_respect",
+            "neg_trust",
+            "neg_comfort",
+            "dislike",
+            "neg_platonic",
+            "scar",
+            "TAILSCAR"
+        ],
+        "event_text": "m_c was hurt by {PRONOUN/m_c/poss} mentor, r_r, as a punishment for messing with a Twoleg object.",
+        "history_text": {
+            "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor, r_r, for messing with a Twoleg object.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor hurt {PRONOUN/m_c/object} for messing with a Twoleg object."
+        },
+        "rabbit_trait": [
+            "troublesome",
+            "childish",
+            "playful",
+            "adventurous"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "bloodthirsty",
+            "cold",
+            "fierce",
+            "righteous",
+            "strict",
+            "vengeful",
+            "loyal"
+        ],
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "claw-wound",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_mentor",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "mc_to_rc",
+            "neg_respect",
+            "neg_trust",
+            "neg_comfort",
+            "dislike",
+            "neg_platonic",
+            "scar",
+            "RIGHTEAR"
+        ],
+        "event_text": "m_c and r_r were practicing battle moves. r_r insisted they keep their claws out, and m_c got hurt.",
+        "history_text": {
+            "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor, r_r, during battle training.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor insisted on training with unsheathed claws."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "bloodthirsty",
+            "cold",
+            "fierce",
+            "righteous",
+            "strict",
+            "vengeful",
+            "daring",
+            "bold"
+        ],
+        "other_rabbit_skill": [
+            "FIGHTER,1"
+        ]
+    },
+    {
+        "injury": "claw-wound",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_mentor",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "mc_to_rc",
+            "neg_respect",
+            "neg_trust",
+            "neg_comfort",
+            "dislike",
+            "neg_platonic",
+            "scar",
+            "LEFTEAR"
+        ],
+        "event_text": "m_c was hurt by {PRONOUN/m_c/poss} mentor, r_r, as a punishment for disobeying {PRONOUN/r_r/object}.",
+        "history_text": {
+            "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor, r_r, for disobeying {PRONOUN/r_r/object}.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor hurt {PRONOUN/m_c/object} for disobeying {PRONOUN/r_r/object}."
+        },
+        "rabbit_trait": [
+            "troublesome",
+            "childish",
+            "playful"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "bloodthirsty",
+            "cold",
+            "fierce",
+            "righteous",
+            "strict",
+            "vengeful"
+        ],
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "claw-wound",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_mentor",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "mc_to_rc",
+            "neg_respect",
+            "neg_trust",
+            "neg_comfort",
+            "dislike",
+            "neg_platonic",
+            "scar",
+            "CHEEK"
+        ],
+        "event_text": "m_c fought with {PRONOUN/m_c/poss} mentor, r_r, and was injured.",
+        "history_text": {
+            "scar": "m_c was scarred after fighting with {PRONOUN/m_c/poss} mentor, r_r.",
+            "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting with {PRONOUN/m_c/poss} mentor."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "bloodthirsty",
+            "cold",
+            "fierce",
+            "righteous",
+            "strict",
+            "vengeful"
+        ],
+        "other_rabbit_skill": [
+            "FIGHTER,1"
+        ]
+    },
+    {
+        "injury": "claw-wound",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_mentor",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "mc_to_rc",
+            "neg_respect",
+            "neg_trust",
+            "neg_comfort",
+            "dislike",
+            "neg_platonic",
+            "scar",
+            "BELLY"
+        ],
+        "event_text": "m_c could not handle {PRONOUN/m_c/poss} mentor's harsh training, and was injured as a result.",
+        "history_text": {
+            "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor, r_r's, harsh training.",
+            "reg_death": "m_c died from wounds caused by {PRONOUN/m_c/poss} mentor's harsh training."
+        },
+        "rabbit_trait": [
+            "careful",
+            "compassionate",
+            "childish",
+            "insecure",
+            "lonesome",
+            "loving",
+            "nervous",
+            "playful",
+            "strange",
+            "thoughtful"
+        ],
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "bloodthirsty",
+            "cold",
+            "fierce",
+            "righteous",
+            "strict",
+            "vengeful"
+        ],
+        "other_rabbit_skill": null
+    },
+    {
+        "injury": "mangled leg",
+        "tags": [
+            "other_rabbit",
+            "other_rabbit_mentor",
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "mc_to_rc",
+            "neg_respect",
+            "neg_trust",
+            "neg_comfort",
+            "dislike",
+            "neg_platonic",
+            "scar",
+            "MANLEG"
+        ],
+        "event_text": "m_c's leg was badly hurt after {PRONOUN/m_c/poss} mentor used a Twoleg trap during a training exercise.",
+        "history_text": {
+            "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor, r_r, when {PRONOUN/r_r/subject} used a Twoleg trap for training.",
+            "reg_death": "m_c died from wounds caused by {PRONOUN/m_c/poss} mentor using a Twoleg trap for training."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": [
+            "bloodthirsty",
+            "cold",
+            "fierce",
+            "strict",
+            "adventurous"
+        ],
+        "other_rabbit_skill": null
+    }
+]

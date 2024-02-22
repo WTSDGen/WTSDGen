@@ -1,0 +1,1124 @@
+{
+  "virtues": {
+    "comment": "THIS DICT DOES NOTHING - it's purely here for quick reference of some possible virtues, you are not constrained to using these nor should you use these lists",
+    "queen_virtues": ["affection", "compassion", "empathy", "duty", "protection", "pride"],
+    "rabbit_virtues": ["acceptance", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "sympathy", "farsightedness", "friendship", "instincts", "mercy", "strength",
+      "unity"],
+    "kit_virtues": ["adventure", "curiosity", "forgiveness", "hope", "perspective", "protection"],
+    "app_virtues": ["happiness", "honesty", "humor", "justice", "mentoring", "trust"],
+    "elder_virtues": ["empathy", "grace", "humility", "integrity", "persistence", "resilience"],
+    "med_rabbit_virtues": ["clear sight", "devotion", "faith", "healing", "patience", "selflessness", "wisdom"],
+    "prev_lead_virtues": ["endurance in the face of hardship", "knowing when to fight and when to choose peace",
+      "threarahship through the darkest times", "loyalty to their warren", "the strength to overcome their fears",
+      "tireless energy"]
+  },
+
+
+  "intros": {
+    "default": {
+      "tags": [],
+      "lead_trait": [],
+      "text": [
+        "m_c {VERB/m_c/shut/shuts} {PRONOUN/m_c/poss} eyes and {VERB/m_c/are/is} immediately surrounded by {PRONOUN/m_c/poss} utter darkness. {PRONOUN/m_c/subject} are approached by shadowed rabbits, untouched by the light of Frith and denied a place in Inlé-rah's warren."
+
+      ]
+    },
+    "new_clan": {
+      "tags": ["new_clan"],
+      "lead_trait": [],
+      "text": [
+        "As m_c dreams that night, {PRONOUN/m_c/subject} {VERB/m_c/find/finds} {PRONOUN/m_c/self} walking through darkness, mud and muck sticking to {PRONOUN/m_c/poss} paws. The world around {PRONOUN/m_c/object} is devoid of light, and bare branches claw at the empty sky above. A single, foreboding rabbit sits within a clearing."
+      ]
+    },
+    "bloodthirsty": {
+      "tags": [],
+      "lead_trait": ["bloodthirsty"],
+      "text": [
+            "m_c {VERB/m_c/shut/shuts} {PRONOUN/m_c/poss} eyes and {VERB/m_c/are/is} immediately surrounded by {PRONOUN/m_c/poss} utter darkness. {PRONOUN/m_c/subject} are approached by shadowed rabbits, untouched by the light of Frith and denied a place in Inlé-rah's warren. Triumph gleams in their eyes."
+      ]
+
+    }
+  },
+
+  "default_blessing": {
+          "text": "r_r leaps forward, eyes flashing. \"I grant you [virtue].\" {PRONOUN/r_r/subject} {VERB/r_r/say/says}, before disappearing back into the darkness.",
+          "virtue": ["energy", "strength", "determination"]
+        },
+
+  "lives": {
+    "only_guide": {
+      "tags": ["new_clan", "guide"],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": [],
+      "life_giving": [
+        {
+          "text": "The rabbit stands and stalks towards m_c, circling {PRONOUN/m_c/object} as though a hunter appraising their next meal. \"You come here, ignorant to the lands you walk, expecting a gift? A boon? You'll all wallow here in the darkness with me one day,\" the rabbit's eyes pierce into m_c's pelt, \"You'll remember me as r_r, and you'll remember that I've granted you the blessing of [virtue]. And one day, we'll speak again.\"",
+          "virtue": ["strength unending", "ruthless efficiency", "never-ending ambition", "righteous anger", "brutality in the face of opposition"]
+        }
+      ]
+    },
+
+    "unknown_ghosts": {
+      "tags": ["unknown_blessing"],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": [],
+      "life_giving": [
+        {
+          "text": "From the muck and mire the distorted shadows of long dead rabbits rise and loom. Red eyes pierce the haze and a harsh thumping grates across the clearing, \"Kindly spirit's eyes have left you, so we come to grant your remaining blessings. Do with them what you will,\" before the shadows are gone as quickly as they appeared.",
+          "virtue": []
+        }
+      ]
+    },
+
+    "benevolent_adult": {
+      "tags": [],
+      "lead_trait": [],
+      "star_trait": ["faithful", "loving", "responsible", "thoughtful", "wise", "charismatic"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "Despite looking quite out of place among the battle-hardened shadows, r_r still places {PRONOUN/r_r/poss} muzzle harshly against the new threarah's head. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} a blessing of [virtue], hoping that {PRONOUN/m_c/subject} will remember {PRONOUN/m_c/poss} own kindness.",
+          "virtue": ["affection", "compassion", "empathy", "duty", "protection", "pride", "hope", "regret", "inspiration", "shaping their own future", "wisdom to know what's right"]
+
+        }
+      ]
+    },
+
+    "abrasive_adult": {
+      "tags": [],
+      "lead_trait": [],
+      "star_trait": ["ambitious", "bloodthirsty", "cold", "fierce", "shameless", "strict", "troublesome", "vengeful"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "r_r stalks up to the new threarah, eyes burning with the increasingly familiar lightless ferocity. {PRONOUN/r_r/subject/CAP} {VERB/r_r/touch/touches} {PRONOUN/r_r/poss} nose to m_c's head, giving {PRONOUN/m_c/object} a blessing for [virtue]. m_c reels back with the emotion of the emotions that course through them.",
+          "virtue": ["resilience", "harsh judgement", "brutality", "duty", "protection", "pride", "hunger for battle", "greed", "authority", "disdain for the weak-willed"]
+
+        }
+      ]
+    },
+
+    "outgoing_adult": {
+      "tags": [],
+      "lead_trait": [],
+      "star_trait": ["adventurous", "bold", "charismatic", "childish", "confident", "daring", "playful", "righteous"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "r_r jovially jaunts up to the new threarah. The dark murk on {PRONOUN/r_r/poss} fur or the red eyes did not seem to dampen {PRONOUN/r_r/poss} spirit one bit. {PRONOUN/r_r/subject/CAP} {VERB/r_r/touch/touches} {PRONOUN/r_r/poss} nose to m_c's head, giving {PRONOUN/m_c/object} the blessing of [virtue]. When m_c looks up, r_r is walking away from the scene in high spirits.",
+          "virtue": ["humor", "seeing the brighter side of a dark situation", "adventure", "confidence", "daring to do what must be done", "humor", "inspiring obedience", "authority"]
+
+        }
+      ]
+    },
+
+    "reserved_adult": {
+      "tags": [],
+      "lead_trait": [],
+      "star_trait": ["calm", "careful", "insecure", "lonesome", "loyal", "nervous", "sneaky", "strange"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "r_r seemed to appear to m_c out of nowhere in the shadowy gloom of the the lightless lands, and quietly gives {PRONOUN/m_c/object} the blessing of [virtue]. As quickly as {PRONOUN/r_r/subject} appeared, r_r vanished when the blessing was given.",
+          "virtue": ["resilience", "harsh judgement", "brutality", "duty", "protection", "pride", "loyalty to their ambitions", "level-headedness", "caution in the heat of battle", "the strength to carry on alone", "inspiring obedience", "independence"]
+
+        }
+      ]
+    },
+
+    "default_rabbit": {
+      "tags": [],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "r_r walks up to m_c next, offering the blessing of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} a wicked grin, telling m_c that {PRONOUN/m_c/poss} warren will survive any threat.",
+          "virtue": ["bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry"]
+        },
+        {
+          "text": "Another rabbit approaches. r_r steps forward to give m_c the blessing of [virtue]. m_c grits {PRONOUN/m_c/poss} teeth as the blessing rushes into {PRONOUN/m_c/object}.",
+          "virtue": ["bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry"]
+        },
+        {
+          "text": "r_r grinds a raspy greeting. Energy surges through m_c's pelt as {PRONOUN/m_c/subject} {VERB/m_c/receive/receives} the blessing of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/spit/spits} at m_c that {PRONOUN/m_c/poss} pain is almost over.",
+          "virtue": ["bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry"]
+        }
+      ]
+    },
+
+    "bloodthirsty_rabbit": {
+      "tags": [],
+      "lead_trait": ["bloodthirsty"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "r_r walks up to m_c next, giving {PRONOUN/m_c/object} the blessing of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/growl/growls} a word of encouragement over the destruction of c_n's enemies before returning to the line of shadows.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "Another rabbit approaches. r_r steps forward to give m_c the blessing of [virtue]. m_c squeals in pain as the blessing rushes into {PRONOUN/m_c/object}.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "r_r approaches. Pain surges through m_c's pelt as {PRONOUN/m_c/subject} {VERB/m_c/receive/receives} the blessing of [virtue]. r_r watches with no sympathy, grunting to live with the wounds earned.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+
+    "adventurous_rabbit": {
+      "tags": [],
+      "lead_trait": ["adventurous"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "r_r narrows {PRONOUN/r_r/poss} eyes as {PRONOUN/r_r/subject} stalk up to m_c. After a cryptic warning to keep {PRONOUN/m_c/poss} eyes on {PRONOUN/m_c/poss} <i>own</i> warren, rather than the horizons, {PRONOUN/m_c/subject} {VERB/m_c/receive/receives} the blessing of [virtue].",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "r_r places {PRONOUN/r_r/poss} muzzle against m_c, giving a harsh blessing for [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/leave/leaves} with a whisper that the borders are not to be trusted.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "r_r approaches next and growls under {PRONOUN/r_r/poss} breath about the soft-hearted bunnies stalking around the borders. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} the blessing of [virtue] and hurriedly steps away.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+
+    "ambitious_rabbit": {
+      "tags": [],
+      "lead_trait": ["ambitious"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "With a taunting laugh, r_r approaches and gives m_c the blessing of [virtue]. r_r asks if {PRONOUN/m_c/poss} ambition to lead the warren was worth the pain, but leaves before m_c could answer.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "There is a proud gleam in r_r's eyes as {PRONOUN/r_r/subject} {VERB/r_r/approach/approaches} the new threarah. {PRONOUN/r_r/subject/CAP} {VERB/m_c/give/gives} the blessing of [virtue], and encouragement to raise m_c's ambitions even higher than the stars themselves.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+  
+  	"bold_rabbit": {
+      "tags": [],
+      "lead_trait": ["bold"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "r_r steps up to the new threarah with a chilling grin stretching {PRONOUN/r_r/poss} maw apart. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} m_c the blessing of [virtue], encouraging m_c to boldly do what no sun-loving rabbit could never dare to try.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "Murk slides down r_r's face as {PRONOUN/r_r/subject} {VERB/r_r/give/gives} m_c the blessing of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/open/opens} {PRONOUN/r_r/poss} mouth to say something, but only shakes {PRONOUN/r_r/poss} head before disappearing into the choking smog.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "r_r bares {PRONOUN/r_r/poss} teeth and looks like {PRONOUN/r_r/subject} {VERB/r_r/are/is} about to fight m_c. But r_r only presses {PRONOUN/r_r/poss} nose against m_c and snarls the blessing of [virtue].",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+  
+    "calm_rabbit": {
+      "tags": [],
+      "lead_trait": ["calm"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "The air falls into an unsettling stillness as r_r, a rabbit with nefarious reputation, draws near, exuding an aura of deceptive calmness. With measured steps, {PRONOUN/r_r/subject} {VERB/r_r/approach/approaches} m_c, extending an offer of a blessing infused with the virtue of [virtue], to then vanish into the veils of darkness from which {PRONOUN/r_r/subject} emerged.",
+          "virtue": ["ambition", "certainty", "clear judgement", "confidence", "courage", "endurance", "farsightedness", "instincts", "cunningness", "shamelessness", "zealotry", "bloodlust", "authority"]
+        },
+        {
+          "text": "r_r's eerie composture approaches, {PRONOUN/r_r/subject} calmness tinged with a malevolent presence. {PRONOUN/r_r/poss/CAP} cool fasade gleams at m_c, as {PRONOUN/r_r/subject} {VERB/r_r/extend/extends} an offer of a blessing, infused with the virtue of [virtue].",
+          "virtue": ["ambition", "certainty", "clear judgement", "confidence", "courage", "endurance", "farsightedness", "instincts", "cunningness", "shamelessness", "zealotry", "bloodlust", "authority"]
+        }
+      ]
+    },
+  
+    "careful_rabbit": {
+      "tags": [],
+      "lead_trait": ["careful"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "r_r stepped forth with hypnotic grace, {PRONOUN/r_r/poss} presence pulling the very air into a hushed stillness. With calculated movement, {PRONOUN/r_r/subject} exuded an unsettling tranquility, {PRONOUN/r_r/poss} eyes shining with ravening intelligence. {PRONOUN/r_r/subject} slowly drew nearer, giving m_c the blessing of [virtue].",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "ferocity", "cunningness", "shamelessness", "zealotry", "bloodlust", "authority"]
+        },
+        {
+          "text": "r_r moved forward with deliberate precision, a testament to {PRONOUN/r_r/poss} innate awareness, like a predator stalking its prey with relentless focus. Eyes glinting with enmity, r_r surveyed m_c, leaving no detail unnoticed. {PRONOUN/r_r/subject/CAP} inched closer, offering the blessing of [virtue].",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "ferocity", "cunningness", "shamelessness", "zealotry", "bloodlust", "authority"]
+        }
+      ]
+    },
+  
+    "charismatic_rabbit": {
+      "tags": [],
+      "lead_trait": ["charismatic"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "r_r chokes out a bitter laugh, taunting the new threarah about if {PRONOUN/m_c/poss} honeyed words can help {PRONOUN/m_c/object} in a real fight. r_r presses {PRONOUN/r_r/poss} nose against m_c's head and sneers out the blessing of [virtue].",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "r_r could not help but praise m_c as {PRONOUN/r_r/subject} {VERB/r_r/approach/approaches} {PRONOUN/m_c/object}. Encouraging the use of m_c's silver tongue and barbed threats, the dark spirit gives the blessing of [virtue].",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "Slinking across the ground to close the distance between them, r_r grins like {PRONOUN/r_r/subject} {VERB/r_r/were/was} watching a tiny, trapped kit. r_r gives m_c the blessing of [virtue], vanishing before that maw could strike at {PRONOUN/m_c/poss} throat.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+  
+    "childish_rabbit": {
+      "tags": [],
+      "lead_trait": ["childish"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "r_r wanted to claw the silly smile right off of m_c's face. Instead, {PRONOUN/r_r/subject} made sure that {PRONOUN/r_r/poss} blessing for [virtue] is as painful as possible.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "Staring coldly from the murk, r_r prowls towards m_c and shoves {PRONOUN/m_c/object} into the dark goo surrounding them both. {PRONOUN/r_r/subject/CAP} {VERB/r_r/growl/growls} out {PRONOUN/r_r/poss} blessing for [virtue], demanding that m_c stop treating everything like a game.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "r_r bounds up to the new threarah with a wicked grin. {PRONOUN/r_r/subject/CAP} {VERB/r_r/place/places} {PRONOUN/r_r/poss} nose against m_c's head, jabbering quickly on about the blessing of [virtue] before asking what m_c's favorite game is. Another shadowy spirit shoves r_r aside for the next blessing giver before {PRONOUN/m_c/subject} can answer.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+
+    "cold_rabbit": {
+      "tags": [],
+      "lead_trait": ["cold"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "Draped in an aura of chilling indifference, r_r slinked forward with stoic grace, {PRONOUN/r_r/poss} measured steps reverberating with an unsettling stillness that sent shivers down m_c's spine. Closing the haunting distance between them, r_r inches closer, extending an offer of a blessing in name of [virtue].",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunningness", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "r_r approaches, {PRONOUN/r_r/poss} feral grace exuding a calculated composure, concealing the wickedness that thrived within. As {PRONOUN/r_r/subject} closed in, an icy grip enveloped m_c's being, challenging {PRONOUN/m_c/poss} very resolve. Yet, amidst the chilling embrace, a surge of blessing coursed through m_c's veins, a vitality nourished by the unwavering virtue of [virtue].",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunningness", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+
+    "compassionate_rabbit": {
+      "tags": [],
+      "lead_trait": ["compassionate"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "One of the core philosophy of the the lightless lands is that Compassion was a weakness. And as pain arched through m_c's body from r_r's blessing for [virtue], that harsh lesson burned through {PRONOUN/m_c/poss} body like a raging inferno.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "A sneer crossed r_r's face as {PRONOUN/r_r/subject} {VERB/r_r/approach/approaches} m_c. Cruelly pressing {PRONOUN/m_c/poss} nose against the new threarah's head, {PRONOUN/r_r/subject} {VERB/r_r/snarl/snarls} out the blessing of [virtue]. Perhaps that would keep m_c from being too friendly with the other warrens.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "r_r's tired gaze watches m_c. Whispering how m_c's compassionate nature will only hurt c_n in the end, r_r presses {PRONOUN/r_r/poss} nose against the new threarah and sighs out the blessing of [virtue].",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+
+    "confident_rabbit": {
+      "tags": [],
+      "lead_trait": ["confident"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "Overconfidence can blind even the most loyal of Inle-loving rabbits. And that was just what r_r was counting on as the cruel blessing of [virtue] burned through m_c's mind.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "r_r whispered sweetly for m_c to deafen {PRONOUN/m_c/self} from the cowardly, cautious cries of {PRONOUN/m_c/poss} warren as the dark spirit gives the blessing of [virtue].",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+  
+    "daring_rabbit": {
+      "tags": [],
+      "lead_trait": ["daring"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "r_r meets m_c's eyes with a smirk, sliding through the murk like a claw through freshkill to give the blessing of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/hiss/hisses} quiet praise to m_c's more reckless tendencies, encouraging the new threarah to think with {PRONOUN/m_c/poss} claws, not {PRONOUN/m_c/poss} head.",
+          "virtue": ["ambition", "confidence", "courage", "determination", "endurance", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", "stubbornness", "authority", "unpredictability"]
+        },
+        {
+          "text": "Suddenly, r_r lunges, stopping {PRONOUN/r_r/poss} claws a whisker before m_c's face. {PRONOUN/r_r/subject/CAP} {VERB/r_r/laugh/laughs} sharply when {PRONOUN/r_r/subject} {VERB/r_r/realize/realizes} m_c had moved to retaliate, even surrounded by the oppressive murk, and {VERB/r_r/touch/touches} {PRONOUN/r_r/poss} claws to m_c's throat to bestow the blessing of [virtue] before leaving as suddenly as {PRONOUN/r_r/subject} appeared.",
+          "virtue": ["ambition", "confidence", "courage", "determination", "endurance", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", "stubbornness", "authority", "unpredictability"]
+        },
+        {
+          "text": "r_r locks eyes with m_c through the darkness before striding forward, shadows and goop sticking strongly to {PRONOUN/r_r/poss} fur. m_c is the one who initiates the nose-touch, though r_r doesn't so much as blink, allowing the blessing of [virtue] to flow into m_c with a fanged grin.",
+          "virtue": ["ambition", "confidence", "courage", "determination", "endurance", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", "stubbornness", "authority", "unpredictability"]
+        }
+      ]
+    },
+  
+    "faithful_rabbit": {
+      "tags": [],
+      "lead_trait": ["faithful"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "r_r laughs at poor, pious m_c, so out of place in the gloom of the forest, and gives the blessing of [virtue]. As m_c staggers in pain, r_r mockingly asks if {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} still faithful to Inle, even in this twisted wood, but {PRONOUN/r_r/subject} {VERB/r_r/bound/bounds} away before any answer can be given.",
+          "virtue": ["strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", "stubbornness", "authority", "cruelty"]
+        },
+        {
+          "text": "r_r slides {PRONOUN/r_r/poss} tail along m_c's side, asking softly if this is where {PRONOUN/m_c/subject} thought {PRONOUN/m_c/poss} faith would bring {PRONOUN/m_c/object}. Before m_c can answer, r_r bestows {PRONOUN/r_r/poss} blessing of [virtue], cackling at m_c's pained expression before sliding back into the shadows.",
+          "virtue": ["strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", "stubbornness", "authority", "cruelty"]
+        },
+        {
+          "text": "r_r wastes no time in bestowing {PRONOUN/r_r/poss} blessing of [virtue]. m_c opens {PRONOUN/m_c/poss} mouth, perhaps to argue that {PRONOUN/m_c/subject} {VERB/r_r/don't/doesn't} belong here, that {PRONOUN/m_c/poss} faith still lies with Silverpelt, but a single look from the shadowy rabbit quickly wrenches {PRONOUN/m_c/poss} mouth shut once more.",
+          "virtue": ["strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", "stubbornness", "authority", "cruelty"]
+        }
+      ]
+    },
+  
+    "fierce_rabbit": {
+      "tags": [],
+      "lead_trait": ["fierce"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "Only the strongest could survive being threarah according to r_r's ferocious growl. {PRONOUN/r_r/subject/CAP} {VERB/r_r/press/presses} {PRONOUN/r_r/poss} claws against m_c's neck while giving the blessing of [virtue], encouraging the new threarah to become a story to haunt the minds of the other warren's kits.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "r_r's claws dug into the shadowy ooze underneath {PRONOUN/r_r/object} when {PRONOUN/r_r/subject} {VERB/r_r/approach/approaches} m_c. The dark spirit gives the blessing of [virtue]. It feels like the claws of all the foxes in the world are raking down m_c's pelt.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "The next dark spirit could not even meet m_c's ferocious gaze. The trembling shadow of r_r hastily gives the blessing of [virtue] before scrambling away from the might of c_n's newest threarah.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+  
+    "insecure_rabbit": {
+      "tags": [],
+      "lead_trait": ["insecure"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "r_r croons into m_c's ear, whispering about how now {PRONOUN/m_c/subject}'ll be able to prove everyone in the warren wrong about {PRONOUN/m_c/poss} weak-willed mentality. A dark chuckle escapes r_r's throat as {PRONOUN/r_r/subject} {VERB/r_r/give/gives} {PRONOUN/m_c/subject} the blessing of [virtue].",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "An almost demented laugh escapes from r_r's maw as {PRONOUN/r_r/subject} {VERB/r_r/press/pressed} {PRONOUN/r_r/poss} muzzle against m_c's head. This rabbit? A threarah? Don't make {PRONOUN/r_r/object} laugh! r_r's howling cackle echoes in m_c's ears as the dark spirit leaves {PRONOUN/m_c/object} behind.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "There is a strange softness in r_r's eyes beyond the crimson gloom that shines forth. Smearing muck against m_c's forehead, the spirit whispers the blessing of [virtue]. The the lightless lands might not believe in {PRONOUN/m_c/object} but r_r always will.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+  
+    "lonesome_rabbit": {
+      "tags": [],
+      "lead_trait": ["lonesome"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "r_r slinks forward with an air of unsettling detachment. Rarely does a sound escape {PRONOUN/m_c/poss} lips, as this feline only speaks to hand m_c the blessing of [virtue], then fades into the shadows once more. {PRONOUN/m_c/poss/CAP} haunting presence lingers, leaving behind a trail of curiosity and unspoken whispers.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunningness", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "Though lacking words, r_r's presence emanates an unspoken offer of the blessing of m_c, embedded with the virtue of [virtue]. The departure leaves a trail of mystery and reverential awe in r_r's aftermath.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunningness", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "With steady footing, r_r approaches m_c, {PRONOUN/m_c/poss} velvet paws treading noiselessly upon the moss-covered ground. Brooding demeanor, accompanied by an ominous silence, alludes to a dark past that remains locked within {PRONOUN/m_c/poss} enigmatic spirit. {PRONOUN/m_c/subject/CAP} {VERB/r_r/give/gives} the blessing of [virtue], then {VERB/r_r/leave/leaves} without a sound escaping {PRONOUN/m_c/poss} tongue.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunningness", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+  
+    "loving_rabbit_EXAMPLE": {
+      "tags": [],
+      "lead_trait": ["loving"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "r_r walks up to m_c, offering the blessing of [virtue]. They smile, and state that the warren will do well under m_c's threarahship.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "A new rabbit approaches. r_r steps forward to give m_c the blessing of [virtue]. m_c grits their teeth as the blessing rushes into them.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "r_r dips their head in greeting. Energy surges through m_c's pelt as they receive the blessing of [virtue]. They reassure m_c that they are almost done.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+  
+  	"loyal_rabbit": {
+      "tags": [],
+      "lead_trait": ["loyal"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "r_r presses {PRONOUN/r_r/poss} nose against m_c's forehead, the virtue of [virtue] burning away the threarah's previous blessing. Loyalty to {PRONOUN/r_r/poss} warren must be absolute, and no weakness can be tolerated.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "Loyalty to the shadows of the the lightless lands was what r_r valued so highly in the murk. So seeing m_c so poised for loyalty to the darkness only made r_r purr as the blessing for [virtue] was given freely.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+
+    "nervous_rabbit": {
+      "tags": [],
+      "lead_trait": ["nervous"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "A disdainful look crosses r_r's face when it was {PRONOUN/r_r/poss} turn to give the blessing of [virtue]. The lack of a preamble and the violent press of r_r's maw into {PRONOUN/m_c/poss} fur only made m_c more anxious about {PRONOUN/m_c/poss} new role as threarah.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "A guttural snarl escaped r_r's throat when {PRONOUN/r_r/subject} {VERB/r_r/give/gives} the blessing of [virtue], almost making m_c quiver and shake in {PRONOUN/m_c/poss} fur.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "r_r only watches the new threarah with a rather forlorn look before giving {PRONOUN/r_r/object} the blessing of [virtue]. m_c didn't even have a chance to talk to the lightless rabbit before {PRONOUN/r_r/subject} vanished into smoke.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+  
+    "playful_rabbit": {
+      "tags": [],
+      "lead_trait": ["playful"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "Appearing behind m_c from the murk, a dark tail passed in front of m_c's eyes. The shadows distorted the blessing giver's voice, but {PRONOUN/m_c/subject} swore {PRONOUN/m_c/subject} could hear r_r teasing {PRONOUN/r_r/object}. The blessing of [virtue] ebbed away before m_c could see if it was really {PRONOUN/r_r/object}.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "A cruel smirk crossed r_r's face as {PRONOUN/r_r/subject} {VERB/r_r/approach/approaches} m_c. {PRONOUN/r_r/subject/CAP} {VERB/r_r/press/presses} {PRONOUN/r_r/poss} nose against the new threarah, taunting how c_n had always found m_c's playful games so bothersome. Perhaps the blessing of [virtue] r_r bestowed would set {PRONOUN/m_c/object} right.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+  
+  	"responsible_rabbit": {
+      "tags": [],
+      "lead_trait": ["responsible"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "captain", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "m_c's eyes glide to where r_r pads out of the gloom. The shadowy rabbit's eyes light up in surprise before darkening once more. {PRONOUN/r_r/subject/CAP} {VERB/r_r/scoff/scoffs}, remarking that {PRONOUN/r_r/subject} never thought {PRONOUN/r_r/subject}'d see m_c in these dark woods before giving the blessing of [virtue].",
+          "virtue": ["ambition", "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", 
+          "shamelessness", "zealotry", "bloodlust", "restless energy", "stubbornness", "authority"]
+        },
+        {
+          "text": "A cold prickle passes through m_c's pelt as r_r slinks into view. {PRONOUN/r_r/subject/CAP} {VERB/r_r/let/lets} out a shrill hiss that turns into a cackle. {PRONOUN/r_r/subject/CAP} didn't know that code-following kitties could show up here, {PRONOUN/r_r/subject} {VERB/r_r/scoff/scoffs}. The blessing for [virtue] that {PRONOUN/r_r/subject} {VERB/r_r/offer/offers} rushes through m_c like a lightning bolt.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "m_c feels {PRONOUN/m_c/poss} pelt prickle with apprehension as r_r stalks closer. The dark form snorts derisively before sweeping {PRONOUN/r_r/poss} tail across m_c's whiskers, giving the blessing of [virtue]. m_c wobbles as a sickening feeling spreads through {PRONOUN/m_c/object}, but it's gone as soon as it began.",
+          "virtue": ["ruthlessness", "indifference", "single-mindedness", "authority"]
+        }
+      ]
+    },
+
+    "righteous_rabbit": {
+      "tags": [],
+      "lead_trait": ["righteous"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "m_c pins {PRONOUN/m_c/poss} ears back as the shadowy figure of r_r appears from the gloom. r_r's flint-sharp eyes reveal nothing as {PRONOUN/r_r/subject} {VERB/r_r/lift/lifts} a paw with unsheathed claws up to m_c's head. The touch is light, gifting the blessing of [virtue], but the pain that rips through m_c makes {PRONOUN/m_c/object} want to scream.",
+          "virtue": ["detachment", "vehemence", "fervor", "ferocity"]
+        },
+        {
+          "text": "m_c stands rigidly as the shape of r_r barrels towards {PRONOUN/m_c/object}. {PRONOUN/r_r/subject/CAP} {VERB/r_r/stop/stops} short of bowling m_c over and {VERB/r_r/let/lets} out a sharp laugh - a wicked sound. \"Your virtuous ways won't save you here,\" {PRONOUN/r_r/subject} {VERB/r_r/hiss/hisses}, shoving {PRONOUN/r_r/poss} head towards m_c's. The impact almost makes {PRONOUN/m_c/poss} head spin, but then the pain of [virtue] zips through {PRONOUN/m_c/poss} body, letting everything else be forgotten.",
+          "virtue": ["backbone", "tenacity", "sharp senses", "good instincts", "drive"]
+        },
+        {
+          "text": "m_c keeps {PRONOUN/m_c/poss} eyes slitted as r_r pads up. The dark rabbit regards them coldly, mewing that {PRONOUN/m_c/poss} righteousness is a sure way to gain authority in c_n. {PRONOUN/r_r/subject/CAP} briefly {VERB/r_r/brush/brushes} {PRONOUN/r_r/poss} muzzle against m_c's, the blessing of [virtue] ripping through {PRONOUN/m_c/poss} body with the intensity of a fire.",
+          "virtue": ["sharp claws", "sharp fangs"]
+        }
+      ]
+    },
+  
+    "shameless_rabbit": {
+      "tags": [],
+      "lead_trait": ["shameless"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "r_r circles m_c, eyes glittering with amusement. Of course m_c would become threarah, {PRONOUN/r_r/subject} {VERB/r_r/purr/purrs}, {PRONOUN/m_c/subject} {VERB/m_c/have/has} nothing to lose! r_r presses against m_c, a blessing given for [virtue] coursing through {PRONOUN/m_c/poss} limbs.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "r_r raises up from beneath m_c, gloom sticking to {PRONOUN/r_r/object} like dried blood. {PRONOUN/r_r/subject/CAP} {VERB/r_r/curl/curls} like a snake about to strike, tail-tip flicking. As {PRONOUN/r_r/subject} makes contact with m_c, the blessing of [virtue] floods into {PRONOUN/m_c/object} as venom might.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "The shadows part temporarily to let r_r pad in. {PRONOUN/r_r/subject/CAP} {VERB/r_r/seem/seems} almost sad to see m_c here, but {PRONOUN/r_r/subject} {VERB/r_r/sigh/sighs} and touches a mud-clogged nose to {PRONOUN/m_c/object} anyway, for [virtue].",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+  
+    "sneaky_rabbit": {
+      "tags": [],
+      "lead_trait": ["sneaky"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "A pair of piercing eyes gleams from the darkness, hinting at the wickedness that lay within. With calculated stealth, r_r approaches m_c as if stalking prey, each paw touching the ground with an unsettling grace. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} the blessing of [virtue], {PRONOUN/r_r/poss} malevolent presence then disappearing as quickly as it approached.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunningness", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "With every sinew of one's body coiled, r_r approached m_c with calculated stealth, leaving naught but silence in {PRONOUN/r_r/poss} wake. The very air seemed to hold its breath as as the profound essence of [value] unfolded in the precious gift of the blessing of m_c.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunningness", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+  
+    "strange_rabbit": {
+      "tags": [],
+      "lead_trait": ["strange"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "m_c did not seem startled at the shadowy spirit that approaches {PRONOUN/m_c/object}. r_r narrows {PRONOUN/r_r/poss} crimson eyes at the bravado, but gives the blessing of [virtue] regardless.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "In the middle of r_r's monologue about the Forest's strength and cunning, m_c interrupts {PRONOUN/r_r/object} to ask about the oozing shadows across {PRONOUN/r_r/poss} pelt and if it tastes like anything. r_r was stunned into silence and simply gives the new threarah the blessing of [virtue].",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+  
+    "strict_rabbit": {
+      "tags": [],
+      "lead_trait": ["strict"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "m_c has followed the Warrior Code with all of {PRONOUN/m_c/poss} being. {PRONOUN/m_c/subject/CAP} was not meant to be here, {PRONOUN/m_c/subject} cried out! r_r only gives a wicked grin as the blessing of [virtue] is bestowed upon the unwilling threarah.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "r_r began {PRONOUN/r_r/poss} prepared speech for {PRONOUN/r_r/poss} blessing, when m_c interrupted the speil to point out a word out of place. Disgruntled, r_r gives m_c the blessing of [virtue].",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+  
+    "thoughtful_rabbit": {
+      "tags": [],
+      "lead_trait": ["thoughtful"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "r_r watches m_c with piercing eyes, as though the dark spirit can see right through all of m_c's thoughts! {PRONOUN/r_r/subject/CAP} {VERB/r_r/are/is} silent as {PRONOUN/r_r/subject} {VERB/r_r/gives/give} the blessing of [virtue].",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "If m_c wastes all of {PRONOUN/r_r/poss} nine lives thinking, {PRONOUN/r_r/subject} will never be able to save c_n. That is the lie r_r speaks as {PRONOUN/r_r/subject} {VERB/r_r/gives/give} the blessing of [virtue].",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+
+  	"troublesome_rabbit": {
+      "tags": [],
+      "lead_trait": ["troublesome"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "While such antics would be frowned upon by Inle, r_r and the the lightless lands welcome the newest troublemaker with open arms. r_r gives the blessing of [virtue], encouraging m_c to take {PRONOUN/r_r/poss} plots to new heights.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "Whispering of a prank to pull on the other warrens, and how it would be SO funny, r_r gives m_c the blessing of [virtue].",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+  
+    "vengeful_rabbit_EXAMPLE": {
+      "tags": [],
+      "lead_trait": ["vengeful"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "r_r walks up to m_c, offering the blessing of [virtue]. They smile, and state that the warren will do well under m_c's threarahship.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "A new rabbit approaches. r_r steps forward to give m_c the blessing of [virtue]. m_c grits their teeth as the blessing rushes into them.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "r_r dips their head in greeting. Energy surges through m_c's pelt as they receive the blessing of [virtue]. They reassure m_c that they are almost done.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+  
+    "wise_rabbit": {
+      "tags": [],
+      "lead_trait": ["wise"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "What does wisdom have in the face of raw power? r_r sneers this in m_c's face as the blessing for [virtue] is given like a claw through the throat.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        },
+        {
+          "text": "r_r snarls as the live of [virtue] is given, winding around m_c's body like a snake. All of the new threarah's plans and thoughts will crumble to dust unless {PRONOUN/m_c/subject} {VERB/m_c/acts/act} qucikly, rashly!",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+      "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+      "stubbornness", "authority"]
+        }
+      ]
+    },
+    "arrogant_rabbit": {
+      "tags": [],
+      "lead_trait": ["arrogant"],
+      "star_trait": [],
+      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain"],
+      "life_giving": [
+        {
+          "text": "m_c was the best of the rabbits in c_n. The best in the whole warren entierly. Maybe even the best rabbit of all of history! That was what r_r crooned into the new threarah's ears as the blessing for [virtue] was given freely.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+          "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+          "stubbornness", "authority"]
+        }
+      ]
+    },
+    "competitive_rabbit": {
+      "tags": [],
+      "lead_trait": ["competitive"],
+      "star_trait": [],
+      "rank": ["rabbit", "captain"],
+      "life_giving": [
+        {
+          "text": "r_r knows that m_c will never be able to outdo {PRONOUN/r_r/object}, even with the the lightless lands on the threarah's side. Even as the blessing for [virtue] fades into a dull, painful ache, r_r whispers how {PRONOUN/r_r/subject} will be here and watching m_c fail again and again compared to dark spirit.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+          "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+          "stubbornness", "authority"]
+        }
+      ]
+    },
+        "flamboyant_rabbit": {
+      "tags": [],
+      "lead_trait": ["flamboyant"],
+      "star_trait": [],
+      "rank": ["rabbit", "captain"],
+      "life_giving": [
+        {
+          "text": "Such a theatric attitude had no place in the the lightless lands. But the gloom-covered spirit of r_r gives m_c the blessing of [virtue] with silent contempt in {PRONOUN/r_r/poss}  eyes regardless of {PRONOUN/r_r/poss} feelings on the matter.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+          "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+          "stubbornness", "authority"]
+        }
+      ]
+    },
+    "grumpy_rabbit": {
+      "tags": [],
+      "lead_trait": ["grumpy"],
+      "star_trait": [],
+      "rank": ["rabbit", "captain"],
+      "life_giving": [
+        {
+          "text": "r_r wondered if m_c's grumpy attitude was from anger and bloodlust, or a general spite towards the world. The shadowy spirit gives the new threarah the blessing of [virtue].",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+          "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+          "stubbornness", "authority"]
+        }
+      ]
+    },
+    "rebellious_rabbit": {
+      "tags": [],
+      "lead_trait": ["Rebellious"],
+      "star_trait": [],
+      "rank": ["rabbit", "captain"],
+      "life_giving": [
+        {
+          "text": "So long as m_c uses {PRONOUN/m_c/poss} rebellious ways to destroy the hold Inle has on the world, r_r couldn't give a rat's tail what the new threarah did with the blessing for [virtue].",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+          "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+          "stubbornness", "authority"]
+        }
+      ]
+    },
+    "sincere_rabbit": {
+      "tags": [],
+      "lead_trait": ["sincere"],
+      "star_trait": [],
+      "rank": ["rabbit", "captain"],
+      "life_giving": [
+        {
+          "text": "Was this a joke? The murk-covered form of r_r couldn't believe that m_c was chosen to be threarah. r_r rolls {PRONOUN/r_r/poss} eyes and gives the blessing of [virtue] with an incredulous sigh.",
+          "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
+          "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
+          "stubbornness", "authority"]
+        }
+      ]
+    },
+    "default_kit": {
+      "tags": [],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": ["kitten"],
+      "life_giving": [
+        {
+          "text": "r_r bounds up to the new threarah, reaching up on {PRONOUN/r_r/poss} hind legs to give {PRONOUN/m_c/object} a new blessing for [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/flick/flicks} {PRONOUN/r_r/poss} muck-covered tail and {VERB/r_r/run/runs} back to the line of shadows.",
+          "virtue": ["adventure", "curiosity", "perspective", "protection"]
+        }
+      ]
+    },
+
+    "bloodthirsty_kit": {
+      "tags": [],
+      "lead_trait": ["bloodthirsty"],
+      "star_trait": [],
+      "rank": ["kitten"],
+      "life_giving": [
+        {
+          "text": "r_r giddily approaches the new threarah, reaching up on {PRONOUN/r_r/poss} hind legs to give {PRONOUN/m_c/object} a new blessing for [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/lash/lashes} {PRONOUN/r_r/poss} tail and head back to make room for the next rabbit.",
+          "virtue": ["adventure", "curiosity", "perspective", "protection"]
+        }
+      ]
+    },
+
+    "default_app": {
+      "tags": [],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": ["apprentice", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "A young rabbit is next to give a blessing. Crimson gloom reflects off {PRONOUN/r_r/poss} youthful eyes. r_r stretches up to give the blessing of [virtue].",
+          "virtue": ["happiness", "honesty", "humor", "justice", "mentoring", "trust"]
+        }
+      ]
+    },
+
+    "bloodthirsty_app": {
+      "tags": [],
+      "lead_trait": ["bloodthirsty"],
+      "star_trait": [],
+      "rank": ["apprentice", "healer apprentice", "owsla rusasi"],
+      "life_giving": [
+        {
+          "text": "A young rabbit is next to give a blessing. {PRONOUN/r_r/subject} {VERB/r_r/hesitate/hesitates}, before an older rabbit shoves {PRONOUN/r_r/object} forward, growling in {PRONOUN/r_r/poss} ear. r_r stretches up to give the blessing of [virtue].",
+          "virtue": ["happiness", "honesty", "humor", "justice", "mentoring", "trust"]
+        }
+      ]
+    },
+
+    "default_elder": {
+      "tags": [],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": ["elder"],
+      "life_giving": [
+        {
+          "text": "r_r strides forward, an energy in {PRONOUN/r_r/poss} steps that wasn't present in {PRONOUN/r_r/poss} last moments. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} the blessing of [virtue].",
+          "virtue": ["grace", "humility", "integrity", "persistence", "resilience"]
+        }
+      ]
+    },
+
+    "bloodthirsty_elder": {
+      "tags": [],
+      "lead_trait": ["bloodthirsty"],
+      "star_trait": [],
+      "rank": ["elder"],
+      "life_giving": [
+        {
+          "text": "r_r pads forward with a savage expression. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} the blessing of [virtue].",
+          "virtue": ["grace", "humility", "integrity", "persistence", "resilience"]
+        }
+      ]
+    },
+
+    "default_med": {
+      "tags": [],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": ["healer"],
+      "life_giving": [
+        {
+          "text": " r_r approaches next, a sharp grin on {PRONOUN/r_r/poss} maw. {PRONOUN/r_r/subject/CAP} {VERB/r_r/offer/offers} the blessing of [virtue], whispering to make sure {PRONOUN/m_c/poss} warren remains strong. No matter the cost.",
+          "virtue": ["clear sight", "devotion", "faith", "healing", "patience", "wisdom"]
+        }
+      ]
+    },
+
+    "bloodthirsty_med": {
+      "tags": [],
+      "lead_trait": ["bloodthirsty"],
+      "star_trait": [],
+      "rank": ["healer"],
+      "life_giving": [
+        {
+          "text": "r_r approaches next, a dark expression on {PRONOUN/r_r/poss} face. {PRONOUN/r_r/subject/CAP} {VERB/r_r/offer/offers} the blessing of [virtue], whispering to inspire true loyalty through fear of punishment.",
+          "virtue": ["clear sight", "devotion", "faith", "healing", "patience", "wisdom"]
+        }
+      ]
+    },
+
+    "default_threarah": {
+      "tags": [],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": ["threarah"],
+      "life_giving": [
+        {
+          "text": "Finally, r_r steps forward. The gloom and murk across {PRONOUN/r_r/poss} pelt shows the future that m_c will endure one day. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} the blessing of [virtue].",
+          "virtue": ["endurance in the face of hardship", "knowing when to fight and when to choose to lay in wait", "threarahship through the darkest times", "loyalty to their warren", "the strength to overcome their fears", "tireless energy"]
+        }
+      ]
+    },
+    "default_threarah_ancient": {
+      "tags": ["old_threarah"],
+      "lead_trait": [],
+      "star_trait": [],
+      "rank": ["threarah"],
+      "life_giving": [
+        {
+          "text": "Finally, r_r steps forward. The dark shadows across the clearing could not hide the corrupted satisfaction in {PRONOUN/r_r/poss} eyes. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} the blessing of [virtue].",
+          "virtue": ["endurance in the face of hardship", "knowing when to fight and when to choose to lay in wait", "threarahship through the darkest times", "loyalty to their warren", "the strength to overcome their fears", "tireless energy"]
+        }
+      ]
+    },
+
+    "bloodthirsty_threarah": {
+      "tags": [],
+      "lead_trait": ["bloodthirsty"],
+      "star_trait": [],
+      "rank": ["threarah"],
+      "life_giving": [
+        {
+          "text": "Finally, r_r steps forward. The dark shadows across the clearing could not hide the corrupted satisfaction in {PRONOUN/r_r/poss} eyes. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} the blessing of [virtue].",
+          "virtue": ["endurance in the face of hardship", "knowing when to fight and when to choose to lay in wait", "threarahship through the darkest times", "loyalty to their warren", "the strength to overcome their fears", "tireless energy"]
+        }
+      ]
+    },
+    "bloodthirsty_threarah_ancient": {
+      "tags": ["old_threarah"],
+      "lead_trait": ["bloodthirsty"],
+      "star_trait": [],
+      "rank": ["threarah"],
+      "life_giving": [
+        {
+          "text": "r_r, one of the the lightless lands's oldest threarahs, looks at the new threarah with a triumphant expression. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} a last blessing, the gift of [virtue].",
+          "virtue": ["endurance in the face of hardship", "knowing when to fight and when to choose to lay in wait", "threarahship through the darkest times", "loyalty to their warren", "the strength to overcome their fears", "tireless energy"]
+        }
+      ]
+    }
+  },
+
+
+  "outros": {
+    "default": {
+      "tags": [],
+      "lead_trait": [],
+      "text": [
+            "r_r hails m_c by {PRONOUN/m_c/poss} new name, m_c_star, telling {PRONOUN/m_c/object} that {PRONOUN/m_c/poss} old pathetic blessing is no more. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} granted guardianship of c_n, and {VERB/m_c/are/is} told to use {PRONOUN/m_c/poss} new power however {PRONOUN/m_c/subject} wish. The group of shadowy rabbits yowls m_c_star's name in support. m_c_star wakes up feeling a new strength within {PRONOUN/m_c/poss} body and know that they are now ready to lead the warren."
+
+      ]
+    },
+    "new_clan": {
+      "tags": ["new_clan"],
+      "lead_trait": [],
+      "text": [
+        "m_c_star wakes, a hissing echo of {PRONOUN/m_c/poss} new name lingering in the air."
+      ]
+    },
+    "bloodthirsty": {
+      "tags": [],
+      "lead_trait": ["bloodthirsty"],
+      "text": [
+        "r_r hails m_c by {PRONOUN/m_c/poss} new name, m_c_star, telling {PRONOUN/m_c/object} that {PRONOUN/m_c/poss} old pathetic blessing is no more. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} granted guardianship of c_n, and {VERB/m_c/are/is} told to use {PRONOUN/m_c/poss} new power however {PRONOUN/m_c/subject} wish. The the lightless lands's hissing and yowls echo in the dusky clearing as the new threarah begins to wake up. m_c_star stands, feeling a new strength within {PRONOUN/m_c/poss} body, and grins."
+      ]
+    }
+  }
+}

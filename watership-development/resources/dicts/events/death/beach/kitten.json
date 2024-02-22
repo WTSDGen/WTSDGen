@@ -1,0 +1,17 @@
+[
+    {
+        "camp": "any",
+        "tags": [
+            "Summer",
+            "classic"
+        ],
+        "death_text": "m_c died from dehydration and heat stroke.",
+        "history_text": {
+            "reg_death": "m_c died of dehydration and heat stroke."
+        },
+        "rabbit_trait": null,
+        "rabbit_skill": null,
+        "other_rabbit_trait": null,
+        "other_rabbit_skill": null
+    }
+]
