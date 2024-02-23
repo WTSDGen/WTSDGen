@@ -172,25 +172,25 @@ class Thoughts():
         
         if random_rabbit and 'random_outside_status' in thought:
             outside_status = None
-            if random_rabbit and random_rabbit.outside and random_rabbit.status not in ["kittypet", "loner", "rogue", "former Clanrabbit", "exiled"]:
+            if random_rabbit and random_rabbit.outside and random_rabbit.status not in ["kittypet", "loner", "rogue", "former Warrenrabbit", "exiled"]:
                 outside_status = "lost"
             elif random_rabbit and random_rabbit.outside:
                 outside_status = "outside"
             else:
-                outside_status = "clanrabbit"
+                outside_status = "warrenrabbit"
             if outside_status not in thought['random_outside_status']:
                 return False
         else:
-            if random_rabbit and random_rabbit.outside and random_rabbit.status not in ["kittypet", "loner", "rogue", "former Clanrabbit", "exiled"]:
+            if random_rabbit and random_rabbit.outside and random_rabbit.status not in ["kittypet", "loner", "rogue", "former Warrenrabbit", "exiled"]:
                 outside_status = "lost"
             elif random_rabbit and random_rabbit.outside:
                 outside_status = "outside"
             else:
-                outside_status = "clanrabbit"
+                outside_status = "warrenrabbit"
             if main_rabbit.outside: # makes sure that outsiders can get thoughts all the time
                 pass
             else:
-                if outside_status and outside_status != 'clanrabbit' and len(r_r_in) > 0:
+                if outside_status and outside_status != 'warrenrabbit' and len(r_r_in) > 0:
                     return False
             
             #makes sure thought is valid for game mode
@@ -269,8 +269,8 @@ class Thoughts():
             status = "healer_rusasi"
         elif status == "owsla rusasi":
             status = "owsla_rusasi"
-        elif status == 'former Clanrabbit':
-            status = 'former_rlanrabbit'
+        elif status == 'former Warrenrabbit':
+            status = 'former_warrenrabbit'
         elif status == 'chief rabbit':
             status = 'chief_rabbit'
 
