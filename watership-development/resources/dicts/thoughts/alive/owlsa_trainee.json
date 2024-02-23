@@ -50,7 +50,7 @@
         ]
     },
     {
-        "id": "apprentice_alive_captain",
+        "id": "rusasi_alive_captain",
         "thoughts": [
             "Wants r_r to assign {PRONOUN/m_c/object} to the next patrol",
             "Is watching and learning from r_r",
@@ -65,7 +65,7 @@
         ]
     },
     {
-        "id": "apprentice_alive_owsla",
+        "id": "rusasi_alive_owsla",
         "thoughts": [
             "Is watching and learning from r_r",
             "Is asking r_r questions about Owsla life",
@@ -84,7 +84,7 @@
         ]
     },
     {
-        "id": "apprentice_alive_mentor",
+        "id": "rusasi_alive_mentor",
         "thoughts": [
             "Is trying to perfect the latest move that r_r taught {PRONOUN/m_c/object}",
             "Is asking r_r questions",
@@ -101,7 +101,7 @@
         ]
     },
     {
-        "id": "apprentice_alive_apprentice",
+        "id": "rusasi_alive_rusasi",
         "thoughts": [
             "Is learning how to hunt with r_r",
             "Teases r_r for missing an easy catch",
@@ -123,11 +123,11 @@
             "Asks r_r to train with {PRONOUN/m_c/object} soon"
         ],
         "random_status_constraint": [
-            "apprentice"
+            "rusasi"
         ]
     },
     {
-        "id": "apprentice_alive_elder",
+        "id": "rusasi_alive_elder",
         "thoughts":[
             "Is dreading having to clean the elders' den later",
             "Is picking ticks off of r_r",
@@ -151,7 +151,7 @@
         ]
     },
     {
-        "id": "apprentice_alive_kits",
+        "id": "rusasi_alive_kits",
         "thoughts":[
             "Leaves hay outside the nursery for the kits",
             "Is showing r_r the proper way to do a threatening thump",
@@ -171,20 +171,20 @@
         ]
     },
     {
-        "id": "apprentice_dead_owsla",
+        "id": "rusasi_dead_owsla",
         "thoughts": [
             "Wishes {PRONOUN/m_c/subject} could learn from r_r",
             "Wants to be a great fighter, just like r_r"
         ],
         "random_status_constraint": [
-            "warrior"
+            "rabbit"
         ],
         "random_living_status": [
-            "Inlé"
+            "inle"
         ]
     },
     {
-        "id": "formerly_a_rogue_owsla_apprentice",
+        "id": "formerly_a_rogue_owsla_rusasi",
         "thoughts": [
             "Got scolded for eating what {PRONOUN/m_c/subject} found",
             "Has some trouble adjusting",
@@ -197,7 +197,7 @@
         "main_backstory_constraint": ["rogue1", "rogue2", "rogue3", "refugee4", "tragedy_survivor2", "guided2"]
     },
     {
-        "id": "thoughtful_owsla_apprentice",
+        "id": "thoughtful_owsla_rusasi",
         "thoughts": [
             "Offered to go on the dawn patrol with {PRONOUN/m_c/poss} mentor",
             "Wants to gather moss for the elder's den",
@@ -213,7 +213,7 @@
         ]
     },
     {
-        "id": "patient_owsla_apprentice",
+        "id": "patient_owsla_rusasi",
         "thoughts": [
             "Is busy mastering a fighting technique",
             "Spent all morning mastering and practicing a good kick",
@@ -229,7 +229,7 @@
         ]
     },
     {
-        "id": "insecure_owsla_apprentice",
+        "id": "insecure_owsla_rusasi",
         "thoughts": [
             "Is wondering if {PRONOUN/m_c/subject} {VERB/m_c/are/is} good enough to be owsla...",
             "Is reluctant to spar with {PRONOUN/m_c/poss} mentor today",
@@ -251,7 +251,7 @@
         ]
     },
     {
-        "id": "fierce_owsla_apprentice",
+        "id": "fierce_owsla_rusasi",
         "thoughts": [
             "Is showing off {PRONOUN/m_c/poss} new battle moves",
             "Is pushing hard for more battle training",
@@ -270,7 +270,7 @@
         ]
     },
     {
-        "id": "confident_owsla_apprentice",
+        "id": "confident_owsla_rusasi",
         "thoughts": [
             "Is sure that {PRONOUN/m_c/subject}'ll be made into the captain soon",
             "Thinks that {PRONOUN/m_c/subject} will be the strongest guard to ever live",
@@ -278,7 +278,7 @@
             "Is planning on bringing a lot of stories back from patrol",
             "Wants to lead the next dawn patrol",
             "Perfects a new fighting stance during today's training session",
-            "Is sure that r_r thinks {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} the best apprentice",
+            "Is sure that r_r thinks {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} the best rusasi",
             "Is a very quick learner",
             "Is sure {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} doing a good job today",
             "Knows {PRONOUN/m_c/subject} will get picked first for today's patrol"
@@ -288,7 +288,7 @@
         ]
     },
     {
-        "id": "bold_owsla_apprentice",
+        "id": "bold_owsla_rusasi",
         "thoughts": [
             "Taunted a rival warren's trainee at the border",
             "Took the biggest flower from the pile",
@@ -300,21 +300,21 @@
             "Tells {PRONOUN/m_c/poss} mentor {PRONOUN/m_c/subject} {VERB/m_c/are/is} going on patrol without {PRONOUN/r_r/object}"
         ],
         "main_status_constraint": [
-            "apprentice"
+            "rusasi"
         ],
         "main_trait_constraint": [
             "bold"
         ]
     },
     {
-        "id": "bold_owsla_apprentice_to_owsla",
+        "id": "bold_owsla_rusasi_to_owsla",
         "thoughts": [
             "Is looking to challenge a real owsla to a sparring match",
             "Is pretty sure r_r would lose in a fight with {PRONOUN/m_c/object}",
             "Doesn't listen to r_r's advice"
         ],
         "main_status_constraint": [
-            "apprentice"
+            "rusasi"
         ],
         "random_status_constraint":[
             "owsla"
@@ -324,7 +324,7 @@
         ]
     },
     {
-        "id": "bloodthirsty_owsla_apprentice",
+        "id": "bloodthirsty_owsla_rusasi",
         "thoughts": [
             "Pesters {PRONOUN/m_c/poss} mentor for more battle training",
             "Is practicing forbidden battle moves",
@@ -346,7 +346,7 @@
         ]
     },
     {
-        "id": "ambitious_owsla_apprentice",
+        "id": "ambitious_owsla_rusasi",
         "thoughts": [
             "Begs to be made owsla early",
             "Wants to go on both a border and training patrol",
@@ -363,7 +363,7 @@
         ]
     },
     {
-        "id": "ambitious_owsla_apprentice_to_other_apps",
+        "id": "ambitious_owsla_rusasi_to_other_apps",
         "thoughts": [
             "Has been winning the most fights out of all the trainees",
             "Is confident that {PRONOUN/m_c/subject} could beat the other trainees",
@@ -372,14 +372,14 @@
             "Wants to be made owsla before r_r"
         ],
         "random_status_constraint": [
-            "apprentice"
+            "rusasi"
         ],
         "main_trait_constraint": [
             "ambitious"
         ]
     }, 
     {
-        "id": "childish_owsla_apprentice",
+        "id": "childish_owsla_rusasi",
         "thoughts": [
             "Wonders if {PRONOUN/m_c/subject} could still fit in the nursery",
             "Turns {PRONOUN/m_c/poss} sparring practice into a tickle fight",
@@ -393,7 +393,7 @@
             "childish"
         ]
     },
-    { "id": "childish_apprentice_elder",
+    { "id": "childish_rusasi_elder",
         "thoughts": [
             "Pouts about being asked to check the elders for ticks",
             "Is hiding instead of taking care of the elders",

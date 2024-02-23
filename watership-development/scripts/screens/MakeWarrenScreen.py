@@ -1202,7 +1202,7 @@ class MakeWarrenScreen(Screens):
         Rabbit.grief_strings.clear()
         Rabbit.sort_rabbits()
 
-    def get_burrow_art_path(self, burrownum):
+    def get_burrow_art_path(self, burrow_num):
         leaf = self.selected_season.replace("-", "")
 
         burrow_bg_base_dir = "resources/images/burrow_bg/"
@@ -1213,7 +1213,7 @@ class MakeWarrenScreen(Screens):
 
         biome = self.biome_selected.lower()
 
-        if burrownum:
-            return f'{burrow_bg_base_dir}/{biome}/{start_leave}_burrow{burrownum}_{light_dark}.png'
+        if burrow_num:
+            return f'{burrow_bg_base_dir}/{biome}/{start_leave}_burrow{burrow_num}_{light_dark}.png'
         else:
             return None

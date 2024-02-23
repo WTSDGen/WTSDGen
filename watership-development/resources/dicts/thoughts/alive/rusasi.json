@@ -62,7 +62,7 @@
                 "Asks r_r for an extra task"
             ],
             "random_status_constraint": [
-                "deputy"
+                "captain"
             ]
         },
         {
@@ -98,7 +98,7 @@
                 "Wants to make r_r proud today"
             ],
             "relationship_constraint": [
-                "app/rusasirah"
+                "app/mentor"
             ]
         },
         {
@@ -168,7 +168,7 @@
                 "Tries to teach r_r something new... but {PRONOUN/r_r/subject}{VERB/r_r/'re/'s} not listening"
             ],
             "random_status_constraint":[
-                "kitten"
+                "kit"
             ]
         },
         {
@@ -181,7 +181,7 @@
                 "rabbit"
             ],
             "random_living_status": [
-                "starclan"
+                "inle"
             ]
         },
         {
