@@ -300,7 +300,7 @@
             "owsla rusasi"
         ],
         "relationship_constraint": [
-            "app/rusasirah"
+            "app/mentor"
         ],
         "random_living_status": [
             "living"
@@ -314,7 +314,7 @@
             "Hopes r_r is training well under {PRONOUN/r_r/poss} new rusasirah"
         ],
         "relationship_constraint": [
-            "rusasirah/app"
+            "mentor/app"
         ],
         "random_status_constraint": [
             "apprentice",

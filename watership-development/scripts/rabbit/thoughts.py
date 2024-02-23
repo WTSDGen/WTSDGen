@@ -38,7 +38,7 @@ class Thoughts():
         if "mentor/app" in constraint and random_rabbit not in main_rabbit.rusasi:
             return False
         
-        if "app/mentor" in constraint and random_rabbit.ID != main_rabbit.mentor:
+        if "app/mentor" in constraint and random_rabbit.ID != main_rabbit.rusasirah:
             return False
         
         if "strangers" in constraint and relationship and (relationship.platonic_like < 1 or relationship.romantic_love < 1):

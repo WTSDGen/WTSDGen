@@ -27,7 +27,7 @@
             "newborn"
         ],
         "random_living_status": [
-            "Inlé"
+            "inle"
         ]
     },
     {
@@ -50,7 +50,7 @@
             "Plains"
         ],
         "random_living_status": [
-            "Inlé"
+            "inle"
         ]
     },
     {
@@ -60,12 +60,12 @@
             "Wonders if {PRONOUN/m_c/subject} would have swapped secrets with r_r"
         ],
         "random_status_constraint": [
-            "apprentice",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
         "random_living_status": [
-            "Inlé"
+            "inle"
         ]
     },
     {
@@ -98,26 +98,26 @@
             "Wonders if r_r would have wanted to be a healer too"
         ],
         "random_status_constraint": [
-            "kitten"
+            "kit"
         ],
         "random_living_status": [
-            "Inlé"
+            "inle"
         ]
     },
     {
         "id": "med_rabbit_alive_rusasi",
         "thoughts": [
             "Wonders if r_r would have been a better healer",
-            "Wishes the other apprentices could understand how {PRONOUN/m_c/subject} feel",
-            "Wishes {PRONOUN/m_c/subject} understood the apprentice's inside jokes",
+            "Wishes the other rusasis could understand how {PRONOUN/m_c/subject} feel",
+            "Wishes {PRONOUN/m_c/subject} understood the rusasi's inside jokes",
             "Hopes r_r will come with {PRONOUN/m_c/object} to help gather herbs",
             "Is assuring r_r that everything is okay",
             "Is wondering if Inlérah is visiting r_r's dreams",
             "Is realizing how lonely it can be to be a healer rusasi",
-            "Is watching other apprentices train"
+            "Is watching other rusasis train"
         ],
         "random_status_constraint": [
-            "apprentice",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ]

@@ -856,7 +856,7 @@
             "healer rusasi"
         ],
         "relationship_constraint":[
-            "app/rusasirah"
+            "app/mentor"
         ]
     },
     {
@@ -1097,7 +1097,7 @@
         ],
         "main_backstory_constraint": ["rogue1", "rogue2", "rogue3", "refugee4", "tragedy_survivor2", "guided2"],
         "relationship_constraint": [
-            "app/rusasirah"
+            "app/mentor"
         ]
     },
     {
