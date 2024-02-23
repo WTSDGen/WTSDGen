@@ -56,7 +56,7 @@ class MakeWarrenScreen(Screens):
     warren_name = ""  # To store the Warren name before conformation
     chief_rabbit = None  # To store the Warren chief rabbit before conformation
     captain = None
-    med_rabbit = None
+    healer = None
     members = []
     elected_burrow = None
 
@@ -91,7 +91,7 @@ class MakeWarrenScreen(Screens):
         self.choosing_rank = None
         self.chief_rabbit = None  # To store the Warren chief rabbit before conformation
         self.captain = None
-        self.med_rabbit = None
+        self.healer = None
         self.members = []
 
         # Buttons that appear on every screen.
@@ -276,7 +276,7 @@ class MakeWarrenScreen(Screens):
                 if clicked_rabbit.age not in ["newborn", "kit", "adolescent"]:
                     self.captain = clicked_rabbit
                     self.selected_rabbit = None
-                    self.open_choose_med_rabbit()
+                    self.open_choose_healer()
             elif event.ui_element.return_rabbit_object() != self.chief_rabbit:
                 self.selected_rabbit = event.ui_element.return_rabbit_object()
                 self.refresh_rabbit_images_and_info(self.selected_rabbit)
@@ -284,7 +284,7 @@ class MakeWarrenScreen(Screens):
         elif event.ui_element == self.elements['select_rabbit']:
             self.captain = self.selected_rabbit
             self.selected_rabbit = None
-            self.open_choose_med_rabbit()
+            self.open_choose_healer()
 
     def handle_choose_med_event(self, event):
         if event.ui_element == self.elements['previous_step']:
@@ -295,7 +295,7 @@ class MakeWarrenScreen(Screens):
             if pygame.key.get_mods() & pygame.KMOD_SHIFT:
                 clicked_rabbit = event.ui_element.return_rabbit_object()
                 if clicked_rabbit.age not in ["newborn", "kit", "adolescent"]:
-                    self.med_rabbit = clicked_rabbit
+                    self.healer = clicked_rabbit
                     self.selected_rabbit = None
                     self.open_choose_members()
             elif event.ui_element.return_rabbit_object():
@@ -303,16 +303,16 @@ class MakeWarrenScreen(Screens):
                 self.refresh_rabbit_images_and_info(self.selected_rabbit)
                 self.refresh_text_and_buttons()
         elif event.ui_element == self.elements['select_rabbit']:
-            self.med_rabbit = self.selected_rabbit
+            self.healer = self.selected_rabbit
             self.selected_rabbit = None
             self.open_choose_members()
 
     def handle_choose_members_event(self, event):
         if event.ui_element == self.elements['previous_step']:
             if not self.members:
-                self.med_rabbit = None
+                self.healer = None
                 self.selected_rabbit = None
-                self.open_choose_med_rabbit()
+                self.open_choose_healer()
             else:
                 self.members.pop()  # Delete the last rabbit added
                 self.selected_rabbit = None
@@ -746,7 +746,7 @@ class MakeWarrenScreen(Screens):
                     scale(pygame.Rect((540, 400), (300, 300))),
                     pygame.transform.scale(game.choose_rabbits[u].sprite, (300, 300)),
                     rabbit_object=game.choose_rabbits[u])
-            elif game.choose_rabbits[u] in [self.chief_rabbit, self.captain, self.med_rabbit] + self.members:
+            elif game.choose_rabbits[u] in [self.chief_rabbit, self.captain, self.healer] + self.members:
                 self.elements["rabbit" + str(u)] = UISpriteButton(scale(pygame.Rect((1300, 250 + 100 * u), (100, 100))),
                                                                game.choose_rabbits[u].sprite,
                                                                rabbit_object=game.choose_rabbits[u], manager=MANAGER)
@@ -765,7 +765,7 @@ class MakeWarrenScreen(Screens):
                     scale(pygame.Rect((540, 400), (300, 300))),
                     pygame.transform.scale(game.choose_rabbits[u].sprite, (300, 300)),
                     rabbit_object=game.choose_rabbits[u], manager=MANAGER)
-            elif game.choose_rabbits[u] in [self.chief_rabbit, self.captain, self.med_rabbit] + self.members:
+            elif game.choose_rabbits[u] in [self.chief_rabbit, self.captain, self.healer] + self.members:
                 self.elements["rabbit" + str(u)] = UISpriteButton(
                     scale(pygame.Rect((1400, 260 + 100 * (u - 6)), (100, 100))),
                     game.choose_rabbits[u].sprite,
@@ -1001,7 +1001,7 @@ class MakeWarrenScreen(Screens):
         # draw rabbits to choose from
         self.refresh_rabbit_images_and_info()
 
-    def open_choose_med_rabbit(self):
+    def open_choose_healer(self):
         self.clear_all_page()
         self.sub_screen = 'choose med rabbit'
 
@@ -1190,11 +1190,12 @@ class MakeWarrenScreen(Screens):
         game.warren = Warren(self.warren_name,
                          self.chief_rabbit,
                          self.captain,
-                         self.med_rabbit,
+                         self.healer,
                          self.biome_selected,
                          convert_burrow[self.selected_burrow_tab],
                          self.game_mode, self.members,
-                         starting_season=self.selected_season)
+                         starting_season=self.selected_season,
+                         )
         game.warren.create_warren()
         #game.warren.inle_rabbits.clear()
         game.cur_events_list.clear()
@@ -1202,7 +1203,7 @@ class MakeWarrenScreen(Screens):
         Rabbit.grief_strings.clear()
         Rabbit.sort_rabbits()
 
-    def get_burrow_art_path(self, burrow_num):
+    def get_burrow_art_path(self, burrownum):
         leaf = self.selected_season.replace("-", "")
 
         burrow_bg_base_dir = "resources/images/burrow_bg/"
@@ -1213,7 +1214,7 @@ class MakeWarrenScreen(Screens):
 
         biome = self.biome_selected.lower()
 
-        if burrow_num:
-            return f'{burrow_bg_base_dir}/{biome}/{start_leave}_burrow{burrow_num}_{light_dark}.png'
+        if burrownum:
+            return f'{burrow_bg_base_dir}/{biome}/{start_leave}_burrow{burrownum}_{light_dark}.png'
         else:
             return None

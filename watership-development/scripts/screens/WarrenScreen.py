@@ -255,7 +255,7 @@ class WarrenScreen(Screens):
             burrow_nr = 'burrow1'
             game.warren.burrow_bg = burrow_nr
 
-        available_biome = ['forest', 'mountainous', 'plains', 'beach']
+        available_biome = ['Forest', 'Mountainous', 'Plains', 'Beach']
         biome = game.warren.biome
         if biome not in available_biome:
             biome = available_biome[0]

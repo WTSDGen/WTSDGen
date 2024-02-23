@@ -107,15 +107,15 @@ class Warren():
             self.warren_rabbits.append(self.captain.ID)
         self.captain_predecessors = 0
         self.healer = healer
-        self.med_rabbit_list = []
-        self.med_rabbit_predecessors = 0
+        self.healer_list = []
+        self.healer_predecessors = 0
         if healer is not None:
             self.warren_rabbits.append(self.healer.ID)
-            self.med_rabbit_list.append(self.healer.ID)
+            self.healer_list.append(self.healer.ID)
             if healer.status != 'healer':
                 Rabbit.all_rabbits[healer.ID].status_change('healer')
-        self.med_rabbit_number = len(
-            self.med_rabbit_list
+        self.healer_number = len(
+            self.healer_list
         )  # Must do this after the healer is added to the list.
         self.herbs = {}
         self.age = 0
@@ -254,9 +254,9 @@ class Warren():
                 self.darkforest_rabbits.remove(rabbit.ID)
             if rabbit.ID in self.unknown_rabbits:
                 self.unknown_rabbits.remove(rabbit.ID)
-            if rabbit.ID in self.med_rabbit_list:
-                self.med_rabbit_list.remove(rabbit.ID)
-                self.med_rabbit_predecessors += 1
+            if rabbit.ID in self.healer_list:
+                self.healer_list.remove(rabbit.ID)
+                self.healer_predecessors += 1
 
     def add_to_darkforest(self, rabbit):  # Same as add_rabbit
         """
@@ -269,9 +269,9 @@ class Warren():
                 self.inle_rabbits.remove(rabbit.ID)
             if rabbit.ID in self.unknown_rabbits:
                 self.unknown_rabbits.remove(rabbit.ID)
-            if rabbit.ID in self.med_rabbit_list:
-                self.med_rabbit_list.remove(rabbit.ID)
-                self.med_rabbit_predecessors += 1
+            if rabbit.ID in self.healer_list:
+                self.healer_list.remove(rabbit.ID)
+                self.healer_predecessors += 1
             # update_sprite(Rabbit.all_rabbits[str(rabbit)])
             # The dead-value must be set to True before the rabbit can go to inle
 
@@ -287,9 +287,9 @@ class Warren():
                 self.inle_rabbits.remove(rabbit.ID)
             if rabbit.ID in self.darkforest_rabbits:
                 self.darkforest_rabbits.remove(rabbit.ID)
-            if rabbit.ID in self.med_rabbit_list:
-                self.med_rabbit_list.remove(rabbit.ID)
-                self.med_rabbit_predecessors += 1
+            if rabbit.ID in self.healer_list:
+                self.healer_list.remove(rabbit.ID)
+                self.healer_predecessors += 1
 
     def add_to_warren(self, rabbit):
         """
@@ -367,26 +367,26 @@ class Warren():
         if healer:
             if healer.status != 'healer':
                 Rabbit.all_rabbits[healer.ID].status_change('healer')
-            if healer.ID not in self.med_rabbit_list:
-                self.med_rabbit_list.append(healer.ID)
-            healer = self.med_rabbit_list[0]
+            if healer.ID not in self.healer_list:
+                self.healer_list.append(healer.ID)
+            healer = self.healer_list[0]
             self.healer = Rabbit.all_rabbits[healer]
-            self.med_rabbit_number = len(self.med_rabbit_list)
+            self.healer_number = len(self.healer_list)
 
-    def remove_med_rabbit(self, healer):
+    def remove_healer(self, healer):
         """
         Removes a med rabbit. Use when retiring, or switching to rabbit
         """
         if healer:
-            if healer.ID in game.warren.med_rabbit_list:
-                game.warren.med_rabbit_list.remove(healer.ID)
-                game.warren.med_rabbit_number = len(game.warren.med_rabbit_list)
+            if healer.ID in game.warren.healer_list:
+                game.warren.healer_list.remove(healer.ID)
+                game.warren.healer_number = len(game.warren.healer_list)
             if self.healer:
                 if healer.ID == self.healer.ID:
-                    if game.warren.med_rabbit_list:
+                    if game.warren.healer_list:
                         game.warren.healer = Rabbit.fetch_rabbit(
-                            game.warren.med_rabbit_list[0])
-                        game.warren.med_rabbit_number = len(game.warren.med_rabbit_list)
+                            game.warren.healer_list[0])
+                        game.warren.healer_number = len(game.warren.healer_list)
                     else:
                         game.warren.healer = None
 
@@ -438,11 +438,11 @@ class Warren():
 
         # MED RABBIT DATA
         if self.healer:
-            warren_data["med_rabbit"] = self.healer.ID
+            warren_data["healer"] = self.healer.ID
         else:
-            warren_data["med_rabbit"] = None
-        warren_data["med_rabbit_number"] = self.med_rabbit_number
-        warren_data["med_rabbit_predecessors"] = self.med_rabbit_predecessors
+            warren_data["healer"] = None
+        warren_data["healer_number"] = self.healer_number
+        warren_data["healer_predecessors"] = self.healer_predecessors
 
         # LIST OF CLAN RABBITS
         warren_data['warren_rabbits'] = ",".join([str(i) for i in self.warren_rabbits])
@@ -542,7 +542,7 @@ class Warren():
             general = sections[0].split(',')
             chief_rabbitinfo = sections[1].split(',')
             captain_info = sections[2].split(',')
-            med_rabbit_info = sections[3].split(',')
+            healer_info = sections[3].split(',')
             instructor_info = sections[4]
             members = sections[5].split(',')
             other_warrens = sections[6].split(',')
@@ -550,7 +550,7 @@ class Warren():
             general = sections[0].split(',')
             chief_rabbitinfo = sections[1].split(',')
             captain_info = sections[2].split(',')
-            med_rabbit_info = sections[3].split(',')
+            healer_info = sections[3].split(',')
             instructor_info = sections[4]
             members = sections[5].split(',')
             other_warrens = []
@@ -558,7 +558,7 @@ class Warren():
             general = sections[0].split(',')
             chief_rabbitinfo = sections[1].split(',')
             captain_info = 0, 0
-            med_rabbit_info = sections[2].split(',')
+            healer_info = sections[2].split(',')
             instructor_info = sections[3]
             members = sections[4].split(',')
             other_warrens = []
@@ -574,7 +574,7 @@ class Warren():
             game.warren = Warren(general[0],
                              Rabbit.all_rabbits[chief_rabbitinfo[0]],
                              Rabbit.all_rabbits.get(captain_info[0], None),
-                             Rabbit.all_rabbits.get(med_rabbit_info[0], None),
+                             Rabbit.all_rabbits.get(healer_info[0], None),
                              biome=general[2],
                              burrow_bg=general[3],
                              game_mode=general[7])
@@ -590,7 +590,7 @@ class Warren():
                 general[0],
                 Rabbit.all_rabbits[chief_rabbitinfo[0]],
                 Rabbit.all_rabbits.get(captain_info[0], None),
-                Rabbit.all_rabbits.get(med_rabbit_info[0], None),
+                Rabbit.all_rabbits.get(healer_info[0], None),
                 biome=general[2],
                 burrow_bg=general[3],
                 game_mode=general[7],
@@ -604,19 +604,19 @@ class Warren():
                 general[0],
                 Rabbit.all_rabbits[chief_rabbitinfo[0]],
                 Rabbit.all_rabbits.get(captain_info[0], None),
-                Rabbit.all_rabbits.get(med_rabbit_info[0], None),
+                Rabbit.all_rabbits.get(healer_info[0], None),
                 biome=general[2],
                 burrow_bg=general[3],
             )
         elif len(general) == 3:
             game.warren = Warren(general[0], Rabbit.all_rabbits[chief_rabbitinfo[0]],
                              Rabbit.all_rabbits.get(captain_info[0], None),
-                             Rabbit.all_rabbits.get(med_rabbit_info[0], None),
+                             Rabbit.all_rabbits.get(healer_info[0], None),
                              general[2])
         else:
             game.warren = Warren(general[0], Rabbit.all_rabbits[chief_rabbitinfo[0]],
                              Rabbit.all_rabbits.get(captain_info[0], None),
-                             Rabbit.all_rabbits.get(med_rabbit_info[0], None))
+                             Rabbit.all_rabbits.get(healer_info[0], None))
         game.warren.age = int(general[1])
         if not game.config['lock_season']:
             game.warren.current_season = game.warren.seasons[game.warren.age % 12]
@@ -627,10 +627,10 @@ class Warren():
 
         if len(captain_info) > 1:
             game.warren.captain_predecessors = int(captain_info[1])
-        if len(med_rabbit_info) > 1:
-            game.warren.med_rabbit_predecessors = int(med_rabbit_info[1])
-        if len(med_rabbit_info) > 2:
-            game.warren.med_rabbit_number = int(med_rabbit_info[2])
+        if len(healer_info) > 1:
+            game.warren.healer_predecessors = int(healer_info[1])
+        if len(healer_info) > 2:
+            game.warren.healer_number = int(healer_info[2])
         if len(sections) > 4:
             if instructor_info in Rabbit.all_rabbits:
                 game.warren.instructor = Rabbit.all_rabbits[instructor_info]
@@ -697,15 +697,15 @@ class Warren():
         else:
             captain = None
 
-        if warren_data["med_rabbit"]:
-            med_rabbit = Rabbit.all_rabbits[warren_data["med_rabbit"]]
+        if warren_data["healer"]:
+            healer = Rabbit.all_rabbits[warren_data["healer"]]
         else:
-            med_rabbit = None
+            healer = None
 
         game.warren = Warren(warren_data["warrenname"],
                          chief_rabbit,
                          captain,
-                         med_rabbit,
+                         healer,
                          biome=warren_data["biome"],
                          burrow_bg=warren_data["burrow_bg"],
                          game_mode=warren_data["gamemode"])
@@ -721,8 +721,8 @@ class Warren():
         game.warren.chief_rabbit_predecessors = warren_data["chief_rabbit_predecessors"]
 
         game.warren.captain_predecessors = warren_data["captain_predecessors"]
-        game.warren.med_rabbit_predecessors = warren_data["med_rabbit_predecessors"]
-        game.warren.med_rabbit_number = warren_data["med_rabbit_number"]
+        game.warren.healer_predecessors = warren_data["healer_predecessors"]
+        game.warren.healer_number = warren_data["healer_number"]
 
         # Instructor Info
         if warren_data["instructor"] in Rabbit.all_rabbits:
