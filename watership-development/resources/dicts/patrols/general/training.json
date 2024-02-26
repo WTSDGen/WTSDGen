@@ -111,7 +111,7 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "While helping gathering herbs, r_r stumbles upon a bush of red berries.",
@@ -231,7 +231,7 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "While helping gathering herbs, r_r stumbles upon a bush of red berries.",
@@ -409,7 +409,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l and r_r find a nice spot to sun themselves.",
@@ -497,8 +497,8 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
         "intro_text": "app1 and app2 find a nice spot to sun themselves.",
@@ -587,7 +587,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -596,7 +596,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "p_l smiles, inviting app1 to sit down. The apprentice is a little stiff at first, unsure how to act in front of the warrior, but that's actually what p_l wants to work on here. c_n contains cats of all ages, skills, and talents - it's important to work on being comfortable with everyone, just as important as working on respecting them. They're all c_n, after all.",
+                "text": "p_l smiles, inviting app1 to sit down. The rusasi is a little stiff at first, unsure how to act in front of the warrior, but that's actually what p_l wants to work on here. c_n contains cats of all ages, skills, and talents - it's important to work on being comfortable with everyone, just as important as working on respecting them. They're all c_n, after all.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -610,7 +610,7 @@
                 ]
             },
             {
-                "text": "The pair sit down, app1 a little stiffly, and p_l starts telling them a story of their own apprenticehood, about a time when they made a dumb mistake. They make it sound funny - certainly funnier than it felt like at the time - and slowly, app1 opens up, still respectful, but less wooden in the way they act.",
+                "text": "The pair sit down, app1 a little stiffly, and p_l starts telling them a story of their own rusasihood, about a time when they made a dumb mistake. They make it sound funny - certainly funnier than it felt like at the time - and slowly, app1 opens up, still respectful, but less wooden in the way they act.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -677,7 +677,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -785,7 +785,7 @@
                 ]
             },
             {
-                "text": "Settling down in the sunlight, p_l launches into an assessment of app1's progress, praising things, critiquing things, pointing out where they need to improve. Strangely, the apprentice doesn't seem thrilled with the topic.",
+                "text": "Settling down in the sunlight, p_l launches into an assessment of app1's progress, praising things, critiquing things, pointing out where they need to improve. Strangely, the rusasi doesn't seem thrilled with the topic.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["cold", "ambitious"],
@@ -1161,8 +1161,8 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "warrior": [1, 6]
+            "rusasi": [1, 6],
+            "rabbit": [1, 6]
         },
         "weight": 20,
         "intro_text": "While out training together, app1 starts an argument with p_l about the technique they're working on.",
@@ -1170,7 +1170,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "With a deep sigh, p_l holds back their temper, and instead sits down to explain their reasoning to the young rabbit. They can see why app1 thinks differently, but practicing this way will help app1 build muscle better than taking the cheap way out. app1 also sighs, apologising for their outburst.",
+                "text": "With a deep sigh, p_l holds back their temper, and instead sits down to explain their reasoning to the rusasi. They can see why app1 thinks differently, but practicing this way will help app1 build muscle better than taking the cheap way out. app1 also sighs, apologising for their outburst.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -1243,7 +1243,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l rolls their eyes, as amused by the apprentice's audacity as they are annoyed.",
+                "text": "p_l rolls their eyes, as amused by the rusasi's audacity as they are annoyed.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1294,8 +1294,8 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "warrior": [1, 6]
+            "rusasi": [1, 6],
+            "rabbit": [1, 6]
         },
         "weight": 20,
         "intro_text": "While out training together, app1 starts an argument with p_l about the technique they're working on.",
@@ -1303,7 +1303,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "With a deep sigh, p_l holds back their temper, and instead sits down to explain their reasoning to the young rabbit. They can see why app1 thinks differently, but practicing this way will help app1 build muscle better than taking the cheap way out. app1 also sighs, apologising for their outburst.",
+                "text": "With a deep sigh, p_l holds back their temper, and instead sits down to explain their reasoning to the rusasi. They can see why app1 thinks differently, but practicing this way will help app1 build muscle better than taking the cheap way out. app1 also sighs, apologising for their outburst.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -1347,7 +1347,7 @@
                 ]
             },
             {
-                "text": "s_c has taken valuable time out of their day to personally help app1 with their studies, and this is completely juvenile behaviour. s_c isn't shy about telling app1 so, and by the time they're back in camp the apprentice is cowed, but respectful once more. ",
+                "text": "s_c has taken valuable time out of their day to personally help app1 with their studies, and this is completely juvenile behaviour. s_c isn't shy about telling app1 so, and by the time they're back in camp the rusasi is cowed, but respectful once more. ",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1374,7 +1374,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l rolls their eyes, as amused by the apprentice's audacity as they are annoyed.",
+                "text": "p_l rolls their eyes, as amused by the rusasi's audacity as they are annoyed.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1556,11 +1556,11 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [2, 2]
+            "all rusasis": [2, 2]
         },
         "weight": 20,
         "intro_text": "As app1 and app2 collect moss for the elder's den, app2 admits that the strange dreams {PRONOUN/app2/subject}{VERB/app2/'ve/'s} been having is why {PRONOUN/app2/subject} kicked app1 in the night.",
-        "decline_text": "The apprentices don't talk about the dreams.",
+        "decline_text": "The rusasis don't talk about the dreams.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
@@ -1640,7 +1640,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1649,7 +1649,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l listens sympathetically, gently nodding as app1 pours out {PRONOUN/app1/poss} troubles, until the apprentice eventually runs out of words. {PRONOUN/app1/subject}{VERB/app1/'ve/'s} been dealing with a lot, apparently, and while p_l isn't too sure what to do, {PRONOUN/p_l/subject} can offer support, and time away from app1's troubles, and just that is already enough to make app1's ears stop drooping.",
+                "text": "p_l listens sympathetically, gently nodding as app1 pours out {PRONOUN/app1/poss} troubles, until the rusasi eventually runs out of words. {PRONOUN/app1/subject}{VERB/app1/'ve/'s} been dealing with a lot, apparently, and while p_l isn't too sure what to do, {PRONOUN/p_l/subject} can offer support, and time away from app1's troubles, and just that is already enough to make app1's ears stop drooping.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -1752,7 +1752,7 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "The patrol quickly devolves into ghost stories, leaving everyone on edge.",
@@ -1830,8 +1830,8 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
         "intro_text": "The patrol quickly devolves into ghost stories, leaving everyone on edge.",
@@ -1977,7 +1977,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "app1 is tempted to eat the prey {PRONOUN/app1/subject} just caught. After all, {PRONOUN/app1/subject}{VERB/app1/'re/'s} only practicing hunting, right? So this is {PRONOUN/app1/inposs}, it doesn't count as a true hunting patrol?",
@@ -2040,7 +2040,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "app1 is tempted to eat the prey {PRONOUN/app1/subject} just caught. After all, {PRONOUN/app1/subject}{VERB/app1/'re/'s} only practicing hunting, right? So this is {PRONOUN/app1/inposs}, it doesn't count as a true hunting patrol?",
@@ -2103,7 +2103,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "app1 is tempted to eat the prey {PRONOUN/app1/subject} just caught. After all, {PRONOUN/app1/subject}{VERB/app1/'re/'s} only practicing hunting, right? So this is {PRONOUN/app1/inposs}, it doesn't count as a true hunting patrol?",
@@ -2170,7 +2170,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "app1 is tempted to eat the prey {PRONOUN/app1/subject} just caught. After all, {PRONOUN/app1/subject}{VERB/app1/'re/'s} only practicing hunting, right? So this is {PRONOUN/app1/inposs}, it doesn't count as a true hunting patrol?",
@@ -2290,7 +2290,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l suggests this might be a good chance to practice teamwork with r_r.",
@@ -2345,8 +2345,8 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [1, 1]
+            "rusasi": [1, 6],
+            "all rusasis": [1, 1]
         },
         "weight": 20,
         "intro_text": "p_l suggests this might be a good chance for the cats to practice teamwork, particularly with app1.",
@@ -2402,7 +2402,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -2425,7 +2425,7 @@
                 ]
             },
             {
-                "text": "s_c takes charge and coordinates exercises for the duo. They practice mirroring each other, until by the end of the afternoon they can almost act as one rabbit. The warrior praises how quickly app1 picks it up, and the apprentice comes back to camp fluffed up with pride.",
+                "text": "s_c takes charge and coordinates exercises for the duo. They practice mirroring each other, until by the end of the afternoon they can almost act as one rabbit. The warrior praises how quickly app1 picks it up, and the rusasi comes back to camp fluffed up with pride.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["TEACHER,2"],
@@ -2468,8 +2468,8 @@
         "min_cats": 4,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -2478,7 +2478,7 @@
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "In a brilliant example of teamwork and coordination, app1 manages to push p_l at just the right moment to trip {PRONOUN/p_l/object} over app2, sending the warrior careening down the bank into debris. Both apprentices fall over laughing.",
+                "text": "In a brilliant example of teamwork and coordination, app1 manages to push p_l at just the right moment to trip {PRONOUN/p_l/object} over app2, sending the warrior careening down the bank into debris. Both rusasis fall over laughing.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -2492,7 +2492,7 @@
                 ]
             },
             {
-                "text": "This isn't what teamwork is supposed to be used for, p_l admonishes them, but neither apprentice can take them seriously while {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} upside down.",
+                "text": "This isn't what teamwork is supposed to be used for, p_l admonishes them, but neither rusasi can take them seriously while {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} upside down.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -2506,7 +2506,7 @@
                 ]
             },
             {
-                "text": "s_c notices the apprentices', err, enthusiasm, and gently redirects them. They end up having a marvelous afternoon, feeling mature and just as skilled as the warriors around them.",
+                "text": "s_c notices the rusasis', err, enthusiasm, and gently redirects them. They end up having a marvelous afternoon, feeling mature and just as skilled as the warriors around them.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["TEACHER,2"],
@@ -2524,7 +2524,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, p_l sees their whispers and separates the two apprentices, preventing their plot.",
+                "text": "Unfortunately, p_l sees their whispers and separates the two rusasis, preventing their plot.",
                 "exp": 0,
                 "weight": 20
             }
@@ -2540,7 +2540,7 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l suggests this might be a good chance for the cats to practice new hunting techniques.",
@@ -2666,8 +2666,8 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [1, 1],
+            "rusasi": [1, 6],
+            "all rusasis": [1, 1],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -2733,7 +2733,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -2756,7 +2756,7 @@
                 ]
             },
             {
-                "text": "s_c takes charge and coordinates exercises for the duo. They practice taking down prey together, their confidence in their team hunting growing. The warrior praises how quickly app1 picks it up, and the apprentice comes back to camp fluffed up with pride.",
+                "text": "s_c takes charge and coordinates exercises for the duo. They practice taking down prey together, their confidence in their team hunting growing. The warrior praises how quickly app1 picks it up, and the rusasi comes back to camp fluffed up with pride.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1", "HUNTER,1"],
@@ -2799,12 +2799,12 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice new hunting techniques, particularly with apprentices present.",
+        "intro_text": "p_l suggests this might be a good chance for the cats to practice new hunting techniques, particularly with rusasis present.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -2866,12 +2866,12 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [3, 3],
+            "rusasi": [1, 6],
+            "all rusasis": [3, 3],
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice new hunting techniques, particularly with apprentices present.",
+        "intro_text": "p_l suggests this might be a good chance for the cats to practice new hunting techniques, particularly with rusasis present.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -2933,12 +2933,12 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [4, 4],
+            "rusasi": [1, 6],
+            "all rusasis": [4, 4],
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice new hunting techniques, particularly with apprentices present.",
+        "intro_text": "p_l suggests this might be a good chance for the cats to practice new hunting techniques, particularly with rusasis present.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -3000,12 +3000,12 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [5, 5],
+            "rusasi": [1, 6],
+            "all rusasis": [5, 5],
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice new hunting techniques, particularly with apprentices present.",
+        "intro_text": "p_l suggests this might be a good chance for the cats to practice new hunting techniques, particularly with rusasis present.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -3067,7 +3067,7 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l suggests this might be a good chance for the cats to practice new fighting techniques.",
@@ -3193,8 +3193,8 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [1, 1],
+            "rusasi": [1, 6],
+            "all rusasis": [1, 1],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -3260,7 +3260,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -3283,7 +3283,7 @@
                 ]
             },
             {
-                "text": "s_c takes charge and coordinates exercises for the duo. They practice how to weave around an opponent, feeling more and more confident in their teamwork. The warrior praises how quickly app1 picks it up, and the apprentice comes back to camp fluffed up with pride.",
+                "text": "s_c takes charge and coordinates exercises for the duo. They practice how to weave around an opponent, feeling more and more confident in their teamwork. The warrior praises how quickly app1 picks it up, and the rusasi comes back to camp fluffed up with pride.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1", "FIGHTER,1"],
@@ -3326,12 +3326,12 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice new fighting techniques, particularly with the apprentices here to learn from them.",
+        "intro_text": "p_l suggests this might be a good chance for the cats to practice new fighting techniques, particularly with the rusasis here to learn from them.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -3393,12 +3393,12 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [3, 3],
+            "rusasi": [1, 6],
+            "all rusasis": [3, 3],
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice new fighting techniques, particularly with the apprentices here to learn from them.",
+        "intro_text": "p_l suggests this might be a good chance for the cats to practice new fighting techniques, particularly with the rusasis here to learn from them.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -3460,12 +3460,12 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [4, 4],
+            "rusasi": [1, 6],
+            "all rusasis": [4, 4],
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice new fighting techniques, particularly with the apprentices here to learn from them.",
+        "intro_text": "p_l suggests this might be a good chance for the cats to practice new fighting techniques, particularly with the rusasis here to learn from them.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -3527,12 +3527,12 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [5, 5],
+            "rusasi": [1, 6],
+            "all rusasis": [5, 5],
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l suggests this might be a good chance for the cats to practice new fighting techniques, particularly with the apprentices here to learn from them.",
+        "intro_text": "p_l suggests this might be a good chance for the cats to practice new fighting techniques, particularly with the rusasis here to learn from them.",
         "decline_text": "They decide to focus on working on a different skill instead.",
         "chance_of_success": 20,
         "success_outcomes": [
@@ -3594,7 +3594,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l suggests this might be a good chance to practice new hunting techniques with r_r.",
@@ -3663,7 +3663,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l suggests this might be a good chance to practice new fighting techniques with r_r.",
@@ -3732,7 +3732,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "As they wander aimlessly towards the sparring area for a training session, r_r stops p_l and asks for {PRONOUN/p_l/poss} advice with something.",
@@ -3801,7 +3801,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "Quietly, r_r brings p_l aside as they work on their chores, asking for help with wording something difficult.",
@@ -3871,7 +3871,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "During an odd moment of downtime, r_r asks p_l if {PRONOUN/p_l/subject} {VERB/p_l/think/thinks} {PRONOUN/r_r/subject}{VERB/r_r/'re/'s} a good teacher.",
@@ -3893,7 +3893,7 @@
                 ]
             },
             {
-                "text": "r_r talks about how {PRONOUN/r_r/subject} {VERB/r_r/want/wants} to get better at mentoring and helping c_n's apprentices. p_l really admires {PRONOUN/r_r/object} for {PRONOUN/r_r/poss} determination to always improve upon {PRONOUN/r_r/self}.",
+                "text": "r_r talks about how {PRONOUN/r_r/subject} {VERB/r_r/want/wants} to get better at mentoring and helping c_n's rusasis. p_l really admires {PRONOUN/r_r/object} for {PRONOUN/r_r/poss} determination to always improve upon {PRONOUN/r_r/self}.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -3949,7 +3949,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l gets taken aside by r_r as {PRONOUN/r_r/subject} {VERB/r_r/ask/asks} why {PRONOUN/r_r/subject} {VERB/r_r/feel/feels} like StarClan ignores {PRONOUN/r_r/object}.",
@@ -4029,7 +4029,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [2, 2]
+            "all rusasis": [2, 2]
         },
         "weight": 20,
         "intro_text": "app1 and app2, while exploring the territory, come across the forbidden tunnels.",
@@ -4125,7 +4125,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [1, 1],
+            "all rusasis": [1, 1],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -4148,7 +4148,7 @@
                 ]
             },
             {
-                "text": "p_l gently asks what's wrong and app1 breaks down, wailing that {PRONOUN/app1/subject}{VERB/app1/'re/'s} not doing good enough even though {PRONOUN/app1/subject}{VERB/app1/'re/'s} <i>really</i> trying. p_l curls around {PRONOUN/app1/object}, purring softly, and tells a story of {PRONOUN/p_l/poss} own apprentice days, and {PRONOUN/p_l/poss} own mistakes. p_l chuckles at the look on {PRONOUN/app1/poss} face, promising that nobody but {PRONOUN/app1/self} will remember {PRONOUN/app1/poss} mistakes.",
+                "text": "p_l gently asks what's wrong and app1 breaks down, wailing that {PRONOUN/app1/subject}{VERB/app1/'re/'s} not doing good enough even though {PRONOUN/app1/subject}{VERB/app1/'re/'s} <i>really</i> trying. p_l curls around {PRONOUN/app1/object}, purring softly, and tells a story of {PRONOUN/p_l/poss} own rusasi days, and {PRONOUN/p_l/poss} own mistakes. p_l chuckles at the look on {PRONOUN/app1/poss} face, promising that nobody but {PRONOUN/app1/self} will remember {PRONOUN/app1/poss} mistakes.",
                 "exp": 5,
                 "weight": 5,
                 "relationships": [
@@ -4190,7 +4190,7 @@
         "max_cats": 2,
         "min_max_status": {
             "leader": [-1, -1],
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,

@@ -9,11 +9,11 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
-        "intro_text": "The apprentices emerge into a predawn world hushed and smothered in a fresh blanket of snow! app1 and app2 tear off into the territory near camp, looking to play.",
+        "intro_text": "The rusasis emerge into a predawn world hushed and smothered in a fresh blanket of snow! app1 and app2 tear off into the territory near camp, looking to play.",
         "decline_text": "Their mentors are already up for the day, and call them back. There'll be time to play later.",
         "chance_of_success": 70,
         "success_outcomes": [
@@ -74,7 +74,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The apprentices find a promising looking patch of fresh snow, only to find it conceals an old dirtplace trench underneath. Not only does it stink, they have to clean it up and try hid that they disturbed it, and it leaves them both irritated and stressed.",
+                "text": "The rusasis find a promising looking patch of fresh snow, only to find it conceals an old dirtplace trench underneath. Not only does it stink, they have to clean it up and try hid that they disturbed it, and it leaves them both irritated and stressed.",
                 "exp": 0,
                 "weight": 20
             },
@@ -84,7 +84,7 @@
                 "weight": 20
             },
             {
-                "text": "Both apprentices are back at camp in time for a normal day of training, but app1 has to confess their predawn adventure when they go to healer den with a running nose.",
+                "text": "Both rusasis are back at camp in time for a normal day of training, but app1 has to confess their predawn adventure when they go to healer den with a running nose.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -107,7 +107,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -116,7 +116,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "It's a good opportunity to observe the dangerous predators from afar. app1 is surprised to watch them play, taking turns chasing and running from each other in a way that reminds them of the games they play with the other apprentices.",
+                "text": "It's a good opportunity to observe the dangerous predators from afar. app1 is surprised to watch them play, taking turns chasing and running from each other in a way that reminds them of the games they play with the other rusasis.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [
@@ -178,7 +178,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -187,7 +187,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "It's a good opportunity to observe the dangerous predators from afar. app1 is surprised to watch them play, taking turns chasing and running from each other in a way that reminds them of the games they play with the other apprentices.",
+                "text": "It's a good opportunity to observe the dangerous predators from afar. app1 is surprised to watch them play, taking turns chasing and running from each other in a way that reminds them of the games they play with the other rusasis.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [
@@ -249,17 +249,17 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "As they trudge through the snow, p_l spots a wolf pack round a kill in the distant valley below and calls the apprentices over.",
+        "intro_text": "As they trudge through the snow, p_l spots a wolf pack round a kill in the distant valley below and calls the rusasis over.",
         "decline_text": "Thinking better of it, the cats try to hunt instead.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "It's a good opportunity to observe the dangerous predators from afar. app1 is surprised and app2 shocked to watch them play, taking turns chasing and running from each other in a way that reminds them of the games they play with the other apprentices.",
+                "text": "It's a good opportunity to observe the dangerous predators from afar. app1 is surprised and app2 shocked to watch them play, taking turns chasing and running from each other in a way that reminds them of the games they play with the other rusasis.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -321,17 +321,17 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "As they trudge through the snow, p_l spots a wolf pack round a kill in the distant valley below and calls the apprentices over.",
+        "intro_text": "As they trudge through the snow, p_l spots a wolf pack round a kill in the distant valley below and calls the rusasis over.",
         "decline_text": "Thinking better of it, the cats try to hunt instead.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "It's a good opportunity to observe the dangerous predators from afar. app1 is surprised and app2 shocked to watch them play, taking turns chasing and running from each other in a way that reminds them of the games they play with the other apprentices.",
+                "text": "It's a good opportunity to observe the dangerous predators from afar. app1 is surprised and app2 shocked to watch them play, taking turns chasing and running from each other in a way that reminds them of the games they play with the other rusasis.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [
@@ -359,7 +359,7 @@
                 ]
             },
             {
-                "text": "s_c shows the apprentices that, even from this distance, they can judge how the wolves killed their prey, nipping it to exhaustion and then wrestling it down. It's not c_n's usual way, but it's important to remember that whatever works, works, and to keep it in mind for app1 and app2 if they're ever part of a hunting patrol targeting large prey.",
+                "text": "s_c shows the rusasis that, even from this distance, they can judge how the wolves killed their prey, nipping it to exhaustion and then wrestling it down. It's not c_n's usual way, but it's important to remember that whatever works, works, and to keep it in mind for app1 and app2 if they're ever part of a hunting patrol targeting large prey.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1"],

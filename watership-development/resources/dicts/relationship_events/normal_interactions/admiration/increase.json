@@ -31,9 +31,9 @@
 			"m_c wants to hold an important position like r_r."
 		],
 		"main_status_constraint": [
-			"apprentice",
-			"owsla apprentice",
-			"healer apprentice"
+			"rusasi",
+			"owsla rusasi",
+			"healer rusasi"
 		],
 		"random_status_constraint": [
 			"elder",
@@ -74,7 +74,7 @@
 		],
 		"random_status_constraint": [
 			"healer",
-			"healer apprentice"
+			"healer rusasi"
 		],
 		"also_influences": {
 			"comfortable": "increase",
@@ -95,13 +95,13 @@
 			"m_c asks r_r if there's any herbs {PRONOUN/m_c/subject} should look out for while {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} out on patrol later."
 		],
 		"main_status_constraint": [
-			"apprentice",
-			"warrior",
+			"rusasi",
+			"rabbit",
 			"deputy",
 			"leader"
 		],
 		"random_status_constraint": [
-			"healer apprentice",
+			"healer rusasi",
 			"healer"
 		],
 		"reaction_random_cat": {
@@ -121,11 +121,11 @@
 		],
 		"random_status_constraint": [
 			"elder",
-			"apprentice",
-			"warrior",
-			"owsla apprentice",
+			"rusasi",
+			"rabbit",
+			"owsla rusasi",
 			"owsla",
-			"healer apprentice",
+			"healer rusasi",
 			"healer",
 			"deputy",
 			"leader"
@@ -144,11 +144,11 @@
 		],
 		"random_status_constraint": [
 			"elder",
-			"apprentice",
-			"warrior",
-			"owsla apprentice",
+			"rusasi",
+			"rabbit",
+			"owsla rusasi",
 			"owsla",
-			"healer apprentice",
+			"healer rusasi",
 			"healer",
 			"deputy",
 			"leader"
@@ -172,7 +172,7 @@
 		],
 		"main_status_constraint": [
 			"elder",
-			"warrior",
+			"rabbit",
 			"owsla",
 			"healer",
 			"deputy",
@@ -180,9 +180,9 @@
 		],
 		"random_status_constraint": [
 			"kitten",
-			"apprentice",
-			"owsla apprentice",
-			"healer apprentice"
+			"rusasi",
+			"owsla rusasi",
+			"healer rusasi"
 		]
 	},
 	{
@@ -196,7 +196,7 @@
 			"admiration_30"
 		],
 		"main_status_constraint": [
-			"warrior",
+			"rabbit",
 			"owsla",
 			"healer",
 			"deputy",
@@ -219,7 +219,7 @@
 			"admiration_60"
 		],
 		"main_status_constraint": [
-			"warrior",
+			"rabbit",
 			"owsla",
 			"healer",
 			"deputy",
@@ -227,7 +227,7 @@
 		],
 		"random_status_constraint": [
 			"elder",
-			"warrior",
+			"rabbit",
 			"owsla",
 			"healer",
 			"deputy",
@@ -248,10 +248,10 @@
 			"m_c can't believe how talented r_r is!"
 		],
 		"random_status_constraint": [
-			"warrior",
-			"apprentice",
-			"owsla apprentice",
-			"healer apprentice",
+			"rabbit",
+			"rusasi",
+			"owsla rusasi",
+			"healer rusasi",
             "healer",
             "deputy",
             "leader"

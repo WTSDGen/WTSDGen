@@ -28,13 +28,13 @@
 		],
 		"main_status_constraint": [
 			"kitten",
-			"apprentice",
-			"owsla apprentice",
-			"healer apprentice",
-			"warrior"
+			"rusasi",
+			"owsla rusasi",
+			"healer rusasi",
+			"rabbit"
 		],
 		"random_status_constraint": [
-			"warrior",
+			"rabbit",
 			"elder",
 			"healer",
 			"owsla",
@@ -48,14 +48,14 @@
 			"m_c comforts r_r after a hard day's training."
 		],
 		"main_status_constraint": [
-			"apprentice",
-			"owsla apprentice",
-			"healer apprentice"
+			"rusasi",
+			"owsla rusasi",
+			"healer rusasi"
 		],
 		"random_status_constraint": [
-			"healer apprentice",
-			"apprentice",
-			"owsla apprentice"
+			"healer rusasi",
+			"rusasi",
+			"owsla rusasi"
 		],
 		"reaction_random_cat": {
 			"comfortable": "increase",
@@ -72,12 +72,12 @@
 			"m_c helps r_r wash mouse bile off of {PRONOUN/r_r/poss} paws."
 		],
 		"main_status_constraint": [
-			"apprentice",
-			"owsla apprentice",
-			"healer apprentice"
+			"rusasi",
+			"owsla rusasi",
+			"healer rusasi"
 		],
 		"random_status_constraint": [
-			"healer apprentice"
+			"healer rusasi"
 		],
 		"reaction_random_cat": {
 			"comfortable": "increase"

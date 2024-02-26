@@ -106,7 +106,7 @@
 		],
 		"main_status_constraint": [
 			"elder",
-			"warrior",
+			"rabbit",
 			"owsla",
 			"healer",
 			"deputy",
@@ -114,9 +114,9 @@
 		],
 		"random_status_constraint": [
 			"kitten",
-			"apprentice",
-			"owsla apprentice",
-			"healer apprentice"
+			"rusasi",
+			"owsla rusasi",
+			"healer rusasi"
 		],
 		"reaction_random_cat": {
 			"trust": "increase"
@@ -132,11 +132,11 @@
 		],
 		"main_status_constraint": [
 			"kitten",
-			"apprentice",
-			"warrior",
-			"owsla apprentice",
+			"rusasi",
+			"rabbit",
+			"owsla rusasi",
 			"owsla",
-			"healer apprentice",
+			"healer rusasi",
 			"healer",
 			"deputy",
 			"leader"
@@ -200,7 +200,7 @@
 		"random_status_constraint": [
 			"elder",
 			"owsla",
-			"owsla apprentice"
+			"owsla rusasi"
 		]
 	},
 	{
@@ -210,7 +210,7 @@
 			"m_c tells r_r about {PRONOUN/m_c/poss} last encounter with StarClan."
 		],
 		"main_status_constraint": [
-			"healer apprentice",
+			"healer rusasi",
 			"healer",
 			"leader"
 		],
@@ -219,9 +219,9 @@
 		],
 		"random_status_constraint": [
 			"elder",
-			"warrior",
+			"rabbit",
 			"owsla",
-			"healer apprentice",
+			"healer rusasi",
 			"healer",
 			"deputy",
 			"leader"
@@ -258,11 +258,11 @@
 			"m_c asks r_r about a specific treatment method."
 		],
 		"main_status_constraint": [
-			"healer apprentice",
+			"healer rusasi",
 			"healer"
 		],
 		"random_status_constraint": [
-			"healer apprentice",
+			"healer rusasi",
 			"healer"
 		],
 		"reaction_random_cat": {
@@ -276,7 +276,7 @@
 			"m_c feels like {PRONOUN/m_c/subject} can count on r_r to give {PRONOUN/m_c/object} the best treatment possible."
 		],
 		"random_status_constraint": [
-			"healer apprentice",
+			"healer rusasi",
 			"healer"
 		]
 	}

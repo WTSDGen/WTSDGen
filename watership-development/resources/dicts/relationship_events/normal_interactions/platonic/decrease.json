@@ -30,7 +30,7 @@
 			"m_c is annoyed that {PRONOUN/m_c/subject} {VERB/m_c/have/has} to pull ticks off of r_r today."
 		],
 		"main_status_constraint": [
-			"apprentice"
+			"rusasi"
 		],
 		"random_status_constraint": [
 			"elder"
@@ -72,30 +72,30 @@
 			"m_c wishes {PRONOUN/m_c/subject} had r_r's mentor instead."
 		],
 		"main_status_constraint": [
-			"apprentice",
-			"owsla apprentice",
-			"healer apprentice"
+			"rusasi",
+			"owsla rusasi",
+			"healer rusasi"
 		],
 		"random_status_constraint": [
-			"healer apprentice",
-			"apprentice",
-			"owsla apprentice"
+			"healer rusasi",
+			"rusasi",
+			"owsla rusasi"
 		]
 	},
 	{
 		"id": "platonic_de_high2",
 		"intensity": "high",
 		"interactions": [
-			"m_c mocks r_r for becoming a healer apprentice instead of a warrior apprentice.",
+			"m_c mocks r_r for becoming a healer rusasi instead of a warrior rusasi.",
 			"m_c mocks r_r for smelling like gross herbs.",
 			"m_c mocks r_r for smelling like mouse bile.",
 			"m_c looks down on r_r, because there's no way {PRONOUN/r_r/subject} could ever be a useful healer."
 		],
 		"main_status_constraint": [
-			"apprentice"
+			"rusasi"
 		],
 		"random_status_constraint": [
-			"healer apprentice"
+			"healer rusasi"
 		],
 		"reaction_random_cat": {
 			"platonic": "decrease"
@@ -105,20 +105,20 @@
 		"id": "platonic_de_high3",
 		"intensity": "high",
 		"interactions": [
-			"m_c keeps leaving all of the boring apprentice tasks for r_r to do by {PRONOUN/r_r/self}.",
+			"m_c keeps leaving all of the boring rusasi tasks for r_r to do by {PRONOUN/r_r/self}.",
 			"m_c tells r_r's mentor that {PRONOUN/r_r/subject}{VERB/r_r/'ve/'s} been sneaking out of camp without permission.",
 			"m_c has a disagreement with r_r over who is the better hunter.",
 			"m_c accuses r_r of cheating; there's no way {PRONOUN/r_r/subject} could win so many practice fights fairly."
 		],
 		"main_status_constraint": [
-			"apprentice",
-			"owsla apprentice",
-			"healer apprentice"
+			"rusasi",
+			"owsla rusasi",
+			"healer rusasi"
 		],
 		"random_status_constraint": [
-			"healer apprentice",
-			"apprentice",
-			"owsla apprentice"
+			"healer rusasi",
+			"rusasi",
+			"owsla rusasi"
 		],
 		"reaction_random_cat": {
 			"dislike": "increase"
@@ -134,7 +134,7 @@
 		],
 		"main_status_constraint": [
 			"healer",
-			"healer apprentice"
+			"healer rusasi"
 		],
 		"main_trait_constraint": [
 			"cold",

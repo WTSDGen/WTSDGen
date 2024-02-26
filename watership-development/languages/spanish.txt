@@ -1,4 +1,4 @@
 {
-'apprentice' : 'aprendiz',
+'rusasi' : 'aprendiz',
 'warrior' : 'guerrero',
 }

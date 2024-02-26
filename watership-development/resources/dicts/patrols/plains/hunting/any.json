@@ -416,7 +416,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "r_r's mentor assesses {PRONOUN/r_r/object} by sending {PRONOUN/r_r/object} on a solo hunt.",
@@ -489,7 +489,7 @@
                         "scars": ["LEFTEAR"]
                     }
                 ],
-                "history_text": { "scar": "m_c got injured as an apprentice, exploring alone." }
+                "history_text": { "scar": "m_c got injured as an rusasi, exploring alone." }
             }
         ]
     },
@@ -1232,7 +1232,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "app1 decides to hunt out near the Twoleg dens.",
@@ -1305,7 +1305,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "Boldly, eyes daring p_l to say no, r_r suggests hunting by the Twoleg dens.",
@@ -1450,11 +1450,11 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
-        "intro_text": "Boldly, eyes daring p_l to say no, r_r suggests hunting by the Twoleg dens. Where apprentices are definitely not allowed.",
+        "intro_text": "Boldly, eyes daring p_l to say no, r_r suggests hunting by the Twoleg dens. Where rusasis are definitely not allowed.",
         "decline_text": "On second thought, they decide to reline their nests today instead.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -1474,7 +1474,7 @@
                 ]
             },
             {
-                "text": "A friendly Twolegs makes a psspsspss noise, and pours kittypet food on the ground for r_r. {PRONOUN/r_r/subject/CAP} {VERB/r_r/fetch/fetches} p_l, and both apprentices loudly proclaim how much better fresh-kill is, but both are also wide eyed and thrilled by the experience.",
+                "text": "A friendly Twolegs makes a psspsspss noise, and pours kittypet food on the ground for r_r. {PRONOUN/r_r/subject/CAP} {VERB/r_r/fetch/fetches} p_l, and both rusasis loudly proclaim how much better fresh-kill is, but both are also wide eyed and thrilled by the experience.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["very_small"],
@@ -2203,7 +2203,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "all apprentices": [-1, -1],
+            "all rusasis": [-1, -1],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -2252,7 +2252,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "As app1 jumps up onto a rock to survey the plains, {PRONOUN/app1/subject} {VERB/app1/spot/spots} the blood red pelt of a truly massive red fox.",
@@ -2260,7 +2260,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Terrified beyond sense, {PRONOUN/app1/subject} {VERB/app1/freeze/freezes} - and the massive fox sees {PRONOUN/app1/object}. It paces closer, giving app1 a heartstopping view of its distorted stretched legs and giant gaping mouth, gathering itself, before in one might spring, it - crashes past app1 and into the grass. Bobbing back up with a mouse, it makes eye contact with the shivering apprentice, before loping off.",
+                "text": "Terrified beyond sense, {PRONOUN/app1/subject} {VERB/app1/freeze/freezes} - and the massive fox sees {PRONOUN/app1/object}. It paces closer, giving app1 a heartstopping view of its distorted stretched legs and giant gaping mouth, gathering itself, before in one might spring, it - crashes past app1 and into the grass. Bobbing back up with a mouse, it makes eye contact with the shivering rusasi, before loping off.",
                 "exp": 25,
                 "weight": 20
             },
@@ -2325,11 +2325,11 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c carries a scar from irritating a maned wolf as an apprentice."
+                    "scar": "m_c carries a scar from irritating a maned wolf as an rusasi."
                 }
             },
             {
-                "text": "Heart filled with daring, app1 slips off the rock and pads towards the monster in the grass, sure that StarClan will reward {PRONOUN/app1/poss} bravery. A surprised wuff of air seems to come from everywhere and nowhere, as the puzzled maned wolf picks up the apprentice at {PRONOUN/app1/poss} feet and tosses {PRONOUN/app1/object} aside so they can get back to hunting.",
+                "text": "Heart filled with daring, app1 slips off the rock and pads towards the monster in the grass, sure that StarClan will reward {PRONOUN/app1/poss} bravery. A surprised wuff of air seems to come from everywhere and nowhere, as the puzzled maned wolf picks up the rusasi at {PRONOUN/app1/poss} feet and tosses {PRONOUN/app1/object} aside so they can get back to hunting.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -2351,7 +2351,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c carries a scar from irritating a maned wolf as an apprentice."
+                    "scar": "m_c carries a scar from irritating a maned wolf as an rusasi."
                 }
             }
         ]
@@ -2688,7 +2688,7 @@
         "min_cats": 1,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "healer cats": [-1, -1],
             "normal adult": [-1, -1]
         },

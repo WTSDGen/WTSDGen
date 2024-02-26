@@ -26,9 +26,9 @@ def medical_rabbits_condition_fulfilled(all_rabbits,
     medical_rabbits = [i for i in all_rabbits if not i.dead and not i.outside and not
                                             i.not_working() and i.status in 
                                             ["healer", 
-                                             "healer apprentice"]]
+                                             "healer rusasi"]]
     full_med = [i for i in medical_rabbits if i.status == "healer"]
-    apprentices = [i for i in medical_rabbits if i.status == "healer apprentice"]
+    rusasis = [i for i in medical_rabbits if i.status == "healer rusasi"]
     
     total_exp = 0
     for rabbit in medical_rabbits:
@@ -36,8 +36,8 @@ def medical_rabbits_condition_fulfilled(all_rabbits,
     total_exp = total_exp * 0.003
     
     # Determine the total med number. Med rabbits with certain skill counts 
-    # as "more" of a med rabbit.  Only full medicine rabbit can have their skills have effect
-    total_med_number = len(apprentices) / 2
+    # as "more" of a med rabbit.  Only full healer can have their skills have effect
+    total_med_number = len(rusasis) / 2
     for rabbit in full_med:
         if rabbit.skills.meets_skill_requirement(SkillPath.HEALER, 3):
             total_med_number += 2

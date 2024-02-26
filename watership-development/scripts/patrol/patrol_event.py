@@ -108,9 +108,9 @@ What's in a patrol?
 # Big change - how things status is determined, to move these out of tags. 
 # These are optional. If not included, no constaints are placed. 
 "min_max_status" {
-    "warrior", [1, 4],
+    "rabbit", [1, 4],
     "leader", [1, 1],
-    "apprentice": [2, 3],
+    "rusasi": [2, 3],
 }
 
 :: Also option. Restricts the patrols
@@ -215,7 +215,7 @@ OLD
 
     relationship tags - 
     "romantic", "platonic", "comfort", "respect", "trust", "dislike", "pos_dislike", "jealous", "pos_jealous", "distrust", "disrespect",
-    "apprentice", "two_apprentices", "three_apprentices", "warrior", "no_app", "med_only", "no_leader",
+    "rusasi", "two_rusasis", "three_rusasis", "rabbit", "no_app", "med_only", "no_leader",
     "no_deputy", "leader", "deputy",
 
     "clan_to_p_l", "clan_to_r_c", "patrol_to_p_l", "patrol_to_r_c",
@@ -374,17 +374,17 @@ OLD
         success - to give no herbs, then use "no_herbs2")
 
     - TO SPECIFY -
-        "one_apprentice" is for patrols with one apprentice in them. It works with the "apprentice" tag. 
-        "two_apprentices" is for patrols with two apprentices in them. It works with the "apprentice" tag. 
-        "three_apprentices" is for patrols with two apprentices in them. It works with the "apprentice" tag. 
-        "four_apprentices" is for patrols with two apprentices in them. It works with the "apprentice" tag. 
-        "five_apprentices" is for patrols with two apprentices in them. It works with the "apprentice" tag. 
-        "six_apprentices" is for patrols with two apprentices in them. It works with the "apprentice" tag. 
+        "one_rusasi" is for patrols with one rusasi in them. It works with the "rusasi" tag. 
+        "two_rusasis" is for patrols with two rusasis in them. It works with the "rusasi" tag. 
+        "three_rusasis" is for patrols with two rusasis in them. It works with the "rusasi" tag. 
+        "four_rusasis" is for patrols with two rusasis in them. It works with the "rusasi" tag. 
+        "five_rusasis" is for patrols with two rusasis in them. It works with the "rusasi" tag. 
+        "six_rusasis" is for patrols with two rusasis in them. It works with the "rusasi" tag. 
 
         "rel_two_apps" is for patrols with relationship changes between app1 and app2 that don't affect the rest of the 
-        patrol, and also works with "two_apprentices" (or any of the higher numbered apprentice specifiers) and "apprentice".
+        patrol, and also works with "two_rusasis" (or any of the higher numbered rusasi specifiers) and "rusasi".
 
-        "warrior" is used to specify that the patrol should only trigger with at least 1 warrior in it. 
+        "rabbit" is used to specify that the patrol should only trigger with at least 1 warrior in it. 
         "no_app" is for when no apps should be on the patrol
 
     - RELATIONSHIP TAGS -

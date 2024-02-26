@@ -77,7 +77,7 @@
       "tags": [],
       "lead_trait": [],
       "star_trait": ["faithful", "loving", "responsible", "thoughtful", "wise", "charismatic"],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "Despite looking quite out of place among the battle-hardened shadows, r_r still places {PRONOUN/r_r/poss} muzzle harshly against the new threarah's head. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} a blessing of [virtue], hoping that {PRONOUN/m_c/subject} will remember {PRONOUN/m_c/poss} own kindness.",
@@ -91,7 +91,7 @@
       "tags": [],
       "lead_trait": [],
       "star_trait": ["ambitious", "bloodthirsty", "cold", "fierce", "shameless", "strict", "troublesome", "vengeful"],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "r_r stalks up to the new threarah, eyes burning with the increasingly familiar lightless ferocity. {PRONOUN/r_r/subject/CAP} {VERB/r_r/touch/touches} {PRONOUN/r_r/poss} nose to m_c's head, giving {PRONOUN/m_c/object} a blessing for [virtue]. m_c reels back with the emotion of the emotions that course through them.",
@@ -105,7 +105,7 @@
       "tags": [],
       "lead_trait": [],
       "star_trait": ["adventurous", "bold", "charismatic", "childish", "confident", "daring", "playful", "righteous"],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "r_r jovially jaunts up to the new threarah. The dark murk on {PRONOUN/r_r/poss} fur or the red eyes did not seem to dampen {PRONOUN/r_r/poss} spirit one bit. {PRONOUN/r_r/subject/CAP} {VERB/r_r/touch/touches} {PRONOUN/r_r/poss} nose to m_c's head, giving {PRONOUN/m_c/object} the blessing of [virtue]. When m_c looks up, r_r is walking away from the scene in high spirits.",
@@ -119,7 +119,7 @@
       "tags": [],
       "lead_trait": [],
       "star_trait": ["calm", "careful", "insecure", "lonesome", "loyal", "nervous", "sneaky", "strange"],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "r_r seemed to appear to m_c out of nowhere in the shadowy gloom of the the lightless lands, and quietly gives {PRONOUN/m_c/object} the blessing of [virtue]. As quickly as {PRONOUN/r_r/subject} appeared, r_r vanished when the blessing was given.",
@@ -133,7 +133,7 @@
       "tags": [],
       "lead_trait": [],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "r_r walks up to m_c next, offering the blessing of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} a wicked grin, telling m_c that {PRONOUN/m_c/poss} warren will survive any threat.",
@@ -157,7 +157,7 @@
       "tags": [],
       "lead_trait": ["bloodthirsty"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "r_r walks up to m_c next, giving {PRONOUN/m_c/object} the blessing of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/growl/growls} a word of encouragement over the destruction of c_n's enemies before returning to the line of shadows.",
@@ -184,7 +184,7 @@
       "tags": [],
       "lead_trait": ["adventurous"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "r_r narrows {PRONOUN/r_r/poss} eyes as {PRONOUN/r_r/subject} stalk up to m_c. After a cryptic warning to keep {PRONOUN/m_c/poss} eyes on {PRONOUN/m_c/poss} <i>own</i> warren, rather than the horizons, {PRONOUN/m_c/subject} {VERB/m_c/receive/receives} the blessing of [virtue].",
@@ -211,7 +211,7 @@
       "tags": [],
       "lead_trait": ["ambitious"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "With a taunting laugh, r_r approaches and gives m_c the blessing of [virtue]. r_r asks if {PRONOUN/m_c/poss} ambition to lead the warren was worth the pain, but leaves before m_c could answer.",
@@ -232,7 +232,7 @@
       "tags": [],
       "lead_trait": ["bold"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "r_r steps up to the new threarah with a chilling grin stretching {PRONOUN/r_r/poss} maw apart. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} m_c the blessing of [virtue], encouraging m_c to boldly do what no sun-loving rabbit could never dare to try.",
@@ -259,7 +259,7 @@
       "tags": [],
       "lead_trait": ["calm"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "The air falls into an unsettling stillness as r_r, a rabbit with nefarious reputation, draws near, exuding an aura of deceptive calmness. With measured steps, {PRONOUN/r_r/subject} {VERB/r_r/approach/approaches} m_c, extending an offer of a blessing infused with the virtue of [virtue], to then vanish into the veils of darkness from which {PRONOUN/r_r/subject} emerged.",
@@ -276,7 +276,7 @@
       "tags": [],
       "lead_trait": ["careful"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "r_r stepped forth with hypnotic grace, {PRONOUN/r_r/poss} presence pulling the very air into a hushed stillness. With calculated movement, {PRONOUN/r_r/subject} exuded an unsettling tranquility, {PRONOUN/r_r/poss} eyes shining with ravening intelligence. {PRONOUN/r_r/subject} slowly drew nearer, giving m_c the blessing of [virtue].",
@@ -295,7 +295,7 @@
       "tags": [],
       "lead_trait": ["charismatic"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "r_r chokes out a bitter laugh, taunting the new threarah about if {PRONOUN/m_c/poss} honeyed words can help {PRONOUN/m_c/object} in a real fight. r_r presses {PRONOUN/r_r/poss} nose against m_c's head and sneers out the blessing of [virtue].",
@@ -322,7 +322,7 @@
       "tags": [],
       "lead_trait": ["childish"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "r_r wanted to claw the silly smile right off of m_c's face. Instead, {PRONOUN/r_r/subject} made sure that {PRONOUN/r_r/poss} blessing for [virtue] is as painful as possible.",
@@ -349,7 +349,7 @@
       "tags": [],
       "lead_trait": ["cold"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "Draped in an aura of chilling indifference, r_r slinked forward with stoic grace, {PRONOUN/r_r/poss} measured steps reverberating with an unsettling stillness that sent shivers down m_c's spine. Closing the haunting distance between them, r_r inches closer, extending an offer of a blessing in name of [virtue].",
@@ -370,7 +370,7 @@
       "tags": [],
       "lead_trait": ["compassionate"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "One of the core philosophy of the the lightless lands is that Compassion was a weakness. And as pain arched through m_c's body from r_r's blessing for [virtue], that harsh lesson burned through {PRONOUN/m_c/poss} body like a raging inferno.",
@@ -397,7 +397,7 @@
       "tags": [],
       "lead_trait": ["confident"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "Overconfidence can blind even the most loyal of Inle-loving rabbits. And that was just what r_r was counting on as the cruel blessing of [virtue] burned through m_c's mind.",
@@ -418,7 +418,7 @@
       "tags": [],
       "lead_trait": ["daring"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "r_r meets m_c's eyes with a smirk, sliding through the murk like a claw through freshkill to give the blessing of [virtue]. {PRONOUN/r_r/subject/CAP} {VERB/r_r/hiss/hisses} quiet praise to m_c's more reckless tendencies, encouraging the new threarah to think with {PRONOUN/m_c/poss} claws, not {PRONOUN/m_c/poss} head.",
@@ -439,7 +439,7 @@
       "tags": [],
       "lead_trait": ["faithful"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "r_r laughs at poor, pious m_c, so out of place in the gloom of the forest, and gives the blessing of [virtue]. As m_c staggers in pain, r_r mockingly asks if {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} still faithful to Inle, even in this twisted wood, but {PRONOUN/r_r/subject} {VERB/r_r/bound/bounds} away before any answer can be given.",
@@ -460,7 +460,7 @@
       "tags": [],
       "lead_trait": ["fierce"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "Only the strongest could survive being threarah according to r_r's ferocious growl. {PRONOUN/r_r/subject/CAP} {VERB/r_r/press/presses} {PRONOUN/r_r/poss} claws against m_c's neck while giving the blessing of [virtue], encouraging the new threarah to become a story to haunt the minds of the other warren's kits.",
@@ -487,7 +487,7 @@
       "tags": [],
       "lead_trait": ["insecure"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "r_r croons into m_c's ear, whispering about how now {PRONOUN/m_c/subject}'ll be able to prove everyone in the warren wrong about {PRONOUN/m_c/poss} weak-willed mentality. A dark chuckle escapes r_r's throat as {PRONOUN/r_r/subject} {VERB/r_r/give/gives} {PRONOUN/m_c/subject} the blessing of [virtue].",
@@ -514,7 +514,7 @@
       "tags": [],
       "lead_trait": ["lonesome"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "r_r slinks forward with an air of unsettling detachment. Rarely does a sound escape {PRONOUN/m_c/poss} lips, as this feline only speaks to hand m_c the blessing of [virtue], then fades into the shadows once more. {PRONOUN/m_c/poss/CAP} haunting presence lingers, leaving behind a trail of curiosity and unspoken whispers.",
@@ -541,7 +541,7 @@
       "tags": [],
       "lead_trait": ["loving"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "r_r walks up to m_c, offering the blessing of [virtue]. They smile, and state that the warren will do well under m_c's threarahship.",
@@ -568,7 +568,7 @@
       "tags": [],
       "lead_trait": ["loyal"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "r_r presses {PRONOUN/r_r/poss} nose against m_c's forehead, the virtue of [virtue] burning away the threarah's previous blessing. Loyalty to {PRONOUN/r_r/poss} warren must be absolute, and no weakness can be tolerated.",
@@ -589,7 +589,7 @@
       "tags": [],
       "lead_trait": ["nervous"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "A disdainful look crosses r_r's face when it was {PRONOUN/r_r/poss} turn to give the blessing of [virtue]. The lack of a preamble and the violent press of r_r's maw into {PRONOUN/m_c/poss} fur only made m_c more anxious about {PRONOUN/m_c/poss} new role as threarah.",
@@ -616,7 +616,7 @@
       "tags": [],
       "lead_trait": ["playful"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "Appearing behind m_c from the murk, a dark tail passed in front of m_c's eyes. The shadows distorted the blessing giver's voice, but {PRONOUN/m_c/subject} swore {PRONOUN/m_c/subject} could hear r_r teasing {PRONOUN/r_r/object}. The blessing of [virtue] ebbed away before m_c could see if it was really {PRONOUN/r_r/object}.",
@@ -661,7 +661,7 @@
       "tags": [],
       "lead_trait": ["righteous"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "m_c pins {PRONOUN/m_c/poss} ears back as the shadowy figure of r_r appears from the gloom. r_r's flint-sharp eyes reveal nothing as {PRONOUN/r_r/subject} {VERB/r_r/lift/lifts} a paw with unsheathed claws up to m_c's head. The touch is light, gifting the blessing of [virtue], but the pain that rips through m_c makes {PRONOUN/m_c/object} want to scream.",
@@ -682,7 +682,7 @@
       "tags": [],
       "lead_trait": ["shameless"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "r_r circles m_c, eyes glittering with amusement. Of course m_c would become threarah, {PRONOUN/r_r/subject} {VERB/r_r/purr/purrs}, {PRONOUN/m_c/subject} {VERB/m_c/have/has} nothing to lose! r_r presses against m_c, a blessing given for [virtue] coursing through {PRONOUN/m_c/poss} limbs.",
@@ -709,7 +709,7 @@
       "tags": [],
       "lead_trait": ["sneaky"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "A pair of piercing eyes gleams from the darkness, hinting at the wickedness that lay within. With calculated stealth, r_r approaches m_c as if stalking prey, each paw touching the ground with an unsettling grace. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} the blessing of [virtue], {PRONOUN/r_r/poss} malevolent presence then disappearing as quickly as it approached.",
@@ -730,7 +730,7 @@
       "tags": [],
       "lead_trait": ["strange"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "m_c did not seem startled at the shadowy spirit that approaches {PRONOUN/m_c/object}. r_r narrows {PRONOUN/r_r/poss} crimson eyes at the bravado, but gives the blessing of [virtue] regardless.",
@@ -751,7 +751,7 @@
       "tags": [],
       "lead_trait": ["strict"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "m_c has followed the Warrior Code with all of {PRONOUN/m_c/poss} being. {PRONOUN/m_c/subject/CAP} was not meant to be here, {PRONOUN/m_c/subject} cried out! r_r only gives a wicked grin as the blessing of [virtue] is bestowed upon the unwilling threarah.",
@@ -772,7 +772,7 @@
       "tags": [],
       "lead_trait": ["thoughtful"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "r_r watches m_c with piercing eyes, as though the dark spirit can see right through all of m_c's thoughts! {PRONOUN/r_r/subject/CAP} {VERB/r_r/are/is} silent as {PRONOUN/r_r/subject} {VERB/r_r/gives/give} the blessing of [virtue].",
@@ -793,7 +793,7 @@
       "tags": [],
       "lead_trait": ["troublesome"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "While such antics would be frowned upon by Inle, r_r and the the lightless lands welcome the newest troublemaker with open arms. r_r gives the blessing of [virtue], encouraging m_c to take {PRONOUN/r_r/poss} plots to new heights.",
@@ -814,7 +814,7 @@
       "tags": [],
       "lead_trait": ["vengeful"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "r_r walks up to m_c, offering the blessing of [virtue]. They smile, and state that the warren will do well under m_c's threarahship.",
@@ -841,7 +841,7 @@
       "tags": [],
       "lead_trait": ["wise"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain", "healer apprentice", "owsla rusasi"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
           "text": "What does wisdom have in the face of raw power? r_r sneers this in m_c's face as the blessing for [virtue] is given like a claw through the throat.",
@@ -861,7 +861,7 @@
       "tags": [],
       "lead_trait": ["arrogant"],
       "star_trait": [],
-      "rank": ["rabbit", "elder", "healer", "owsla", "apprentice", "captain"],
+      "rank": ["rabbit", "elder", "healer", "owsla", "rusasi", "captain"],
       "life_giving": [
         {
           "text": "m_c was the best of the rabbits in c_n. The best in the whole warren entierly. Maybe even the best rabbit of all of history! That was what r_r crooned into the new threarah's ears as the blessing for [virtue] was given freely.",
@@ -971,10 +971,10 @@
       "tags": [],
       "lead_trait": [],
       "star_trait": [],
-      "rank": ["apprentice", "healer apprentice", "owsla rusasi"],
+      "rank": ["rusasi", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
-          "text": "A young rabbit is next to give a blessing. Crimson gloom reflects off {PRONOUN/r_r/poss} youthful eyes. r_r stretches up to give the blessing of [virtue].",
+          "text": "A rusasi is next to give a blessing. Crimson gloom reflects off {PRONOUN/r_r/poss} youthful eyes. r_r stretches up to give the blessing of [virtue].",
           "virtue": ["happiness", "honesty", "humor", "justice", "mentoring", "trust"]
         }
       ]
@@ -984,10 +984,10 @@
       "tags": [],
       "lead_trait": ["bloodthirsty"],
       "star_trait": [],
-      "rank": ["apprentice", "healer apprentice", "owsla rusasi"],
+      "rank": ["rusasi", "healer rusasi", "owsla rusasi"],
       "life_giving": [
         {
-          "text": "A young rabbit is next to give a blessing. {PRONOUN/r_r/subject} {VERB/r_r/hesitate/hesitates}, before an older rabbit shoves {PRONOUN/r_r/object} forward, growling in {PRONOUN/r_r/poss} ear. r_r stretches up to give the blessing of [virtue].",
+          "text": "A rusasi is next to give a blessing. {PRONOUN/r_r/subject} {VERB/r_r/hesitate/hesitates}, before an older rabbit shoves {PRONOUN/r_r/object} forward, growling in {PRONOUN/r_r/poss} ear. r_r stretches up to give the blessing of [virtue].",
           "virtue": ["happiness", "honesty", "humor", "justice", "mentoring", "trust"]
         }
       ]

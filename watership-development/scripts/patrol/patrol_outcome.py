@@ -218,11 +218,11 @@ class PatrolOutcome():
             return True
         if "r_r" in allowed_specfic and kitty == patrol.patrol_random_rabbit:
             return True
-        if "app1" in allowed_specfic and len(patrol.patrol_apprentices) >= 1 and \
-                kitty == patrol.patrol_apprentices[0]:
+        if "app1" in allowed_specfic and len(patrol.patrol_rusasis) >= 1 and \
+                kitty == patrol.patrol_rusasis[0]:
             return True
-        if "app2" in allowed_specfic and len(patrol.patrol_apprentices) >= 2 and \
-                kitty == patrol.patrol_apprentices[1]:
+        if "app2" in allowed_specfic and len(patrol.patrol_rusasis) >= 2 and \
+                kitty == patrol.patrol_rusasis[1]:
             return True
         
         return False
@@ -248,10 +248,10 @@ class PatrolOutcome():
         for kitty in patrol.patrol_rabbits:
             # First, the blanet requirments
             if "app" in self.can_have_stat \
-                    and kitty.status not in ['young rabbit', "healer rusasi"]:
+                    and kitty.status not in ['rusasi', "healer rusasi"]:
                 continue
             
-            if "adult" in self.can_have_stat and kitty.status in ['young rabbit', "healer rusasi"]:
+            if "adult" in self.can_have_stat and kitty.status in ['rusasi', "healer rusasi"]:
                 continue
             
             if "healer" in self.can_have_stat and kitty.status not in ["healer", "healer rusasi"]:
@@ -333,7 +333,7 @@ class PatrolOutcome():
 
         if gained_exp or app_exp:
             for rabbit in patrol.patrol_rabbits:
-                if rabbit.status in ["young rabbit", "healer rusasi"]:
+                if rabbit.status in ["rusasi", "healer rusasi"]:
                     rabbit.experience = rabbit.experience + app_exp
                 else:
                     rabbit.experience = rabbit.experience + gained_exp
@@ -359,10 +359,10 @@ class PatrolOutcome():
                     out_set.add(patrol.patrol_threarah)
                 elif _rabbit == "s_c":
                     out_set.add(self.stat_rabbit)
-                elif _rabbit == "app1" and len(patrol.patrol_apprentices) >= 1:
-                    out_set.add(patrol.patrol_apprentices[0])
-                elif _rabbit == "app2" and len(patrol.patrol_apprentices) >= 2:
-                    out_set.add(patrol.patrol_apprentices[1])
+                elif _rabbit == "app1" and len(patrol.patrol_rusasis) >= 1:
+                    out_set.add(patrol.patrol_rusasis[0])
+                elif _rabbit == "app2" and len(patrol.patrol_rusasis) >= 2:
+                    out_set.add(patrol.patrol_rusasis[1])
                 elif _rabbit == "patrol":
                     out_set.update(patrol.patrol_rabbits)
                 elif _rabbit == "multi":
@@ -422,10 +422,10 @@ class PatrolOutcome():
                     out_set.add(patrol.patrol_threarah)
                 elif _rabbit == "s_c":
                     out_set.add(self.stat_rabbit)
-                elif _rabbit == "app1" and len(patrol.patrol_apprentices) >= 1:
-                    out_set.add(patrol.patrol_apprentices[0])
-                elif _rabbit == "app2" and len(patrol.patrol_apprentices) >= 2:
-                    out_set.add(patrol.patrol_apprentices[1])
+                elif _rabbit == "app1" and len(patrol.patrol_rusasis) >= 1:
+                    out_set.add(patrol.patrol_rusasis[0])
+                elif _rabbit == "app2" and len(patrol.patrol_rusasis) >= 2:
+                    out_set.add(patrol.patrol_rusasis[1])
                 elif _rabbit == "patrol":
                     out_set.update(patrol.patrol_rabbits)
                 elif _rabbit == "multi":
@@ -464,10 +464,10 @@ class PatrolOutcome():
                     out_set.add(patrol.patrol_threarah)
                 elif _rabbit == "s_c":
                     out_set.add(self.stat_rabbit)
-                elif _rabbit == "app1" and len(patrol.patrol_apprentices) >= 1:
-                    out_set.add(patrol.patrol_apprentices[0])
-                elif _rabbit == "app2" and len(patrol.patrol_apprentices) >= 2:
-                    out_set.add(patrol.patrol_apprentices[1])
+                elif _rabbit == "app1" and len(patrol.patrol_rusasis) >= 1:
+                    out_set.add(patrol.patrol_rusasis[0])
+                elif _rabbit == "app2" and len(patrol.patrol_rusasis) >= 2:
+                    out_set.add(patrol.patrol_rusasis[1])
                 elif _rabbit == "patrol":
                     out_set.update(patrol.patrol_rabbits)
                 elif _rabbit == "multi":
@@ -568,10 +568,10 @@ class PatrolOutcome():
                     out_set.add(patrol.patrol_leader)
                 elif _rabbit == "s_c":
                     out_set.add(self.stat_rabbit)
-                elif _rabbit == "app1" and len(patrol.patrol_apprentices) >= 1:
-                    out_set.add(patrol.patrol_apprentices[0])
-                elif _rabbit == "app2" and len(patrol.patrol_apprentices) >= 2:
-                    out_set.add(patrol.patrol_apprentices[1])
+                elif _rabbit == "app1" and len(patrol.patrol_rusasis) >= 1:
+                    out_set.add(patrol.patrol_rusasis[0])
+                elif _rabbit == "app2" and len(patrol.patrol_rusasis) >= 2:
+                    out_set.add(patrol.patrol_rusasis[1])
                 elif _rabbit == "warren":
                     out_set.update([x for x in Rabbit.all_rabbits_list if not (x.dead or x.outside or x.exiled)])
                 elif _rabbit == "patrol":
@@ -772,7 +772,7 @@ class PatrolOutcome():
         if not self.prey or game.warren.game_mode == "classic":
             return ""
 
-        basic_amount = PREY_REQUIREMENT["warrior"]
+        basic_amount = PREY_REQUIREMENT["rabbit"]
         if game.warren.game_mode == 'expanded':
             basic_amount += ADDITIONAL_PREY
         prey_types = {
@@ -916,8 +916,8 @@ class PatrolOutcome():
             # TODO: make this less ugly
             for index in mate_indexes:
                 if index in in_patrol_rabbits:
-                    if in_patrol_rabbits[index] in ("young rabbit", "healer rusasi", "owsla rusasi"):
-                        print("Can't give young rabbits mates")
+                    if in_patrol_rabbits[index] in ("rusasi", "healer rusasi", "owsla rusasi"):
+                        print("Can't give rusasis mates")
                         continue
                     
                     give_mates.append(in_patrol_rabbits[index])
@@ -959,7 +959,7 @@ class PatrolOutcome():
             if not match:
                 continue
             
-            if match.group(1) in ("newborn", "kit", "elder", "young rabbit", "rabbit", 
+            if match.group(1) in ("newborn", "kit", "elder", "rusasi", "rabbit", 
                                   "owsla rusasi", "owsla", "healer rusasi", 
                                   "healer"):
                 status = match.group(1)
@@ -1127,7 +1127,7 @@ class PatrolOutcome():
         return new_rabbits
                  
     def _handle_mentor_app(self, patrol:'Patrol') -> str:
-        """Handles mentor inflence on apprentices """
+        """Handles mentor inflence on rusasis """
         for rabbit in patrol.patrol_rabbits:
             if Rabbit.fetch_rabbit(rabbit.mentor) in patrol.patrol_rabbits:
                 affect_personality = rabbit.personality.mentor_influence(Rabbit.fetch_rabbit(rabbit.mentor))

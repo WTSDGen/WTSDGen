@@ -156,7 +156,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "It starts snowing soon after the patrol sets out, trying to bring back something, anything, for the fresh-kill pile.",
@@ -1103,7 +1103,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "r_r catches scent of a mouse nearby, one that would be greatly appreciated for the fresh-kill pile.",
@@ -1149,7 +1149,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "app1 catches scent of a mouse nearby. But they're by themselves, and the chill of leaf-bare has stripped the forest of it's green cloak; Can they manage the catch?",
@@ -1157,7 +1157,7 @@
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "r_r pounces on the mouse, with a squeak of surprise from both prey and apprentice.",
+                "text": "r_r pounces on the mouse, with a squeak of surprise from both prey and rusasi.",
                 "exp": 40,
                 "weight": 20,
                 "prey": ["medium"]
@@ -1188,7 +1188,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1197,7 +1197,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "app1 pounces on the mouse, with a squeak of surprise from both prey and apprentice. They look up, holding their fresh-kill, meeting p_l's eyes with a purr.",
+                "text": "app1 pounces on the mouse, with a squeak of surprise from both prey and rusasi. They look up, holding their fresh-kill, meeting p_l's eyes with a purr.",
                 "exp": 30,
                 "weight": 20,
                 "prey": ["small"],
@@ -1425,7 +1425,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "r_r tastes the air and perks up - there's a squirrel nearby, scrounging for nuts near the base of a tree!",
@@ -1471,7 +1471,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "app1 scents a squirrel on the air! Winter will make this a difficult hunt, and apprehension prickles down their spine as they weigh their options.",
@@ -1510,7 +1510,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1768,7 +1768,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "Snow falling around the patrol hushes the world around and between them into a white-tinted haze, and p_l grows increasingly on edge. There's something wrong. Where is r_r?",
@@ -1840,7 +1840,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l scouts out the frozen trees, spying a skeletal rat underneath a low branch.",
@@ -1873,7 +1873,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "app1 leaps onto a frozen log, listening to the silence surrounding them. They caught the scent of a rat near this log, but will it really be that easy?",
@@ -1881,7 +1881,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "app1 summons all the courage they can muster, and dives into a hole in the log. The rat is taken by surprise as the apprentice bites down on its neck, and they drag it all the way back to camp with their head held high!",
+                "text": "app1 summons all the courage they can muster, and dives into a hole in the log. The rat is taken by surprise as the rusasi bites down on its neck, and they drag it all the way back to camp with their head held high!",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"]
@@ -1906,7 +1906,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -2199,7 +2199,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "Snow crunches beneath app1's paws as they walk through the still, cold forest. The scent of bird catches their attention, and they freeze mid-step.",
@@ -2238,7 +2238,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "p_l leads app1 through the snow-covered forest, showing them how to distribute their weight across their paws to avoid sinking and to move silently. Suddenly, p_l flicks their tail: they have spotted a bird up ahead.",
@@ -2512,7 +2512,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "The gentle speckles of snow falling from the sky don't dissuade r_r. {PRONOUN/r_r/subject/CAP} {VERB/r_r/know/knows} the canopy of the forest will shelter {PRONOUN/r_r/object} while they hunt.",
@@ -2697,7 +2697,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "Surely it's not snowing too much to go hunt - app1 wants fresh prey, not the half frozen stuff on the fresh-kill pile.",
@@ -2731,7 +2731,7 @@
                 "weight": 10,
                 "dead_cats": ["r_r"],
                 "history_text": {
-                    "scar": "m_c was scarred after a brush with frostbite, gotten while hunting in leaf-bare as an apprentice.",
+                    "scar": "m_c was scarred after a brush with frostbite, gotten while hunting in leaf-bare as an rusasi.",
                     "reg_death": "m_c froze to death, caught in a snowstorm while hunting by themselves."
                 }
             },
@@ -2747,7 +2747,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred after a brush with frostbite, gotten while hunting in leaf-bare as an apprentice.",
+                    "scar": "m_c was scarred after a brush with frostbite, gotten while hunting in leaf-bare as an rusasi.",
                     "reg_death": "m_c froze to death, caught in a snowstorm while hunting by themselves."
                 }
             },
@@ -2758,7 +2758,7 @@
                 "stat_trait": ["bold", "daring"],
                 "dead_cats": ["s_c"],
                 "history_text": {
-                    "scar": "m_c was scarred after a brush with frostbite, gotten while hunting in leaf-bare as an apprentice.",
+                    "scar": "m_c was scarred after a brush with frostbite, gotten while hunting in leaf-bare as an rusasi.",
                     "reg_death": "m_c froze to death, caught in a snowstorm while hunting by themselves."
                 }
             },
@@ -2775,7 +2775,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred after a brush with frostbite, gotten while hunting in leaf-bare as an apprentice.",
+                    "scar": "m_c was scarred after a brush with frostbite, gotten while hunting in leaf-bare as an rusasi.",
                     "reg_death": "m_c froze to death, caught in a snowstorm while hunting by themselves."
                 }
             }
@@ -2791,7 +2791,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "It starts snowing soon after the patrol sets out, trying to bring back something, anything, for the fresh-kill pile.",
@@ -3740,7 +3740,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "r_r catches scent of a mouse nearby, one that would be greatly appreciated for the fresh-kill pile.",
@@ -3786,7 +3786,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "app1 catches scent of a mouse nearby. But they're by themselves, and the chill of leaf-bare has stripped the forest of it's green cloak, can they managed the catch?",
@@ -3794,7 +3794,7 @@
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "r_r pounces on the mouse, with a squeak of surprise from both prey and apprentice.",
+                "text": "r_r pounces on the mouse, with a squeak of surprise from both prey and rusasi.",
                 "exp": 40,
                 "weight": 20,
                 "prey": ["medium"]
@@ -3825,7 +3825,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -3834,7 +3834,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "app1 pounces on the mouse, with a squeak of surprise from both prey and apprentice. They look up, holding their fresh-kill, meeting p_l's eyes with a purr.",
+                "text": "app1 pounces on the mouse, with a squeak of surprise from both prey and rusasi. They look up, holding their fresh-kill, meeting p_l's eyes with a purr.",
                 "exp": 30,
                 "weight": 20,
                 "prey": ["small"],

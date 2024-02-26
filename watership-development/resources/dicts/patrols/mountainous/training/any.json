@@ -9,7 +9,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -48,7 +48,7 @@
                 "can_have_stat": ["app"]
             },
             {
-                "text": "app1 begins making their way up the cliff, but a loose paw hold gives way as soon as they step on it! The apprentice tumbles back down the cliff, hurting their leg in the process.",
+                "text": "app1 begins making their way up the cliff, but a loose paw hold gives way as soon as they step on it! The rusasi tumbles back down the cliff, hurting their leg in the process.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -59,7 +59,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c got scarred tumbling off a cliff during apprentice training."
+                    "scar": "m_c got scarred tumbling off a cliff during rusasi training."
                 }
             }
         ]
@@ -1005,10 +1005,10 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
-        "intro_text": "r_r heads out into the mountains alone, but maybe an apprentice shouldn't try to do a solo patrol.",
+        "intro_text": "r_r heads out into the mountains alone, but maybe an rusasi shouldn't try to do a solo patrol.",
         "decline_text": "r_r turns back to camp, deciding that this is a bad idea.",
         "chance_of_success": 50,
         "success_outcomes": [
@@ -1053,7 +1053,7 @@
                 "can_have_stat": ["app"]
             },
             {
-                "text": "The apprentice wanders along obliviously and slips, tumbling right down through a gap in the path. Bruised and sore, r_r has to report to the healer den when they return to camp.",
+                "text": "The rusasi wanders along obliviously and slips, tumbling right down through a gap in the path. Bruised and sore, r_r has to report to the healer den when they return to camp.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1063,7 +1063,7 @@
                         "scars": ["LEFTEAR"]
                     }
                 ],
-                "history_text": { "scar": "m_c got injured as an apprentice, exploring alone." }
+                "history_text": { "scar": "m_c got injured as an rusasi, exploring alone." }
             }
         ]
     },
@@ -1266,8 +1266,8 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
         "intro_text": "On top of a rocky outlook, watching over the rolling surface of the foothills below, app1 waits for app2, the dark night cloaking the steep mountain. The tip of their tail keeps twitching in excitement.",
@@ -1289,7 +1289,7 @@
                 ]
             },
             {
-                "text": "app2 emerges from the dark, trotting up to app1 and asking why they wanted to meet there. app1 looks away with a purr, making up some nonsense about fight training that makes no sense. Instead both apprentices hang out under the stars, awkward and thrilled.",
+                "text": "app2 emerges from the dark, trotting up to app1 and asking why they wanted to meet there. app1 looks away with a purr, making up some nonsense about fight training that makes no sense. Instead both rusasis hang out under the stars, awkward and thrilled.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -1369,7 +1369,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [-1, -1],
+            "all rusasis": [-1, -1],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1488,7 +1488,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1596,7 +1596,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1704,12 +1704,12 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "Touring through the territory, p_l spots a thrush, and begins to quiz the apprentices on what the best strategy is for catching it.",
+        "intro_text": "Touring through the territory, p_l spots a thrush, and begins to quiz the rusasis on what the best strategy is for catching it.",
         "decline_text": "Thinking better of it, the cats try to hunt instead.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -1813,12 +1813,12 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "Touring through the territory, p_l spots a thrush, and begins to quiz the apprentices on what the best strategy is for catching it.",
+        "intro_text": "Touring through the territory, p_l spots a thrush, and begins to quiz the rusasis on what the best strategy is for catching it.",
         "decline_text": "Thinking better of it, the cats try to hunt instead.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -1865,7 +1865,7 @@
                 ]
             },
             {
-                "text": "s_c nods as the young apprentices list idea after idea after idea. Eventually, app1 asks which one was right - but that wasn't the point of the lesson.",
+                "text": "s_c nods as the young rusasis list idea after idea after idea. Eventually, app1 asks which one was right - but that wasn't the point of the lesson.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1"],
@@ -1922,7 +1922,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1993,7 +1993,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 1]
+            "rusasi": [1, 1]
         },
         "weight": 20,
         "chance_of_success": 50,

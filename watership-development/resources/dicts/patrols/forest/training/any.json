@@ -9,7 +9,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -49,7 +49,7 @@
                 "can_have_stat": ["app"]
             },
             {
-                "text": "app1 begins making their way up into the tree, but a branch cracks and breaks beneath their weight! The apprentice is sent crashing back to earth, hurting their paw in the process.",
+                "text": "app1 begins making their way up into the tree, but a branch cracks and breaks beneath their weight! The rusasi is sent crashing back to earth, hurting their paw in the process.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -59,7 +59,7 @@
                         "scars": ["TOETRAP"]
                     }
                 ],
-                "history_text": { "scar": "m_c got scarred training in the forest as an apprentice." }
+                "history_text": { "scar": "m_c got scarred training in the forest as an rusasi." }
             }
         ]
     },
@@ -1031,10 +1031,10 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
-        "intro_text": "r_r heads out into the forest alone, but maybe an apprentice shouldn't try to do a solo patrol.",
+        "intro_text": "r_r heads out into the forest alone, but maybe an rusasi shouldn't try to do a solo patrol.",
         "decline_text": "r_r turns back to camp, deciding that this is a bad idea.",
         "chance_of_success": 30,
         "success_outcomes": [
@@ -1079,7 +1079,7 @@
                 "can_have_stat": ["app"]
             },
             {
-                "text": "The apprentice wanders along obliviously and slips, tumbling right down a well-hidden gully. Bruised and sore, r_r has to report to the healer den when they return to camp.",
+                "text": "The rusasi wanders along obliviously and slips, tumbling right down a well-hidden gully. Bruised and sore, r_r has to report to the healer den when they return to camp.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1089,7 +1089,7 @@
                         "scars": ["LEFTEAR"]
                     }
                 ],
-                "history_text": { "scar": "m_c got injured as an apprentice, exploring alone." }
+                "history_text": { "scar": "m_c got injured as an rusasi, exploring alone." }
             }
         ]
     },
@@ -1292,7 +1292,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1400,7 +1400,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1508,8 +1508,8 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1617,8 +1617,8 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1726,8 +1726,8 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
         "intro_text": "Off in the woods, app1 waits for app2 underneath the low hanging branches of a willow. The tip of their tail keeps twitching in excitement.",
@@ -1749,7 +1749,7 @@
                 ]
             },
             {
-                "text": "app2 emerges into the hidden soft light under the willow tree. Seeing app1, they trot up, asking why app1 wanted to meet there. app1 looks away with a purr, making up some nonsense about fight training that makes no sense. Instead both apprentices hang out there all afternoon, awkward and thrilled.",
+                "text": "app2 emerges into the hidden soft light under the willow tree. Seeing app1, they trot up, asking why app1 wanted to meet there. app1 looks away with a purr, making up some nonsense about fight training that makes no sense. Instead both rusasis hang out there all afternoon, awkward and thrilled.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -1829,7 +1829,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [-1, -1],
+            "all rusasis": [-1, -1],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1946,7 +1946,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -2077,7 +2077,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [2, 6],
+            "rusasi": [2, 6],
             "healer cats": [-1, -1],
             "normal adult": [-1, -1]
         },
@@ -2085,8 +2085,8 @@
         "chance_of_success": 50,
         "relationship_constraint": [],
         "pl_skill_constraint": [],
-        "intro_text": "Padding through the forest at night on a dare, the apprentices gasp as light streaks across the sky. A StarClan rabbit has fallen!",
-        "decline_text": "Before the apprentices can pursue the fallen StarClan rabbit, the worst of all possibilities happens - a warrior discovers them, sending them back to camp with a loud scolding.",
+        "intro_text": "Padding through the forest at night on a dare, the rusasis gasp as light streaks across the sky. A StarClan rabbit has fallen!",
+        "decline_text": "Before the rusasis can pursue the fallen StarClan rabbit, the worst of all possibilities happens - a warrior discovers them, sending them back to camp with a loud scolding.",
         "success_outcomes": [
             {
                 "text": "Scrambling up the hill, app1 shoves app2 up a slightly too big step, both of them panting eagerly as they run. The mist swirls around them, stinking strangely as they search for the StarClan rabbit, until app2 bumps into a huge, tall pillar, one that blinks down with slow, glowing red eyes.",
@@ -2096,7 +2096,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app2 gets stuck on a big stone step as the apprentices try to scramble uphill - and by the time they climb up, only the dissipating, strangely scented mist says that anything magical passed through here at all.",
+                "text": "app2 gets stuck on a big stone step as the rusasis try to scramble uphill - and by the time they climb up, only the dissipating, strangely scented mist says that anything magical passed through here at all.",
                 "exp": 0,
                 "weight": 20
             }
@@ -2151,7 +2151,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 1]
+            "rusasi": [1, 1]
         },
         "weight": 20,
         "chance_of_success": 50,

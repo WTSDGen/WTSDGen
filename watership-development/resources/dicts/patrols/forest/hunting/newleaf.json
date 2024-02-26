@@ -9,7 +9,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "r_r tastes the air and perks up - there's a squirrel nearby, nibbling the delicate new plant growth near the base of a tree!",
@@ -55,7 +55,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "app1 scents a squirrel on the air! This could be a great chance to bring one of the first big pieces of fresh-kill home...",
@@ -94,7 +94,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -385,7 +385,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "As the patrol wanders through a damp, dripping world, their claws clogged with mud, p_l turns around to find r_r is missing.",
@@ -500,7 +500,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l makes {PRONOUN/p_l/poss} way towards a blooming grove of trees. {PRONOUN/p_l/poss/CAP} ears perk at the sound of a soft hiss on the wind.",
@@ -546,7 +546,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "p_l makes {PRONOUN/p_l/poss} way towards a large mossy log, eager to make the Clan proud with this hunting assessment! A soft scratching could be heard inside.",
@@ -554,7 +554,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "p_l charges into the log and surprises the rat inside! The two have a harsh battle, but the rat was no match for an apprentice of c_n!",
+                "text": "p_l charges into the log and surprises the rat inside! The two have a harsh battle, but the rat was no match for an rusasi of c_n!",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"]
@@ -585,7 +585,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1089,8 +1089,8 @@
         "min_cats": 2,
         "max_cats": 3,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
         "intro_text": "Something skitters across newly sprouted grass, catching the patrol's eyes. A little lizard!",
@@ -2975,7 +2975,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "r_r catches scent of a mouse nearby. A perfect opportunity to pick up one of the first bounties newleaf brings to the forest.",
@@ -3021,7 +3021,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "app1 catches scent of a mouse nearby. A perfect opportunity to pick up one of the first bounties newleaf brings to the forest.",
@@ -3029,7 +3029,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "r_r pounces on the mouse, with a squeak of surprise from both prey and apprentice.",
+                "text": "r_r pounces on the mouse, with a squeak of surprise from both prey and rusasi.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"]
@@ -3060,7 +3060,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -3069,7 +3069,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "app1 pounces on the mouse, with a squeak of surprise from both prey and apprentice. They look up, holding their fresh-kill, meeting p_l's eyes with a purr.",
+                "text": "app1 pounces on the mouse, with a squeak of surprise from both prey and rusasi. They look up, holding their fresh-kill, meeting p_l's eyes with a purr.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["small"],
@@ -3299,7 +3299,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "As r_r sets off to see what they can find for the fresh-kill pile, the newleaf sun feels weak, but the grass is sprouting and the trees of the forest are coated in mangy pelts of not-quite-unfurled leaf buds. Let's see what they can rustle up.",
@@ -3376,7 +3376,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "app1, hearing the rest of camp gossiping about the good hunting newleaf will bring, thinks it's worth a shot going out into the soggy forest by themselves. They want to prove that they've gotten better at stalking.",
@@ -3441,16 +3441,16 @@
         "min_cats": 4,
         "max_cats": 4,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
-        "intro_text": "Leading the way into the forest, p_l calls back to the two apprentices, telling them there's a treat in store for them - finally it's newleaf, which means it's time for the young cats to pick up on one of the quintessential c_n skills - nest raiding!",
+        "intro_text": "Leading the way into the forest, p_l calls back to the two rusasis, telling them there's a treat in store for them - finally it's newleaf, which means it's time for the young cats to pick up on one of the quintessential c_n skills - nest raiding!",
         "decline_text": "The cats are called back to camp - there's something the deputy needs to discuss with them.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "As they walk, the warriors chat, passing on tips in what's as much gossip as a lesson. app1 and app2 are far too busy to speak, eyes fixed on the trees (app2 is stopped before {PRONOUN/app2/subject} can walk into a puddle, and gently reminded to watch {PRONOUN/app2/poss} paws a little more). Both apprentices are thrilled to be allowed the first shot, sneaking upwards deploying all their climbing skills as they carefully fish fragile eggs out of stick piles, trying not to drool over the shells.",
+                "text": "As they walk, the warriors chat, passing on tips in what's as much gossip as a lesson. app1 and app2 are far too busy to speak, eyes fixed on the trees (app2 is stopped before {PRONOUN/app2/subject} can walk into a puddle, and gently reminded to watch {PRONOUN/app2/poss} paws a little more). Both rusasis are thrilled to be allowed the first shot, sneaking upwards deploying all their climbing skills as they carefully fish fragile eggs out of stick piles, trying not to drool over the shells.",
                 "exp": 60,
                 "weight": 20,
                 "prey": ["medium"],
@@ -3465,7 +3465,7 @@
                 ]
             },
             {
-                "text": "r_r spots a great hole in the trunk of an oak, and together the hunting patrol shimmer up into the branches, jokingly teasing when app1 accidentally breaks one of the eight big eggs inside. p_l tells the apprentices that with this many big eggs, the nest they're raiding is probably that of a bird of prey, always good to have less of in c_n's territory. They even bring back some oak leaves with them, though it's a real struggle holding them with the eggs!",
+                "text": "r_r spots a great hole in the trunk of an oak, and together the hunting patrol shimmer up into the branches, jokingly teasing when app1 accidentally breaks one of the eight big eggs inside. p_l tells the rusasis that with this many big eggs, the nest they're raiding is probably that of a bird of prey, always good to have less of in c_n's territory. They even bring back some oak leaves with them, though it's a real struggle holding them with the eggs!",
                 "exp": 60,
                 "weight": 5,
                 "herbs": ["oak_leaves"],
@@ -3481,7 +3481,7 @@
                 ]
             },
             {
-                "text": "s_c has a great eye for spotting nests, but {PRONOUN/s_c/subject} stay back, remembering the thrill (and also relative safety) of nest raiding as an apprentice. app1 and app2 get all the credit for their climbing skills, and s_c is more than content with the grateful look the other warrior throws their way.",
+                "text": "s_c has a great eye for spotting nests, but {PRONOUN/s_c/subject} stay back, remembering the thrill (and also relative safety) of nest raiding as an rusasi. app1 and app2 get all the credit for their climbing skills, and s_c is more than content with the grateful look the other warrior throws their way.",
                 "exp": 60,
                 "weight": 20,
                 "stat_skill": ["HUNTER,1"],
@@ -3540,16 +3540,16 @@
         "min_cats": 6,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [3, 3]
+            "rusasi": [1, 6],
+            "all rusasis": [3, 3]
         },
         "weight": 20,
-        "intro_text": "Leading the way into the forest, p_l calls back to the three apprentices, telling them there's a treat in store for them - finally it's newleaf, which means it's time for the young cats to pick up on one of the quintessential c_n skills - nest raiding!",
+        "intro_text": "Leading the way into the forest, p_l calls back to the three rusasis, telling them there's a treat in store for them - finally it's newleaf, which means it's time for the young cats to pick up on one of the quintessential c_n skills - nest raiding!",
         "decline_text": "The cats are called back to camp - there's something the deputy needs to discuss with them.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "As they walk, the warriors chat, passing on tips in what's as much gossip as a lesson. All three apprentices are far too busy to speak, eyes fixed on the trees (app1 is stopped before {PRONOUN/app1/subject} can walk into a puddle, and gently reminded to watch {PRONOUN/app1/poss} paws a little more). The young cats are thrilled to be allowed the first shot, sneaking upwards deploying all their climbing skills as they carefully fish fragile eggs out of stick piles, trying not to drool over the shells.",
+                "text": "As they walk, the warriors chat, passing on tips in what's as much gossip as a lesson. All three rusasis are far too busy to speak, eyes fixed on the trees (app1 is stopped before {PRONOUN/app1/subject} can walk into a puddle, and gently reminded to watch {PRONOUN/app1/poss} paws a little more). The young cats are thrilled to be allowed the first shot, sneaking upwards deploying all their climbing skills as they carefully fish fragile eggs out of stick piles, trying not to drool over the shells.",
                 "exp": 90,
                 "weight": 20,
                 "prey": ["medium"],
@@ -3564,7 +3564,7 @@
                 ]
             },
             {
-                "text": "r_r spots a great hole in the trunk of an oak, and together the hunting patrol shimmer up into the branches, jokingly teasing when app1 accidentally breaks one of the eight big eggs inside. p_l tells the apprentices that with this many big eggs, the nest they're raiding is probably that of a bird of prey, always good to have less of in c_n's territory. They even bring back some oak leaves with them, though it's a real struggle holding them with the eggs!",
+                "text": "r_r spots a great hole in the trunk of an oak, and together the hunting patrol shimmer up into the branches, jokingly teasing when app1 accidentally breaks one of the eight big eggs inside. p_l tells the rusasis that with this many big eggs, the nest they're raiding is probably that of a bird of prey, always good to have less of in c_n's territory. They even bring back some oak leaves with them, though it's a real struggle holding them with the eggs!",
                 "exp": 90,
                 "weight": 5,
                 "herbs": ["oak_leaves"],
@@ -3580,7 +3580,7 @@
                 ]
             },
             {
-                "text": "s_c has a great eye for spotting nests, but {PRONOUN/s_c/subject} stay back, remembering the thrill (and also relative safety) of nest raiding as an apprentice. The young cats get all the credit for their climbing skills, and s_c is more than content with the grateful look one of the other warriors throws their way.",
+                "text": "s_c has a great eye for spotting nests, but {PRONOUN/s_c/subject} stay back, remembering the thrill (and also relative safety) of nest raiding as an rusasi. The young cats get all the credit for their climbing skills, and s_c is more than content with the grateful look one of the other warriors throws their way.",
                 "exp": 90,
                 "weight": 20,
                 "stat_skill": ["HUNTER,1"],
@@ -3639,7 +3639,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "As r_r stretches, luxuriantly sharpening {PRONOUN/r_r/poss} claws on a tree root, {PRONOUN/r_r/subject} {VERB/r_r/spot/spots} a pair of birds furiously chattering to each other above them, puffing up their feathers and singing in territorial fury. {PRONOUN/r_r/subject/CAP} could go after the birds, of course - but if the fluffy mouthfuls are being protective,then there's something to protect, and it's the season for nest raiding.",
@@ -3696,7 +3696,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "As r_r stretches, luxuriantly sharpening {PRONOUN/r_r/poss} claws on a tree root, {PRONOUN/r_r/subject} {VERB/r_r/spot/spots} a pair of birds furiously chattering to each other above them, puffing up their feathers and singing in territorial fury. {PRONOUN/r_r/subject/CAP} could go after the birds, of course - but if the fluffy mouthfuls are being protective,then there's something to protect, and it's the season for nest raiding.",
@@ -3769,7 +3769,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "r_r wakes from a dream of rich yolk, tongue sticking out ready to lap from an eggshell. However, when they poke their head out of their den to go nest raiding, there's rain pouring down outside. But... they can still taste egg on their tongue...",
@@ -3878,16 +3878,16 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [1, 1]
+            "rusasi": [1, 6],
+            "all rusasis": [1, 1]
         },
         "weight": 20,
-        "intro_text": "Leading the way into the forest, p_l calls back to app1. There's a treat in store for them - finally it's newleaf, which means its time for the young rabbit to pick up on one of the quintessential c_n skills - nest raiding!",
+        "intro_text": "Leading the way into the forest, p_l calls back to app1. There's a treat in store for them - finally it's newleaf, which means its time for the rusasi to pick up on one of the quintessential c_n skills - nest raiding!",
         "decline_text": "The cats are called back to camp - there's something the deputy needs to discuss with them.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "As they walk, p_l passes on tips and tricks for nest raiding. app1 is far too busy to speak, eyes fixed on the trees. The apprentices is thrilled to be allowed the first shot, sneaking upwards deploying all {PRONOUN/app1/poss} climbing skills as {PRONOUN/app1/subject} carefully {VERB/app1/fish/fishes} fragile eggs out of stick piles, trying not to drool over the shells.",
+                "text": "As they walk, p_l passes on tips and tricks for nest raiding. app1 is far too busy to speak, eyes fixed on the trees. The rusasis is thrilled to be allowed the first shot, sneaking upwards deploying all {PRONOUN/app1/poss} climbing skills as {PRONOUN/app1/subject} carefully {VERB/app1/fish/fishes} fragile eggs out of stick piles, trying not to drool over the shells.",
                 "exp": 30,
                 "weight": 20,
                 "prey": ["medium"],
@@ -3902,7 +3902,7 @@
                 ]
             },
             {
-                "text": "p_l spots a great hole in the trunk of an oak, and together the hunting patrol shimmy up into the branches, p_l jokingly teasing when app1 accidentally breaks one of the eight big eggs inside. p_l tells the apprentice that with this many big eggs, the nest they're raiding is probably that of a bird of prey, always good to have less of in c_n's territory. They even bring back some oak leaves with them, though it's a real struggle holding them with the eggs!",
+                "text": "p_l spots a great hole in the trunk of an oak, and together the hunting patrol shimmy up into the branches, p_l jokingly teasing when app1 accidentally breaks one of the eight big eggs inside. p_l tells the rusasi that with this many big eggs, the nest they're raiding is probably that of a bird of prey, always good to have less of in c_n's territory. They even bring back some oak leaves with them, though it's a real struggle holding them with the eggs!",
                 "exp": 30,
                 "weight": 5,
                 "herbs": ["oak_leaves"],
@@ -3918,7 +3918,7 @@
                 ]
             },
             {
-                "text": "s_c has a great eye for spotting nests, but {PRONOUN/s_c/subject} {VERB/s_c/stay/stays} back, remembering the thrill (and also relative safety) of nest raiding as an apprentice. app1 gets all the credit for {PRONOUN/app1/poss} climbing skills, and s_c is more than content to stay in the background and listen to the proud excited stories {PRONOUN/s_c/subject} {VERB/s_c/hear/hears} app1 telling {PRONOUN/app1/poss} friends back at camp.",
+                "text": "s_c has a great eye for spotting nests, but {PRONOUN/s_c/subject} {VERB/s_c/stay/stays} back, remembering the thrill (and also relative safety) of nest raiding as an rusasi. app1 gets all the credit for {PRONOUN/app1/poss} climbing skills, and s_c is more than content to stay in the background and listen to the proud excited stories {PRONOUN/s_c/subject} {VERB/s_c/hear/hears} app1 telling {PRONOUN/app1/poss} friends back at camp.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["HUNTER,1"],
@@ -3977,7 +3977,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "app1 has ears, of course {PRONOUN/app1/subject}{VERB/app1/'ve/'s} heard the rest of c_n buzzing about the nest raiding season, and {PRONOUN/app1/subject} see no reason {PRONOUN/app1/subject} should be left out of it!",
@@ -4037,7 +4037,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c will always carry the scars from falling from the treetops while nest raiding alone as an apprentice."
+                    "scar": "m_c will always carry the scars from falling from the treetops while nest raiding alone as an rusasi."
                 }
             },
             {
@@ -4053,7 +4053,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c will always carry the scars from falling from the treetops while nest raiding alone as an apprentice."
+                    "scar": "m_c will always carry the scars from falling from the treetops while nest raiding alone as an rusasi."
                 }
             }
         ]
@@ -4068,7 +4068,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "app1 has ears, of course {PRONOUN/app1/subject}{VERB/app1/'ve/'s} heard the rest of c_n buzzing about the nest raiding season, and {PRONOUN/app1/subject} see no reason {PRONOUN/app1/subject} should be left out of it!",
@@ -4122,8 +4122,8 @@
                 "weight": 10,
                 "dead_cats": ["r_r"],
                 "history_text": {
-                    "scar": "m_c will always carry the scars from falling from the treetops while nest raiding alone as an apprentice.",
-                    "reg_death": "m_c died as an apprentice after going out nest raiding alone."
+                    "scar": "m_c will always carry the scars from falling from the treetops while nest raiding alone as an rusasi.",
+                    "reg_death": "m_c died as an rusasi after going out nest raiding alone."
                 }
             },
             {
@@ -4138,8 +4138,8 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c will always carry the scars from falling from the treetops while nest raiding alone as an apprentice.",
-                    "reg_death": "m_c died as an apprentice after going out nest raiding alone."
+                    "scar": "m_c will always carry the scars from falling from the treetops while nest raiding alone as an rusasi.",
+                    "reg_death": "m_c died as an rusasi after going out nest raiding alone."
                 }
             },
             {
@@ -4149,8 +4149,8 @@
                 "stat_trait": ["bold", "daring", "adventurous", "confident"],
                 "dead_cats": ["s_c"],
                 "history_text": {
-                    "scar": "m_c will always carry the scars from falling from the treetops while nest raiding alone as an apprentice.",
-                    "reg_death": "m_c died as an apprentice after going out nest raiding alone."
+                    "scar": "m_c will always carry the scars from falling from the treetops while nest raiding alone as an rusasi.",
+                    "reg_death": "m_c died as an rusasi after going out nest raiding alone."
                 }
             },
             {
@@ -4166,8 +4166,8 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c will always carry the scars from falling from the treetops while nest raiding alone as an apprentice.",
-                    "reg_death": "m_c died as an apprentice after going out nest raiding alone."
+                    "scar": "m_c will always carry the scars from falling from the treetops while nest raiding alone as an rusasi.",
+                    "reg_death": "m_c died as an rusasi after going out nest raiding alone."
                 }
             }
         ]

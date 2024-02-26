@@ -9,7 +9,7 @@
             "Climbed a tree to gather alder bark instead of clawing the trunk",
             "Thinks about visiting Inlé, just to explore their burrows",
             "Asks the captain to go on patrol",
-            "Begs the chief rabbit to give {PRONOUN/m_c/object} the bounciest kitten as {PRONOUN/m_c/poss} apprentice",
+            "Begs the chief rabbit to give {PRONOUN/m_c/object} the bounciest kitten as {PRONOUN/m_c/poss} rusasi",
             "Is showing the kittens herbs by taking them on adventures in the territory",
             "Helps the chief rabbit with their duties while the captain is on patrol",
             "Offers to help the queens with lendri rides for the kittens",
@@ -180,8 +180,8 @@
             "Wonders why the rabbits won't share food with {PRONOUN/m_c/object}",
             "Wishes {PRONOUN/m_c/subject} could make friends with someone",
             "Wishes the rabbits shared an interest in herbs",
-            "Wants to talk to the chief rabbit about having a new apprentice",
-            "Wishes for an apprentice, as {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} a bit lonely",
+            "Wants to talk to the chief rabbit about having a new rusasi",
+            "Wishes for an rusasi, as {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} a bit lonely",
             "Hasn't talked to any rabbits for a few days"
         ],
         "main_trait_constraint": [
@@ -339,7 +339,7 @@
         ],
         "main_status_constraint": [
             "healer",
-            "healer apprentice"
+            "healer rusasi"
         ],
         "random_living_status": [
             "Inlé"
@@ -387,12 +387,12 @@
         ]
     },
     {
-        "id": "med_rabbit_alive_apprentice",
+        "id": "med_rabbit_alive_rusasi",
         "thoughts": [
-            "Is thinking about taking on a new apprentice"
+            "Is thinking about taking on a new rusasi"
         ],
         "random_status_constraint": [
-            "apprentice",
+            "rusasi",
             "kitten"
         ]
     }     

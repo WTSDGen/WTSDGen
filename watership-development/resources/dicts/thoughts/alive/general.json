@@ -70,9 +70,10 @@
             "Is looking forward to the next gathering"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi",
+            "rusasi",
             "rabbit",
             "healer",
             "owsla",
@@ -99,7 +100,7 @@
             "Saw a pair of ithé near the warren today!"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi",
             "rabbit",
@@ -125,7 +126,7 @@
             "Is playing a prank on r_r"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi",
             "rabbit",
@@ -143,7 +144,7 @@
         ]
     },
     {
-        "id": "gen_to_alive_kitten",
+        "id": "gen_to_alive_kit",
         "thoughts": [
             "Is a bit cross with r_r",
             "Is growing fond of r_r",
@@ -156,8 +157,8 @@
             "Catches r_r climbing a bit too high"
         ],
         "main_status_constraint": [
-            "kitten",
-            "young rabbit",
+            "kit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi",
             "rabbit",
@@ -168,7 +169,7 @@
             "elder"
         ],
         "random_status_constraint": [
-            "kitten"
+            "kit"
         ],
         "random_living_status": [
             "living"
@@ -184,8 +185,8 @@
             "Saw r_r almost use the wrong herbs"
         ],
         "main_status_constraint": [
-            "kitten",
-            "young rabbit",
+            "kit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi",
             "rabbit",
@@ -216,13 +217,13 @@
             "Is proud of r_r's progress"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "rabbit",
             "captain",
             "chief rabbit"
         ],
         "random_status_constraint": [
-            "young rabbit"
+            "rusasi"
         ],
         "random_living_status": [
             "living"
@@ -236,8 +237,8 @@
             "Chats with r_r about what it's like to be a healer"
         ],
         "main_status_constraint": [
-            "kitten",
-            "young rabbit",
+            "kit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi",
             "rabbit",
@@ -264,7 +265,7 @@
             "Is hoping r_r doesn't catch {PRONOUN/m_c/object} eating owsla-feed"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi",
             "rabbit",
@@ -306,8 +307,8 @@
             "Wants to visit the elders to hear a story"
         ],
         "main_status_constraint": [
-            "kitten",
-            "young rabbit",
+            "kit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi",
             "rabbit",
@@ -349,8 +350,8 @@
             "Is grateful to r_r for {PRONOUN/m_c/poss} help"
         ],
         "main_status_constraint": [
-            "kitten",
-            "young rabbit",
+            "kit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi",
             "rabbit",
@@ -387,7 +388,7 @@
         ]
     },
     {
-        "id": "gen_to_dead_kitten",
+        "id": "gen_to_dead_kit",
         "thoughts": [
             "Is hoping r_r is well with Inlé-rah",
             "Is wishing r_r could've lived to see today",
@@ -400,14 +401,14 @@
             "any"
         ],
         "random_status_constraint": [
-            "kitten"
+            "kit"
         ],
         "random_living_status": [
             "Inlé"
         ]
     },
     {
-        "id": "gen_to_dead_med_rabbit_apprentice",
+        "id": "gen_to_dead_med_rabbit_rusasi",
         "thoughts": [
             "Is mourning the lost potential of r_r",
             "Is listening to stories about r_r",
@@ -436,7 +437,7 @@
             "any"
         ],
         "random_status_constraint": [
-            "young rabbit"
+            "rusasi"
         ],
         "random_living_status": [
             "Inlé"
@@ -549,7 +550,7 @@
             "Is thinking about their old warrenmates"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi",
             "rabbit",
@@ -567,7 +568,7 @@
             "Is wondering how the rabbits {PRONOUN/m_c/subject} helped in the past are doing"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi",
             "rabbit",
@@ -587,7 +588,7 @@
             "Is disapproving of r_r's leadership recently"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi",
             "rabbit",
@@ -611,7 +612,7 @@
             "Is thankful for the safety of the burrow"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi",
             "rabbit",
@@ -634,7 +635,7 @@
             "Is unsure of {PRONOUN/m_c/poss} warrenmates confidence in the safety of c_n"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi",
             "rabbit",
@@ -658,7 +659,7 @@
             "Is wondering how well the warren would fare a distater under r_r's leadership"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi",
             "rabbit",
@@ -709,7 +710,7 @@
             "Wants to chew on {PRONOUN/r_r/poss} old pet toys"
         ],
         "main_backstory_constraint": ["pet1", "pet2", "pet3", "pet4", "refugee3", "tragedy_survivor3", "guided1"],
-        "main_status_constraint": ["young rabbit"]
+        "main_status_constraint": ["rusasi"]
     },
     {
         "id": "gen_former_pet_young_rabbit_to_young_rabbit_",
@@ -723,8 +724,8 @@
             "Patiently answers r_r's slightly rude questions about pet life"
         ],
         "main_backstory_constraint": ["pet1", "pet2", "pet3", "pet4", "refugee3", "tragedy_survivor3", "guided1"],
-        "main_status_constraint": ["young rabbit"],
-        "random_status_constraint": ["young rabbit"],
+        "main_status_constraint": ["rusasi"],
+        "random_status_constraint": ["rusasi"],
         "random_backstory_constraint": ["warrenborn"]
     },
     {
@@ -768,10 +769,10 @@
             "chief rabbit"]
     },
     {
-        "id": "med_rabbit_alive_kitten",
+        "id": "med_rabbit_alive_kit",
         "thoughts": [
-            "Is teaching kittens about what plants to stay away from",
-            "Chased kittens out of {PRONOUN/m_c/poss} den",
+            "Is teaching kits about what plants to stay away from",
+            "Chased kits out of {PRONOUN/m_c/poss} den",
             "Is visiting the nursery for to give r_r a checkup"
         ],
         "main_status_constraint": [
@@ -779,7 +780,7 @@
             "healer rusasi"
         ],  
         "random_status_constraint": [
-            "kitten"
+            "kit"
         ]
     },
     {
@@ -804,7 +805,7 @@
             "Is dreaming of someday making {PRONOUN/m_c/poss} warren proud",
             "Is thinking about the time {PRONOUN/m_c/subject} met a hare",
             "Is helping to reinforce the burrow wall with stones",
-            "Is daydreaming about having a mate and kittens someday",
+            "Is daydreaming about having a mate and kits someday",
             "Had quite the adventure today",
             "Has been working very hard recently",
             "Had a very strange dream",
@@ -816,7 +817,7 @@
             "Dug up THE BIGGEST turnip EVER, like, seriously!"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ]
@@ -827,7 +828,7 @@
             "Is playing a prank on r_r"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi"
         ],
@@ -851,7 +852,7 @@
             "Takes a nap while {PRONOUN/m_c/poss} rusasirah is busy"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -865,7 +866,7 @@
             "Is in awe of r_r's fighting skills"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi"
         ],
@@ -884,7 +885,7 @@
             "Is paying extra attention to r_r's announcements"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi"
         ],
@@ -901,7 +902,7 @@
             "Is at the healing den after a small injury"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi"
         ],
         "random_status_constraint": [
@@ -915,7 +916,7 @@
             "Is speaking with r_r about what being a healer rusasi is like"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi"
         ],
         "random_status_constraint": [
@@ -926,24 +927,24 @@
         ]
     },
     {
-        "id": "young_rabbit_alive_kittens",
+        "id": "young_rabbit_alive_kits",
         "thoughts": [
-            "Is awkwardly deflecting kittens' questions about where kittens come from",
-            "Was put on kitten-sitting duty",
-            "Is showing off to the kittens",
-            "Is telling off kittens for being immature",
-            "Is rambling on to kittens about the importance of respecting their elders",
+            "Is awkwardly deflecting kits' questions about where kits come from",
+            "Was put on kit-sitting duty",
+            "Is showing off to the kits",
+            "Is telling off kits for being immature",
+            "Is rambling on to kits about the importance of respecting their elders",
             "Makes fun of r_r for not being big yet",
             "Is playfighting with r_r",
             "Teaches r_r a cool new trick that {PRONOUN/m_c/subject} learned"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi"
         ],
         "random_status_constraint": [
-            "kitten"
+            "kit"
         ],
         "random_living_status": [
             "living"
@@ -956,7 +957,7 @@
             "Is wondering who helps r_r with {PRONOUN/r_r/poss} ticks now"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi"
         ],
@@ -973,7 +974,7 @@
             "Is wondering if r_r approves of {PRONOUN/m_c/object}"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi"
         ],
@@ -991,7 +992,7 @@
             "Remembers how r_r healed {PRONOUN/m_c/object}"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi"
         ],
         "random_status_constraint": [
@@ -1008,12 +1009,12 @@
             "Is wondering if r_r would have been {PRONOUN/m_c/poss} friend"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
         "random_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi"
         ],
@@ -1028,7 +1029,7 @@
         ]
     },
     {
-        "id": "owsla_rusasi_to_dead_Inlé_kittens",
+        "id": "owsla_rusasi_to_dead_Inlé_kits",
         "thoughts": [
             "Remembers fondly when r_r would beg to be taught a new fighting move",
             "Goes to teach r_r a new move {PRONOUN/m_c/subject} learned, but remembered r_r is with Frith now",
@@ -1038,31 +1039,31 @@
             "owsla rusasi"
         ],
         "random_status_constraint": [
-            "kitten"
+            "kit"
         ],
         "random_living_status": [
             "Inlé"
         ]
     },
     {
-        "id": "young_rabbit_to_dead_Inlé_kittens",
+        "id": "young_rabbit_to_dead_Inlé_kits",
         "thoughts": [
             "Wonders if one of the stars in the sky is r_r",
             "Is tearing up after finding r_r's old mossball",
-            "Hopes that somehow, someway, the kittens in Inlé are learning about their warren",
-            "Wonders if the kittens get mossballs in Inlé",
-            "Hopes that the kittens in Inlé get time to play games",
-            "Looks up at the night sky, and wonders which stars are long-gone kittens",
-            "Thought {PRONOUN/m_c/subject} saw a stray kitten infront of the nursery, but it vanished",
+            "Hopes that somehow, someway, the kits in Inlé are learning about their warren",
+            "Wonders if the kits get mossballs in Inlé",
+            "Hopes that the kits in Inlé get time to play games",
+            "Looks up at the night sky, and wonders which stars are long-gone kits",
+            "Thought {PRONOUN/m_c/subject} saw a stray kit infront of the nursery, but it vanished",
             "Walks in the nursery, hoping to see r_r again, but then realizes that r_r isn't coming back"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
         "random_status_constraint": [
-            "kitten"
+            "kit"
         ],
         "random_living_status": [
             "Inlé"
@@ -1078,7 +1079,7 @@
             "Is trying to memorize the story of El-ahrairah"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1091,7 +1092,7 @@
             "Is rolling {PRONOUN/m_c/poss} eyes at {PRONOUN/m_c/poss} rusasirah's teachings"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1103,33 +1104,33 @@
     {
         "id": "gen_formerly_a_rogue_young_rabbit_to_young_rabbit",
         "thoughts": [
-            "Boasts to the other young rabbits about how {PRONOUN/m_c/subject} didn't need anyone before",
+            "Boasts to the other rusasis about how {PRONOUN/m_c/subject} didn't need anyone before",
             "Offers to show r_r the ways of a hlessi",
             "Doesn't understand why r_r brings {PRONOUN/r_r/poss} food to the older rabbits before eating",
             "Finds it hard to befriend {PRONOUN/m_c/poss} new denmates",
-            "Slightly embellishes a story about {PRONOUN/m_c/poss} rogue days to other young rabbits",
+            "Slightly embellishes a story about {PRONOUN/m_c/poss} rogue days to other rusasis",
             "Is ignoring the gossip about {PRONOUN/m_c/poss} past"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
         "main_backstory_constraint": ["rogue1", "rogue2", "rogue3", "refugee4", "tragedy_survivor2", "guided2"],
         "random_status_constraint": [
-            "young rabbit"
+            "rusasi"
         ]
     },
     {
         "id": "troublesome_young_rabbit",
         "thoughts": [
             "Is ignoring {PRONOUN/m_c/poss} rusasirah's orders",
-            "Is making other young rabbits laugh",
+            "Is making other rusasis laugh",
             "Is talking back to {PRONOUN/m_c/poss} rusasirah",
             "Is mocking another rabbit"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1144,7 +1145,7 @@
             "Is still glaring at r_r after {PRONOUN/r_r/subject} teased {PRONOUN/m_c/object} yesterday"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1155,17 +1156,17 @@
             "living"
         ],
         "random_status_constraint":[
-            "young rabbit"
+            "rusasi"
         ]
     },
     {
         "id": "wise_young_rabbit",
         "thoughts": [
             "Is giving somber advice to a fellow rabbit",
-            "Was sought out by another young rabbit for {PRONOUN/m_c/poss} wisdom"
+            "Was sought out by another rusasi for {PRONOUN/m_c/poss} wisdom"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1179,7 +1180,7 @@
             "Was found napping in the owsla's den!"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1195,7 +1196,7 @@
             
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1211,7 +1212,7 @@
             "Asks {PRONOUN/m_c/poss} rusasirah why snakes don't have legs"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1226,7 +1227,7 @@
  
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1242,7 +1243,7 @@
 
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1257,7 +1258,7 @@
             "Is asking {PRONOUN/m_c/poss} rusasirah what {PRONOUN/m_c/subject} can do to be helpful around the burrow today"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1271,7 +1272,7 @@
             "Considering signing for the owsla"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1283,11 +1284,11 @@
         "id": "lonesome_young_rabbit",
         "thoughts": [
             "Doesn't think that {PRONOUN/m_c/subject} {VERB/m_c/have/has} been performing up to {PRONOUN/m_c/poss} rusasirah's standards lately",
-            "Is feeling cramped in the young rabbit's den",
+            "Is feeling cramped in the rusasi's den",
             "Managed to perform a difficult task on {PRONOUN/m_c/poss} own"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1298,10 +1299,10 @@
     {
         "id": "loving_young_rabbit_to_young_rabbit",
         "thoughts": [
-            "Is listening to another young rabbit's troubles sympathetically"
+            "Is listening to another rusasi's troubles sympathetically"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1309,7 +1310,7 @@
             "loving"
         ],
         "random_status_constraint":[
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi"
         ]
@@ -1321,7 +1322,7 @@
             "Proclaimed {PRONOUN/m_c/poss} unwavering loyalty to {PRONOUN/m_c/poss} chief rabbit"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1338,7 +1339,7 @@
             "Was startled by a squirrel while training"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1349,12 +1350,12 @@
     {
         "id": "bold_young_rabbits",
         "thoughts": [
-            "Winked cheekily at another young rabbit",
+            "Winked cheekily at another rusasi",
             "Is criticizing {PRONOUN/m_c/poss} rusasirah",
             "Tells the chief rabbit they're doing something wrong"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1368,12 +1369,12 @@
             "Helps r_r work through a personal issue"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
         "random_status_constraint":[
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi"
         ],
@@ -1384,17 +1385,17 @@
     {
         "id": "charismatic_young_rabbits",
         "thoughts": [
-            "Winked playfully at another young rabbit from across the clearing!",
+            "Winked playfully at another rusasi from across the clearing!",
             "Is this moon's heartthrob to the other rabbits",
             "Has recently given a wonderful speech to fellow rabbits, boosting morale"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
         "random_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1405,15 +1406,15 @@
     {
         "id": "childish_young_rabbit_to_young_rabbit",
         "thoughts": [
-            "Managed to convince another young rabbit to play mossball"
+            "Managed to convince another rusasi to play mossball"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
         "random_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1427,7 +1428,7 @@
             "Doesn't react when {PRONOUN/m_c/poss} rusasirah praises {PRONOUN/m_c/object}"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi"
         ],
         "main_trait_constraint": [
@@ -1443,12 +1444,12 @@
             "Is doing extra tasks around camp, to help lighten the load"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
         "random_status_constraint": [
-            "young rabbit"
+            "rusasi"
         ],
         "main_trait_constraint": [
             "compassionate"
@@ -1460,7 +1461,7 @@
             "Was chastised yesterday for sticking {PRONOUN/m_c/poss} head in an unknown burrow"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1474,7 +1475,7 @@
             "Has faith that Frith is leading {PRONOUN/m_c/object} on the right path"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1493,7 +1494,7 @@
             "Is unsure that this is what {PRONOUN/m_c/subject} {VERB/m_c/want/wants} to do"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1517,11 +1518,11 @@
     {
         "id": "adventurous_young_rabbits",
         "thoughts": [
-            "Is trying to recruit other young rabbits for a quick adventure",
+            "Is trying to recruit other rusasis for a quick adventure",
             "Sneaks off to the farmlands to explore"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi"
         ],
         "main_trait_constraint": [
@@ -1535,7 +1536,7 @@
             "Tries to put on a brave face for {PRONOUN/m_c/poss} fellow rabbits"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1546,10 +1547,10 @@
     {
         "id": "bloodthirsty_young_rabbits",
         "thoughts": [
-            "Starts a fight with another young rabbit"
+            "Starts a fight with another rusasi"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],
@@ -1578,10 +1579,10 @@
         ]
     },
     {
-        "id": "paralyzed_gen_to_alive_kitten",
+        "id": "paralyzed_gen_to_alive_kit",
         "thoughts": [
-            "Is spinning an epic tale to the kittens about how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} legs",
-            "Couldn't escape in time before kittens piled on {PRONOUN/m_c/object}!",
+            "Is spinning an epic tale to the kits about how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} legs",
+            "Couldn't escape in time before kits piled on {PRONOUN/m_c/object}!",
             "Takes r_r for a lendri ride around camp"
         ],
         "perm_conditions": {
@@ -1591,7 +1592,7 @@
         },
         "random_age_constraint": [
             "newborn",
-            "kitten"
+            "kit"
         ]
     },
     {
@@ -1605,7 +1606,7 @@
             ]
         },
         "random_age_constraint": [
-            "kitten",
+            "kit",
             "adolescent"
         ]
     },
@@ -1627,7 +1628,7 @@
         ]
     },
     {
-        "id": "paralyzed_adolescent_to_alive_kitten",
+        "id": "paralyzed_adolescent_to_alive_kit",
         "thoughts": [
             "Is letting r_r climb on {PRONOUN/m_c/poss} back"
         ],
@@ -1641,7 +1642,7 @@
         ],
         "random_age_constraint": [
             "newborn",
-            "kitten"
+            "kit"
         ]
     },
     {
@@ -1658,7 +1659,7 @@
             "adolescent"
         ],
         "random_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi"
         ]
@@ -1709,7 +1710,7 @@
     {
         "id": "blind_adolescent_to_alive_young_rabbit",
         "thoughts": [
-            "Brags to the young rabbits that {PRONOUN/m_c/subject} can hear the best"
+            "Brags to the rusasis that {PRONOUN/m_c/subject} can hear the best"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1720,7 +1721,7 @@
             "adolescent"
         ],
         "random_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi"
         ]
@@ -1742,11 +1743,11 @@
         ]
     },
     {
-        "id": "one_bad_eye_gen_to_alive_kitten",
+        "id": "one_bad_eye_gen_to_alive_kit",
         "thoughts": [
-            "Tells the kittens tall tales about how {PRONOUN/m_c/subject} became half-blind",
+            "Tells the kits tall tales about how {PRONOUN/m_c/subject} became half-blind",
             "Trips over r_r!",
-            "Laughs at a kitten who offered {PRONOUN/m_c/object} help to find {PRONOUN/m_c/poss} lost eye"
+            "Laughs at a kit who offered {PRONOUN/m_c/object} help to find {PRONOUN/m_c/poss} lost eye"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1754,7 +1755,7 @@
             ]
         },
         "random_age_constraint": [
-            "kitten"
+            "kit"
         ]
     },
     {
@@ -1790,15 +1791,15 @@
             "adolescent"
         ],
         "random_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi"
         ]
     },
     {
-        "id": "one_bad_eye_adolescent_to_alive_kitten",
+        "id": "one_bad_eye_adolescent_to_alive_kit",
         "thoughts": [
-            "Thumps at a kitten for sneaking up on {PRONOUN/m_c/poss} bad side"
+            "Thumps at a kit for sneaking up on {PRONOUN/m_c/poss} bad side"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1809,7 +1810,7 @@
             "adolescent"
         ],
         "random_age_constraint": [
-            "kitten"
+            "kit"
         ]
     },
     {
@@ -1859,9 +1860,9 @@
         ]
     },
     {
-        "id": "deaf_adolescent_to_alive_kitten",
+        "id": "deaf_adolescent_to_alive_kit",
         "thoughts": [
-            "Teaches ear signals to the kittens"
+            "Teaches ear signals to the kits"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1872,7 +1873,7 @@
             "adolescent"
         ],
         "random_age_constraint": [
-            "kitten"
+            "kit"
         ]
     },
     {
@@ -2017,9 +2018,9 @@
         ]
     },
     {
-        "id": "lost_leg_gen_to_alive_kitten",
+        "id": "lost_leg_gen_to_alive_kit",
         "thoughts": [
-            "Is exaggerating the tale of how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} leg to the kittens"
+            "Is exaggerating the tale of how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} leg to the kits"
         ],
         "perm_conditions": {
             "m_c": ["lost a leg"]
@@ -2033,7 +2034,7 @@
         ],
         "random_age_constraint": [
             "newborn",
-            "kitten"
+            "kit"
         ]
     },
     {
@@ -2067,9 +2068,9 @@
         ]
     },
     {
-        "id": "half_no_tail_gen_to_alive_kitten",
+        "id": "half_no_tail_gen_to_alive_kit",
         "thoughts": [
-            "Laughs when a kitten asks if their tail could fall off as well one day"
+            "Laughs when a kit asks if their tail could fall off as well one day"
         ],
         "perm_conditions": {
             "m_c": [
@@ -2079,7 +2080,7 @@
         },
         "random_age_constraint": [
             "newborn",
-            "kitten"
+            "kit"
         ]
     }
 ]

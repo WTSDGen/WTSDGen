@@ -434,7 +434,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
@@ -507,11 +507,11 @@
         },
         "weight": 20,
         "intro_text": "As your patrol is checking the border lines, they notice that a o_c_n scent has strayed into their territory.",
-        "decline_text": "p_l decides that it isn't important.  Maybe an apprentice simply lost their way.",
+        "decline_text": "p_l decides that it isn't important.  Maybe an rusasi simply lost their way.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "After poking around a bit, your patrol discovers a o_c_n apprentice wandering nearby, hopelessly lost. The apprentice is distraught upon discovering they're on the wrong side of the border and while p_l understands it was an honest mistake, they still lecture the apprentice on the importance of respecting border lines.",
+                "text": "After poking around a bit, your patrol discovers a o_c_n rusasi wandering nearby, hopelessly lost. The rusasi is distraught upon discovering they're on the wrong side of the border and while p_l understands it was an honest mistake, they still lecture the rusasi on the importance of respecting border lines.",
                 "exp": 10,
                 "weight": 20,
                 "other_warren_rep": 2
@@ -545,7 +545,7 @@
                 "other_warren_rep": -1
             },
             {
-                "text": "s_c can't contain {PRONOUN/s_c/poss} annoyance at the trespass and when your patrol finds a lost o_c_n apprentice to be the source of the scent, s_c reprimands them heavily. The apprentice is nearly in tears when s_c finally lets them go and the patrol leads them back to the border line, tension thick in the air.",
+                "text": "s_c can't contain {PRONOUN/s_c/poss} annoyance at the trespass and when your patrol finds a lost o_c_n rusasi to be the source of the scent, s_c reprimands them heavily. The rusasi is nearly in tears when s_c finally lets them go and the patrol leads them back to the border line, tension thick in the air.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["bloodthirsty", "cold", "fierce", "strict", "vengeful"],
@@ -613,11 +613,11 @@
         },
         "weight": 20,
         "intro_text": "As p_l is checking the border lines, they notice that a o_c_n scent has strayed into their territory.",
-        "decline_text": "p_l decides that it isn't important. Maybe an apprentice simply lost their way.",
+        "decline_text": "p_l decides that it isn't important. Maybe an rusasi simply lost their way.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "After poking around a bit, p_l discovers a o_c_n apprentice wandering nearby, hopelessly lost. The apprentice is distraught upon discovered they're on the wrong side of the border and while p_l understands that it was an honest mistake, they still give the apprentice a firm lecture on the importance of respecting border lines.",
+                "text": "After poking around a bit, p_l discovers a o_c_n rusasi wandering nearby, hopelessly lost. The rusasi is distraught upon discovered they're on the wrong side of the border and while p_l understands that it was an honest mistake, they still give the rusasi a firm lecture on the importance of respecting border lines.",
                 "exp": 10,
                 "weight": 20,
                 "other_warren_rep": 2
@@ -644,7 +644,7 @@
                 "other_warren_rep": -1
             },
             {
-                "text": "s_c can't contain {PRONOUN/s_c/poss} annoyance at the trespass and when they find a lost o_c_n apprentice to be the source of the scent, s_c reprimands them heavily. The apprentice is nearly in tears when s_c finally lets them go and grumpily leads them back to the border line, tension thick in the air.",
+                "text": "s_c can't contain {PRONOUN/s_c/poss} annoyance at the trespass and when they find a lost o_c_n rusasi to be the source of the scent, s_c reprimands them heavily. The rusasi is nearly in tears when s_c finally lets them go and grumpily leads them back to the border line, tension thick in the air.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["bloodthirsty", "cold", "fierce", "strict", "vengeful"],
@@ -708,7 +708,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "r_r heads out onto the beach alone to check on the border.",
@@ -722,7 +722,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r comes across a o_c_n apprentice on the wrong side of the border with a mouthful of prey. They see the younger rabbit off with a furious yowl, claiming the prey for c_n. Impressed by the catch but not by the antics, r_r feels a begrudging respect for o_c_n, as they return home to report this to the deputy.",
+                "text": "r_r comes across a o_c_n rusasi on the wrong side of the border with a mouthful of prey. They see the younger rabbit off with a furious yowl, claiming the prey for c_n. Impressed by the catch but not by the antics, r_r feels a begrudging respect for o_c_n, as they return home to report this to the deputy.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -735,7 +735,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young apprentice, who goes round-eyed and fluffy at encountering a real c_n rabbit! s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young rusasi, who goes round-eyed and fluffy at encountering a real c_n rabbit! s_c plays along, acting very impressed with the hard working rusasi, and the rusasi's mentor purrs gratefully.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -815,7 +815,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r comes across a o_c_n apprentice on the wrong side of the border with a mouthful of prey. Furious, they snarl {PRONOUN/r_r/poss} anger. The young rabbit turns tail and flees, r_r hot on their tail. When they dart back across the border to hide behind their mentor, the o_c_n warrior's face goes slack with horror to see c_n's deputy.",
+                "text": "r_r comes across a o_c_n rusasi on the wrong side of the border with a mouthful of prey. Furious, they snarl {PRONOUN/r_r/poss} anger. The rusasi turns tail and flees, r_r hot on their tail. When they dart back across the border to hide behind their mentor, the o_c_n warrior's face goes slack with horror to see c_n's deputy.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -828,7 +828,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully at the c_n deputy's kindness.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young rusasi. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hard working rusasi, and the rusasi's mentor purrs gratefully at the c_n deputy's kindness.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -924,7 +924,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r comes across a o_c_n apprentice on the wrong side of the border with a mouthful of prey. Furious, they snarl their anger. The young rabbit turns tail and flees, r_r hot on their tail. When they dart back across the border to hide behind their mentor, the o_c_n warrior's tail tucks at the sight of c_n's outraged leader.",
+                "text": "r_r comes across a o_c_n rusasi on the wrong side of the border with a mouthful of prey. Furious, they snarl their anger. The rusasi turns tail and flees, r_r hot on their tail. When they dart back across the border to hide behind their mentor, the o_c_n warrior's tail tucks at the sight of c_n's outraged leader.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -937,7 +937,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they hide behind their mentor, but s_c gently coaxes them out. s_c praises the little apprentice to their mentor, who purrs gratefully at the c_n leader's kindness.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young rusasi. Their eyes go round and they hide behind their mentor, but s_c gently coaxes them out. s_c praises the little rusasi to their mentor, who purrs gratefully at the c_n leader's kindness.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1033,7 +1033,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r heads out to clarify a portion of the border that there's been confusion over recently and encounters the o_c_n deputy out doing the same thing. They commiserate over the incompetence of the apprentices on both sides that caused the issue, and walk away with greater respect for one another.",
+                "text": "r_r heads out to clarify a portion of the border that there's been confusion over recently and encounters the o_c_n deputy out doing the same thing. They commiserate over the incompetence of the rusasis on both sides that caused the issue, and walk away with greater respect for one another.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -1046,7 +1046,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. The fellow deputy greets s_c and encourages their apprentice to quiz them. s_c plays along and compliments them both on how the young rabbit's training is progressing before parting ways.",
+                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new rusasi. The fellow deputy greets s_c and encourages their rusasi to quiz them. s_c plays along and compliments them both on how the rusasi's training is progressing before parting ways.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1110,7 +1110,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r heads out to clarify a portion of the border that there's been confusion over recently and encounters the o_c_n leader out doing the same thing. They commiserate over the incompetence of the apprentices on both sides that caused the issue, and walk away with greater respect for one another.",
+                "text": "r_r heads out to clarify a portion of the border that there's been confusion over recently and encounters the o_c_n leader out doing the same thing. They commiserate over the incompetence of the rusasis on both sides that caused the issue, and walk away with greater respect for one another.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -1123,7 +1123,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. The fellow deputy greets s_c and encourages their apprentice to quiz them. s_c plays along and compliments them both on how the young rabbit's training is progressing before parting ways.",
+                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new rusasi. The fellow deputy greets s_c and encourages their rusasi to quiz them. s_c plays along and compliments them both on how the rusasi's training is progressing before parting ways.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1185,7 +1185,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r comes across a o_c_n apprentice on the wrong side of the border, and holding precious prey. They see the young rabbit off with a furious yowl, and then bring the prey back to c_n camp to report the incident to the deputy.",
+                "text": "r_r comes across a o_c_n rusasi on the wrong side of the border, and holding precious prey. They see the rusasi off with a furious yowl, and then bring the prey back to c_n camp to report the incident to the deputy.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -1198,7 +1198,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young apprentice, whose eyes go round and fur fluffs up at encountering a real c_n rabbit! s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young rusasi, whose eyes go round and fur fluffs up at encountering a real c_n rabbit! s_c plays along, acting very impressed with the hard working rusasi, and the rusasi's mentor purrs gratefully.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1264,7 +1264,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r comes across a o_c_n apprentice on the wrong side of the border, and holding precious prey. Furious, they snarl their anger. The apprentice turns tail and flees, with r_r hot on their trail, and when the apprentice crosses the border to hide behind their mentor the o_c_n warrior's face goes slack with horror to see c_n's deputy.",
+                "text": "r_r comes across a o_c_n rusasi on the wrong side of the border, and holding precious prey. Furious, they snarl their anger. The rusasi turns tail and flees, with r_r hot on their trail, and when the rusasi crosses the border to hide behind their mentor the o_c_n warrior's face goes slack with horror to see c_n's deputy.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -1277,7 +1277,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully at the c_n deputy's kindness.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young rusasi. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hard working rusasi, and the rusasi's mentor purrs gratefully at the c_n deputy's kindness.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1357,7 +1357,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r comes across a o_c_n apprentice on the wrong side of the border, and holding prey. Furious, they snarl their anger. The apprentice turns tail and flees, with r_r hot on their trail, and when the apprentice crosses the border to hide behind their mentor the o_c_n warrior's tail tucks at the sight of c_n's outraged leader.",
+                "text": "r_r comes across a o_c_n rusasi on the wrong side of the border, and holding prey. Furious, they snarl their anger. The rusasi turns tail and flees, with r_r hot on their trail, and when the rusasi crosses the border to hide behind their mentor the o_c_n warrior's tail tucks at the sight of c_n's outraged leader.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -1370,7 +1370,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they hide behind their mentor, but s_c manages to coax them out, praising the little apprentice to their mentor, who purrs gratefully at the c_n leader's kindness.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young rusasi. Their eyes go round and they hide behind their mentor, but s_c manages to coax them out, praising the little rusasi to their mentor, who purrs gratefully at the c_n leader's kindness.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1450,7 +1450,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r heads out to clarify a portion of the border that there's been confusion over recently, and encounters the deputy of o_c_n out doing the same thing. They commiserate over the incompetence of the apprentices on both sides that caused the issue, and walk away with a greater respect for one another.",
+                "text": "r_r heads out to clarify a portion of the border that there's been confusion over recently, and encounters the deputy of o_c_n out doing the same thing. They commiserate over the incompetence of the rusasis on both sides that caused the issue, and walk away with a greater respect for one another.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -1463,7 +1463,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. Their fellow deputy encourages their apprentice to quiz s_c, and s_c compliments them both on how the young rabbit's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new rusasi. Their fellow deputy encourages their rusasi to quiz s_c, and s_c compliments them both on how the rusasi's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1513,7 +1513,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r heads out to clarify a portion of the border that there's been confusion over recently, and encounters the leader of o_c_n out doing the same thing. They commiserate over the incompetence of the apprentices on both sides that caused the issue, and walk away with a greater respect for one another.",
+                "text": "r_r heads out to clarify a portion of the border that there's been confusion over recently, and encounters the leader of o_c_n out doing the same thing. They commiserate over the incompetence of the rusasis on both sides that caused the issue, and walk away with a greater respect for one another.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -1526,7 +1526,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. Their fellow leader encourages their apprentice to quiz s_c, and s_c compliments them both on how the young rabbit's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new rusasi. Their fellow leader encourages their rusasi to quiz s_c, and s_c compliments them both on how the rusasi's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1562,7 +1562,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "r_r heads out into the forest alone, wanting to make a quick check on the border.",
@@ -1576,7 +1576,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young rabbit off with a furious yowl, and then bring the prey back to c_n camp to report the incident to the deputy.",
+                "text": "r_r comes across a o_c_n rusasi on the wrong side of the border, and holding prey. They see the rusasi off with a furious yowl, and then bring the prey back to c_n camp to report the incident to the deputy.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["small"],
@@ -1590,7 +1590,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young apprentice, whose eyes go round and fur fluffs up at encountering a real c_n rabbit! s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young rusasi, whose eyes go round and fur fluffs up at encountering a real c_n rabbit! s_c plays along, acting very impressed with the hard working rusasi, and the rusasi's mentor purrs gratefully.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1673,7 +1673,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r comes across a o_c_n apprentice on the wrong side of the border, and holding prey. Furious, they snarl their anger. The apprentice turns tail and flees, with r_r hot on their trail, and when the apprentice crosses the border to hide behind their mentor the o_c_n warrior's face goes slack with horror to see c_n's deputy.",
+                "text": "r_r comes across a o_c_n rusasi on the wrong side of the border, and holding prey. Furious, they snarl their anger. The rusasi turns tail and flees, with r_r hot on their trail, and when the rusasi crosses the border to hide behind their mentor the o_c_n warrior's face goes slack with horror to see c_n's deputy.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -1686,7 +1686,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully at the c_n deputy's kindness.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young rusasi. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hard working rusasi, and the rusasi's mentor purrs gratefully at the c_n deputy's kindness.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1782,7 +1782,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r comes across a o_c_n apprentice on the wrong side of the border, and holding prey. Furious, they snarl their anger. The apprentice turns tail and flees, with r_r hot on their trail, and when the apprentice crosses the border to hide behind their mentor the o_c_n warrior's tail tucks at the sight of c_n's outraged leader.",
+                "text": "r_r comes across a o_c_n rusasi on the wrong side of the border, and holding prey. Furious, they snarl their anger. The rusasi turns tail and flees, with r_r hot on their trail, and when the rusasi crosses the border to hide behind their mentor the o_c_n warrior's tail tucks at the sight of c_n's outraged leader.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -1795,7 +1795,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they hide behind their mentor, but s_c manages to coax them out, praising the little apprentice to their mentor, who purrs gratefully at the c_n leader's kindness.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young rusasi. Their eyes go round and they hide behind their mentor, but s_c manages to coax them out, praising the little rusasi to their mentor, who purrs gratefully at the c_n leader's kindness.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1891,7 +1891,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r heads out to clarify a portion of the border that there's been confusion over recently, and encounters the deputy of o_c_n out doing the same thing. They commiserate over the incompetence of the apprentices on both sides that caused the issue, and walk away with a greater respect for one another.",
+                "text": "r_r heads out to clarify a portion of the border that there's been confusion over recently, and encounters the deputy of o_c_n out doing the same thing. They commiserate over the incompetence of the rusasis on both sides that caused the issue, and walk away with a greater respect for one another.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -1904,7 +1904,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. Their fellow deputy encourages their apprentice to quiz s_c, and s_c compliments them both on how the young rabbit's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new rusasi. Their fellow deputy encourages their rusasi to quiz s_c, and s_c compliments them both on how the rusasi's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1968,7 +1968,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r heads out to clarify a portion of the border that there's been confusion over recently, and encounters the leader of o_c_n out doing the same thing. They commiserate over the incompetence of the apprentices on both sides that caused the issue, and walk away with a greater respect for one another.",
+                "text": "r_r heads out to clarify a portion of the border that there's been confusion over recently, and encounters the leader of o_c_n out doing the same thing. They commiserate over the incompetence of the rusasis on both sides that caused the issue, and walk away with a greater respect for one another.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -1981,7 +1981,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. Their fellow leader encourages their apprentice to quiz s_c, and s_c compliments them both on how the young rabbit's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new rusasi. Their fellow leader encourages their rusasi to quiz s_c, and s_c compliments them both on how the rusasi's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2045,7 +2045,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r comes across a o_c_n apprentice on the wrong side of the border, and holding prey. The young rabbit seems distraught when they realize their mistake and apologizes profusely. r_r escorts them back to the o_c_n camp and explains the situation to their deputy, who thanks them for their restraint.",
+                "text": "r_r comes across a o_c_n rusasi on the wrong side of the border, and holding prey. The rusasi seems distraught when they realize their mistake and apologizes profusely. r_r escorts them back to the o_c_n camp and explains the situation to their deputy, who thanks them for their restraint.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -2058,7 +2058,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young apprentice, whose eyes go round and fur fluffs up at encountering a real c_n rabbit! s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young rusasi, whose eyes go round and fur fluffs up at encountering a real c_n rabbit! s_c plays along, acting very impressed with the hard working rusasi, and the rusasi's mentor purrs gratefully.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2083,7 +2083,7 @@
                 "other_warren_rep": -1
             },
             {
-                "text": "r_r comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young rabbit off with a furious yowl, and then bring the prey back to c_n camp to report the incident to the deputy.",
+                "text": "r_r comes across a o_c_n rusasi on the wrong side of the border, and holding prey. They see the rusasi off with a furious yowl, and then bring the prey back to c_n camp to report the incident to the deputy.",
                 "exp": 0,
                 "weight": 5,
                 "other_warren_rep": -1
@@ -2144,7 +2144,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r comes across a o_c_n apprentice on the wrong side of the border, and holding prey. Furious, they snarl their anger. The apprentice turns tail and flees, with r_r hot on their trail, and when the apprentice crosses the border to hide behind their mentor the o_c_n warrior's face goes slack with horror to see c_n's deputy.",
+                "text": "r_r comes across a o_c_n rusasi on the wrong side of the border, and holding prey. Furious, they snarl their anger. The rusasi turns tail and flees, with r_r hot on their trail, and when the rusasi crosses the border to hide behind their mentor the o_c_n warrior's face goes slack with horror to see c_n's deputy.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -2157,7 +2157,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully at the c_n deputy's kindness.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young rusasi. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hard working rusasi, and the rusasi's mentor purrs gratefully at the c_n deputy's kindness.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2237,7 +2237,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r comes across an o_c_n apprentice on the wrong side of the border, holding prey. Calmly, they tell the apprentice they're on the wrong side of the territory and lead them back to their mentor and rightful side, where the apprentice scampers and is scolded by the o_c_n warrior.",
+                "text": "r_r comes across an o_c_n rusasi on the wrong side of the border, holding prey. Calmly, they tell the rusasi they're on the wrong side of the territory and lead them back to their mentor and rightful side, where the rusasi scampers and is scolded by the o_c_n warrior.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -2250,7 +2250,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they hide behind their mentor, but s_c manages to coax them out, praising the little apprentice to their mentor, who purrs gratefully at the c_n leader's kindness.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young rusasi. Their eyes go round and they hide behind their mentor, but s_c manages to coax them out, praising the little rusasi to their mentor, who purrs gratefully at the c_n leader's kindness.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2330,7 +2330,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r heads out to clarify a portion of the border that there's been confusion over recently, and encounters the deputy of o_c_n out doing the same thing. They commiserate over the incompetence of the apprentices on both sides that caused the issue, and walk away with a greater respect for one another.",
+                "text": "r_r heads out to clarify a portion of the border that there's been confusion over recently, and encounters the deputy of o_c_n out doing the same thing. They commiserate over the incompetence of the rusasis on both sides that caused the issue, and walk away with a greater respect for one another.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -2343,7 +2343,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. Their fellow deputy encourages their apprentice to quiz s_c, and s_c compliments them both on how the young rabbit's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new rusasi. Their fellow deputy encourages their rusasi to quiz s_c, and s_c compliments them both on how the rusasi's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2393,7 +2393,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r heads out to clarify a portion of the border that there's been confusion over recently, and encounters the leader of o_c_n out doing the same thing. They commiserate over the incompetence of the apprentices on both sides that caused the issue, and walk away with a greater respect for one another.",
+                "text": "r_r heads out to clarify a portion of the border that there's been confusion over recently, and encounters the leader of o_c_n out doing the same thing. They commiserate over the incompetence of the rusasis on both sides that caused the issue, and walk away with a greater respect for one another.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -2406,7 +2406,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. Their fellow leader encourages their apprentice to quiz s_c, and s_c compliments them both on how the young rabbit's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new rusasi. Their fellow leader encourages their rusasi to quiz s_c, and s_c compliments them both on how the rusasi's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2453,7 +2453,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r comes across a o_c_n apprentice on the wrong side of the border, and holding prey. They see the young rabbit off with a furious yowl, and then bring the prey back to c_n camp to report the incident to the deputy.",
+                "text": "r_r comes across a o_c_n rusasi on the wrong side of the border, and holding prey. They see the rusasi off with a furious yowl, and then bring the prey back to c_n camp to report the incident to the deputy.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -2466,7 +2466,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young apprentice, whose eyes go round and fur fluffs up at encountering a real c_n rabbit! s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol. It even includes a young rusasi, whose eyes go round and fur fluffs up at encountering a real c_n rabbit! s_c plays along, acting very impressed with the hard working rusasi, and the rusasi's mentor purrs gratefully.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2546,7 +2546,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r comes across a o_c_n apprentice on the wrong side of the border, and holding prey. Furious, they snarl their anger. The apprentice turns tail and flees, with r_r hot on their trail, and when the apprentice crosses the border to hide behind their mentor the o_c_n warrior's face goes slack with horror to see c_n's deputy.",
+                "text": "r_r comes across a o_c_n rusasi on the wrong side of the border, and holding prey. Furious, they snarl their anger. The rusasi turns tail and flees, with r_r hot on their trail, and when the rusasi crosses the border to hide behind their mentor the o_c_n warrior's face goes slack with horror to see c_n's deputy.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -2559,7 +2559,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hard working apprentice, and the apprentice's mentor purrs gratefully at the c_n deputy's kindness.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young rusasi. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hard working rusasi, and the rusasi's mentor purrs gratefully at the c_n deputy's kindness.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2655,7 +2655,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r comes across a o_c_n apprentice on the wrong side of the border, and holding prey. Furious, they snarl their anger. The apprentice turns tail and flees, with r_r hot on their trail, and when the apprentice crosses the border to hide behind their mentor the o_c_n warrior's tail tucks at the sight of c_n's outraged leader.",
+                "text": "r_r comes across a o_c_n rusasi on the wrong side of the border, and holding prey. Furious, they snarl their anger. The rusasi turns tail and flees, with r_r hot on their trail, and when the rusasi crosses the border to hide behind their mentor the o_c_n warrior's tail tucks at the sight of c_n's outraged leader.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -2668,7 +2668,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they hide behind their mentor, but s_c manages to coax them out, praising the little apprentice to their mentor, who purrs gratefully at the c_n leader's kindness.",
+                "text": "As s_c marks the border, they encounter a o_c_n border patrol, which includes a young rusasi. Their eyes go round and they hide behind their mentor, but s_c manages to coax them out, praising the little rusasi to their mentor, who purrs gratefully at the c_n leader's kindness.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2764,7 +2764,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r heads out to clarify a portion of the border that there's been confusion over recently, and encounters the deputy of o_c_n out doing the same thing. They commiserate over the incompetence of the apprentices on both sides that caused the issue, and walk away with a greater respect for one another.",
+                "text": "r_r heads out to clarify a portion of the border that there's been confusion over recently, and encounters the deputy of o_c_n out doing the same thing. They commiserate over the incompetence of the rusasis on both sides that caused the issue, and walk away with a greater respect for one another.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -2777,7 +2777,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new apprentice. Their fellow deputy encourages their apprentice to quiz s_c, and s_c compliments them both on how the young rabbit's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n deputy out with their new rusasi. Their fellow deputy encourages their rusasi to quiz s_c, and s_c compliments them both on how the rusasi's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2841,7 +2841,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "r_r heads out to clarify a portion of the border that there's been confusion over recently, and encounters the leader of o_c_n out doing the same thing. They commiserate over the incompetence of the apprentices on both sides that caused the issue, and walk away with a greater respect for one another.",
+                "text": "r_r heads out to clarify a portion of the border that there's been confusion over recently, and encounters the leader of o_c_n out doing the same thing. They commiserate over the incompetence of the rusasis on both sides that caused the issue, and walk away with a greater respect for one another.",
                 "exp": 20,
                 "weight": 5,
                 "other_warren_rep": 2
@@ -2854,7 +2854,7 @@
                 "other_warren_rep": 2
             },
             {
-                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new apprentice. Their fellow leader encourages their apprentice to quiz s_c, and s_c compliments them both on how the young rabbit's training is progressing.",
+                "text": "As s_c marks the border, they encounter the o_c_n leader out with their new rusasi. Their fellow leader encourages their rusasi to quiz s_c, and s_c compliments them both on how the rusasi's training is progressing.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [

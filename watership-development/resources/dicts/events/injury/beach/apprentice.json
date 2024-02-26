@@ -73,7 +73,7 @@
             "Autumn",
             "Winter"
         ],
-        "event_text": "m_c's paw pads aren't used to all the salt water {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} been traipsing around in since becoming an apprentice, they've become cracked and sore.",
+        "event_text": "m_c's paw pads aren't used to all the salt water {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} been traipsing around in since becoming an rusasi, they've become cracked and sore.",
         "rabbit_trait": null,
         "rabbit_skill": null,
         "other_rabbit_trait": null,
@@ -85,7 +85,7 @@
         "tags": [
             "Winter"
         ],
-        "event_text": "m_c was dashing around the apprentice rock, when {PRONOUN/m_c/subject} slipped and fell into the high tide waters of the cave. {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} alright, though a bit bruised and embarrassed.",
+        "event_text": "m_c was dashing around the rusasi rock, when {PRONOUN/m_c/subject} slipped and fell into the high tide waters of the cave. {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} alright, though a bit bruised and embarrassed.",
         "rabbit_trait": [
             "adventurous",
             "bold",

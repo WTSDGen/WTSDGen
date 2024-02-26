@@ -44,7 +44,7 @@
         ]
     },
     {
-        "id": "chief_rabbit_alive_apprentices",
+        "id": "chief_rabbit_alive_rusasis",
         "thoughts": [
             "Is assessing some trainees",
             "Is satisfied that r_r is doing well in {PRONOUN/r_r/poss} training",
@@ -54,7 +54,7 @@
             "Is asking r_r if {PRONOUN/r_r/subject} {VERB/r_r/are/is} ready for an assessment"
         ],
         "random_status_constraint": [
-            "apprentice"
+            "rusasi"
         ],
         "random_living_status":[
             "living"
@@ -114,7 +114,7 @@
         "thoughts": [
             "Encourages owsla to start fights on border patrols",
             "Is debating if {PRONOUN/m_c/subject} should declare a war with another warren",
-            "Is wondering if {PRONOUN/m_c/subject} could hold apprentice ceremonies at 4 moons old instead",
+            "Is wondering if {PRONOUN/m_c/subject} could hold rusasi ceremonies at 4 moons old instead",
             "Is hoping to postpone the retirement of {PRONOUN/m_c/poss} warrenmates",
             "Is asking the healers to have a stock of deathberries at {PRONOUN/m_c/poss} disposal",
             "Doesn't understand Frith's resentment towards {PRONOUN/m_c/object}",

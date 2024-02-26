@@ -9,7 +9,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -32,7 +32,7 @@
                 ]
             },
             {
-                "text": "app1 picks up the instruction quickly and the patrol is soon playing a small game of hide and seek within the grass to test the apprentice's abilities.",
+                "text": "app1 picks up the instruction quickly and the patrol is soon playing a small game of hide and seek within the grass to test the rusasi's abilities.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -104,7 +104,7 @@
                         "scars": ["LEGBITE"]
                     }
                 ],
-                "history_text": { "scar": "m_c got scarred training in the plains as an apprentice." },
+                "history_text": { "scar": "m_c got scarred training in the plains as an rusasi." },
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1062,10 +1062,10 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
-        "intro_text": "app1 heads out into the grasslands alone, but maybe an apprentice shouldn't try to do a solo patrol.",
+        "intro_text": "app1 heads out into the grasslands alone, but maybe an rusasi shouldn't try to do a solo patrol.",
         "decline_text": "app1 turns back to camp, deciding that this is a bad idea.",
         "chance_of_success": 50,
         "success_outcomes": [
@@ -1110,7 +1110,7 @@
                 "can_have_stat": ["app"]
             },
             {
-                "text": "The apprentice wanders along obliviously and slips, and tumbling right down into a well-hidden gully. Bruised and sore, app1 has to report to the healer den when they return to camp.",
+                "text": "The rusasi wanders along obliviously and slips, and tumbling right down into a well-hidden gully. Bruised and sore, app1 has to report to the healer den when they return to camp.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1120,7 +1120,7 @@
                         "scars": ["CHEEK"]
                     }
                 ],
-                "history_text": { "scar": "m_c got injured as an apprentice, exploring alone." }
+                "history_text": { "scar": "m_c got injured as an rusasi, exploring alone." }
             }
         ]
     },
@@ -1323,7 +1323,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1353,7 +1353,7 @@
                 ]
             },
             {
-                "text": "The rumble app1 feels through the ground confuses them, until p_l tells them that it's footsteps. Footsteps. Awed, the apprentice creeps forward to catch a glimpse of the bison, pelt standing on end.",
+                "text": "The rumble app1 feels through the ground confuses them, until p_l tells them that it's footsteps. Footsteps. Awed, the rusasi creeps forward to catch a glimpse of the bison, pelt standing on end.",
                 "exp": 15,
                 "weight": 5,
                 "relationships": [
@@ -1452,7 +1452,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1482,7 +1482,7 @@
                 ]
             },
             {
-                "text": "The rumble app1 feels through the ground confuses them, until p_l tells them that it's footsteps. Footsteps. Awed, the apprentice creeps forward to catch a glimpse of the bison, pelt standing on end.",
+                "text": "The rumble app1 feels through the ground confuses them, until p_l tells them that it's footsteps. Footsteps. Awed, the rusasi creeps forward to catch a glimpse of the bison, pelt standing on end.",
                 "exp": 15,
                 "weight": 5,
                 "relationships": [
@@ -1581,8 +1581,8 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1612,7 +1612,7 @@
                 ]
             },
             {
-                "text": "The rumble app1 feels through the ground confuses them, until p_l tells them that it's footsteps. Footsteps. Awed, the apprentices creep forward to catch a glimpse of the bison, app1's pelt brushing up against app2's as both their fur stands on end and they huddle together.",
+                "text": "The rumble app1 feels through the ground confuses them, until p_l tells them that it's footsteps. Footsteps. Awed, the rusasis creep forward to catch a glimpse of the bison, app1's pelt brushing up against app2's as both their fur stands on end and they huddle together.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -1711,8 +1711,8 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1742,7 +1742,7 @@
                 ]
             },
             {
-                "text": "The rumble app1 feels through the ground confuses them, until p_l tells them that it's footsteps. Footsteps. Awed, the apprentices creep forward to catch a glimpse of the bison, app1's pelt brushing up against app2's as both their fur stands on end and they huddle together.",
+                "text": "The rumble app1 feels through the ground confuses them, until p_l tells them that it's footsteps. Footsteps. Awed, the rusasis creep forward to catch a glimpse of the bison, app1's pelt brushing up against app2's as both their fur stands on end and they huddle together.",
                 "exp": 15,
                 "weight": 5,
                 "relationships": [
@@ -1841,11 +1841,11 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "On this dry morning, the patrol heads out to practice tunnel navigation. There's an old, long abandoned badger sett that's perfect for apprentices, big enough to not be claustrophobic, but with plenty of criss-crossed, overlapping tunnels.",
+        "intro_text": "On this dry morning, the patrol heads out to practice tunnel navigation. There's an old, long abandoned badger sett that's perfect for rusasis, big enough to not be claustrophobic, but with plenty of criss-crossed, overlapping tunnels.",
         "decline_text": "When they get there, the tunnels look muddier than p_l expected, and the training is called off until the cats can be sure they're safe.",
         "chance_of_success": 60,
         "success_outcomes": [
@@ -1970,11 +1970,11 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "On this dry morning, the patrol heads out to practice tunnel navigation. There's an old, long abandoned badger sett that's perfect for apprentices, big enough to not be claustrophobic, but with plenty of criss-crossed, overlapping tunnels.",
+        "intro_text": "On this dry morning, the patrol heads out to practice tunnel navigation. There's an old, long abandoned badger sett that's perfect for rusasis, big enough to not be claustrophobic, but with plenty of criss-crossed, overlapping tunnels.",
         "decline_text": "When they get there, the tunnels look muddier than p_l expected, and the training is called off until the cats can be sure they're safe.",
         "chance_of_success": 60,
         "success_outcomes": [
@@ -2099,12 +2099,12 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "On this dry morning, the patrol heads out to practice tunnel navigation. There's an old, long abandoned badger sett that's perfect for apprentices, big enough to not be claustrophobic, but with plenty of criss-crossed, overlapping tunnels.",
+        "intro_text": "On this dry morning, the patrol heads out to practice tunnel navigation. There's an old, long abandoned badger sett that's perfect for rusasis, big enough to not be claustrophobic, but with plenty of criss-crossed, overlapping tunnels.",
         "decline_text": "When they get there, the tunnels look muddier than p_l expected, and the training is called off until the cats can be sure they're safe.",
         "chance_of_success": 60,
         "success_outcomes": [
@@ -2229,12 +2229,12 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "On this dry morning, the patrol heads out to practice tunnel navigation. There's an old, long abandoned badger sett that's perfect for apprentices, big enough to not be claustrophobic but with plenty of criss-crossed overlapping tunnels.",
+        "intro_text": "On this dry morning, the patrol heads out to practice tunnel navigation. There's an old, long abandoned badger sett that's perfect for rusasis, big enough to not be claustrophobic but with plenty of criss-crossed overlapping tunnels.",
         "decline_text": "When they get there, the tunnels look muddier than p_l expected, and the training is called off until the cats can be sure they're safe.",
         "chance_of_success": 60,
         "success_outcomes": [
@@ -2281,7 +2281,7 @@
                 ]
             },
             {
-                "text": "s_c brings app1 and app2 over, pointing out all the aspects that makes this sett safe to practice in, the compacted earth, the strong walls, the dry soil - but not too dry. If the apprentices can master these signs on the safe sett, unknown tunnels out on the plains will be far safer for them to approach.",
+                "text": "s_c brings app1 and app2 over, pointing out all the aspects that makes this sett safe to practice in, the compacted earth, the strong walls, the dry soil - but not too dry. If the rusasis can master these signs on the safe sett, unknown tunnels out on the plains will be far safer for them to approach.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1"],
@@ -2359,8 +2359,8 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
         "intro_text": "On top of the grassy knoll in the endless sea of grass, app1 waits for app2, the dark night cloaking the flat plains. The tip of their tail keeps twitching in excitement.",
@@ -2382,7 +2382,7 @@
                 ]
             },
             {
-                "text": "app2 emerges from the dark, trotting up to app1 and asking why they wanted to meet there. app1 looks away with a purr, making up some nonsense about fight training that makes no sense. Instead both apprentices hang out under the stars, awkward and thrilled.",
+                "text": "app2 emerges from the dark, trotting up to app1 and asking why they wanted to meet there. app1 looks away with a purr, making up some nonsense about fight training that makes no sense. Instead both rusasis hang out under the stars, awkward and thrilled.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -2462,7 +2462,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [-1, -1],
+            "all rusasis": [-1, -1],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -2581,8 +2581,8 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
         "intro_text": "Shivering with illicit excitement, app1 gestures app2 on with their tail. They need to sneak out of camp before anyone notices them in the early morning dark.",
@@ -2590,7 +2590,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "The sun is peeking over the horizon when the apprentices arrive on the rocky outcrop at the edge of c_n territory, daringly venturing a couple steps beyond the border with wide eyes egging each other on. app1 finds a little patch of sunshine and with great ceremony offers it to app2, as they both settle down to wait. In the distance, massive, echoing, thunderous barks start to echo over the plain. The apprentices prickle at the excitement of hearing this private wild performance.",
+                "text": "The sun is peeking over the horizon when the rusasis arrive on the rocky outcrop at the edge of c_n territory, daringly venturing a couple steps beyond the border with wide eyes egging each other on. app1 finds a little patch of sunshine and with great ceremony offers it to app2, as they both settle down to wait. In the distance, massive, echoing, thunderous barks start to echo over the plain. The rusasis prickle at the excitement of hearing this private wild performance.",
                 "exp": 40,
                 "weight": 20,
                 "relationships": [
@@ -2660,7 +2660,7 @@
                 ]
             },
             {
-                "text": "As they head out to the border, app1 rushes app2 along. It's too fast in such murky lighting, an app2 hurts themselves tumbling into an unseen hole. Their little outing is called off, and both of the apprentices return home, one limping, disappointed and struggling with feelings of rejection.",
+                "text": "As they head out to the border, app1 rushes app2 along. It's too fast in such murky lighting, an app2 hurts themselves tumbling into an unseen hole. Their little outing is called off, and both of the rusasis return home, one limping, disappointed and struggling with feelings of rejection.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2692,7 +2692,7 @@
         "min_cats": 1,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "healer cats": [-1, -1],
             "normal adult": [-1, -1]
         },

@@ -53,22 +53,22 @@
 		},
 		"main_status_constraint": [
 			"elder",
-			"apprentice",
-			"warrior",
-			"owsla apprentice",
+			"rusasi",
+			"rabbit",
+			"owsla rusasi",
 			"owsla",
-			"healer apprentice",
+			"healer rusasi",
 			"healer",
 			"deputy",
 			"leader"
 		],
 		"random_status_constraint": [
 			"elder",
-			"apprentice",
-			"warrior",
-			"owsla apprentice",
+			"rusasi",
+			"rabbit",
+			"owsla rusasi",
 			"owsla",
-			"healer apprentice",
+			"healer rusasi",
 			"healer",
 			"deputy",
 			"leader"
@@ -83,14 +83,14 @@
 			"r_r was supposed to be showing m_c a cool battle move but messed up so badly it made m_c cringe."
 		],
 		"main_status_constraint": [
-			"apprentice",
-			"warrior",
+			"rusasi",
+			"rabbit",
 			"deputy",
 			"leader"
 		],
 		"random_status_constraint": [
-			"apprentice",
-			"warrior",
+			"rusasi",
+			"rabbit",
 			"deputy",
 			"leader"
 		]
@@ -104,19 +104,19 @@
 		],
 		"main_status_constraint": [
 			"elder",
-			"apprentice",
-			"warrior",
+			"rusasi",
+			"rabbit",
 			"deputy",
 			"leader",
 			"healer",
 			"owsla"
 		],
 		"random_status_constraint": [
-			"apprentice",
-			"warrior",
-			"owsla apprentice",
+			"rusasi",
+			"rabbit",
+			"owsla rusasi",
 			"owsla",
-			"healer apprentice",
+			"healer rusasi",
 			"healer",
 			"deputy",
 			"leader"

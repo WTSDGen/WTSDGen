@@ -157,7 +157,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "r_r's mentor assesses {PRONOUN/r_r/object} by sending {PRONOUN/r_r/object} on a solo hunt.",
@@ -231,7 +231,7 @@
                         "scars": ["LEFTEAR"]
                     }
                 ],
-                "history_text": { "scar": "m_c got injured as an apprentice, exploring alone." },
+                "history_text": { "scar": "m_c got injured as an rusasi, exploring alone." },
                 "prey": ["very_small"]
             }
         ]

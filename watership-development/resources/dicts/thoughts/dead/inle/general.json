@@ -263,7 +263,7 @@
             "Wants to show r_r a new skill {PRONOUN/m_c/subject} learned"
         ],
         "main_status_constraint": [
-            "apprentice",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi"
         ],
@@ -295,7 +295,7 @@
             "Hopes {PRONOUN/m_c/subject} made r_r proud"
         ],
         "main_status_constraint": [
-            "apprentice",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi"
         ],
@@ -317,7 +317,7 @@
             "mentor/app"
         ],
         "random_status_constraint": [
-            "apprentice",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi"
         ],

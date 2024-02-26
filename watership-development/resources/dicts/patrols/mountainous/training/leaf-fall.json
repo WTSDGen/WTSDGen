@@ -9,11 +9,11 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
-        "intro_text": "The apprentices emerge into a predawn world hushed and smothered in a new coating of snow! app1 and app2 tear off into the territory near camp, looking to play.",
+        "intro_text": "The rusasis emerge into a predawn world hushed and smothered in a new coating of snow! app1 and app2 tear off into the territory near camp, looking to play.",
         "decline_text": "Their mentors are already up for the day, and call them back. There'll be time to play later.",
         "chance_of_success": 70,
         "success_outcomes": [
@@ -74,7 +74,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The apprentices find a promising looking patch of fresh snow, only to find it conceals an old dirtplace trench underneath. Not only does it stink, they have to clean it up and try hid that they disturbed it, and it leaves them both irritated and stressed.",
+                "text": "The rusasis find a promising looking patch of fresh snow, only to find it conceals an old dirtplace trench underneath. Not only does it stink, they have to clean it up and try hid that they disturbed it, and it leaves them both irritated and stressed.",
                 "exp": 0,
                 "weight": 20
             },
@@ -95,7 +95,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -104,7 +104,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "app1 startles, hearing a rabbit cry out! They race over the ridge, looking for the caller, as behind them p_l nearly falls over laughing. It's a bird, they explain. The spotted towhee has fooled many a young rabbit, app1 doesn't need to feel bad, it's just something to learn from.",
+                "text": "app1 startles, hearing a rabbit cry out! They race over the ridge, looking for the caller, as behind them p_l nearly falls over laughing. It's a bird, they explain. The spotted towhee has fooled many a rusasi, app1 doesn't need to feel bad, it's just something to learn from.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [
@@ -166,7 +166,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -175,7 +175,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "app1 startles, hearing a rabbit cry out! They race over the ridge, looking for the caller, as behind them p_l nearly falls over laughing. It's a bird, they explain. The spotted towhee has fooled many a young rabbit, app1 doesn't need to feel bad, it's just something to learn from.",
+                "text": "app1 startles, hearing a rabbit cry out! They race over the ridge, looking for the caller, as behind them p_l nearly falls over laughing. It's a bird, they explain. The spotted towhee has fooled many a rusasi, app1 doesn't need to feel bad, it's just something to learn from.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [
@@ -237,8 +237,8 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -247,7 +247,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "app1 startles, hearing a rabbit cry out! app2 races over the ridge, looking for the caller, as behind them p_l nearly falls over laughing. It's a bird, they explain. The spotted towhee has fooled many a young rabbit, they don't need to feel bad, it's just something to learn from.",
+                "text": "app1 startles, hearing a rabbit cry out! app2 races over the ridge, looking for the caller, as behind them p_l nearly falls over laughing. It's a bird, they explain. The spotted towhee has fooled many a rusasi, they don't need to feel bad, it's just something to learn from.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -275,7 +275,7 @@
                 ]
             },
             {
-                "text": "On a scrub by the bog, a small towhee opens its beak and calls like a rabbit. The apprentices poke s_c for an explanation. You see, an ancient rabbit, running from wolves, begged StarClan for help. StarClan gave her voice to the bird in the tree she hid under, and while the wolves were distracted she got away, but she never managed to catch that bird and get her voice back.",
+                "text": "On a scrub by the bog, a small towhee opens its beak and calls like a rabbit. The rusasis poke s_c for an explanation. You see, an ancient rabbit, running from wolves, begged StarClan for help. StarClan gave her voice to the bird in the tree she hid under, and while the wolves were distracted she got away, but she never managed to catch that bird and get her voice back.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -309,8 +309,8 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -319,7 +319,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "app1 startles, hearing a rabbit cry out! app2 races over the ridge, looking for the caller, as behind them p_l nearly falls over laughing. It's a bird, they explain. The spotted towhee has fooled many a young rabbit, they don't need to feel bad, it's just something to learn from.",
+                "text": "app1 startles, hearing a rabbit cry out! app2 races over the ridge, looking for the caller, as behind them p_l nearly falls over laughing. It's a bird, they explain. The spotted towhee has fooled many a rusasi, they don't need to feel bad, it's just something to learn from.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [
@@ -347,7 +347,7 @@
                 ]
             },
             {
-                "text": "s_c points out the towhee sitting on a rock overlooking the bog, and it's only that warning that keeps the apprentices from startling when the bird opens its beak and calls like a rabbit. It can be difficult to track intruders around c_n's territory, p_l explains, and this is one of the reasons why. But it can also work in c_n's favor too.",
+                "text": "s_c points out the towhee sitting on a rock overlooking the bog, and it's only that warning that keeps the rusasis from startling when the bird opens its beak and calls like a rabbit. It can be difficult to track intruders around c_n's territory, p_l explains, and this is one of the reasons why. But it can also work in c_n's favor too.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1"],

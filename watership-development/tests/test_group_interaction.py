@@ -363,13 +363,13 @@ class Abbreviations(unittest.TestCase):
         random2 = Rabbit()
         random2.status = "rabbit"
         random3 = Rabbit()
-        random3.status = "medicine rabbit"
+        random3.status = "healer"
 
         interaction1 = Group_Interaction("1")
         interaction1.status_constraint = {"r_c1": ["rabbit"]}
 
         interaction2 = Group_Interaction("2")
-        interaction2.status_constraint = {"r_c1": ["medicine rabbit"]}
+        interaction2.status_constraint = {"r_c1": ["healer"]}
         
         # when
         all_interactions = [interaction1, interaction2]

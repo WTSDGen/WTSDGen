@@ -9,7 +9,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -138,7 +138,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -267,8 +267,8 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -277,7 +277,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "This close to the nest the eagles take remarkably little notice of other animals. app1 can even see sparrows nipping in and out of their own nests, tiny things woven into the eagle one. It's a great opportunity to watch the birds and learn their body language, and a parental side of them that the apprentices never expected.",
+                "text": "This close to the nest the eagles take remarkably little notice of other animals. app1 can even see sparrows nipping in and out of their own nests, tiny things woven into the eagle one. It's a great opportunity to watch the birds and learn their body language, and a parental side of them that the rusasis never expected.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -298,7 +298,7 @@
                 ]
             },
             {
-                "text": "p_l tells the apprentices to watch carefully as the parents arrive at and leave the nest - this is one of the only times a rabbit can study how an eagle flies without danger. The adults are far too focused on their brood, and their brood far too focused on squabbling, for either to notice the c_n cats.",
+                "text": "p_l tells the rusasis to watch carefully as the parents arrive at and leave the nest - this is one of the only times a rabbit can study how an eagle flies without danger. The adults are far too focused on their brood, and their brood far too focused on squabbling, for either to notice the c_n cats.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -319,7 +319,7 @@
                 ]
             },
             {
-                "text": "As they hide, watching the eagles feed their chicks, s_c tells the apprentices the story of an eagle chick that once fell from its nest and was abandoned by its parents. c_n took it in, and when it fledged over it's first winter it turned into a fierce she-rabbit whose claws could stand up to even the mightiest predator.",
+                "text": "As they hide, watching the eagles feed their chicks, s_c tells the rusasis the story of an eagle chick that once fell from its nest and was abandoned by its parents. c_n took it in, and when it fledged over it's first winter it turned into a fierce she-rabbit whose claws could stand up to even the mightiest predator.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -397,8 +397,8 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -407,7 +407,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "This close to the nest the eagles take remarkably little notice of other animals. app1 can even see sparrows nipping in and out of their own nests, tiny things woven into the eagle one. It's a great opportunity to watch the birds and learn their body language, and a parental side of them that the apprentices never expected.",
+                "text": "This close to the nest the eagles take remarkably little notice of other animals. app1 can even see sparrows nipping in and out of their own nests, tiny things woven into the eagle one. It's a great opportunity to watch the birds and learn their body language, and a parental side of them that the rusasis never expected.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [
@@ -428,7 +428,7 @@
                 ]
             },
             {
-                "text": "p_l tells the apprentices to watch carefully as the parents arrive at and leave the nest - this is one of the only times a rabbit can study how an eagle flies without danger. The adults are far too focused on their brood, and their brood far too focused on squabbling, for either to notice the c_n cats.",
+                "text": "p_l tells the rusasis to watch carefully as the parents arrive at and leave the nest - this is one of the only times a rabbit can study how an eagle flies without danger. The adults are far too focused on their brood, and their brood far too focused on squabbling, for either to notice the c_n cats.",
                 "exp": 15,
                 "weight": 5,
                 "relationships": [
@@ -527,11 +527,11 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
-        "intro_text": "The apprentices emerge into a predawn world hushed and smothered in a new coating of snow! app1 and app2 tear off into the territory near camp, looking to play.",
+        "intro_text": "The rusasis emerge into a predawn world hushed and smothered in a new coating of snow! app1 and app2 tear off into the territory near camp, looking to play.",
         "decline_text": "Their mentors are already up for the day, and call them back. There'll be time to play later.",
         "chance_of_success": 70,
         "success_outcomes": [
@@ -592,7 +592,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The apprentices find a promising looking patch of fresh snow, only to find it conceals an old dirtplace trench underneath. Not only does it stink, they have to clean it up and try hid that they disturbed it, and it leaves them both irritated and stressed.",
+                "text": "The rusasis find a promising looking patch of fresh snow, only to find it conceals an old dirtplace trench underneath. Not only does it stink, they have to clean it up and try hid that they disturbed it, and it leaves them both irritated and stressed.",
                 "exp": 0,
                 "weight": 20
             },

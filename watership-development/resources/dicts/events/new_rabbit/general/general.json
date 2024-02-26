@@ -751,7 +751,7 @@
         "reputation": [
             "hostile"
         ],
-        "event_text": "n_c, the medicine rabbit of o_c, has defected to c_n in the war.",
+        "event_text": "n_c, the healer of o_c, has defected to c_n in the war.",
         "other_warren": true,
         "backstory": [
             "medicine_rabbit",

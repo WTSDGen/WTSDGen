@@ -121,7 +121,7 @@ class Mates(unittest.TestCase):
         # then
         self.assertFalse(Romantic_Events.check_if_new_mate(rabbit1,rabbit2)[0])
 
-    def test_platonic_apprentice_mating(self):
+    def test_platonic_rusasi_mating(self):
         # given
         rabbit1 = Rabbit(moons=6)
         rabbit2 = Rabbit(moons=6)
@@ -159,7 +159,7 @@ class Mates(unittest.TestCase):
         # then
         self.assertFalse(Romantic_Events.check_if_new_mate(rabbit1,rabbit2)[0])
 
-    def test_romantic_apprentice_mating(self):
+    def test_romantic_rusasi_mating(self):
         # given
         rabbit1 = Rabbit(moons=6)
         rabbit2 = Rabbit(moons=6)

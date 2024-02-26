@@ -1013,7 +1013,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -1094,7 +1094,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -1175,10 +1175,10 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [-1, -1],
+            "all rusasis": [-1, -1],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -1258,10 +1258,10 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [-1, -1],
+            "all rusasis": [-1, -1],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -1341,8 +1341,8 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [-1, -1],
-            "healer apprentice": [1, 6],
+            "rusasi": [-1, -1],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -1423,8 +1423,8 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [-1, -1],
-            "healer apprentice": [1, 6],
+            "rusasi": [-1, -1],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -1505,7 +1505,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "It's a cold day in c_n's territory, and app1 is the only rabbit stepping out. {PRONOUN/app1/subject/CAP}{VERB/app1/'re/'s} by {PRONOUN/app1/self} when {PRONOUN/app1/subject} {VERB/app1/hear/hears} a rabbit screaming for help.",

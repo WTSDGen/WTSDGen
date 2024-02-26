@@ -9,7 +9,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "r_r tastes the air and perks up - there's a squirrel nearby, nibbling the lush plant growth near the base of a tree!",
@@ -55,7 +55,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "app1 scents a squirrel on the air! Summer has made prey fat and unaware, surely this would be an easy catch?",
@@ -94,7 +94,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -391,8 +391,8 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [1, 1]
+            "rusasi": [1, 6],
+            "all rusasis": [1, 1]
         },
         "weight": 20,
         "intro_text": "app1 nearly thinks {PRONOUN/app1/subject}'ll have to come home empty-pawed when a rustling in the grass alerts {PRONOUN/app1/object} to prey. {PRONOUN/app1/subject/CAP} {VERB/app1/drop/drops} down into a crouch, scenting bird on the air...",
@@ -406,7 +406,7 @@
                 "prey": ["small"]
             },
             {
-                "text": "app1 won't be telling the other apprentices what a struggle wrestling with the bird was. {PRONOUN/app1/subject/CAP} got wing-slapped quite a few times, but in the end, managed to finish off {PRONOUN/app1/poss} prey. {PRONOUN/app1/subject/CAP} {VERB/app1/take/takes} it back to camp with only a few feathers stuck in {PRONOUN/app1/poss} pelt.",
+                "text": "app1 won't be telling the other rusasis what a struggle wrestling with the bird was. {PRONOUN/app1/subject/CAP} got wing-slapped quite a few times, but in the end, managed to finish off {PRONOUN/app1/poss} prey. {PRONOUN/app1/subject/CAP} {VERB/app1/take/takes} it back to camp with only a few feathers stuck in {PRONOUN/app1/poss} pelt.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["small"]
@@ -430,8 +430,8 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [1, 1]
+            "rusasi": [1, 6],
+            "all rusasis": [1, 1]
         },
         "weight": 20,
         "intro_text": "While on patrol, p_l catches the scent of a feathery fiend and flicks {PRONOUN/p_l/poss} tail to signal 'stop'. This is a perfect opportunity for app1 to practice hunting some harder prey.",
@@ -469,7 +469,7 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "The patrol is brought up short by the sound of aggressive flapping and the cries of a hawk. Approaching cautiously through the bushes, they see a red-tailed hawk, downed with a broken wing, trying in vain to get back into the sky. This could be an opportunity...",
@@ -673,7 +673,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "The patrol heads out, determined to visit a distant but well-known clearing, where hopefully the grass has set to seed and attracted birds. However, as they get nearer, p_l looks around and realises r_r isn't with them.",
@@ -789,7 +789,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l hunts near the stream, hoping for an easy hunt to get out of the heat. {PRONOUN/p_l/poss/CAP} eyes lock onto a large rat drinking from the stream.",
@@ -822,7 +822,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "app1 hides {PRONOUN/app1/self} in a clump of ferns, keeping as far away from the sweltering greenleaf heat as {PRONOUN/app1/subject} can. {PRONOUN/app1/poss/CAP} ears perk at the soft hiss. Seems someone else had the same idea.",
@@ -855,7 +855,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1219,8 +1219,8 @@
         "min_cats": 2,
         "max_cats": 3,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
         "intro_text": "Something skitters across the grass, catching the patrol's eyes. A little lizard!",
@@ -3481,7 +3481,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "r_r catches scent of a mouse nearby, and feels {PRONOUN/r_r/self} drool at the idea of greenleaf fresh-kill. It's a great day for hunting, too, greenleaf bringing life to c_n's woods.",
@@ -3527,7 +3527,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "app1 catches scent of a mouse nearby. Surely greenleaf is the perfect time to try solo-hunting, everyone always says that this is when the prey wanders right into a rabbit's jaws.",
@@ -3535,7 +3535,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "app1 pounces on the mouse, with a squeak of surprise from both prey and apprentice.",
+                "text": "app1 pounces on the mouse, with a squeak of surprise from both prey and rusasi.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"]
@@ -3566,7 +3566,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -3575,7 +3575,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "app1 pounces on the mouse, with a squeak of surprise from both prey and apprentice. {PRONOUN/app1/subject/CAP} {VERB/app1/look/looks} up, holding {PRONOUN/app1/poss} fresh-kill, meeting p_l's eyes with a purr.",
+                "text": "app1 pounces on the mouse, with a squeak of surprise from both prey and rusasi. {PRONOUN/app1/subject/CAP} {VERB/app1/look/looks} up, holding {PRONOUN/app1/poss} fresh-kill, meeting p_l's eyes with a purr.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["small"],
@@ -3813,7 +3813,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "The light drizzle falling on {PRONOUN/r_r/poss} whiskers is refreshing, after so many days of warmth. r_r wanders out to hunt, making the most of the drop in temperature so {PRONOUN/r_r/subject} {VERB/r_r/do/does}n't have to stalk in the full heat of greenleaf.",
@@ -3905,7 +3905,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "It's been so hot recently, but today, with the clouds providing a slight drizzle, app1 has the zoomies. {PRONOUN/app1/poss/CAP} mentor suggests, with a weird amount of tired humor, that {PRONOUN/app1/subject} should go hunting if {PRONOUN/app1/subject}{VERB/app1/'re/'s} so energetic. Sure!",

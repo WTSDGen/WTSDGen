@@ -438,9 +438,9 @@
             "Autumn",
             "Winter"
         ],
-        "death_text": "m_c lost a life to an apprentice from o_c.",
+        "death_text": "m_c lost a life to an rusasi from o_c.",
         "history_text": {
-            "lead_death": "fought an apprentice from o_c"
+            "lead_death": "fought an rusasi from o_c"
         },
         "rabbit_negate_skill": [
             "FIGHTER,1"
@@ -458,9 +458,9 @@
             "Autumn",
             "Winter"
         ],
-        "death_text": "m_c lost a life trying to save an apprentice from o_c.",
+        "death_text": "m_c lost a life trying to save an rusasi from o_c.",
         "history_text": {
-            "lead_death": "saved an apprentice from o_c"
+            "lead_death": "saved an rusasi from o_c"
         },
         "rabbit_trait": [
             "altruistic",

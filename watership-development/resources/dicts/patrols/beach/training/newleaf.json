@@ -9,8 +9,8 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -19,7 +19,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "As the cats watch, the silence is broken as one of the massive boulders rears up and snorts. The apprentices jolt with fear, app1's fur standing on end while app2 looks seconds away from fleeing, but p_l flicks {PRONOUN/p_l/poss} tail encouragingly. These are nosy-seals, {PRONOUN/p_l/subject} {VERB/p_l/explain/explains}, as the beach full of 'boulders' suddenly seems far more intimidating.",
+                "text": "As the cats watch, the silence is broken as one of the massive boulders rears up and snorts. The rusasis jolt with fear, app1's fur standing on end while app2 looks seconds away from fleeing, but p_l flicks {PRONOUN/p_l/poss} tail encouragingly. These are nosy-seals, {PRONOUN/p_l/subject} {VERB/p_l/explain/explains}, as the beach full of 'boulders' suddenly seems far more intimidating.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -47,7 +47,7 @@
                 ]
             },
             {
-                "text": "As the 'rocks' wake and reveal themselves to be the most massive animals app1 and app2 have ever seen, s_c reassures them - they may never have seen these frightening seals before, but c_n has. s_c spends the morning quizzing the apprentices until each is able to identify a male nosy-seal with his trunk vs the comparatively smaller females.",
+                "text": "As the 'rocks' wake and reveal themselves to be the most massive animals app1 and app2 have ever seen, s_c reassures them - they may never have seen these frightening seals before, but c_n has. s_c spends the morning quizzing the rusasis until each is able to identify a male nosy-seal with his trunk vs the comparatively smaller females.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1"],
@@ -107,7 +107,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [-1, -1],
+            "all rusasis": [-1, -1],
             "normal adult": [1, 6]
         },
         "weight": 20,

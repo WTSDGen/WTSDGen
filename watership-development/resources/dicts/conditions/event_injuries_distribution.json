@@ -4,17 +4,17 @@
         "major": 3,
         "severe": 1
     },
-    "apprentice": {
+    "rusasi": {
         "minor":5,
         "major": 2,
         "severe": 1
     },
-    "healer apprentice": {
+    "healer rusasi": {
         "minor": 5,
         "major": 2,
         "severe": 1
     },
-    "warrior": {
+    "rabbit": {
         "minor": 2,
         "major": 3,
         "severe": 2

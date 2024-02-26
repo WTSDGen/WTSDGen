@@ -10,7 +10,7 @@ authors = [
 readme = "README.md"
 homepage = "https://sablesteel.itch.io/clan-gen-fan-edit"
 repository = "https://github.com/ClanGenOfficial/clangen/"
-keywords = ["warriorcats", "fanedit", "game", "pygame"]
+keywords = ["rabbitcats", "fanedit", "game", "pygame"]
 
 [tool.poetry.dependencies]
 python = ">=3.7.2,<3.12"

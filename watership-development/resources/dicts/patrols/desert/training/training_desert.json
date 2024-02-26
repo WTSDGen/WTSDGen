@@ -9,7 +9,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "The patrol wants to hold a training session for r_r.  They decide to focus on how best to use gusts of sand or dust to blind prey to your attacks.",
@@ -22,7 +22,7 @@
                 "weight": 20
             },
             {
-                "text": "r_r picks up the instruction quickly and the patrol soon plays a small game, freezing and only moving to tag each other during wind gusts, to test the apprentice's abilities.",
+                "text": "r_r picks up the instruction quickly and the patrol soon plays a small game, freezing and only moving to tag each other during wind gusts, to test the rusasi's abilities.",
                 "exp": 10,
                 "weight": 5
             },
@@ -548,10 +548,10 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
-        "intro_text": "r_r heads out into the desert alone, but maybe an apprentice shouldn't try to do a solo patrol.",
+        "intro_text": "r_r heads out into the desert alone, but maybe an rusasi shouldn't try to do a solo patrol.",
         "decline_text": "r_r turns back to camp, deciding that this is a bad idea.",
         "chance_of_success": 30,
         "success_outcomes": [
@@ -792,16 +792,16 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
         "intro_text": "app1 runs along in the heat of the desert day, cajoling app2, who's really not keen on this sudden adventure at an unreasonably hot hour.",
-        "decline_text": "The apprentices are called back to camp to kitsit.",
+        "decline_text": "The rusasis are called back to camp to kitsit.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "Rounding a bends in the rocky path, app1 ducks under a thron tree, and through a gap between two rock pillars, and app2 emerges into the alcove beyond with a gasp. A little hidden pool lies perfectly still and quiet in the shade, and both apprentices leap into the water with exclamations of relief.",
+                "text": "Rounding a bends in the rocky path, app1 ducks under a thron tree, and through a gap between two rock pillars, and app2 emerges into the alcove beyond with a gasp. A little hidden pool lies perfectly still and quiet in the shade, and both rusasis leap into the water with exclamations of relief.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -894,8 +894,8 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
         "intro_text": "Fluffed up against the cold, app1 and app2 walk to a outlook overlooking the sandy scrubland.",
@@ -996,8 +996,8 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
         "intro_text": "Playing near the camp at sunset, app1 scuffs their paw over the ground, throwing a pawful of sand at app2.",
@@ -1098,7 +1098,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [-1, -1],
+            "all rusasis": [-1, -1],
             "normal adult": [1, 6]
         },
         "weight": 20,

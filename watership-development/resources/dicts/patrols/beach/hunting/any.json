@@ -227,7 +227,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "app1's mentor assesses {PRONOUN/app1/object} by sending {PRONOUN/app1/object} on a solo hunt.",
@@ -348,7 +348,7 @@
                     }
                 ],
                 "history_text": { 
-                    "scar": "m_c got injured as an apprentice, exploring alone." 
+                    "scar": "m_c got injured as an rusasi, exploring alone." 
                 },
                 "relationships": [
                     {
@@ -1142,7 +1142,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "app1 decides to hunt out near the Twoleg dens.",
@@ -1222,7 +1222,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [-1, -1]
+            "all rusasis": [-1, -1]
         },
         "weight": 20,
         "intro_text": "Boldly, eyes daring p_l to say no, r_r suggests hunting by the Twoleg dens.",
@@ -1355,11 +1355,11 @@
         "max_cats": 2,
         "min_max_status": {
             "normal adult": [-1, -1],
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
-        "intro_text": "Boldly, eyes daring app1 to say no, app2 suggests hunting by the Twoleg dens. Where apprentices are definitely not allowed.",
+        "intro_text": "Boldly, eyes daring app1 to say no, app2 suggests hunting by the Twoleg dens. Where rusasis are definitely not allowed.",
         "decline_text": "On second thought, they decide to recline in their nests today instead.",
         "chance_of_success": 30,
         "success_outcomes": [
@@ -1379,7 +1379,7 @@
                 ]
             },
             {
-                "text": "A friendly Twoleg makes a psspsspss noise and pours kittypet food on the ground for app2. {PRONOUN/app2/subject/CAP} {VERB/app2/fetch/fetches} app1, and both apprentices loudly proclaim how much better fresh-kill is, but both are wide-eyed and thrilled by the experience.",
+                "text": "A friendly Twoleg makes a psspsspss noise and pours kittypet food on the ground for app2. {PRONOUN/app2/subject/CAP} {VERB/app2/fetch/fetches} app1, and both rusasis loudly proclaim how much better fresh-kill is, but both are wide-eyed and thrilled by the experience.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [

@@ -9,7 +9,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -114,9 +114,9 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer": [1, 6],
-            "healer apprentice": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -183,8 +183,8 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [-1, -1],
-            "healer apprentice": [1, 6],
+            "rusasi": [-1, -1],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -224,7 +224,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "healer apprentice": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6]
         },
         "weight": 20,
@@ -367,7 +367,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -407,15 +407,15 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer": [1, 6],
-            "healer apprentice": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "p_l heads out into the territory with app1, both to stock up on cobwebs and to teach the apprentice how to gather one of the Clan's most vital medical tools.",
-        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} second thoughts leaving {PRONOUN/p_l/poss} patients behind, especially with {PRONOUN/p_l/object} also bringing {PRONOUN/p_l/poss} apprentice, and {VERB/p_l/decide/decides} to go another day.",
+        "intro_text": "p_l heads out into the territory with app1, both to stock up on cobwebs and to teach the rusasi how to gather one of the Clan's most vital medical tools.",
+        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} second thoughts leaving {PRONOUN/p_l/poss} patients behind, especially with {PRONOUN/p_l/object} also bringing {PRONOUN/p_l/poss} rusasi, and {VERB/p_l/decide/decides} to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
@@ -451,7 +451,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 doesn't seem to be able to focus today, and p_l isn't much better off, tired from teaching {PRONOUN/p_l/poss} apprentice and caring for {PRONOUN/p_l/poss} patients. After app1 accidentally ruins a cobweb while playing with it, p_l decides to call the whole thing off and try again another day.",
+                "text": "app1 doesn't seem to be able to focus today, and p_l isn't much better off, tired from teaching {PRONOUN/p_l/poss} rusasi and caring for {PRONOUN/p_l/poss} patients. After app1 accidentally ruins a cobweb while playing with it, p_l decides to call the whole thing off and try again another day.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -587,7 +587,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
@@ -635,15 +635,15 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer": [1, 6],
-            "healer apprentice": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
         "intro_text": "p_l heads out on an herb-gathering patrol, searching for the ever-green, ever-reliable horsetail to harvest for the herb stores. app1 trots after {PRONOUN/p_l/object}, asking {PRONOUN/p_l/object} why horsetail grows so weirdly without leaves.",
-        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} second thoughts leaving {PRONOUN/p_l/poss} patients behind, especially with {PRONOUN/p_l/object} also bringing {PRONOUN/p_l/poss} apprentice, and {VERB/p_l/decide/decides} to go another day.",
+        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} second thoughts leaving {PRONOUN/p_l/poss} patients behind, especially with {PRONOUN/p_l/object} also bringing {PRONOUN/p_l/poss} rusasi, and {VERB/p_l/decide/decides} to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
@@ -860,7 +860,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -894,9 +894,9 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer": [1, 6],
-            "healer apprentice": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -1080,9 +1080,9 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer": [1, 6],
-            "healer apprentice": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -1109,7 +1109,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There's a sharp yowl of pain, followed by a string of muttered curses, and p_l turns to see app1 holding one of their paws off the ground. It seems that the apprentice stepped on a thorn. Ouch! They'll have to go back to camp and fix that up.",
+                "text": "There's a sharp yowl of pain, followed by a string of muttered curses, and p_l turns to see app1 holding one of their paws off the ground. It seems that the rusasi stepped on a thorn. Ouch! They'll have to go back to camp and fix that up.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1182,9 +1182,9 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer": [1, 6],
-            "all apprentices": [-1, -1],
+            "all rusasis": [-1, -1],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -1250,12 +1250,12 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "healer apprentice": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [2, 2]
+            "all rusasis": [2, 2]
         },
         "weight": 20,
-        "intro_text": "As the apprentices head out to collect cobwebs, app2 screws up {PRONOUN/app2/poss} face into a stupid expression around the stick {PRONOUN/app2/subject} {VERB/app2/hold/holds} in {PRONOUN/app2/poss} mouth.",
+        "intro_text": "As the rusasis head out to collect cobwebs, app2 screws up {PRONOUN/app2/poss} face into a stupid expression around the stick {PRONOUN/app2/subject} {VERB/app2/hold/holds} in {PRONOUN/app2/poss} mouth.",
         "decline_text": "They're called back to camp, needed for other chores.",
         "chance_of_success": 70,
         "success_outcomes": [
@@ -1282,7 +1282,7 @@
                 ]
             },
             {
-                "text": "<i>Murrp</i>ing with laughter, app1 clacks the stick {PRONOUN/app1/subject} {VERB/app1/hold/holds} in {PRONOUN/app1/poss} own mouth against app2's. The stick bashing continues as they collect cobwebs, and the afternoon is filled with the apprentices muffled purrs and laughs.",
+                "text": "<i>Murrp</i>ing with laughter, app1 clacks the stick {PRONOUN/app1/subject} {VERB/app1/hold/holds} in {PRONOUN/app1/poss} own mouth against app2's. The stick bashing continues as they collect cobwebs, and the afternoon is filled with the rusasis muffled purrs and laughs.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "cobwebs"],
@@ -1306,7 +1306,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The apprentices spend the entire patrol messing around with their sticks, even when there's cobwebs spun around the ends of them, and they end up completely ruining what they've gathered..",
+                "text": "The rusasis spend the entire patrol messing around with their sticks, even when there's cobwebs spun around the ends of them, and they end up completely ruining what they've gathered..",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1338,7 +1338,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -1447,12 +1447,12 @@
         "min_cats": 3,
         "max_cats": 3,
         "min_max_status": {
-            "healer apprentice": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [3, 3]
+            "all rusasis": [3, 3]
         },
         "weight": 20,
-        "intro_text": "As the apprentices head out to collect cobwebs, app2 screws up {PRONOUN/app2/poss} face into a stupid expression around the stick {PRONOUN/app2/subject} {VERB/app2/hold/holds} in {PRONOUN/app2/poss} mouth.",
+        "intro_text": "As the rusasis head out to collect cobwebs, app2 screws up {PRONOUN/app2/poss} face into a stupid expression around the stick {PRONOUN/app2/subject} {VERB/app2/hold/holds} in {PRONOUN/app2/poss} mouth.",
         "decline_text": "They're called back to camp, needed for other chores.",
         "chance_of_success": 30,
         "success_outcomes": [
@@ -1479,7 +1479,7 @@
                 ]
             },
             {
-                "text": "<i>Murrp</i>ing with laughter, app1 clacks the stick {PRONOUN/app1/subject} {VERB/app1/hold/holds} in {PRONOUN/app1/poss} own mouth against app2's. The stick bashing continues as they collect cobwebs, and the afternoon is filled with the apprentices muffled purrs and laughs, even though app3 seems solely focused on the chore, content to let the others muck about so long as everything gets done.",
+                "text": "<i>Murrp</i>ing with laughter, app1 clacks the stick {PRONOUN/app1/subject} {VERB/app1/hold/holds} in {PRONOUN/app1/poss} own mouth against app2's. The stick bashing continues as they collect cobwebs, and the afternoon is filled with the rusasis muffled purrs and laughs, even though app3 seems solely focused on the chore, content to let the others muck about so long as everything gets done.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "cobwebs"],
@@ -1503,7 +1503,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The apprentices spend the entire patrol messing around with their sticks, even when there's cobwebs spun around the ends of them, and they end up completely ruining what they've gathered..",
+                "text": "The rusasis spend the entire patrol messing around with their sticks, even when there's cobwebs spun around the ends of them, and they end up completely ruining what they've gathered..",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1535,17 +1535,17 @@
         "min_cats": 4,
         "max_cats": 4,
         "min_max_status": {
-            "healer apprentice": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [4, 4]
+            "all rusasis": [4, 4]
         },
         "weight": 20,
-        "intro_text": "As the apprentices head out to collect cobwebs, app2 screws up {PRONOUN/app2/poss} face into a stupid expression around the stick {PRONOUN/app2/subject} {VERB/app2/hold/holds} in {PRONOUN/app2/poss} mouth.",
+        "intro_text": "As the rusasis head out to collect cobwebs, app2 screws up {PRONOUN/app2/poss} face into a stupid expression around the stick {PRONOUN/app2/subject} {VERB/app2/hold/holds} in {PRONOUN/app2/poss} mouth.",
         "decline_text": "They're called back to camp, needed for other chores.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The other apprentices ignore it, but it makes app1 laugh, muffled through {PRONOUN/app1/poss} own cobweb gathering stick. It's good to have a friend around for the boring bits of the day, and app2 seems to lighten up every situation.",
+                "text": "The other rusasis ignore it, but it makes app1 laugh, muffled through {PRONOUN/app1/poss} own cobweb gathering stick. It's good to have a friend around for the boring bits of the day, and app2 seems to lighten up every situation.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["cobwebs"],
@@ -1567,7 +1567,7 @@
                 ]
             },
             {
-                "text": "<i>Murrp</i>ing with laughter, app1 clacks the stick {PRONOUN/app1/subject} {VERB/app1/hold/holds} in {PRONOUN/app1/poss} own mouth against app2's. The stick bashing continues as they collect cobwebs, and the afternoon is filled with the two's muffled purrs and laughs, even though the other apprentices seem solely focused on the chore, content to let the others muck about so long as everything gets done.",
+                "text": "<i>Murrp</i>ing with laughter, app1 clacks the stick {PRONOUN/app1/subject} {VERB/app1/hold/holds} in {PRONOUN/app1/poss} own mouth against app2's. The stick bashing continues as they collect cobwebs, and the afternoon is filled with the two's muffled purrs and laughs, even though the other rusasis seem solely focused on the chore, content to let the others muck about so long as everything gets done.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "cobwebs"],
@@ -1591,7 +1591,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The apprentices spend the entire patrol messing around with their sticks, even when there's cobwebs spun around the ends of them, and they end up completely ruining what they've gathered..",
+                "text": "The rusasis spend the entire patrol messing around with their sticks, even when there's cobwebs spun around the ends of them, and they end up completely ruining what they've gathered..",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1623,17 +1623,17 @@
         "min_cats": 5,
         "max_cats": 5,
         "min_max_status": {
-            "healer apprentice": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [5, 5]
+            "all rusasis": [5, 5]
         },
         "weight": 20,
-        "intro_text": "As the apprentices head out to collect cobwebs, app2 screws up {PRONOUN/app2/poss} face into a stupid expression around the stick {PRONOUN/app2/subject} {VERB/app2/hold/holds} in {PRONOUN/app2/poss} mouth.",
+        "intro_text": "As the rusasis head out to collect cobwebs, app2 screws up {PRONOUN/app2/poss} face into a stupid expression around the stick {PRONOUN/app2/subject} {VERB/app2/hold/holds} in {PRONOUN/app2/poss} mouth.",
         "decline_text": "They're called back to camp, needed for other chores.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The other apprentices ignore it, but it makes app1 laugh, muffled through {PRONOUN/app1/poss} own cobweb gathering stick. It's good to have a friend around for the boring bits of the day, app2 seems to lighten up every situation.",
+                "text": "The other rusasis ignore it, but it makes app1 laugh, muffled through {PRONOUN/app1/poss} own cobweb gathering stick. It's good to have a friend around for the boring bits of the day, app2 seems to lighten up every situation.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["cobwebs"],
@@ -1655,7 +1655,7 @@
                 ]
             },
             {
-                "text": "<i>Murrp</i>ing with laughter, app1 clacks the stick {PRONOUN/app1/subject} {VERB/app1/hold/holds} in {PRONOUN/app1/poss} own mouth against app2's. The stick bashing continues as they collect cobwebs, and the afternoon is filled with the two's muffled purrs and laughs, even though the other apprentices seem solely focused on the chore, content to let the others muck about so long as everything gets done.",
+                "text": "<i>Murrp</i>ing with laughter, app1 clacks the stick {PRONOUN/app1/subject} {VERB/app1/hold/holds} in {PRONOUN/app1/poss} own mouth against app2's. The stick bashing continues as they collect cobwebs, and the afternoon is filled with the two's muffled purrs and laughs, even though the other rusasis seem solely focused on the chore, content to let the others muck about so long as everything gets done.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "cobwebs"],
@@ -1679,7 +1679,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The apprentices spend the entire patrol messing around with their sticks, even when there's cobwebs spun around the ends of them, and they end up completely ruining what they've gathered..",
+                "text": "The rusasis spend the entire patrol messing around with their sticks, even when there's cobwebs spun around the ends of them, and they end up completely ruining what they've gathered..",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1711,17 +1711,17 @@
         "min_cats": 6,
         "max_cats": 6,
         "min_max_status": {
-            "healer apprentice": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [6, 6]
+            "all rusasis": [6, 6]
         },
         "weight": 20,
-        "intro_text": "As the apprentices head out to collect cobwebs, app2 screws up {PRONOUN/app2/poss} face into a stupid expression around the stick {PRONOUN/app2/subject} {VERB/app2/hold/holds} in {PRONOUN/app2/poss} mouth.",
+        "intro_text": "As the rusasis head out to collect cobwebs, app2 screws up {PRONOUN/app2/poss} face into a stupid expression around the stick {PRONOUN/app2/subject} {VERB/app2/hold/holds} in {PRONOUN/app2/poss} mouth.",
         "decline_text": "They're called back to camp, needed for other chores.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The other apprentices ignore it, but it makes app1 laugh, muffled through {PRONOUN/app1/poss} own cobweb gathering stick. It's good to have a friend around for the boring bits of the day, app2 seems to lighten up every situation.",
+                "text": "The other rusasis ignore it, but it makes app1 laugh, muffled through {PRONOUN/app1/poss} own cobweb gathering stick. It's good to have a friend around for the boring bits of the day, app2 seems to lighten up every situation.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["cobwebs"],
@@ -1743,7 +1743,7 @@
                 ]
             },
             {
-                "text": "<i>Murrp</i>ing with laughter, app1 clacks the stick {PRONOUN/app1/subject} {VERB/app1/hold/holds} in {PRONOUN/app1/poss} own mouth against app2's. The stick bashing continues as they collect cobwebs, and the afternoon is filled with the two's muffled purrs and laughs, even though the other apprentices seem solely focused on the chore, content to let the others muck about so long as everything gets done.",
+                "text": "<i>Murrp</i>ing with laughter, app1 clacks the stick {PRONOUN/app1/subject} {VERB/app1/hold/holds} in {PRONOUN/app1/poss} own mouth against app2's. The stick bashing continues as they collect cobwebs, and the afternoon is filled with the two's muffled purrs and laughs, even though the other rusasis seem solely focused on the chore, content to let the others muck about so long as everything gets done.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "cobwebs"],
@@ -1767,7 +1767,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The apprentices spend the entire patrol messing around with their sticks, even when there's cobwebs spun around the ends of them, and they end up completely ruining what they've gathered..",
+                "text": "The rusasis spend the entire patrol messing around with their sticks, even when there's cobwebs spun around the ends of them, and they end up completely ruining what they've gathered..",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1799,18 +1799,18 @@
         "min_cats": 3,
         "max_cats": 3,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
+            "rusasi": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [3, 3]
+            "all rusasis": [3, 3]
         },
         "weight": 20,
-        "intro_text": "The apprentices head out into the territory, following p_l a little dubiously. Gathering things can't possibly be as hard as hunting them - plants don't run away!",
+        "intro_text": "The rusasis head out into the territory, following p_l a little dubiously. Gathering things can't possibly be as hard as hunting them - plants don't run away!",
         "decline_text": "They're called back to camp, needed for other chores.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "It's a long, weird, hard day. <i>Yes,</i> they find cobwebs. <i>Yes,</i> they bring them back to camp - but by StarClan, none of the warrior apprentices were expecting something as simple as cobweb gathering to be so hard, not when it feels like they run into one every other hunt! They definitely end up with a new appreciation for p_l's skills.",
+                "text": "It's a long, weird, hard day. <i>Yes,</i> they find cobwebs. <i>Yes,</i> they bring them back to camp - but by StarClan, none of the warrior rusasis were expecting something as simple as cobweb gathering to be so hard, not when it feels like they run into one every other hunt! They definitely end up with a new appreciation for p_l's skills.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["cobwebs"],
@@ -1832,7 +1832,7 @@
                 ]
             },
             {
-                "text": "... However, once out of camp, the apprentices realise they're out of their depth, and turn to p_l for help. p_l, to their credit, is very gracious about it, not making anyone feel stupid, and by the time the patrol returns with a successful haul there's a new feeling of rapport between everyone, regardless of their role.",
+                "text": "... However, once out of camp, the rusasis realise they're out of their depth, and turn to p_l for help. p_l, to their credit, is very gracious about it, not making anyone feel stupid, and by the time the patrol returns with a successful haul there's a new feeling of rapport between everyone, regardless of their role.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "cobwebs"],
@@ -1856,7 +1856,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is disgusted with the general disdain {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} from the other apprentices, and how hypocritical it is to tell {PRONOUN/p_l/object} herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! {PRONOUN/p_l/subject/CAP} {VERB/p_l/stalk/stalks} back to the healer den in a huff, unable to bear being near the other apprentices for any longer than {PRONOUN/p_l/subject} {VERB/p_l/have/has} been.",
+                "text": "p_l is disgusted with the general disdain {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} from the other rusasis, and how hypocritical it is to tell {PRONOUN/p_l/object} herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! {PRONOUN/p_l/subject/CAP} {VERB/p_l/stalk/stalks} back to the healer den in a huff, unable to bear being near the other rusasis for any longer than {PRONOUN/p_l/subject} {VERB/p_l/have/has} been.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1888,18 +1888,18 @@
         "min_cats": 4,
         "max_cats": 4,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
+            "rusasi": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [4, 4]
+            "all rusasis": [4, 4]
         },
         "weight": 20,
-        "intro_text": "The apprentices head out into the territory, following p_l a little dubiously. Gathering things can't possibly be as hard as hunting them - plants don't run away!",
+        "intro_text": "The rusasis head out into the territory, following p_l a little dubiously. Gathering things can't possibly be as hard as hunting them - plants don't run away!",
         "decline_text": "They're called back to camp, needed for other chores.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "It's a long, weird, hard day. <i>Yes,</i> they find cobwebs. <i>Yes,</i> they bring them back to camp - but by StarClan, none of the warrior apprentices were expecting something as simple as cobweb gathering to be so hard, not when it feels like they run into one every other hunt! They definitely end up with a new appreciation for p_l's skills.",
+                "text": "It's a long, weird, hard day. <i>Yes,</i> they find cobwebs. <i>Yes,</i> they bring them back to camp - but by StarClan, none of the warrior rusasis were expecting something as simple as cobweb gathering to be so hard, not when it feels like they run into one every other hunt! They definitely end up with a new appreciation for p_l's skills.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["cobwebs"],
@@ -1921,7 +1921,7 @@
                 ]
             },
             {
-                "text": "... However, once out of camp, the apprentices realise they're out of their depth, and turn to p_l for help. p_l, to their credit, is very gracious about it, not making anyone feel stupid, and by the time the patrol returns with a successful haul there's a new feeling of rapport between everyone, regardless of their role.",
+                "text": "... However, once out of camp, the rusasis realise they're out of their depth, and turn to p_l for help. p_l, to their credit, is very gracious about it, not making anyone feel stupid, and by the time the patrol returns with a successful haul there's a new feeling of rapport between everyone, regardless of their role.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "cobwebs"],
@@ -1945,7 +1945,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is disgusted with the general disdain {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} from the other apprentices, and how hypocritical it is to tell {PRONOUN/p_l/object} herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! {PRONOUN/p_l/subject/CAP} {VERB/p_l/stalk/stalks} back to the healer den in a huff, unable to bear being near the other apprentices for any longer than {PRONOUN/p_l/subject} {VERB/p_l/have/has} been.",
+                "text": "p_l is disgusted with the general disdain {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} from the other rusasis, and how hypocritical it is to tell {PRONOUN/p_l/object} herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! {PRONOUN/p_l/subject/CAP} {VERB/p_l/stalk/stalks} back to the healer den in a huff, unable to bear being near the other rusasis for any longer than {PRONOUN/p_l/subject} {VERB/p_l/have/has} been.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1977,18 +1977,18 @@
         "min_cats": 5,
         "max_cats": 5,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
+            "rusasi": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [5, 5]
+            "all rusasis": [5, 5]
         },
         "weight": 20,
-        "intro_text": "The apprentices head out into the territory, following p_l a little dubiously. Gathering things can't possibly be as hard as hunting them - plants don't run away!",
+        "intro_text": "The rusasis head out into the territory, following p_l a little dubiously. Gathering things can't possibly be as hard as hunting them - plants don't run away!",
         "decline_text": "They're called back to camp, needed for other chores.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "It's a long, weird, hard day. <i>Yes,</i> they find cobwebs. <i>Yes,</i> they bring them back to camp - but by StarClan, none of the warrior apprentices were expecting something as simple as cobweb gathering to be so hard, not when it feels like they run into one every other hunt! They definitely end up with a new appreciation for p_l's skills.",
+                "text": "It's a long, weird, hard day. <i>Yes,</i> they find cobwebs. <i>Yes,</i> they bring them back to camp - but by StarClan, none of the warrior rusasis were expecting something as simple as cobweb gathering to be so hard, not when it feels like they run into one every other hunt! They definitely end up with a new appreciation for p_l's skills.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["cobwebs"],
@@ -2010,7 +2010,7 @@
                 ]
             },
             {
-                "text": "... However, once out of camp, the apprentices realise they're out of their depth, and turn to p_l for help. p_l, to their credit, is very gracious about it, not making anyone feel stupid, and by the time the patrol returns with a successful haul there's a new feeling of rapport between everyone, regardless of their role.",
+                "text": "... However, once out of camp, the rusasis realise they're out of their depth, and turn to p_l for help. p_l, to their credit, is very gracious about it, not making anyone feel stupid, and by the time the patrol returns with a successful haul there's a new feeling of rapport between everyone, regardless of their role.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "cobwebs"],
@@ -2034,7 +2034,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is disgusted with the general disdain {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} from the other apprentices, and how hypocritical it is to tell {PRONOUN/p_l/object} herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! {PRONOUN/p_l/subject/CAP} {VERB/p_l/stalk/stalks} back to the healer den in a huff, unable to bear being near the other apprentices for any longer than {PRONOUN/p_l/subject} {VERB/p_l/have/has} been.",
+                "text": "p_l is disgusted with the general disdain {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} from the other rusasis, and how hypocritical it is to tell {PRONOUN/p_l/object} herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! {PRONOUN/p_l/subject/CAP} {VERB/p_l/stalk/stalks} back to the healer den in a huff, unable to bear being near the other rusasis for any longer than {PRONOUN/p_l/subject} {VERB/p_l/have/has} been.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2061,23 +2061,23 @@
         "biome": ["forest"],
         "season": ["Any"],
         "types": ["herb_gathering"],
-        "tags": ["six_apprentices"],
+        "tags": ["six_rusasis"],
         "patrol_art": "med_general_intro",
         "min_cats": 6,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "healer": [1, 6],
-            "healer apprentice": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The apprentices head out into the territory, following p_l a little dubiously. Gathering things can't possibly be as hard as hunting them, plants don't run away!",
+        "intro_text": "The rusasis head out into the territory, following p_l a little dubiously. Gathering things can't possibly be as hard as hunting them, plants don't run away!",
         "decline_text": "They're called back to camp, needed for other chores.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "It's a long, weird, hard day. <i>Yes,</i> they find cobwebs. <i>Yes,</i> they bring them back to camp - but by StarClan, none of the warrior apprentices were expecting something as simple as cobweb gathering to be so hard, not when it feels like they run into one every other hunt! They definitely end up with a new appreciation for p_l's skills.",
+                "text": "It's a long, weird, hard day. <i>Yes,</i> they find cobwebs. <i>Yes,</i> they bring them back to camp - but by StarClan, none of the warrior rusasis were expecting something as simple as cobweb gathering to be so hard, not when it feels like they run into one every other hunt! They definitely end up with a new appreciation for p_l's skills.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["cobwebs"],
@@ -2099,7 +2099,7 @@
                 ]
             },
             {
-                "text": "... However, once out of camp, the apprentices realise they're out of their depth, and turn to p_l for help. p_l, to their credit, is very gracious about it, not making anyone feel stupid, and by the time the patrol returns with a successful haul there's a new feeling of rapport between everyone, regardless of their role.",
+                "text": "... However, once out of camp, the rusasis realise they're out of their depth, and turn to p_l for help. p_l, to their credit, is very gracious about it, not making anyone feel stupid, and by the time the patrol returns with a successful haul there's a new feeling of rapport between everyone, regardless of their role.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "cobwebs"],
@@ -2123,7 +2123,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is disgusted with the general disdain {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} from the other apprentices, and how hypocritical it is to tell {PRONOUN/p_l/object} herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! {PRONOUN/p_l/subject/CAP} {VERB/p_l/stalk/stalks} back to the healer den in a huff, unable to bear being near the other apprentices for any longer than {PRONOUN/p_l/subject} {VERB/p_l/have/has} been.",
+                "text": "p_l is disgusted with the general disdain {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} from the other rusasis, and how hypocritical it is to tell {PRONOUN/p_l/object} herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! {PRONOUN/p_l/subject/CAP} {VERB/p_l/stalk/stalks} back to the healer den in a huff, unable to bear being near the other rusasis for any longer than {PRONOUN/p_l/subject} {VERB/p_l/have/has} been.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2155,10 +2155,10 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
+            "rusasi": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [2, 2]
+            "all rusasis": [2, 2]
         },
         "weight": 20,
         "intro_text": "p_l comes up to meet r_r, quietly apologising about r_r being sent to help p_l collect moss.",
@@ -2188,7 +2188,7 @@
                 ]
             },
             {
-                "text": "app2 seems somewhat irritated at first, but as p_l keeps chatting to {PRONOUN/r_r/object}, {PRONOUN/r_r/subject} {VERB/r_r/start/starts} to warm up, and both apprentices feel much more comfortable with each other by the time they bring their mossy loot back to camp.",
+                "text": "app2 seems somewhat irritated at first, but as p_l keeps chatting to {PRONOUN/r_r/object}, {PRONOUN/r_r/subject} {VERB/r_r/start/starts} to warm up, and both rusasis feel much more comfortable with each other by the time they bring their mossy loot back to camp.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "moss"],
@@ -2212,7 +2212,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_r shrugs, tailtip twitching with irritation. It's fine, it's totally not like {PRONOUN/r_r/subject}'d prefer to be hunting, doing something actually useful... That attitude, unfortunately, is present through the entire patrol, and each apprentice is too snappy and standoffish to manage gathering anything other than negative thoughts.",
+                "text": "r_r shrugs, tailtip twitching with irritation. It's fine, it's totally not like {PRONOUN/r_r/subject}'d prefer to be hunting, doing something actually useful... That attitude, unfortunately, is present through the entire patrol, and each rusasi is too snappy and standoffish to manage gathering anything other than negative thoughts.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2244,13 +2244,13 @@
         "min_cats": 3,
         "max_cats": 3,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
+            "rusasi": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [3, 3]
+            "all rusasis": [3, 3]
         },
         "weight": 20,
-        "intro_text": "As the apprentices head out to collect moss, app3 screws up {PRONOUN/app3/poss} face into a stupid expression at the menial nature of the task.",
+        "intro_text": "As the rusasis head out to collect moss, app3 screws up {PRONOUN/app3/poss} face into a stupid expression at the menial nature of the task.",
         "decline_text": "They're called back to camp, needed for other chores.",
         "chance_of_success": 30,
         "success_outcomes": [
@@ -2277,7 +2277,7 @@
                 ]
             },
             {
-                "text": "Out of the cats in the group, app2 is the one that seems irritated about it at first. As app1 keeps chatting to {PRONOUN/app2/object}, however, {PRONOUN/app2/subject} {VERB/app2/start/starts} to warm up, and both apprentices feel much more comfortable with each other by the time they bring their mossy loot back to camp.",
+                "text": "Out of the cats in the group, app2 is the one that seems irritated about it at first. As app1 keeps chatting to {PRONOUN/app2/object}, however, {PRONOUN/app2/subject} {VERB/app2/start/starts} to warm up, and both rusasis feel much more comfortable with each other by the time they bring their mossy loot back to camp.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "moss"],
@@ -2301,7 +2301,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The other apprentices exchange a glance, tailtips twitching with irritation. It's fine, it's totally not like they'd prefer to be hunting, doing something actually useful... That attitude, unfortunately, is present through the entire patrol, and each apprentice is too snappy and standoffish to manage gathering anything other than negative thoughts.",
+                "text": "The other rusasis exchange a glance, tailtips twitching with irritation. It's fine, it's totally not like they'd prefer to be hunting, doing something actually useful... That attitude, unfortunately, is present through the entire patrol, and each rusasi is too snappy and standoffish to manage gathering anything other than negative thoughts.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2333,13 +2333,13 @@
         "min_cats": 4,
         "max_cats": 4,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
+            "rusasi": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [4, 4]
+            "all rusasis": [4, 4]
         },
         "weight": 20,
-        "intro_text": "As the apprentices head out to collect moss, app3 screws up their {PRONOUN/app3/poss} into a stupid expression at the menial nature of the task.",
+        "intro_text": "As the rusasis head out to collect moss, app3 screws up their {PRONOUN/app3/poss} into a stupid expression at the menial nature of the task.",
         "decline_text": "They're called back to camp, needed for other chores.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -2366,7 +2366,7 @@
                 ]
             },
             {
-                "text": "Out of the cats in the group, app2 is the one that seems irritated about it at first. As app1 keeps chatting to {PRONOUN/app2/object}, however, {PRONOUN/app2/subject} {VERB/app2/start/starts} to warm up, and both apprentices feel much more comfortable with each other by the time they bring their mossy loot back to camp.",
+                "text": "Out of the cats in the group, app2 is the one that seems irritated about it at first. As app1 keeps chatting to {PRONOUN/app2/object}, however, {PRONOUN/app2/subject} {VERB/app2/start/starts} to warm up, and both rusasis feel much more comfortable with each other by the time they bring their mossy loot back to camp.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "moss"],
@@ -2390,7 +2390,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The other apprentices exchange a glance, tailtips twitching with irritation. It's fine, it's totally not like they'd prefer to be hunting, doing something actually useful... That attitude, unfortunately, is present through the entire patrol, and each apprentice is too snappy and standoffish to manage gathering anything other than negative thoughts.",
+                "text": "The other rusasis exchange a glance, tailtips twitching with irritation. It's fine, it's totally not like they'd prefer to be hunting, doing something actually useful... That attitude, unfortunately, is present through the entire patrol, and each rusasi is too snappy and standoffish to manage gathering anything other than negative thoughts.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2422,18 +2422,18 @@
         "min_cats": 3,
         "max_cats": 3,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
+            "rusasi": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [3, 3]
+            "all rusasis": [3, 3]
         },
         "weight": 20,
-        "intro_text": "The apprentices are sent off into the territory to gather moss for the healer den.",
+        "intro_text": "The rusasis are sent off into the territory to gather moss for the healer den.",
         "decline_text": "They're called back to camp, needed for other chores.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "While it's a traditional chore for apprentices, it's not a particularly <i>interesting</i> one. Still, though, sometimes it isn't what you're doing, but who you're doing it with, and though there's a bit of complaining, all the apprentices are glad to have the chance to spend time together.",
+                "text": "While it's a traditional chore for rusasis, it's not a particularly <i>interesting</i> one. Still, though, sometimes it isn't what you're doing, but who you're doing it with, and though there's a bit of complaining, all the rusasis are glad to have the chance to spend time together.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["moss"],
@@ -2455,7 +2455,7 @@
                 ]
             },
             {
-                "text": "p_l is determined to prove {PRONOUN/p_l/self} to the other apprentices, and fortunately {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} push it too far. Despite {PRONOUN/p_l/poss} enthusiasm, {PRONOUN/p_l/subject} {VERB/p_l/avoid/avoids} bossing everyone around, instead encouraging the patrol in their duties. {VERB/p_l/Are/Is} {PRONOUN/p_l/subject} a bit stiff? Sure, but {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} not unlikeable!",
+                "text": "p_l is determined to prove {PRONOUN/p_l/self} to the other rusasis, and fortunately {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} push it too far. Despite {PRONOUN/p_l/poss} enthusiasm, {PRONOUN/p_l/subject} {VERB/p_l/avoid/avoids} bossing everyone around, instead encouraging the patrol in their duties. {VERB/p_l/Are/Is} {PRONOUN/p_l/subject} a bit stiff? Sure, but {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} not unlikeable!",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "moss"],
@@ -2511,18 +2511,18 @@
         "min_cats": 4,
         "max_cats": 4,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
+            "rusasi": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [4, 4]
+            "all rusasis": [4, 4]
         },
         "weight": 20,
-        "intro_text": "The apprentices head out into the territory, following p_l a little dubiously. Gathering things can't possibly be as hard as hunting them - plants don't run away!",
+        "intro_text": "The rusasis head out into the territory, following p_l a little dubiously. Gathering things can't possibly be as hard as hunting them - plants don't run away!",
         "decline_text": "They're called back to camp, needed for other chores.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's a traditional chore for apprentices, it's not a particularly <i>interesting</i> one. Still, though, sometimes it isn't what you're doing, but who you're doing it with, and though there's a bit of complaining, all the apprentices are glad to have the chance to spend time together.",
+                "text": "While it's a traditional chore for rusasis, it's not a particularly <i>interesting</i> one. Still, though, sometimes it isn't what you're doing, but who you're doing it with, and though there's a bit of complaining, all the rusasis are glad to have the chance to spend time together.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["moss"],
@@ -2544,7 +2544,7 @@
                 ]
             },
             {
-                "text": "p_l is determined to prove {PRONOUN/p_l/self} to the other apprentices, and fortunately {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} push it too far. Despite {PRONOUN/p_l/poss} enthusiasm, {PRONOUN/p_l/subject} {VERB/p_l/avoid/avoids} bossing everyone around, instead encouraging the patrol in their duties. {VERB/p_l/Are/Is} {PRONOUN/p_l/subject} a bit stiff? Sure, but {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} not unlikeable!",
+                "text": "p_l is determined to prove {PRONOUN/p_l/self} to the other rusasis, and fortunately {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} push it too far. Despite {PRONOUN/p_l/poss} enthusiasm, {PRONOUN/p_l/subject} {VERB/p_l/avoid/avoids} bossing everyone around, instead encouraging the patrol in their duties. {VERB/p_l/Are/Is} {PRONOUN/p_l/subject} a bit stiff? Sure, but {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} not unlikeable!",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "moss"],
@@ -2600,13 +2600,13 @@
         "min_cats": 5,
         "max_cats": 5,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
+            "rusasi": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [5, 5]
+            "all rusasis": [5, 5]
         },
         "weight": 20,
-        "intro_text": "As the apprentices head out to collect moss, app3 screws up {PRONOUN/app3/poss} face into a stupid expression at the menial nature of the task.",
+        "intro_text": "As the rusasis head out to collect moss, app3 screws up {PRONOUN/app3/poss} face into a stupid expression at the menial nature of the task.",
         "decline_text": "They're called back to camp, needed for other chores.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -2633,7 +2633,7 @@
                 ]
             },
             {
-                "text": "Out of the cats in the group, app2 is the one that seems irritated about it at first. As app1 keeps chatting to {PRONOUN/app2/object}, however, {PRONOUN/app2/subject} {VERB/app2/start/starts} to warm up, and both apprentices feel much more comfortable with each other by the time they bring their mossy loot back to camp.",
+                "text": "Out of the cats in the group, app2 is the one that seems irritated about it at first. As app1 keeps chatting to {PRONOUN/app2/object}, however, {PRONOUN/app2/subject} {VERB/app2/start/starts} to warm up, and both rusasis feel much more comfortable with each other by the time they bring their mossy loot back to camp.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "moss"],
@@ -2657,7 +2657,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The other apprentices exchange a glance, tailtips twitching with irritation. It's fine, it's totally not like they'd prefer to be hunting, doing something actually useful... That attitude, unfortunately, is present through the entire patrol, and each apprentice is too snappy and standoffish to manage gathering anything other than negative thoughts.",
+                "text": "The other rusasis exchange a glance, tailtips twitching with irritation. It's fine, it's totally not like they'd prefer to be hunting, doing something actually useful... That attitude, unfortunately, is present through the entire patrol, and each rusasi is too snappy and standoffish to manage gathering anything other than negative thoughts.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2689,18 +2689,18 @@
         "min_cats": 5,
         "max_cats": 5,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
+            "rusasi": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [5, 5]
+            "all rusasis": [5, 5]
         },
         "weight": 20,
-        "intro_text": "The apprentices head out into the territory, following p_l a little dubiously. Gathering things can't possibly be as hard as hunting them - plants don't run away!",
+        "intro_text": "The rusasis head out into the territory, following p_l a little dubiously. Gathering things can't possibly be as hard as hunting them - plants don't run away!",
         "decline_text": "They're called back to camp, needed for other chores.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's a traditional chore for apprentices, it's not a particularly <i>interesting</i> one. Still, though, sometimes it isn't what you're doing, but who you're doing it with, and though there's a bit of complaining, all the apprentices are glad to have the chance to spend time together.",
+                "text": "While it's a traditional chore for rusasis, it's not a particularly <i>interesting</i> one. Still, though, sometimes it isn't what you're doing, but who you're doing it with, and though there's a bit of complaining, all the rusasis are glad to have the chance to spend time together.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["moss"],
@@ -2722,7 +2722,7 @@
                 ]
             },
             {
-                "text": "p_l is determined to prove {PRONOUN/p_l/self} to the other apprentices, and fortunately {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} push it too far. Despite {PRONOUN/p_l/poss} enthusiasm, {PRONOUN/p_l/subject} {VERB/p_l/avoid/avoids} bossing everyone around, instead encouraging the patrol in their duties. {VERB/p_l/Are/Is} {PRONOUN/p_l/subject} a bit stiff? Sure, but {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} not unlikeable!",
+                "text": "p_l is determined to prove {PRONOUN/p_l/self} to the other rusasis, and fortunately {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} push it too far. Despite {PRONOUN/p_l/poss} enthusiasm, {PRONOUN/p_l/subject} {VERB/p_l/avoid/avoids} bossing everyone around, instead encouraging the patrol in their duties. {VERB/p_l/Are/Is} {PRONOUN/p_l/subject} a bit stiff? Sure, but {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} not unlikeable!",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "moss"],
@@ -2778,13 +2778,13 @@
         "min_cats": 6,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
+            "rusasi": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [6, 6]
+            "all rusasis": [6, 6]
         },
         "weight": 20,
-        "intro_text": "As the apprentices head out to collect moss, app3 screws up {PRONOUN/app3/poss} face into a stupid expression at the menial nature of the task.",
+        "intro_text": "As the rusasis head out to collect moss, app3 screws up {PRONOUN/app3/poss} face into a stupid expression at the menial nature of the task.",
         "decline_text": "They're called back to camp, needed for other chores.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -2811,7 +2811,7 @@
                 ]
             },
             {
-                "text": "Out of the cats in the group, app2 is the one that seems irritated about it at first. As app1 keeps chatting to {PRONOUN/app2/object}, however, {PRONOUN/app2/subject} {VERB/app2/start/starts} to warm up, and both apprentices feel much more comfortable with each other by the time they bring their mossy loot back to camp.",
+                "text": "Out of the cats in the group, app2 is the one that seems irritated about it at first. As app1 keeps chatting to {PRONOUN/app2/object}, however, {PRONOUN/app2/subject} {VERB/app2/start/starts} to warm up, and both rusasis feel much more comfortable with each other by the time they bring their mossy loot back to camp.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "moss"],
@@ -2835,7 +2835,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The other apprentices exchange a glance, tailtips twitching with irritation. It's fine, it's totally not like they'd prefer to be hunting, doing something actually useful... That attitude, unfortunately, is present through the entire patrol, and each apprentice is too snappy and standoffish to manage gathering anything other than negative thoughts.",
+                "text": "The other rusasis exchange a glance, tailtips twitching with irritation. It's fine, it's totally not like they'd prefer to be hunting, doing something actually useful... That attitude, unfortunately, is present through the entire patrol, and each rusasi is too snappy and standoffish to manage gathering anything other than negative thoughts.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2862,22 +2862,22 @@
         "biome": ["forest"],
         "season": ["Any"],
         "types": ["herb_gathering"],
-        "tags": ["six_apprentices"],
+        "tags": ["six_rusasis"],
         "patrol_art": "gen_med_mossapps",
         "min_cats": 6,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
+            "rusasi": [1, 6],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The apprentices head out into the territory, following p_l a little dubiously. Gathering things can't possibly be as hard as hunting them - plants don't run away!",
+        "intro_text": "The rusasis head out into the territory, following p_l a little dubiously. Gathering things can't possibly be as hard as hunting them - plants don't run away!",
         "decline_text": "They're called back to camp, needed for other chores.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's a traditional chore for apprentices, it's not a particularly <i>interesting</i> one. Still, though, sometimes it isn't what you're doing, but who you're doing it with, and though there's a bit of complaining, all the apprentices are glad to have the chance to spend time together.",
+                "text": "While it's a traditional chore for rusasis, it's not a particularly <i>interesting</i> one. Still, though, sometimes it isn't what you're doing, but who you're doing it with, and though there's a bit of complaining, all the rusasis are glad to have the chance to spend time together.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["moss"],
@@ -2899,7 +2899,7 @@
                 ]
             },
             {
-                "text": "p_l is determined to prove {PRONOUN/p_l/self} to the other apprentices, and fortunately {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} push it too far. Despite {PRONOUN/p_l/poss} enthusiasm, {PRONOUN/p_l/subject} {VERB/p_l/avoid/avoids} bossing everyone around, instead encouraging the patrol in their duties. {VERB/p_l/Are/Is} {PRONOUN/p_l/subject} a bit stiff? Sure, but {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} not unlikeable!",
+                "text": "p_l is determined to prove {PRONOUN/p_l/self} to the other rusasis, and fortunately {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} push it too far. Despite {PRONOUN/p_l/poss} enthusiasm, {PRONOUN/p_l/subject} {VERB/p_l/avoid/avoids} bossing everyone around, instead encouraging the patrol in their duties. {VERB/p_l/Are/Is} {PRONOUN/p_l/subject} a bit stiff? Sure, but {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} not unlikeable!",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "moss"],

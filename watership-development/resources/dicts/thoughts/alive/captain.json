@@ -39,12 +39,12 @@
         ]
     },
     {
-        "id": "captain_alive_apprentices",
+        "id": "captain_alive_rusasis",
         "thoughts": [
-            "Is assessing the apprentices"
+            "Is assessing the rusasis"
         ],
         "random_status_constraint": [
-            "apprentice"
+            "rusasi"
         ]
     },
     {
@@ -181,15 +181,15 @@
         ]
     },
     {
-        "id": "wise_captain_apprentice",
+        "id": "wise_captain_rusasi",
         "thoughts": [
-            "Is sharing words of wisdom with a confused apprentice"
+            "Is sharing words of wisdom with a confused rusasi"
         ],
         "main_trait_constraint": [
             "wise"
         ],
         "random_status_constraint": [
-            "apprentice"
+            "rusasi"
         ]
     },
     {
@@ -225,7 +225,7 @@
         ]
     },
     {
-        "id": "teacher_captain_apprentice",
+        "id": "teacher_captain_rusasi",
         "thoughts": [
             "Feels satisfaction watching a trainee master a lesson",
             "Guides a trainee through their first battle assessment"
@@ -234,7 +234,7 @@
             "TEACHER,1"
         ],
         "random_status_constraint": [
-            "apprentice"
+            "rusasi"
         ]
     },
     {
@@ -311,13 +311,13 @@
             "Is recalling an old story that might inspire the warren in tough times",
             "Feels inspired to craft a new legend based on recent events",
             "Uses the stories of old to help guide their decisions",
-            "Is sharing tales of the warren's legacy with wide-eyed apprentices"
+            "Is sharing tales of the warren's legacy with wide-eyed rusasis"
         ],
         "main_skill_constraint": [
             "STORY,1"
         ],
         "random_status_constraint": [
-            "apprentice"
+            "rusasi"
         ]
     }
 

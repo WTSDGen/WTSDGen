@@ -105,10 +105,10 @@
     {
         "id": "rabbit_gen_alive_young_rabbit",
         "thoughts": [
-            "Has the young rabbits very engaged in a very, very tall tale"
+            "Has the rusasis very engaged in a very, very tall tale"
         ],
         "random_status_constraint": [
-            "young rabbit"
+            "rusasi"
         ],
         "random_living_status": [
             "living"
@@ -406,13 +406,13 @@
     {
         "id": "cold_rabbit_to_alive_young_rabbit",
         "thoughts": [
-            "Is scolding the young rabbits over something slight",
-            "Is pushing around the young rabbits",
-            "Berates a young rabbit for not doing their chores",
+            "Is scolding the rusasis over something slight",
+            "Is pushing around the rusasis",
+            "Berates a rusasi for not doing their chores",
             "Tells r_r to toughen up"
         ],
         "random_status_constraint": [
-            "young rabbit"
+            "rusasi"
         ],
         "main_trait_constraint": [
             "cold"
@@ -462,7 +462,7 @@
             "Offers a helping paw, even after a night of bad sleep",
             "Feels {PRONOUN/m_c/poss} kindness might be taken advantage of",
             "Is listening to the woes of a fellow warrenmate",
-            "Notices a young rabbit struggling with a task and offers {PRONOUN/m_c/poss} help",
+            "Notices a rusasi struggling with a task and offers {PRONOUN/m_c/poss} help",
             "Is doing some simple tasks around burrow, to help lighten the load",
             "Is cuddling with friends",
             "Is keeping the injured rabbits company",
@@ -493,13 +493,13 @@
 
     },
     {
-        "id": "compassionate_owsla_to_living_apprentices",
+        "id": "compassionate_owsla_to_living_rusasis",
         "thoughts": [
             "Feels bad seeing the trainees worked to the bone",
             "Takes r_r's place in the dawn patrol so {PRONOUN/r_r/subject} can sleep in a little"
         ],
         "random_status_constraint": [
-            "apprentice"
+            "rusasi"
         ],
         "main_trait_constraint": [
             "compassionate"
@@ -681,13 +681,13 @@
         ]
     },
     {
-        "id": "loving_rabbit_to_living_apprentices",
+        "id": "loving_rabbit_to_living_rusasis",
         "thoughts": [
-            "Spends some time with the apprentices",
+            "Spends some time with the rusasis",
             "Comforts r_r after {PRONOUN/r_r/subject} had a bad day"
         ],
         "random_status_constraint": [
-            "apprentice"
+            "rusasi"
         ],
         "main_trait_constraint": [
             "loving"
@@ -826,13 +826,13 @@
         ]
     },
     {
-        "id": "responsible_rabbit_to_living_apprentices",
+        "id": "responsible_rabbit_to_living_rusasis",
         "thoughts": [
-            "Doesn't approve of the trouble the apprentices have been making",
-            "Scolds the apprentices for not taking the rabbit code seriously"
+            "Doesn't approve of the trouble the rusasis have been making",
+            "Scolds the rusasis for not taking the rabbit code seriously"
         ],
         "random_status_constraint": [
-            "apprentice"
+            "rusasi"
         ],
         "main_trait_constraint": [
             "responsible"
@@ -960,12 +960,12 @@
         ]
     },
     {
-        "id": "strict_rabbit_to_living_apprentices",
+        "id": "strict_rabbit_to_living_rusasis",
         "thoughts": [
-            "Snaps at some apprentices after they pull a harmless prank"
+            "Snaps at some rusasis after they pull a harmless prank"
         ],
         "random_status_constraint": [
-            "apprentice"
+            "rusasi"
         ],
         "main_trait_constraint": [
             "strict"
@@ -984,7 +984,7 @@
             "Notices a warrenmate is tired and offers to take their chores",
             "Gets an injured warrenmate a piece of fresh-kill",
             "Spends some time helping out the healer today",
-            "Reassures an apprentice who's nervous to go on patrol"
+            "Reassures an rusasi who's nervous to go on patrol"
         ],
         "main_trait_constraint": [
             "thoughtful"
@@ -1016,12 +1016,12 @@
         ]
     },
     {
-        "id": "troublesome_rabbit_to_living_apprentices",
+        "id": "troublesome_rabbit_to_living_rusasis",
         "thoughts": [
-            "Pulls pranks on the other rabbits and blames it on the apprentices"
+            "Pulls pranks on the other rabbits and blames it on the rusasis"
         ],
         "random_status_constraint": [
-            "apprentice"
+            "rusasi"
         ],
         "main_trait_constraint": [
             "troublesome"
@@ -1067,13 +1067,13 @@
         ]
     },
     {
-        "id": "wise_rabbit_to_living_apprentices",
+        "id": "wise_rabbit_to_living_rusasis",
         "thoughts": [
-            "Is telling stories to a very interested bunch of apprentices",
-            "Instills {PRONOUN/m_c/poss} wisdom into some rowdy apprentices" 
+            "Is telling stories to a very interested bunch of rusasis",
+            "Instills {PRONOUN/m_c/poss} wisdom into some rowdy rusasis" 
         ],
         "random_status_constraint": [
-            "apprentice"
+            "rusasi"
         ],
         "main_trait_constraint": [
             "wise"

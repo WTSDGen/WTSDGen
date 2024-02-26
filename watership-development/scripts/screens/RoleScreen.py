@@ -164,7 +164,7 @@ class RoleScreen(Screens):
                                                                              short_name,
                                                                              object_id=get_text_box_theme())
         if self.the_rabbit.status == "healer rusasi":
-            text = f"<b>healer's apprentice</b>\n{self.the_rabbit.personality.trait}\n"
+            text = f"<b>healer's rusasi</b>\n{self.the_rabbit.personality.trait}\n"
         elif self.the_rabbit.status == "owsla rusasi":
             text = f"<b>owsla trainee</b>\n{self.the_rabbit.personality.trait}\n"
         else:
@@ -469,7 +469,7 @@ class RoleScreen(Screens):
                      f"to an single rabbit - their rusasirah. To build character, rusasi are often assigned " \
                      f"the unpleasant and grunt tasks of warren life."
         elif self.the_rabbit.status == "healer rusasi":
-            output = f"{self.the_rabbit.name} is a <b>healer's apprentice</b>, training to become a full healer. " \
+            output = f"{self.the_rabbit.name} is a <b>healer's rusasi</b>, training to become a full healer. " \
                      f"Kits can be made healer rusasis at six months of age, where they will learn how to " \
                      f"heal their warrenmates and commune with Frith. healer rusasis are typically chosen " \
                      f"for their interest in healing and/or their connecting to Frith. "

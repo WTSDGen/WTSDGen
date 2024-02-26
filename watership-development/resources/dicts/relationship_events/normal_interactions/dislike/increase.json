@@ -46,14 +46,14 @@
 			"m_c sighs loudly every time r_r does anything on patrol."
 		],
 		"main_status_constraint": [
-			"apprentice",
-			"warrior",
+			"rusasi",
+			"rabbit",
 			"deputy",
 			"leader"
 		],
 		"random_status_constraint": [
-			"apprentice",
-			"warrior",
+			"rusasi",
+			"rabbit",
 			"deputy",
 			"leader"
 		],
@@ -117,11 +117,11 @@
 		],
 		"main_status_constraint": [
 			"elder",
-			"apprentice",
-			"warrior",
-			"owsla apprentice",
+			"rusasi",
+			"rabbit",
+			"owsla rusasi",
 			"owsla",
-			"healer apprentice",
+			"healer rusasi",
 			"healer",
 			"deputy",
 			"leader"
@@ -147,8 +147,8 @@
 			"leader"
 		],
 		"random_status_constraint": [
-			"apprentice",
-			"warrior"
+			"rusasi",
+			"rabbit"
 		],
 		"reaction_random_cat": {
 			"dislike": "increase"
@@ -162,7 +162,7 @@
 			"m_c always tends to r_r last."
 		],
 		"main_status_constraint": [
-			"healer apprentice",
+			"healer rusasi",
 			"healer"
 		],
 		"reaction_random_cat": {
@@ -271,8 +271,8 @@
 			"deputy"
 		],
 		"main_status_constraint": [
-			"apprentice",
-			"warrior"
+			"rusasi",
+			"rabbit"
 		],
 		"also_influences": {
 			"jealousy": "increase"
@@ -319,8 +319,8 @@
 		],
 		"random_status_constraint": [
 			"elder",
-			"owsla apprentice",
-			"healer apprentice"
+			"owsla rusasi",
+			"healer rusasi"
 		]
 	}
 ]

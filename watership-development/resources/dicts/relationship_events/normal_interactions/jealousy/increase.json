@@ -19,16 +19,16 @@
 			"m_c is jealous that r_r went on patrol without {PRONOUN/m_c/object}."
 		],
 		"main_status_constraint": [
-			"owsla apprentice",
-			"apprentice",
-			"warrior"
+			"owsla rusasi",
+			"rusasi",
+			"rabbit"
 		],
 		"random_status_constraint": [
-			"owsla apprentice",
-			"apprentice",
-			"healer apprentice",
+			"owsla rusasi",
+			"rusasi",
+			"healer rusasi",
 			"healer",
-			"warrior",
+			"rabbit",
 			"owsla",
 			"deputy"
 		]
@@ -42,14 +42,14 @@
 			"m_c doesn't understand how r_r got so good at hunting."
 		],
 		"main_status_constraint": [
-			"apprentice",
-			"healer apprentice",
-			"owsla apprentice",
-			"warrior"
+			"rusasi",
+			"healer rusasi",
+			"owsla rusasi",
+			"rabbit"
 		],
 		"random_status_constraint": [
-			"apprentice",
-			"warrior",
+			"rusasi",
+			"rabbit",
 			"deputy"
 		]
 	},
@@ -88,9 +88,9 @@
 			"m_c is resentful that so much is expected of {PRONOUN/m_c/object}, yet no one expects anything of r_r."
 		],
 		"main_status_constraint": [
-			"apprentice",
-			"owsla apprentice",
-			"healer apprentice"
+			"rusasi",
+			"owsla rusasi",
+			"healer rusasi"
 		],
 		"random_status_constraint": [
 			"kitten"
@@ -107,11 +107,11 @@
 			"m_c thinks it's unfair that r_r always gets to go to Gatherings."
 		],
 		"main_status_constraint": [
-			"apprentice",
-			"owsla apprentice"
+			"rusasi",
+			"owsla rusasi"
 		],
 		"random_status_constraint": [
-			"healer apprentice"
+			"healer rusasi"
 		]
 	},
 	{

@@ -46,7 +46,7 @@
         ["frozen paws"],
         ["an unyielding fog", "a sufforabbiting fog"],
         ["an oppressive darkness", "darkness unending", "a panther-black night", "darkness despite the shining sun"],
-        ["the young rabbit's den", "the threarah's den", "the nursery", "the adult rabbit's den", "the elder's den"],
+        ["the rusasi's den", "the threarah's den", "the nursery", "the adult rabbit's den", "the elder's den"],
         ["a deep lake"],
         ["a snake eating it's own tail"],
         ["a ghostly pair of eyes"],
@@ -144,7 +144,7 @@
     },
     "emotional": {
       "general": [
-        ["the excitement of an trainee", "a trainee's vigor", "the naivety of a young rabbit"],
+        ["the excitement of an trainee", "a trainee's vigor", "the naivety of a rusasi"],
         ["the strength of the owsla", "the steadfastness of the owsla", "an owsla's loyalty"],
         ["the ache of an elder's bones", "the wisdom of an elder"],
         ["the sensation of falling"],
@@ -409,7 +409,7 @@
         ["a rabbit's last breath"],
         ["a promise kept", "a half-remembered promise", "a promise already broken", "a promise not yet made"],
         ["a story half-remembered"],
-        ["the excitement of a trainee", "a trainee's vigor", "the naivety of a young rabbit"],
+        ["the excitement of a trainee", "a trainee's vigor", "the naivety of a rusasi"],
         ["the strength of the owsla", "the steadfastness of the owsla", "the owsla's loyalty"],
         ["the ache of an elder's bones", "an elder's wisdom"],
         ["drowning"],

@@ -9,7 +9,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -106,7 +106,7 @@
                 ]
             },
             {
-                "text": "p_l can't get app1 to take the training session seriously, and gives up before the apprentice can attract the eagles' attention.",
+                "text": "p_l can't get app1 to take the training session seriously, and gives up before the rusasi can attract the eagles' attention.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -138,7 +138,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -235,7 +235,7 @@
                 ]
             },
             {
-                "text": "p_l can't get app1 to take the training session seriously, and gives up before the apprentice can attract the eagles' attention.",
+                "text": "p_l can't get app1 to take the training session seriously, and gives up before the rusasi can attract the eagles' attention.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -267,8 +267,8 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -298,7 +298,7 @@
                 ]
             },
             {
-                "text": "p_l tells the apprentices to watch carefully - not the rowdy eagle nest, but the tiny home in its shadow, where a female hummingbird climbs out and takes to the wing, headed for the mountain meadows. app1's jaw drops as she whizzes past, nearly soundless, blindingly fast, and zigzagging through the trees in a way app1 swore was impossible for birds.",
+                "text": "p_l tells the rusasis to watch carefully - not the rowdy eagle nest, but the tiny home in its shadow, where a female hummingbird climbs out and takes to the wing, headed for the mountain meadows. app1's jaw drops as she whizzes past, nearly soundless, blindingly fast, and zigzagging through the trees in a way app1 swore was impossible for birds.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -319,7 +319,7 @@
                 ]
             },
             {
-                "text": "As they hide, watching the hummingbird nest in the shadow of the eagle nest, s_c tells the apprentices how c_n's founders followed the hummingbird's wisdom, setting up the Clan in the shadow of the dangers of the mountain to protect c_n cats from the attention of Twolegs and endless wars with other rabbit Clans.",
+                "text": "As they hide, watching the hummingbird nest in the shadow of the eagle nest, s_c tells the rusasis how c_n's founders followed the hummingbird's wisdom, setting up the Clan in the shadow of the dangers of the mountain to protect c_n cats from the attention of Twolegs and endless wars with other rabbit Clans.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -365,7 +365,7 @@
                 ]
             },
             {
-                "text": "p_l can't get app1 or app2 to take the training session seriously, and gives up before the apprentices can attract the eagles' attention.",
+                "text": "p_l can't get app1 or app2 to take the training session seriously, and gives up before the rusasis can attract the eagles' attention.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -397,8 +397,8 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -428,7 +428,7 @@
                 ]
             },
             {
-                "text": "p_l tells the apprentices to watch carefully - not the rowdy eagle nest, but the tiny home in its shadow, where a female hummingbird climbs out and takes to the wing, headed for the mountain meadows. app1's jaw drops as she whizzes past, nearly soundless, blindingly fast, and zigzagging through the trees in a way app1 swore was impossible for birds.",
+                "text": "p_l tells the rusasis to watch carefully - not the rowdy eagle nest, but the tiny home in its shadow, where a female hummingbird climbs out and takes to the wing, headed for the mountain meadows. app1's jaw drops as she whizzes past, nearly soundless, blindingly fast, and zigzagging through the trees in a way app1 swore was impossible for birds.",
                 "exp": 15,
                 "weight": 5,
                 "relationships": [
@@ -449,7 +449,7 @@
                 ]
             },
             {
-                "text": "As they hide, watching the hummingbird nest in the shadow of the eagle nest, s_c tells the apprentices how the hummingbird arrival signals the start of greenleaf, and how the Clan will know it's leaf-fall when the birds leave their territory. The more hummingbirds there are that year, the better a greenleaf it'll be.",
+                "text": "As they hide, watching the hummingbird nest in the shadow of the eagle nest, s_c tells the rusasis how the hummingbird arrival signals the start of greenleaf, and how the Clan will know it's leaf-fall when the birds leave their territory. The more hummingbirds there are that year, the better a greenleaf it'll be.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1"],
@@ -495,7 +495,7 @@
                 ]
             },
             {
-                "text": "p_l can't get app1 or app2 to take the training session seriously, and gives up before the apprentices can attract the eagles' attention.",
+                "text": "p_l can't get app1 or app2 to take the training session seriously, and gives up before the rusasis can attract the eagles' attention.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -527,7 +527,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -635,7 +635,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -743,8 +743,8 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -753,7 +753,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The apprentices stick their noses down into the soft dew-covered meadowgrass, searching for prey scent, but p_l's tail flicks under app1's chin, prompting their head up. They gasp. Above them, a male hummingbird hovers, his full breeding plumage flashing brilliantly in the sun.",
+                "text": "The rusasis stick their noses down into the soft dew-covered meadowgrass, searching for prey scent, but p_l's tail flicks under app1's chin, prompting their head up. They gasp. Above them, a male hummingbird hovers, his full breeding plumage flashing brilliantly in the sun.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -774,7 +774,7 @@
                 ]
             },
             {
-                "text": "They're here to follow the hummingbirds, p_l explains with a laugh, and dives into the thick meadowgrass sea. The apprentices spend the afternoon bounding through the flowers, following the birds as the males fight, learning about how hummingbirds signal good hunting areas and the easy times of greenleaf.",
+                "text": "They're here to follow the hummingbirds, p_l explains with a laugh, and dives into the thick meadowgrass sea. The rusasis spend the afternoon bounding through the flowers, following the birds as the males fight, learning about how hummingbirds signal good hunting areas and the easy times of greenleaf.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -795,7 +795,7 @@
                 ]
             },
             {
-                "text": "s_c pulls the apprentices' attention towards the flashing hummingbirds darting about. Once upon a time a fire threatened to consume everything but the bare rock of the mountains, but StarClan caught its embers, stopping it from spreading. They released those embers in greenleaf, to fly above the flowering meadows they'd saved from destruction.",
+                "text": "s_c pulls the rusasis' attention towards the flashing hummingbirds darting about. Once upon a time a fire threatened to consume everything but the bare rock of the mountains, but StarClan caught its embers, stopping it from spreading. They released those embers in greenleaf, to fly above the flowering meadows they'd saved from destruction.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -852,8 +852,8 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -862,7 +862,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The apprentices stick their noses down into the soft dew-covered meadowgrass, searching for prey scent, but p_l's tail flicks under app1's chin, prompting their head up. They gasp. Above them, a male hummingbird hovers, his full breeding plumage flashing brilliantly in the sun.",
+                "text": "The rusasis stick their noses down into the soft dew-covered meadowgrass, searching for prey scent, but p_l's tail flicks under app1's chin, prompting their head up. They gasp. Above them, a male hummingbird hovers, his full breeding plumage flashing brilliantly in the sun.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [
@@ -883,7 +883,7 @@
                 ]
             },
             {
-                "text": "They're here to follow the hummingbirds, p_l explains with a laugh, and dives into the thick meadowgrass sea. The apprentices spend the afternoon bounding through the flowers, following the birds as the males fight, learning about how hummingbirds signal good hunting areas and the easy times of greenleaf.",
+                "text": "They're here to follow the hummingbirds, p_l explains with a laugh, and dives into the thick meadowgrass sea. The rusasis spend the afternoon bounding through the flowers, following the birds as the males fight, learning about how hummingbirds signal good hunting areas and the easy times of greenleaf.",
                 "exp": 15,
                 "weight": 5,
                 "relationships": [
@@ -904,7 +904,7 @@
                 ]
             },
             {
-                "text": "The apprentices leap into the meadows, running around maniacally as hummingbirds flit away before them. p_l watches them indulgently, and when they slow down s_c explains about how c_n uses hunting the agile birds as the ultimate test - it's considered the mark of a truly fantastic hunter to catch one without using your claws and pluck a single shining feather.",
+                "text": "The rusasis leap into the meadows, running around maniacally as hummingbirds flit away before them. p_l watches them indulgently, and when they slow down s_c explains about how c_n uses hunting the agile birds as the ultimate test - it's considered the mark of a truly fantastic hunter to catch one without using your claws and pluck a single shining feather.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1"],

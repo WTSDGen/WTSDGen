@@ -954,7 +954,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -1035,7 +1035,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -1116,10 +1116,10 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [-1, -1],
+            "all rusasis": [-1, -1],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -1199,10 +1199,10 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [-1, -1],
+            "all rusasis": [-1, -1],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -1282,8 +1282,8 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [-1, -1],
-            "healer apprentice": [1, 6],
+            "rusasi": [-1, -1],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -1371,8 +1371,8 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [-1, -1],
-            "healer apprentice": [1, 6],
+            "rusasi": [-1, -1],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -1908,7 +1908,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "It's a cold day in c_n's territory, and app1 is the only rabbit stepping out. {PRONOUN/app1/subject/CAP}{VERB/app1/'re/'s} by {PRONOUN/app1/self} when {PRONOUN/app1/subject} {VERB/app1/hear/hears} a rabbit screaming for help.",
@@ -1964,7 +1964,7 @@
                 ]
             },
             {
-                "text": "app1 follows the sad cries to find a kittypet, lost and alone and cold. The apprentice introduces {PRONOUN/app1/self} cheerfully, and the desperate kittypet nearly tumbles them over in their haste to press their nose to app1's shoulder, breaking into desperately grateful purrs.",
+                "text": "app1 follows the sad cries to find a kittypet, lost and alone and cold. The rusasi introduces {PRONOUN/app1/self} cheerfully, and the desperate kittypet nearly tumbles them over in their haste to press their nose to app1's shoulder, breaking into desperately grateful purrs.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["adventurous", "playful", "strange", "childish", "shameless"],
@@ -2145,16 +2145,16 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol comes across a o_c_n apprentice, waiting quietly at the border. When the apprentice notices the patrol, they press themselves to the ground, begging to join c_n.",
-        "decline_text": "This seems like a o_c_n problem. They order the apprentice to go back home and continue the patrol.",
+        "intro_text": "The patrol comes across a o_c_n rusasi, waiting quietly at the border. When the rusasi notices the patrol, they press themselves to the ground, begging to join c_n.",
+        "decline_text": "This seems like a o_c_n problem. They order the rusasi to go back home and continue the patrol.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "The patrol brings the apprentice back to camp, where {PRONOUN/n_c:0/subject} {VERB/n_c:0/are/is} accepted into the Clan. Although, this doesn't help relations with o_c_n.",
+                "text": "The patrol brings the rusasi back to camp, where {PRONOUN/n_c:0/subject} {VERB/n_c:0/are/is} accepted into the Clan. Although, this doesn't help relations with o_c_n.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
-                    ["status:apprentice", "backstory:otherclan2"]
+                    ["status:rusasi", "backstory:otherclan2"]
                 ],
                 "relationships": [
                     {
@@ -2167,11 +2167,11 @@
                 "other_warren_rep": -1
             },
             {
-                "text": "The patrol brings the apprentice back to camp. At first, the Clan wants to send {PRONOUN/n_c:0/object} home, but {PRONOUN/n_c:0/subject} {VERB/n_c:0/refuse/refuses} to leave. Reluctantly, c_n lets {PRONOUN/n_c:0/object} stay. o_c_n is not pleased.",
+                "text": "The patrol brings the rusasi back to camp. At first, the Clan wants to send {PRONOUN/n_c:0/object} home, but {PRONOUN/n_c:0/subject} {VERB/n_c:0/refuse/refuses} to leave. Reluctantly, c_n lets {PRONOUN/n_c:0/object} stay. o_c_n is not pleased.",
                 "exp": 10,
                 "weight": 10,
                 "new_cat": [
-                    ["status:apprentice", "backstory:otherclan2"]
+                    ["status:rusasi", "backstory:otherclan2"]
                 ],
                 "relationships": [
                     {
@@ -2184,13 +2184,13 @@
                 "other_warren_rep": -1
             },
             {
-                "text": "s_c is eager to steal a o_c_n's apprentice right out from under their noses. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stick/sticks} close to the apprentice on their way back to camp. At first, the Clan is unsure, but s_c vouches for n_c:0, and {PRONOUN/n_c:0/subject} {VERB/n_c:0/are/is} allowed to join the Clan.",
+                "text": "s_c is eager to steal a o_c_n's rusasi right out from under their noses. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stick/sticks} close to the rusasi on their way back to camp. At first, the Clan is unsure, but s_c vouches for n_c:0, and {PRONOUN/n_c:0/subject} {VERB/n_c:0/are/is} allowed to join the Clan.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["ambitious", "daring", "bold", "fierce", "bloodthirsty", "troublesome"],
                 "can_have_stat": ["any"],
                 "new_cat": [
-                    ["status:apprentice", "backstory:otherclan2"]
+                    ["status:rusasi", "backstory:otherclan2"]
                 ],
                 "relationships": [
                     {
@@ -2212,19 +2212,19 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol brings the apprentice back to camp. However, c_n doesn't want to sully relations with o_c_n, and the apprentice is escorted home.",
+                "text": "The patrol brings the rusasi back to camp. However, c_n doesn't want to sully relations with o_c_n, and the rusasi is escorted home.",
                 "exp": 0,
                 "weight": 20,
                 "other_warren_rep": 0
             },
             {
-                "text": "The patrol brings the apprentice, back to camp. However, the Clan is unwelcoming, and the apprentice slips out in the middle of the night, dejected.",
+                "text": "The patrol brings the rusasi, back to camp. However, the Clan is unwelcoming, and the rusasi slips out in the middle of the night, dejected.",
                 "exp": 0,
                 "weight": 5,
                 "other_warren_rep": 0
             },
             {
-                "text": "s_c knows accepting this apprentice will cause conflict with o_c_n, and c_n can't risk a war. Still, {PRONOUN/s_c/subject} {VERB/s_c/want/wants} to help. {PRONOUN/s_c/subject/CAP} {VERB/s_c/subject/sit/sits} with the apprentice for a while, listening to their problems and offering advice. The apprentice returns home with a new prespective.",
+                "text": "s_c knows accepting this rusasi will cause conflict with o_c_n, and c_n can't risk a war. Still, {PRONOUN/s_c/subject} {VERB/s_c/want/wants} to help. {PRONOUN/s_c/subject/CAP} {VERB/s_c/subject/sit/sits} with the rusasi for a while, listening to their problems and offering advice. The rusasi returns home with a new prespective.",
                 "exp": 5,
                 "weight": 5,
                 "stat_skill": ["MEDIATOR,2", "SPEAKER,2"],
@@ -2234,7 +2234,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "This apprentice is clearly a spy, sent by o_c_n to weaken c_n. The patrol drives the apprentice away, but they put up a good fight.",
+                "text": "This rusasi is clearly a spy, sent by o_c_n to weaken c_n. The patrol drives the rusasi away, but they put up a good fight.",
                 "exp": 0,
                 "weight": 20,
                 "injury": [
@@ -2248,7 +2248,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "This apprentice is clearly a spy, sent by o_c_n to weaken c_n. The patrol sends them home, bleeding from a few new scratches.",
+                "text": "This rusasi is clearly a spy, sent by o_c_n to weaken c_n. The patrol sends them home, bleeding from a few new scratches.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2

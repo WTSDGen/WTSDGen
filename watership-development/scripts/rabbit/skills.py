@@ -385,7 +385,7 @@ class RabbitSkills:
             pass
         elif status == 'kit' or months < 6:
             new_skill.primary = Skill.get_random_skill(points=0, interest_only=True)
-        elif status == 'young rabbit':
+        elif status == 'rusasi':
             new_skill.primary = Skill.get_random_skill(point_tier=1, interest_only=True)
             if random.randint(1, 3) == 1:
                 new_skill.secondary = Skill.get_random_skill(point_tier=1, interest_only=True, exclude=new_skill.primary.path)
@@ -491,9 +491,9 @@ class RabbitSkills:
                     
             # If there are parental paths, flip a coin to determine if they will get a parents path
             if parental_paths and random.randint(0, 1):
-                self.primary = Skill(random.choice(parental_paths), points=0, interest_only=True if the_rabbit.status in ["young rabbit", "kit"] else False)
+                self.primary = Skill(random.choice(parental_paths), points=0, interest_only=True if the_rabbit.status in ["rusasi", "kit"] else False)
             else:
-                self.primary = Skill.get_random_skill(points=0, interest_only=True if the_rabbit.status in ["young rabbit", "kit"] else False)
+                self.primary = Skill.get_random_skill(points=0, interest_only=True if the_rabbit.status in ["rusasi", "kit"] else False)
         
         
         if not (the_rabbit.outside or the_rabbit.exiled):
@@ -515,7 +515,7 @@ class RabbitSkills:
                     elif self.primary:
                         self.primary.points += amount_effect
 
-            elif 'young rabbit' in the_rabbit.status:
+            elif 'rusasi' in the_rabbit.status:
                 # Check to see if the rabbit gains a secondary
                 if not self.secondary and not int(random.random() * 22):
                     # if there's no secondary skill, try to give one!

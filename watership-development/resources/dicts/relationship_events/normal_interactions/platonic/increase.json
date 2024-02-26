@@ -43,16 +43,16 @@
 			"m_c hopes {PRONOUN/m_c/subject} {VERB/m_c/are/is} assigned to patrol with r_r tomorrow."
 		],
 		"main_status_constraint": [
-			"apprentice",
+			"rusasi",
 			"deputy",
 			"leader",
-			"warrior"
+			"rabbit"
 		],
 		"random_status_constraint": [
-			"apprentice",
+			"rusasi",
 			"deputy",
 			"leader",
-			"warrior"
+			"rabbit"
 		],
 		"reaction_random_cat": {
 			"platonic": "increase"
@@ -154,22 +154,22 @@
 		],
 		"main_status_constraint": [
 			"elder",
-			"apprentice",
-			"warrior",
-			"owsla apprentice",
+			"rusasi",
+			"rabbit",
+			"owsla rusasi",
 			"owsla",
-			"healer apprentice",
+			"healer rusasi",
 			"healer",
 			"deputy",
 			"leader"
 		],
 		"random_status_constraint": [
 			"elder",
-			"apprentice",
-			"warrior",
-			"owsla apprentice",
+			"rusasi",
+			"rabbit",
+			"owsla rusasi",
 			"owsla",
-			"healer apprentice",
+			"healer rusasi",
 			"healer",
 			"deputy",
 			"leader"
@@ -181,13 +181,13 @@
 			"m_c noticed that r_r is falling behind in training and offered to help {PRONOUN/r_r/object} catch up."
 		],
 		"main_status_constraint": [
-			"apprentice",
+			"rusasi",
 			"deputy",
 			"leader",
-			"warrior"
+			"rabbit"
 		],
 		"random_status_constraint": [
-			"apprentice"
+			"rusasi"
 		],
 		"reaction_random_cat": {
 			"platonic": "increase"
@@ -238,11 +238,11 @@
 		],
 		"random_status_constraint": [
 			"elder",
-			"apprentice",
-			"warrior",
-			"owsla apprentice",
+			"rusasi",
+			"rabbit",
+			"owsla rusasi",
 			"owsla",
-			"healer apprentice",
+			"healer rusasi",
 			"healer",
 			"deputy",
 			"leader"
@@ -260,9 +260,9 @@
 			"kitten"
 		],
 		"random_status_constraint": [
-			"apprentice",
-			"owsla apprentice",
-			"healer apprentice"
+			"rusasi",
+			"owsla rusasi",
+			"healer rusasi"
 		],
 		"reaction_random_cat": {
 			"platonic": "increase"
@@ -281,17 +281,17 @@
 			"m_c bats the mossball back to r_r when it flies in front of {PRONOUN/m_c/poss} paws.",
 			"m_c spends most of the afternoon describing the territory to r_r.",
 			"m_c purrs as r_r asks {PRONOUN/m_c/object} to show {PRONOUN/r_r/object} how to do a hunter's crouch. {PRONOUN/m_c/subject/CAP} {VERB/m_c/oblige/obliges}, happy to show {PRONOUN/m_c/poss} skills.",
-			"m_c whiskers twitch in amusement as r_r tells {PRONOUN/m_c/object} that {PRONOUN/r_r/subject} {VERB/r_r/hope/hopes} {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} {PRONOUN/r_r/poss} mentor when {PRONOUN/r_r/subject} {VERB/r_r/become/becomes} an apprentice.",
+			"m_c whiskers twitch in amusement as r_r tells {PRONOUN/m_c/object} that {PRONOUN/r_r/subject} {VERB/r_r/hope/hopes} {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} {PRONOUN/r_r/poss} mentor when {PRONOUN/r_r/subject} {VERB/r_r/become/becomes} an rusasi.",
 			"m_c tells r_r that {PRONOUN/m_c/subject} caught this prey just for {PRONOUN/r_r/object} as {PRONOUN/m_c/subject} {VERB/m_c/deliver/delivers} it to {PRONOUN/r_r/object}.",
 			"m_c joins a game as r_r runs up to {PRONOUN/m_c/object} yowling that {PRONOUN/r_r/subject}{VERB/r_r/'re/'s} the greatest warrior ever and could never be defeated. The kit squeals in delight as m_c rolls over in surrender."
 		],
 		"main_status_constraint": [
 			"elder",
-			"apprentice",
-			"warrior",
-			"owsla apprentice",
+			"rusasi",
+			"rabbit",
+			"owsla rusasi",
 			"owsla",
-			"healer apprentice",
+			"healer rusasi",
 			"healer",
 			"deputy",
 			"leader"
@@ -316,11 +316,11 @@
 		],
 		"random_status_constraint": [
 			"elder",
-			"apprentice",
-			"warrior",
-			"owsla apprentice",
+			"rusasi",
+			"rabbit",
+			"owsla rusasi",
 			"owsla",
-			"healer apprentice",
+			"healer rusasi",
 			"healer",
 			"deputy",
 			"leader"
@@ -339,18 +339,18 @@
 		"id": "platonic_app_med1",
 		"interactions": [
 			"m_c is telling r_r about a hunting technique.",
-			"m_c is thinking about how much r_r reminds {PRONOUN/m_c/subject} of {PRONOUN/m_c/poss} own apprentice days.",
-			"m_c is telling r_r about {PRONOUN/m_c/poss} own days as an apprentice.",
+			"m_c is thinking about how much r_r reminds {PRONOUN/m_c/subject} of {PRONOUN/m_c/poss} own rusasi days.",
+			"m_c is telling r_r about {PRONOUN/m_c/poss} own days as an rusasi.",
 			"m_c promises to teach r_r a new technique later."
 		],
 		"main_status_constraint": [
 			"elder",
 			"deputy",
 			"leader",
-			"warrior"
+			"rabbit"
 		],
 		"random_status_constraint": [
-			"apprentice"
+			"rusasi"
 		],
 		"reaction_random_cat": {
 			"platonic": "increase"
@@ -365,10 +365,10 @@
 			"m_c is excitedly trying to guess what {PRONOUN/m_c/poss} and r_r's warrior names will be."
 		],
 		"main_status_constraint": [
-			"apprentice"
+			"rusasi"
 		],
 		"random_status_constraint": [
-			"apprentice"
+			"rusasi"
 		],
 		"reaction_random_cat": {
 			"platonic": "increase"
@@ -387,10 +387,10 @@
 			"platonic_40"
 		],
 		"main_status_constraint": [
-			"apprentice"
+			"rusasi"
 		],
 		"random_status_constraint": [
-			"apprentice"
+			"rusasi"
 		]
 	},
 	{
@@ -403,10 +403,10 @@
 			"m_c begs {PRONOUN/m_c/poss} mentor to let r_r come with for some hunting practice."
 		],
 		"main_status_constraint": [
-			"apprentice"
+			"rusasi"
 		],
 		"random_status_constraint": [
-			"healer apprentice"
+			"healer rusasi"
 		]
 	},
 	{
@@ -414,16 +414,16 @@
 		"interactions": [
 			"m_c gently grooms some cobwebs off r_r's fur.",
 			"m_c tells r_r that {PRONOUN/r_r/subject}'ll be an amazing healer someday.",
-			"m_c believes in r_r, and reassures r_r that {PRONOUN/r_r/subject} made the right choice by becoming a healer apprentice."
+			"m_c believes in r_r, and reassures r_r that {PRONOUN/r_r/subject} made the right choice by becoming a healer rusasi."
 		],
 		"relationship_constraint": [
 			"platonic_40"
 		],
 		"main_status_constraint": [
-			"apprentice"
+			"rusasi"
 		],
 		"random_status_constraint": [
-			"healer apprentice"
+			"healer rusasi"
 		]
 	},
 	{
@@ -434,10 +434,10 @@
 			"m_c thanks r_r for covering for {PRONOUN/m_c/object} during a patrol earlier."
 		],
 		"main_status_constraint": [
-			"warrior"
+			"rabbit"
 		],
 		"random_status_constraint": [
-			"warrior"
+			"rabbit"
 		],
 		"reaction_random_cat": {
 			"platonic": "increase"
@@ -546,7 +546,7 @@
 		],
 		"main_status_constraint": [
 			"healer",
-			"healer apprentice"
+			"healer rusasi"
 		],
 		"main_trait_constraint": [
 			"cold",

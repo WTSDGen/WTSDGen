@@ -9,7 +9,7 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -60,7 +60,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c got spiked by a sea urchin while training as an apprentice."
+                    "scar": "m_c got spiked by a sea urchin while training as an rusasi."
                 }
             }
         ]
@@ -671,10 +671,10 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
-        "intro_text": "r_r heads out along the coast alone, but maybe an apprentice shouldn't try to do a solo patrol.",
+        "intro_text": "r_r heads out along the coast alone, but maybe an rusasi shouldn't try to do a solo patrol.",
         "decline_text": "r_r turns back to camp, deciding that this is a bad idea.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -719,7 +719,7 @@
                 "can_have_stat": ["app"]
             },
             {
-                "text": "The apprentice wanders along obliviously and slips, tumbling right down into a rocky pool. Bruised and sore, r_r has to report to the healer den when {PRONOUN/r_r/subject} {VERB/r_r/return/returns} to camp.",
+                "text": "The rusasi wanders along obliviously and slips, tumbling right down into a rocky pool. Bruised and sore, r_r has to report to the healer den when {PRONOUN/r_r/subject} {VERB/r_r/return/returns} to camp.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -729,7 +729,7 @@
                         "scars": ["RIGHTEAR"]
                     }
                 ],
-                "history_text": { "scar": "m_c got injured as an apprentice, exploring alone." }
+                "history_text": { "scar": "m_c got injured as an rusasi, exploring alone." }
             }
         ]
     },
@@ -932,7 +932,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1040,7 +1040,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
+            "rusasi": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1148,8 +1148,8 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1257,8 +1257,8 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1366,12 +1366,12 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
         "intro_text": "It's storming in c_n's territory today, and app1 waits for app2 up on one of the cliffs.",
-        "decline_text": "The apprentices are called back to camp to deal with an elder's wet bedding.",
+        "decline_text": "The rusasis are called back to camp to deal with an elder's wet bedding.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
@@ -1389,7 +1389,7 @@
                 ]
             },
             {
-                "text": "When app2 arrives, app1 shows {PRONOUN/app2/object} the spot {PRONOUN/app1/subject}{VERB/app1/'ve/'s} found, where the apprentices can see the gigantic storm waves breaking against the land. Both of them gasp when a thunderbolt hits out to sea, throwing the world into black and white, pressed up safely against each other, warmed by the other's pelt.",
+                "text": "When app2 arrives, app1 shows {PRONOUN/app2/object} the spot {PRONOUN/app1/subject}{VERB/app1/'ve/'s} found, where the rusasis can see the gigantic storm waves breaking against the land. Both of them gasp when a thunderbolt hits out to sea, throwing the world into black and white, pressed up safely against each other, warmed by the other's pelt.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -1455,12 +1455,12 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
         "intro_text": "It's storming in c_n's territory today, and app1 waits for app2 up on one of the cliffs.",
-        "decline_text": "The apprentices are called back to camp to deal with an elder's wet bedding.",
+        "decline_text": "The rusasis are called back to camp to deal with an elder's wet bedding.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
@@ -1478,7 +1478,7 @@
                 ]
             },
             {
-                "text": "When app2 arrives, app1 shows {PRONOUN/app2/object} the spot {PRONOUN/app1/subject}{VERB/app1/'ve/'s} found, where the apprentices can see the gigantic storm waves breaking against the land. Both of them gasp when a thunderbolt hits out to sea, throwing the world into black and white, pressed up safely against each other, warmed by the other's pelt.",
+                "text": "When app2 arrives, app1 shows {PRONOUN/app2/object} the spot {PRONOUN/app1/subject}{VERB/app1/'ve/'s} found, where the rusasis can see the gigantic storm waves breaking against the land. Both of them gasp when a thunderbolt hits out to sea, throwing the world into black and white, pressed up safely against each other, warmed by the other's pelt.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -1544,12 +1544,12 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
         "intro_text": "app1 and app2 wanders on a sandy beach near camp.",
-        "decline_text": "The apprentices are called back to camp to help watch camp.",
+        "decline_text": "The rusasis are called back to camp to help watch camp.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
@@ -1567,7 +1567,7 @@
                 ]
             },
             {
-                "text": "app1 finds a gigantic and flawless shell that's washed up on the beach with last night's tide and calls app2 over. Both apprentices startle backwards when a hermit crab starts scurrying away from them. {PRONOUN/app1/subject/CAP} {VERB/app1/chase/chases} it, shouting joyfully, eyes wide and silly as the poor hermit crab has to wait until {PRONOUN/app1/subject} finally get bored to escape.",
+                "text": "app1 finds a gigantic and flawless shell that's washed up on the beach with last night's tide and calls app2 over. Both rusasis startle backwards when a hermit crab starts scurrying away from them. {PRONOUN/app1/subject/CAP} {VERB/app1/chase/chases} it, shouting joyfully, eyes wide and silly as the poor hermit crab has to wait until {PRONOUN/app1/subject} finally get bored to escape.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -1608,7 +1608,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 tries to give app2 a shell, but {PRONOUN/app2/subject} {VERB/app2/do/does}n't want it, and the crestfallen apprentice slinks off sadly.",
+                "text": "app1 tries to give app2 a shell, but {PRONOUN/app2/subject} {VERB/app2/do/does}n't want it, and the crestfallen rusasi slinks off sadly.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1633,7 +1633,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [-1, -1],
+            "all rusasis": [-1, -1],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1738,7 +1738,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [-1, -1],
+            "all rusasis": [-1, -1],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1843,7 +1843,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [-1, -1],
+            "all rusasis": [-1, -1],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -1925,17 +1925,17 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2],
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2],
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l sees a pod of dolphins swimming in the distance and considers it a good learning opportunity for the apprentices.",
-        "decline_text": "The weather is turning rough and p_l makes the decision to teach the apprentices about the dolphins another day. ",
+        "intro_text": "p_l sees a pod of dolphins swimming in the distance and considers it a good learning opportunity for the rusasis.",
+        "decline_text": "The weather is turning rough and p_l makes the decision to teach the rusasis about the dolphins another day. ",
         "chance_of_success": 75,
         "success_outcomes": [
             {
-                "text": "p_l tells a mournful and haunting tale of all the cats that were swept out to sea and drowned before the dolphins took pity on one of them. p_l tells the apprentices that the tiny white and red rabbit that was saved made the first traditions and bonds with the dolphins and that both Clan and dolphins wept at their death when it came.",
+                "text": "p_l tells a mournful and haunting tale of all the cats that were swept out to sea and drowned before the dolphins took pity on one of them. p_l tells the rusasis that the tiny white and red rabbit that was saved made the first traditions and bonds with the dolphins and that both Clan and dolphins wept at their death when it came.",
                 "exp": 5,
                 "weight": 20,
                 "relationships": [
@@ -1949,7 +1949,7 @@
                 ]
             },
             {
-                "text": "p_l tells the apprentices about the red and white rabbit that was saved by the dolphins, they managed to keep afloat long enough for them to be saved by relaxing their entire body and floating on the waves.",
+                "text": "p_l tells the rusasis about the red and white rabbit that was saved by the dolphins, they managed to keep afloat long enough for them to be saved by relaxing their entire body and floating on the waves.",
                 "exp": 5,
                 "weight": 5,
                 "relationships": [

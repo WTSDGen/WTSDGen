@@ -94,7 +94,7 @@
             "other_rabbit",
             "other_rabbit_mentor"
         ],
-        "death_text": "m_c knew {PRONOUN/m_c/subject} made a mistake, as {PRONOUN/m_c/subject} felt {PRONOUN/m_c/poss} last bits of strength slip away from {PRONOUN/m_c/object} and {PRONOUN/m_c/poss} heart stopped beating. {PRONOUN/m_c/poss/CAP} body only discovered days later, r_r wailing at the shriveled body of {PRONOUN/r_r/poss} apprentice, who succumbed to heat and dehydration.",
+        "death_text": "m_c knew {PRONOUN/m_c/subject} made a mistake, as {PRONOUN/m_c/subject} felt {PRONOUN/m_c/poss} last bits of strength slip away from {PRONOUN/m_c/object} and {PRONOUN/m_c/poss} heart stopped beating. {PRONOUN/m_c/poss/CAP} body only discovered days later, r_r wailing at the shriveled body of {PRONOUN/r_r/poss} rusasi, who succumbed to heat and dehydration.",
         "history_text": {
                         "reg_death": "m_c succumbed to dehydration and heat exhaustion."
                         },

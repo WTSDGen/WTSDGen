@@ -9,7 +9,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "The patrol wants to hold a training session for r_r.  They decide to focus on how best hunt and hide while wading through cheek deep water.",
@@ -22,7 +22,7 @@
                 "weight": 20
             },
             {
-                "text": "r_r picks up the instruction quickly and the patrol soon plays a small game of leap frog within the shallow pools to test the apprentice's abilities.",
+                "text": "r_r picks up the instruction quickly and the patrol soon plays a small game of leap frog within the shallow pools to test the rusasi's abilities.",
                 "exp": 20,
                 "weight": 5
             },
@@ -393,10 +393,10 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
-        "intro_text": "r_r heads out into the swamps alone, but maybe an apprentice shouldn't try to do a solo patrol.",
+        "intro_text": "r_r heads out into the swamps alone, but maybe an rusasi shouldn't try to do a solo patrol.",
         "decline_text": "r_r turns back to camp, deciding that this is a bad idea.",
         "chance_of_success": 30,
         "success_outcomes": [
@@ -637,12 +637,12 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "all apprentices": [2, 2]
+            "rusasi": [1, 6],
+            "all rusasis": [2, 2]
         },
         "weight": 20,
         "intro_text": "The fireflies swarm over the heart of c_n's territory, gleaming and dancing and flashing around app1 as they wait for app2.",
-        "decline_text": "The apprentices are called back to camp to deal with kitsitting.",
+        "decline_text": "The rusasis are called back to camp to deal with kitsitting.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
@@ -660,7 +660,7 @@
                 ]
             },
             {
-                "text": "app2 emerges from the dark, trotting up to app1 and asking why they wanted to meet there. app1 looks away with a purr, making up some nonsense about trying to catch the fireflies that makes no sense. Instead both apprentices hang out under the swarm of light, awkward and thrilled.",
+                "text": "app2 emerges from the dark, trotting up to app1 and asking why they wanted to meet there. app1 looks away with a purr, making up some nonsense about trying to catch the fireflies that makes no sense. Instead both rusasis hang out under the swarm of light, awkward and thrilled.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -740,7 +740,7 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "all apprentices": [-1, -1],
+            "all rusasis": [-1, -1],
             "normal adult": [1, 6]
         },
         "weight": 20,

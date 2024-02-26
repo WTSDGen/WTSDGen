@@ -76,10 +76,10 @@
         ]
     },
     {
-        "id": "elder_alive_apprentice",
+        "id": "elder_alive_rusasi",
         "thoughts": [
-            "Is requesting a young rabbit's help with {PRONOUN/m_c/poss} ticks",
-            "Is asking young rabbits to help check {PRONOUN/m_c/object} for ticks"
+            "Is requesting a rusasi's help with {PRONOUN/m_c/poss} ticks",
+            "Is asking rusasis to help check {PRONOUN/m_c/object} for ticks"
         ],
         "main_age_constraint": [
             "senior"
@@ -323,10 +323,10 @@
         ]
     },
     {
-        "id": "blind_adolescent_retired_to_alive_apprentice",
+        "id": "blind_adolescent_retired_to_alive_rusasi",
         "thoughts": [
-            "Sadly listens as the young rabbits share stories of {PRONOUN/m_c/poss} feats",
-            "Joins in as the young rabbits share stories of {PRONOUN/m_c/poss} feats",
+            "Sadly listens as the rusasis share stories of {PRONOUN/m_c/poss} feats",
+            "Joins in as the rusasis share stories of {PRONOUN/m_c/poss} feats",
             "Asks r_r to describe what {PRONOUN/r_r/subject} saw on patrol today"
         ],
         "perm_conditions": {
@@ -341,8 +341,8 @@
             "adolescent"
         ],
         "random_status_constraint": [
-            "apprentice",
-            "healer apprentice",
+            "rusasi",
+            "healer rusasi",
             "owsla rusasi"
         ]
     },
@@ -363,7 +363,7 @@
             "adolescent"
         ],
         "random_status_constraint": [
-            "healer apprentice",
+            "healer rusasi",
             "healer"
         ]
     },
@@ -402,7 +402,7 @@
             "elder"
         ],
         "random_status_constraint": [
-            "healer apprentice",
+            "healer rusasi",
             "healer"
         ]
     },
@@ -430,7 +430,7 @@
         ]
     },
     {
-        "id": "wasting_disease_adolescent_retired_to_alive_apprentice",
+        "id": "wasting_disease_adolescent_retired_to_alive_rusasi",
         "thoughts": [
             "Enviously watches the trainees talk about training"
         ],
@@ -447,7 +447,7 @@
         ],
         "random_status_constraint": [
             "young_rabbit",
-            "healer apprentice",
+            "healer rusasi",
             "owsla rusasi"
         ]
     },
@@ -477,7 +477,7 @@
         ]
     },
     {
-        "id": "deaf_adolescent_retired_to_alive_apprentice",
+        "id": "deaf_adolescent_retired_to_alive_rusasi",
         "thoughts": [
             "Enviously watches the trainees talk about training"
         ],
@@ -494,7 +494,7 @@
         ],
         "random_status_constraint": [
             "young_rabbit",
-            "healer apprentice",
+            "healer rusasi",
             "owsla rusasi"
         ]
     },
@@ -543,7 +543,7 @@
     {
         "id": "lost_leg/tail_gen_retired_to_alive_app",
         "thoughts": [
-            "Explains what 'phantom pain' is to a curious apprentice"
+            "Explains what 'phantom pain' is to a curious rusasi"
         ],
         "perm_conditions": {
             "m_c": [
@@ -555,7 +555,7 @@
             "elder"
         ],
         "random_status_constraint": [
-            "apprentice"
+            "rusasi"
         ]
     },
     {
@@ -726,7 +726,7 @@
         "id": "missing_tail_gen_retired_to_alive_app",
         "thoughts": [
             "Happily trains the trainees on new balancing techniques",
-            "Is showing the young rabbits how to signal for danger without a tail"
+            "Is showing the rusasis how to signal for danger without a tail"
         ],
         "perm_conditions": {
             "m_c": [
@@ -774,7 +774,7 @@
         ],
         "random_status_constraint": [
             "healer",
-            "healer apprentice"
+            "healer rusasi"
         ]
     }
 ]

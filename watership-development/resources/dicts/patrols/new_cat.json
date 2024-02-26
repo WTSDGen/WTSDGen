@@ -853,7 +853,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -934,7 +934,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -1015,10 +1015,10 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [-1, -1],
+            "all rusasis": [-1, -1],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -1098,10 +1098,10 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [-1, -1],
+            "rusasi": [-1, -1],
             "healer": [1, 6],
             "healer cats": [1, 6],
-            "all apprentices": [-1, -1],
+            "all rusasis": [-1, -1],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -1181,8 +1181,8 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [-1, -1],
-            "healer apprentice": [1, 6],
+            "rusasi": [-1, -1],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -1270,8 +1270,8 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [-1, -1],
-            "healer apprentice": [1, 6],
+            "rusasi": [-1, -1],
+            "healer rusasi": [1, 6],
             "healer cats": [1, 6],
             "normal adult": [-1, -1]
         },
@@ -1601,7 +1601,7 @@
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
-                    ["status:apprentice"]
+                    ["status:rusasi"]
                 ],
                 "relationships": [
                     {
@@ -1614,11 +1614,11 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l pads towards the bush to check on the noise when a rabbit suddenly bursts out with a young rabbit chasing it! p_l stops the rabbit, impressed with their hunting skills, and invites them to join the Clan, to which the young rabbit agrees.",
+                "text": "p_l pads towards the bush to check on the noise when a rabbit suddenly bursts out with a rusasi chasing it! p_l stops the rabbit, impressed with their hunting skills, and invites them to join the Clan, to which the rusasi agrees.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
-                    ["status:apprentice"]
+                    ["status:rusasi"]
                 ],
                 "relationships": [
                     {
@@ -1631,12 +1631,12 @@
                 "outsider_rep": 1
             },
             {
-                "text": "s_c cautiously checks the bush, only to be surprised by a weight slamming into {PRONOUN/p_l/poss}! {PRONOUN/p_l/subject/CAP} {VERB/p_l/recover/recovers}, only to see a young loner snarling at the patrol. Impressed with the rabbit's bravery, s_c invites them to join the Clan, to which the young rabbit agrees.",
+                "text": "s_c cautiously checks the bush, only to be surprised by a weight slamming into {PRONOUN/p_l/poss}! {PRONOUN/p_l/subject/CAP} {VERB/p_l/recover/recovers}, only to see a young loner snarling at the patrol. Impressed with the rabbit's bravery, s_c invites them to join the Clan, to which the rusasi agrees.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
                 "new_cat": [
-                    ["status:apprentice"]
+                    ["status:rusasi"]
                 ],
                 "relationships": [
                     {
@@ -2385,7 +2385,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "apprentice": [1, 6]
+            "rusasi": [1, 6]
         },
         "weight": 20,
         "intro_text": "It's a cold day in c_n's territory, and app1 is the only rabbit stepping out. {PRONOUN/app1/subject/CAP}{VERB/app1/'re/'s} by {PRONOUN/app1/self} when {PRONOUN/app1/subject} {VERB/app1/hear/hears} a rabbit screaming for help.",
@@ -2441,7 +2441,7 @@
                 ]
             },
             {
-                "text": "app1 follows the sad cries to find a kittypet, lost and alone and cold. The apprentice introduces {PRONOUN/app1/self} cheerfully, and the desperate kittypet slowly loses a little of their fear as app1 guides them back to camp, sure that the Leader will know what to do with them.",
+                "text": "app1 follows the sad cries to find a kittypet, lost and alone and cold. The rusasi introduces {PRONOUN/app1/self} cheerfully, and the desperate kittypet slowly loses a little of their fear as app1 guides them back to camp, sure that the Leader will know what to do with them.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["adventurous", "playful", "strange", "childish", "shameless"],

@@ -48,7 +48,7 @@
             "Is sneezing"
         ],
         "main_status_constraint": [
-            "young rabbit",
+            "rusasi",
             "owsla rusasi",
             "healer rusasi",
             "rabbit", 
@@ -121,7 +121,7 @@
         ]
     },
     {
-        "id": "lost_thoughts_to_apprentices",
+        "id": "lost_thoughts_to_rusasis",
         "thoughts": [
             "Wonders who is taking care of the c_n kittens that must be so big by now"
         ],
@@ -134,7 +134,7 @@
             "elder"
         ],
         "random_status_constraint": [
-            "apprentice",
+            "rusasi",
             "healer rusasi",
             "owsla rusasi"
         ],

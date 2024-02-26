@@ -774,7 +774,7 @@ class ProfileScreen(Screens):
         elif the_rabbit.exiled:
             output += "<font color='#FF0000'>exiled</font>"
         elif the_rabbit.status == "healer rusasi":
-            output += "healer's apprentice"
+            output += "healer's rusasi"
         elif the_rabbit.status == "owsla rusasi":
             output += "owsla trainee"
         else:

@@ -732,8 +732,8 @@ class Condition_Events():
             return
 
         if not triggered and not rabbit.dead and rabbit.status not in \
-                ['chief rabbit', 'healer', 'kittenten', 'newborn', 'healer apprentice', 'owsla',
-                 'owsla apprentice', 'elder']:
+                ['chief rabbit', 'healer', 'kittenten', 'newborn', 'healer rusasi', 'owsla',
+                 'owsla rusasi', 'elder']:
             for condition in rabbit.permanent_condition:
                 if rabbit.permanent_condition[condition]['severity'] not in ['major', 'severe']:
                     continue
@@ -744,7 +744,7 @@ class Condition_Events():
                     retire_chances = {
                         'newborn': 0,
                         'kittenten': 0,
-                        'adolescent': 50,  # This is high so instances where an rabbit retires the same month they become an apprentice is rare
+                        'adolescent': 50,  # This is high so instances where an rabbit retires the same month they become an rusasi is rare
                         'young adult': 10,
                         'adult': 5,
                         'senior adult': 5,

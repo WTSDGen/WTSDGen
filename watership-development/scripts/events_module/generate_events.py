@@ -396,7 +396,7 @@ class GenerateEvents:
                     continue
                 if "other_rabbit_rabbit" in event.tags and other_rabbit.status != "rabbit":
                     continue
-                if "other_rabbit_app" in event.tags and other_rabbit.status != "apprentice":
+                if "other_rabbit_app" in event.tags and other_rabbit.status != "rusasi":
                     continue
                 if "other_rabbit_elder" in event.tags and other_rabbit.status != "elder":
                     continue
@@ -412,7 +412,7 @@ class GenerateEvents:
                 if "other_rabbit_parent" in event.tags and other_rabbit.ID not in rabbit.get_parents():
                     continue
 
-                if "other_rabbit_own_app" in event.tags and other_rabbit.ID not in rabbit.apprentice:
+                if "other_rabbit_own_app" in event.tags and other_rabbit.ID not in rabbit.rusasi:
                     continue
                 if "other_rabbit_rusasirah" in event.tags and other_rabbit.ID != rabbit.rusasirah:
                     continue
@@ -723,7 +723,7 @@ Following tags are used for new rabbit events:
 "parent" < this litter or kitten also comes with a parent (this does not include adoptive parents from within the warren)
 "m_c" < the event text includes the main rabbit, not just the new rabbit
 "other_rabbit" < the event text includes the other rabbit, not just the new rabbit and main rabbit
-"new_rabbit", "new_apprentice", "new_healer apprentice", "new_healer" < make the new rabbit start with the tagged for status
+"new_rabbit", "new_rusasi", "new_healer rusasi", "new_healer" < make the new rabbit start with the tagged for status
 "injured" < tag along with a second tag that's the name of the injury you want the new_rabbit to have
 "major_injury" < tag to give the new rabbit a random major-severity injury
 

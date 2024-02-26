@@ -360,7 +360,7 @@ class Relation_Events():
     @staticmethod
     def can_trigger_events(rabbit):
         """Returns if the given rabbit can still trigger events."""
-        special_status = ["leader", "deputy", "medicine rabbit", "owsla"]
+        special_status = ["leader", "deputy", "healer", "owsla"]
         
         # set the threshold correctly
         threshold = game.config["relationship"]["max_interaction"]
