@@ -176,7 +176,7 @@
                 ]
             },
             {
-                "text": "As the healers search deep within the slot canyons for the precious herbs that will keep c_n going, a light rainshower falls. Water, on any other day good news, instead spells doom. The rushing water sweeps through the canyon in a flash flood. r_r hears it coming, shoving r_c2 towards the canyon walls, but they can't both fit on the little ledge, and r_r loses their grip on the rock, falling beneath the rushing water.",
+                "text": "As the healers search deep within the slot canyons for the precious herbs that will keep c_n going, a light rainshower falls. Water, on any other day good news, instead spells doom. The rushing water sweeps through the canyon in a flash flood. r_r hears it coming, shoving r_r2 towards the canyon walls, but they can't both fit on the little ledge, and r_r loses their grip on the rock, falling beneath the rushing water.",
                 "exp": 0,
                 "weight": 10,
                 "lost_cats": ["r_r"],

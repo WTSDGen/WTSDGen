@@ -34,8 +34,8 @@ def test():
     replacement_dict = {
         "m_c": _r,
         "r_r": _r,
-        "r_c1": _r,
-        "r_c2": _r,
+        "r_r1": _r,
+        "r_r2": _r,
         "n_c": _r,
         "app1": _r,
         "app2": _r,

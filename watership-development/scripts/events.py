@@ -278,7 +278,7 @@ class Events:
         healthy_hunter = list(
             filter(
                 lambda c: c.status in
-                          ['rabbit', 'rusasi', 'chief rabbit ', 'captain'] and not c.dead
+                          ['rabbit', 'rusasi', 'chief rabbit', 'captain'] and not c.dead
                           and not c.outside and not c.exiled and not c.not_working(),
                 Rabbit.all_rabbits.values()))
 
@@ -621,7 +621,7 @@ class Events:
         # Proform a ceremony if needed
         for x in [lost_rabbit] + [Rabbit.fetch_rabbit(i) for i in additional_rabbits]:             
            
-            if x.status in ["rusasi", "healer rusasi", "owsla rusasi", "kitten", "newborn"]: 
+            if x.status in ["rusasi", "healer rusasi", "owsla rusasi", "kit", "newborn"]: 
                 if x.months >= 15:
                     if x.status == "healer rusasi":
                         self.ceremony(x, "healer")
@@ -629,13 +629,13 @@ class Events:
                         self.ceremony(x, "owsla")
                     else:
                         self.ceremony(x, "rabbit")
-                elif x.status in ["kitten", "newborn"] and x.months >= 6:
+                elif x.status in ["kit", "newborn"] and x.months >= 6:
                     self.ceremony(x, "rusasi") 
             else:
                 if x.months == 0:
                     x.status = 'newborn'
                 elif x.months < 6:
-                    x.status = "kitten"
+                    x.status = "kit"
                 elif x.months < 12:
                     x.status_change('rusasi')
                 elif x.months < 120:
@@ -669,8 +669,8 @@ class Events:
                 # Remove from med rabbit list, just in case.
                 # This should never be triggered, but I've has an issue or
                 # two with this, so here it is.
-                if rabbit.ID in game.warren.med_rabbit_list:
-                    game.warren.med_rabbit_list.remove(rabbit.ID)
+                if rabbit.ID in game.warren.healer_list:
+                    game.warren.healer_list.remove(rabbit.ID)
 
                 # Unset their mate, if they have one
                 if len(rabbit.mate) > 0:
@@ -687,9 +687,9 @@ class Events:
                         game.warren.captain = None
                 if game.warren.healer:
                     if game.warren.healer.ID == rabbit.ID:
-                        if game.warren.med_rabbit_list:  # If there are other med rabbits
+                        if game.warren.healer_list:  # If there are other med rabbits
                             game.warren.healer = Rabbit.fetch_rabbit(
-                                game.warren.med_rabbit_list[0])
+                                game.warren.healer_list[0])
                         else:
                             game.warren.healer = None
 
@@ -996,7 +996,7 @@ class Events:
             if rabbit.status == 'captain' and game.warren.captain is None:
                 game.warren.captain = rabbit
             if rabbit.status == 'healer' and game.warren.healer is None:
-                game.warren.medicine_rabbit = rabbit
+                game.warren.healer = rabbit
 
             # retiring to elder den
             if not rabbit.no_retire and rabbit.status in ['rabbit', 'captain'] and len(rabbit.rusasi) < 1 and rabbit.months > 114:
@@ -1008,16 +1008,16 @@ class Events:
 
             # rusasi a kitten to either med or rabbit
             if rabbit.months == rabbit_class.age_months["adolescent"][0]:
-                if rabbit.status == 'kitten':
-                    med_rabbit_list = [i for i in Rabbit.all_rabbits_list if
+                if rabbit.status == 'kit':
+                    healer_list = [i for i in Rabbit.all_rabbits_list if
                                     i.status in ["healer", "healer rusasi"] and not (
                                             i.dead or i.outside)]
 
                     # check if the healer is an elder
-                    has_elder_med = [c for c in med_rabbit_list if c.age == 'senior' and c.status == "healer"]
+                    has_elder_med = [c for c in healer_list if c.age == 'senior' and c.status == "healer"]
 
                     very_old_med = [
-                        c for c in med_rabbit_list
+                        c for c in healer_list
                         if c.months >= 150 and c.status == "healer"
                     ]
 
@@ -1028,17 +1028,17 @@ class Events:
 
                     # check if a med rabbit app already exists
                     has_med_app = any(rabbit.status == "healer rusasi"
-                                      for rabbit in med_rabbit_list)
+                                      for rabbit in healer_list)
 
                     # assign chance to become med app depending on current med rabbit and traits
                     chance = game.config["roles"]["base_medicine_app_chance"]
-                    if has_elder_med == med_rabbit_list:
+                    if has_elder_med == healer_list:
                         # These chances apply if all the current healers are elders.
                         if has_med:
                             chance = int(chance / 2.22)
                         else:
                             chance = int(chance / 13.67)
-                    elif very_old_med == med_rabbit_list:
+                    elif very_old_med == healer_list:
                         # These chances apply is all the current healers are very old.
                         if has_med:
                             chance = int(chance / 3)
@@ -1159,7 +1159,7 @@ class Events:
         living_parents = []
         rusasirah_type = {
             "healer": ["healer"],
-            "rabbit": ["rabbit", "captain", "chief rabbit ", "elder"],
+            "rabbit": ["rabbit", "captain", "chief rabbit", "elder"],
             "owsla": ["owsla"]
         }
 
@@ -1177,7 +1177,7 @@ class Events:
 
             # CURRENT MENTOR TAG CHECK
             if rabbit.rusasirah:
-                if Rabbit.fetch_rabbit(rabbit.rusasirah).status == "chief rabbit ":
+                if Rabbit.fetch_rabbit(rabbit.rusasirah).status == "chief rabbit":
                     tags.append("yes_chief_rabbit_rusasirah")
                 else:
                     tags.append("yes_rusasirah")
@@ -1208,7 +1208,7 @@ class Events:
                 #  Living Former rusasirah. Grab the latest living valid rusasirah.
                 previous_alive_rusasirah = Rabbit.fetch_rabbit(
                     valid_living_former_rusasirah[-1])
-                if previous_alive_rusasirah.status == "chief rabbit ":
+                if previous_alive_rusasirah.status == "chief rabbit":
                     tags.append("alive_chief_rabbit_rusasirah")
                 else:
                     tags.append("alive_rusasirah")
@@ -1235,7 +1235,7 @@ class Events:
                     # For the purposes of ceremonies, living parents
                     # who are also the chief rabbit are not counted.
                     elif not Rabbit.fetch_rabbit(p).dead and not Rabbit.fetch_rabbit(p).outside and \
-                            Rabbit.fetch_rabbit(p).status != "chief rabbit ":
+                            Rabbit.fetch_rabbit(p).status != "chief rabbit":
                         living_parents.append(Rabbit.fetch_rabbit(p))
 
             tags = []
@@ -1481,7 +1481,7 @@ class Events:
 
         alive_rabbits = list(
             filter(
-                lambda kitty: (kitty.status != "chief rabbit " and not kitty.dead and
+                lambda kitty: (kitty.status != "chief rabbit" and not kitty.dead and
                                not kitty.outside), Rabbit.all_rabbits.values()))
 
         warren_size = len(alive_rabbits)
@@ -1619,7 +1619,7 @@ class Events:
 
         # chance to kill chief rabbit: 1/125 by default
         if not int(random.random() * game.get_config_value("death_related", "chief_rabbit_death_chance")) \
-                and rabbit.status == 'chief rabbit ' \
+                and rabbit.status == 'chief rabbit' \
                 and not rabbit.not_working():
             Death_Events.handle_deaths(rabbit, other_rabbit, game.warren.war.get("at_war", False), enemy_warren, alive_kittens)
             return True
@@ -1740,7 +1740,7 @@ class Events:
         """Affects random rabbits in the warren, no rabbit needs to be passed to this function."""
         alive_rabbits = list(
             filter(
-                lambda kitty: (kitty.status != "chief rabbit " and not kitty.dead and
+                lambda kitty: (kitty.status != "chief rabbit" and not kitty.dead and
                                not kitty.outside), Rabbit.all_rabbits.values()))
         alive_count = len(alive_rabbits)
         if alive_count > 15:
@@ -1902,7 +1902,7 @@ class Events:
                     alive_rabbits = list(
                         filter(
                             lambda kitty:
-                            (kitty.status in ['kitten', 'newborn'] and not kitty.dead and
+                            (kitty.status in ['kit', 'newborn'] and not kitty.dead and
                              not kitty.outside), Rabbit.all_rabbits.values()))
                     alive_count = len(alive_rabbits)
 

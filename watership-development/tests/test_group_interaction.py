@@ -317,8 +317,8 @@ class Abbreviations(unittest.TestCase):
         main_rabbit.status = "rabbit"
         group_events.abbreviations_rabbit_id={
             "m_c": main_rabbit.ID,
-            "r_c1": None,
-            "r_c2": None
+            "r_r1": None,
+            "r_r2": None
         }
 
         random1 = Rabbit()
@@ -329,10 +329,10 @@ class Abbreviations(unittest.TestCase):
         random3.status = "rabbit"
 
         interaction1 = Group_Interaction("1")
-        interaction1.status_constraint = {"r_c1": ["rabbit"]}
+        interaction1.status_constraint = {"r_r1": ["rabbit"]}
 
         interaction2 = Group_Interaction("2")
-        interaction2.status_constraint = {"r_c1": ["healer", "rabbit"]}
+        interaction2.status_constraint = {"r_r1": ["healer", "rabbit"]}
         
         # when
         all_interactions = [interaction1, interaction2]
@@ -354,8 +354,8 @@ class Abbreviations(unittest.TestCase):
         main_rabbit.status = "rabbit"
         group_events.abbreviations_rabbit_id={
             "m_c": main_rabbit.ID,
-            "r_c1": None,
-            "r_c2": None
+            "r_r1": None,
+            "r_r2": None
         }
 
         random1 = Rabbit()
@@ -366,10 +366,10 @@ class Abbreviations(unittest.TestCase):
         random3.status = "healer"
 
         interaction1 = Group_Interaction("1")
-        interaction1.status_constraint = {"r_c1": ["rabbit"]}
+        interaction1.status_constraint = {"r_r1": ["rabbit"]}
 
         interaction2 = Group_Interaction("2")
-        interaction2.status_constraint = {"r_c1": ["healer"]}
+        interaction2.status_constraint = {"r_r1": ["healer"]}
         
         # when
         all_interactions = [interaction1, interaction2]
@@ -381,20 +381,20 @@ class Abbreviations(unittest.TestCase):
         # then
         self.assertEqual(len(abbreviations_possibilities), 2)
         # all rabbits would fit in
-        self.assertEqual(len(abbreviations_possibilities["1"]["r_c1"]), 2)
-        self.assertEqual(len(abbreviations_possibilities["2"]["r_c1"]), 1)
+        self.assertEqual(len(abbreviations_possibilities["1"]["r_r1"]), 2)
+        self.assertEqual(len(abbreviations_possibilities["2"]["r_r1"]), 1)
 
     def test_remove_abbreviations_missing_rabbits(self):
         # given
         group_events = Group_Events()
         abbreviations_possibilities = {
             "1": {
-                "r_c1": ["1", "2"],
-                "r_c2": ["1", "2"],
+                "r_r1": ["1", "2"],
+                "r_r2": ["1", "2"],
             },
             "2": {
-                "r_c1": ["1", "2"],
-                "r_c2": [],
+                "r_r1": ["1", "2"],
+                "r_r2": [],
             },
         }
         
@@ -415,8 +415,8 @@ class Abbreviations(unittest.TestCase):
         main_rabbit.status = "rabbit"
         group_events.abbreviations_rabbit_id={
             "m_c": main_rabbit.ID,
-            "r_c1": None,
-            "r_c2": None
+            "r_r1": None,
+            "r_r2": None
         }
 
         random1 = Rabbit()
@@ -427,34 +427,34 @@ class Abbreviations(unittest.TestCase):
         random3.status = "healer"
 
         interaction1 = Group_Interaction("1")
-        interaction1.status_constraint = {"r_c1": ["rabbit"]}
+        interaction1.status_constraint = {"r_r1": ["rabbit"]}
 
         interaction2 = Group_Interaction("2")
-        interaction2.status_constraint = {"r_c1": ["healer", "rabbit"]}
+        interaction2.status_constraint = {"r_r1": ["healer", "rabbit"]}
 
         # when
         interaction_rabbits = [random1, random2, random3]
         group_events.rabbit_abbreviations_counter = {
             random1.ID: {
-                "r_c1": 2,
-                "r_c2": 2
+                "r_r1": 2,
+                "r_r2": 2
             },
             random2.ID: {
-                "r_c1": 2,
-                "r_c2": 2
+                "r_r1": 2,
+                "r_r2": 2
             },
             random3.ID: {
-                "r_c1": 1,
-                "r_c2": 2
+                "r_r1": 1,
+                "r_r2": 2
             }
         }
         group_events.set_abbreviations_rabbits(interaction_rabbits)
 
         # then
-        self.assertIsNotNone(group_events.abbreviations_rabbit_id["r_c1"])
-        self.assertIsNotNone(group_events.abbreviations_rabbit_id["r_c2"])
-        self.assertIn(group_events.abbreviations_rabbit_id["r_c1"], [random1.ID, random2.ID])
-        self.assertNotIn(group_events.abbreviations_rabbit_id["r_c1"], [random3.ID])
+        self.assertIsNotNone(group_events.abbreviations_rabbit_id["r_r1"])
+        self.assertIsNotNone(group_events.abbreviations_rabbit_id["r_r2"])
+        self.assertIn(group_events.abbreviations_rabbit_id["r_r1"], [random1.ID, random2.ID])
+        self.assertNotIn(group_events.abbreviations_rabbit_id["r_r1"], [random3.ID])
 
 
 class OtherRabbitsFiltering(unittest.TestCase):
@@ -470,8 +470,8 @@ class OtherRabbitsFiltering(unittest.TestCase):
         random2.status = "rabbit"
         group_events.abbreviations_rabbit_id={
             "m_c": main_rabbit.ID,
-            "r_c1": random1.ID,
-            "r_c2": random2.ID
+            "r_r1": random1.ID,
+            "r_r2": random2.ID
         }
         # given - relationships
         # order: romantic, platonic, dislike, admiration, comfortable, jealousy, trust
@@ -513,47 +513,47 @@ class OtherRabbitsFiltering(unittest.TestCase):
 
         interaction2 = Group_Interaction("test")
         interaction2.relationship_constraint = {
-            "r_c1_to_r_c2": ["mates"]
+            "r_r1_to_r_r2": ["mates"]
         }
 
         interaction3 = Group_Interaction("test")
         interaction3.relationship_constraint = {
-            "m_c_to_r_c1": ["siblings"]
+            "m_c_to_r_r1": ["siblings"]
         }
 
         interaction4 = Group_Interaction("test")
         interaction4.relationship_constraint = {
-            "m_c_to_r_c1": ["romantic_40"]
+            "m_c_to_r_r1": ["romantic_40"]
         }
 
         interaction5 = Group_Interaction("test")
         interaction5.relationship_constraint = {
-            "m_c_to_r_c1": ["comfortable_40"]
+            "m_c_to_r_r1": ["comfortable_40"]
         }
 
         interaction6 = Group_Interaction("test")
         interaction6.relationship_constraint = {
-            "m_c_to_r_c1": ["comfortable_40", "romantic_40"]
+            "m_c_to_r_r1": ["comfortable_40", "romantic_40"]
         }
 
         interaction7 = Group_Interaction("test")
         interaction7.relationship_constraint = {
-            "m_c_to_r_c1": ["romantic_60_lower"]
+            "m_c_to_r_r1": ["romantic_60_lower"]
         }
 
         interaction8 = Group_Interaction("test")
         interaction8.relationship_constraint = {
-            "m_c_to_r_c1": ["comfortable_60_lower"]
+            "m_c_to_r_r1": ["comfortable_60_lower"]
         }
 
         interaction9 = Group_Interaction("test")
         interaction9.relationship_constraint = {
-            "m_c_to_r_c2": ["dislike_40"]
+            "m_c_to_r_r2": ["dislike_40"]
         }
 
         interaction10 = Group_Interaction("test")
         interaction10.relationship_constraint = {
-            "r_c2_to_m_c": ["dislike_40"]
+            "r_r2_to_m_c": ["dislike_40"]
         }
 
         # then
@@ -580,8 +580,8 @@ class OtherRabbitsFiltering(unittest.TestCase):
         random2.status = "rabbit"
         group_events.abbreviations_rabbit_id={
             "m_c": main_rabbit.ID,
-            "r_c1": random1.ID,
-            "r_c2": random2.ID
+            "r_r1": random1.ID,
+            "r_r2": random2.ID
         }
         # given - relationships
         # order: romantic, platonic, dislike, admiration, comfortable, jealousy, trust
@@ -619,52 +619,52 @@ class OtherRabbitsFiltering(unittest.TestCase):
         # given - interactions
         interaction1 = Group_Interaction("test")
         interaction1.relationship_constraint = {
-            "r_c1_to_m_c": ["dislike_40"]
+            "r_r1_to_m_c": ["dislike_40"]
         }
 
         interaction2 = Group_Interaction("test")
         interaction2.relationship_constraint = {
-            "r_c1_to_r_c2": ["not_mates"]
+            "r_r1_to_r_r2": ["not_mates"]
         }
 
         interaction3 = Group_Interaction("test")
         interaction3.relationship_constraint = {
-            "r_c1_to_r_c2": ["romantic_40_lower"]
+            "r_r1_to_r_r2": ["romantic_40_lower"]
         }
 
         interaction4 = Group_Interaction("test")
         interaction4.relationship_constraint = {
-            "r_c1_to_r_c2": ["romantic_40_lower"]
+            "r_r1_to_r_r2": ["romantic_40_lower"]
         }
 
         interaction5 = Group_Interaction("test")
         interaction5.relationship_constraint = {
-            "r_c1_to_r_c2": ["trust_40_lower"]
+            "r_r1_to_r_r2": ["trust_40_lower"]
         }
 
         interaction6 = Group_Interaction("test")
         interaction6.relationship_constraint = {
-            "r_c1_to_m_c": ["mates"]
+            "r_r1_to_m_c": ["mates"]
         }
 
         interaction7 = Group_Interaction("test")
         interaction7.relationship_constraint = {
-            "m_c_to_r_c1": ["comfortable_60"]
+            "m_c_to_r_r1": ["comfortable_60"]
         }
 
         interaction8 = Group_Interaction("test")
         interaction8.relationship_constraint = {
-            "m_c_to_r_c1": ["romantic_40_lower"]
+            "m_c_to_r_r1": ["romantic_40_lower"]
         }
 
         interaction9 = Group_Interaction("test")
         interaction9.relationship_constraint = {
-            "m_c_to_r_c1": ["comfortable_40_lower"]
+            "m_c_to_r_r1": ["comfortable_40_lower"]
         }
 
         interaction10 = Group_Interaction("test")
         interaction10.relationship_constraint = {
-            "r_c2_to_r_c1": ["trust_40"]
+            "r_r2_to_r_r1": ["trust_40"]
         }
 
         # then

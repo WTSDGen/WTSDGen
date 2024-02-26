@@ -42,7 +42,7 @@ class Warren():
 
     RABBIT_TYPES = [
         "newborn",
-        "kitten",
+        "kit",
         "rusasi",
         "rabbit",
         "healer",

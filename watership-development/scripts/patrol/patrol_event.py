@@ -263,7 +263,7 @@ OLD
     Apprentice 4 - app4 
     Apprentice 5 - app5 
     Apprentice 6 - app6 
-    Random rabbit 2 - r_c2
+    Random rabbit 2 - r_r2
     Random rabbit 3 - r_c3
     Random rabbit 4 - r_c4
     Random rabbit 5 - r_c5

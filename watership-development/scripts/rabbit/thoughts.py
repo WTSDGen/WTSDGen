@@ -47,8 +47,8 @@ class Thoughts():
         return True
 
     @staticmethod
-    def rabbits_fulfill_thought_constraints(main_rabbit, random_rabbit, thought, game_mode, biome, season, burrow) -> bool:
-        """Check if the two rabbits fulfills the thought constraints."""
+    def cats_fulfill_thought_constraints(main_rabbit, random_rabbit, thought, game_mode, biome, season, burrow) -> bool:
+        """Check if the two cats fulfills the thought constraints."""
 
         # This is for checking biome
         if "biome" in thought:
@@ -62,34 +62,34 @@ class Thoughts():
             elif season not in thought["season"]:
                 return False
 
-        # This is for checking burrow
+        # This is for checking camp
         if "burrow" in thought:
             if burrow not in thought["burrow"]:
                 return False
 
-        # This is for checking if another rabbit is needed and there is a other rabbit
+        # This is for checking if another cat is needed and there is a other cat
         r_r_in = [thought_str for thought_str in thought["thoughts"] if "r_r" in thought_str]
         if len(r_r_in) > 0 and not random_rabbit:
             return False
 
-        # This is for filtering certain relationship types between the main rabbit and random rabbit. 
+        # This is for filtering certain relationship types between the main cat and random cat. 
         if "relationship_constraint" in thought and random_rabbit:
             if not Thoughts.thought_fulfill_rel_constraints(main_rabbit, random_rabbit, thought["relationship_constraint"]):
                 return False
 
-        # Constraints for the status of the main rabbit
+        # Constraints for the status of the main cat
         if 'main_status_constraint' in thought:
             if main_rabbit.status not in thought['main_status_constraint'] and 'any' not in thought['main_status_constraint']:
                 return False
             
-        # Constraints for the status of the random rabbit
+        # Constraints for the status of the random cat
         if 'random_status_constraint' in thought and random_rabbit:
             if random_rabbit.status not in thought['random_status_constraint'] and 'any' not in thought['random_status_constraint']:
                 return False
         elif 'random_status_constraint' in thought and not random_rabbit:
             pass
 
-        # main rabbit age constraint
+        # main cat age constraint
         if 'main_age_constraint' in thought:
             if main_rabbit.age not in thought['main_age_constraint']:
                 return False
@@ -146,7 +146,7 @@ class Thoughts():
             if random_rabbit and random_rabbit.backstory not in thought['random_backstory_constraint']:
                 return False
 
-        # Filter for the living status of the random rabbit. The living status of the main rabbit
+        # Filter for the living status of the random cat. The living status of the main cat
         # is taken into account in the thought loading process.
         living_status = None
         outside_status = None
@@ -172,7 +172,7 @@ class Thoughts():
         
         if random_rabbit and 'random_outside_status' in thought:
             outside_status = None
-            if random_rabbit and random_rabbit.outside and random_rabbit.status not in ["kittypet", "loner", "rogue", "former Warrenrabbit", "exiled"]:
+            if random_rabbit and random_rabbit.outside and random_rabbit.status not in ["pet", "loner", "rogue", "former Warrenrabbit", "exiled"]:
                 outside_status = "lost"
             elif random_rabbit and random_rabbit.outside:
                 outside_status = "outside"
@@ -181,7 +181,7 @@ class Thoughts():
             if outside_status not in thought['random_outside_status']:
                 return False
         else:
-            if random_rabbit and random_rabbit.outside and random_rabbit.status not in ["kittypet", "loner", "rogue", "former Warrenrabbit", "exiled"]:
+            if random_rabbit and random_rabbit.outside and random_rabbit.status not in ["pet", "loner", "rogue", "former Warrenrabbit", "exiled"]:
                 outside_status = "lost"
             elif random_rabbit and random_rabbit.outside:
                 outside_status = "outside"
@@ -206,11 +206,11 @@ class Thoughts():
                                 return False
                         return False
 
-                    if "r_r" in thought['has_injuries'] and random_rabbit:
+                    if "r_c" in thought['has_injuries'] and random_rabbit:
                             if random_rabbit.injuries or random_rabbit.illnesses:
                                 injuries_and_illnesses = random_rabbit.injuries.keys() + random_rabbit.injuries.keys()
-                                if not [i for i in injuries_and_illnesses if i in thought['has_injuries']["r_r"]] and \
-                                        "any" not in thought['has_injuries']["r_r"]:
+                                if not [i for i in injuries_and_illnesses if i in thought['has_injuries']["r_c"]] and \
+                                        "any" not in thought['has_injuries']["r_c"]:
                                     return False
                             return False
 
@@ -226,7 +226,7 @@ class Thoughts():
                     if "r_r" in thought["perm_conditions"] and random_rabbit:
                         if random_rabbit.permanent_condition:
                             if not [i for i in random_rabbit.permanent_condition if i in thought["perm_conditions"]["r_r"]] and \
-                                    "any" not in thought['perm_conditions']["r_r"]: 
+                                    "any" not in thought['perm_conditions']["r_c"]: 
                                 return False
                         else:
                             return False
@@ -254,7 +254,7 @@ class Thoughts():
     def create_thoughts(inter_list, main_rabbit, other_rabbit, game_mode, biome, season, burrow) -> list:
         created_list = []
         for inter in inter_list:
-            if Thoughts.rabbits_fulfill_thought_constraints(main_rabbit, other_rabbit, inter, game_mode, biome, season, burrow):
+            if Thoughts.cats_fulfill_thought_constraints(main_rabbit, other_rabbit, inter, game_mode, biome, season, burrow):
                 created_list.append(inter)
         return created_list
 
@@ -269,10 +269,10 @@ class Thoughts():
             status = "healer_rusasi"
         elif status == "owsla rusasi":
             status = "owsla_rusasi"
+        elif status == "chief rabbit":
+            status = "chief_rabbit"
         elif status == 'former Warrenrabbit':
-            status = 'former_warrenrabbit'
-        elif status == 'chief rabbit':
-            status = 'chief_rabbit'
+            status = 'former_Warrenrabbit'
 
         if not main_rabbit.dead:
             life_dir = "alive"
@@ -291,15 +291,17 @@ class Thoughts():
             spec_dir = ""
 
         THOUGHTS = []
-        with open(f"{base_path}{life_dir}{spec_dir}/{status}.json", 'r') as read_file:
-            THOUGHTS = ujson.loads(read_file.read())
-        GENTHOUGHTS = []
-        with open(f"{base_path}{life_dir}{spec_dir}/general.json", 'r') as read_file:
-            GENTHOUGHTS = ujson.loads(read_file.read())
         # newborns only pull from their status thoughts. this is done for convenience
         if main_rabbit.age == 'newborn':
+            with open(f"{base_path}{life_dir}{spec_dir}/newborn.json", 'r') as read_file:
+                THOUGHTS = ujson.loads(read_file.read())
             loaded_thoughts = THOUGHTS
         else:
+            with open(f"{base_path}{life_dir}{spec_dir}/{status}.json", 'r') as read_file:
+                THOUGHTS = ujson.loads(read_file.read())
+            GENTHOUGHTS = []
+            with open(f"{base_path}{life_dir}{spec_dir}/general.json", 'r') as read_file:
+                GENTHOUGHTS = ujson.loads(read_file.read())
             loaded_thoughts = THOUGHTS 
             loaded_thoughts += GENTHOUGHTS
         final_thoughts = Thoughts.create_thoughts(loaded_thoughts, main_rabbit, other_rabbit, game_mode, biome, season, burrow)
