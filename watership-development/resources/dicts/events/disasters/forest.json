@@ -1,7 +1,7 @@
 [
     {
         "event": "Great Blizzard",
-        "camp": [
+        "burrow": [
             "any"
         ],
         "season": [
@@ -52,7 +52,7 @@
     },
     {
         "event": "Drought",
-        "camp": [
+        "burrow": [
             "any"
         ],
         "season": [
@@ -121,7 +121,7 @@
     },
     {
         "event": "Wildfire",
-        "camp": [
+        "burrow": [
             "any"
         ],
         "season": [
@@ -200,7 +200,7 @@
     },
     {
         "event": "Terrible Cold",
-        "camp": [
+        "burrow": [
             "any"
         ],
         "season": [
@@ -233,7 +233,7 @@
     },
     {
         "event": "Floods",
-        "camp": [
+        "burrow": [
             "any"
         ],
         "season": [
@@ -282,7 +282,7 @@
     },
     {
         "event": "Twoleg Invasion",
-        "camp": [
+        "burrow": [
             "any"
         ],
         "season": [
@@ -326,7 +326,7 @@
     },
     {
         "event": "Prey Sickness",
-        "camp": [
+        "burrow": [
             "any"
         ],
         "season": [
@@ -356,7 +356,7 @@
     },
     {
         "event": "Horrible Storms",
-        "camp": [
+        "burrow": [
             "any"
         ],
         "season": [
@@ -409,7 +409,7 @@
     },
     {
         "event": "Famine",
-        "camp": [
+        "burrow": [
             "any"
         ],
         "season": [
@@ -445,7 +445,7 @@
     },
     {
         "event": "Barren Land",
-        "camp": [
+        "burrow": [
             "any"
         ],
         "season": [
@@ -481,7 +481,7 @@
     },
     {
         "event": "Camp Destruction",
-        "camp": [
+        "burrow": [
             "any"
         ],
         "season": [

@@ -573,7 +573,7 @@
     },
     {
         "injury": "small cut",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -588,7 +588,7 @@
     },
     {
         "injury": "small cut",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -603,7 +603,7 @@
     },
     {
         "injury": "bee sting",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Summer",
             "Spring",
@@ -627,7 +627,7 @@
     },
     {
         "injury": "bee sting",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Summer",
             "Spring",
@@ -651,7 +651,7 @@
     },
     {
         "injury": "bee sting",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Summer",
             "Spring",
@@ -682,7 +682,7 @@
     },
     {
         "injury": "headache",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -698,7 +698,7 @@
     },
     {
         "injury": "severe headache",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",

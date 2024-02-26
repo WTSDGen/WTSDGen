@@ -56,9 +56,9 @@
         "m_c's leg seems to be much better.",
         "m_c's leg has healed."
     ],
-    "dislorabbited joint": [
-        "m_c's dislorabbited joint has been popped back into place and is feeling much better.",
-        "m_c has recovered from {PRONOUN/m_c/poss} dislorabbited joint."
+    "dislocated joint": [
+        "m_c's dislocated joint has been popped back into place and is feeling much better.",
+        "m_c has recovered from {PRONOUN/m_c/poss} dislocated joint."
     ],
     "joint pain": [
         "The joint pain m_c was experiencing has abated.",

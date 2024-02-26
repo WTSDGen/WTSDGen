@@ -148,7 +148,7 @@
             "Is asking r_r for guidance about a recent dream",
             "Asks r_r how to tell something is a sign from Inlé",
             "Hopes to learn from r_r's expertise",
-            "Asks r_r how to tell the difference between a sprain and a dislorabbited joint"
+            "Asks r_r how to tell the difference between a sprain and a dislocated joint"
         ],
         "random_status_constraint": [
             "healer"

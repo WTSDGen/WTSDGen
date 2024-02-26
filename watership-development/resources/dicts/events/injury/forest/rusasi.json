@@ -1,7 +1,7 @@
 [
     {
         "injury": "sprain",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -22,7 +22,7 @@
     },
     {
         "injury": "broken bone",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -52,7 +52,7 @@
     },
     {
         "injury": "broken bone",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -73,7 +73,7 @@
     },
     {
         "injury": "claw-wound",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -94,7 +94,7 @@
     },
     {
         "injury": "broken back",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",

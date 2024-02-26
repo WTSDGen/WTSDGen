@@ -1,6 +1,6 @@
 [
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -19,7 +19,7 @@
         "other_rabbit_skill": null
     },
 	{
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -38,7 +38,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",

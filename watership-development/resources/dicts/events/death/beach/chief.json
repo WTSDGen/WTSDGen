@@ -1,6 +1,6 @@
 [
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -17,7 +17,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "all_lives",
             "Spring",
@@ -36,7 +36,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "all_lives",
             "other_rabbit",
@@ -76,7 +76,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "all_lives",
             "murder",
@@ -139,7 +139,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "all_lives",
             "murder",
@@ -202,7 +202,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "all_lives",
             "murder",
@@ -259,7 +259,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "clan_kits",
             "kit_manipulated",

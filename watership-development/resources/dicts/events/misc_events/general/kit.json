@@ -1,6 +1,6 @@
 [
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -14,7 +14,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "other_rabbit_adult",
@@ -30,7 +30,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -49,7 +49,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit_parent",
             "other_rabbit",
@@ -70,7 +70,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "to_both",
@@ -97,7 +97,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "other_rabbit_kit",
@@ -122,7 +122,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "other_rabbit_kit",
@@ -153,7 +153,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -176,7 +176,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -194,7 +194,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Autumn",
             "other_rabbit",
@@ -211,7 +211,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Summer",
             "other_rabbit",
@@ -228,7 +228,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Winter",
             "other_rabbit",
@@ -245,7 +245,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Winter",
             "other_rabbit",
@@ -262,7 +262,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -278,7 +278,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Summer",
             "Spring"
@@ -290,7 +290,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Summer"
         ],
@@ -301,7 +301,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Autumn",
             "other_rabbit",
@@ -318,7 +318,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -334,7 +334,7 @@
         "event_text": "m_c is being comforted by r_r after having nightmares about the big, bad o_c cats."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer"
@@ -346,7 +346,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags":[
             "Autumn"
         ],
@@ -357,7 +357,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring"
         ],
@@ -367,7 +367,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",

@@ -1,7 +1,7 @@
 [
     {
         "injury": "claw-wound",
-        "camp": "camp1",
+        "burrow": "camp1",
         "tags": [
             "other_rabbit",
             "other_rabbit_adult",
@@ -29,7 +29,7 @@
     },
     {
         "injury": "claw-wound",
-        "camp": "camp1",
+        "burrow": "camp1",
         "tags": [
             "other_rabbit_adult",
             "other_rabbit",
@@ -58,7 +58,7 @@
     },
     {
         "injury": "water in their lungs",
-        "camp": "camp2",
+        "burrow": "camp2",
         "tags": [
             "other_rabbit_kit",
             "other_rabbit",
@@ -88,7 +88,7 @@
     },
     {
         "injury": "shivering",
-        "camp": "camp2",
+        "burrow": "camp2",
         "tags": [
             "other_rabbit_kit",
             "other_rabbit",
@@ -118,7 +118,7 @@
     },
     {
         "injury": "bruises",
-        "camp": "camp1",
+        "burrow": "camp1",
         "tags": [
             "Spring",
             "Summer",
@@ -134,7 +134,7 @@
     },
     {
         "injury": "bruises",
-        "camp": "camp1",
+        "burrow": "camp1",
         "tags": [
             "Winter",
             "Autumn"
@@ -154,7 +154,7 @@
     },
     {
         "injury": "bruises",
-        "camp": "camp2",
+        "burrow": "camp2",
         "tags": [
             "Summer",
             "Spring",
@@ -176,7 +176,7 @@
     },
     {
         "injury": "scrapes",
-        "camp": "camp1",
+        "burrow": "camp1",
         "tags": [
             "Winter",
             "Autumn"
@@ -196,7 +196,7 @@
     },
     {
         "injury": "sprain",
-        "camp": "camp1",
+        "burrow": "camp1",
         "tags": [
             "Winter",
             "Autumn"
@@ -216,7 +216,7 @@
     },
     {
         "injury": "snake bite",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Summer",
             "Spring",

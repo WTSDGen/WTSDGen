@@ -1,6 +1,6 @@
 [
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -10,7 +10,7 @@
         "event_text": "m_c thinks about retiring."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -20,7 +20,7 @@
         "event_text": "m_c feels as though the responsibility of leadership is crushing {PRONOUN/m_c/object}."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -30,7 +30,7 @@
         "event_text": "m_c calls a Clan meeting to give an important announcement."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "low_lives",
             "Spring",
@@ -41,7 +41,7 @@
         "event_text": "m_c confesses {PRONOUN/m_c/subject} {VERB/m_c/don't/doesn't} have many lives left."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "other_rabbit_app",
@@ -53,7 +53,7 @@
         "event_text": "m_c assesses r_r's progress."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -64,7 +64,7 @@
         "event_text": "m_c feels burdened with the weight of {PRONOUN/m_c/poss} decisions, knowing that every choice they make could mean the difference between victory and defeat."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -75,7 +75,7 @@
         "event_text": "m_c's relationships with {PRONOUN/m_c/poss} Clanmates are strained, with some questioning {PRONOUN/m_c/poss} decisions and others relying on {PRONOUN/m_c/object} more heavily than ever."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",

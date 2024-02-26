@@ -1,7 +1,7 @@
 [
     {
         "injury": "bruises",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -16,7 +16,7 @@
     },
     {
         "injury": "cracked pads",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -31,7 +31,7 @@
     },
     {
         "injury": "small cut",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -46,7 +46,7 @@
     },
     {
         "injury": "water in their lungs",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",

@@ -74,8 +74,12 @@ class GenerateEvents:
 
         if rabbit_type and not biome:
             file_path = f"{resource_directory}{event_triggered}/{rabbit_type}.json"
+        elif rabbit_type == "chief rabbit" and not biome:
+            file_path = f"{resource_directory}{event_triggered}/chief.json"
         elif not rabbit_type and biome:
             file_path = f"{resource_directory}{event_triggered}/{biome}.json"
+        elif rabbit_type == "chief rabbit" and biome:
+            file_path = f"{resource_directory}{event_triggered}/{biome}/chief.json"
         else:
             file_path = f"{resource_directory}{event_triggered}/{biome}/{rabbit_type}.json"
 
@@ -195,13 +199,13 @@ class GenerateEvents:
 
         if event_type == 'death':
             rabbit_adjacent_ranks.extend(["captain", "rusasi"])
-            excluded_from_general.extend(["kitten", "threarah", "newborn"])
+            excluded_from_general.extend(["kit", "chief_rabbit", "newborn"])
         elif event_type in ['injury', 'nutrition', 'misc_events', 'new_rabbit']:
-            rabbit_adjacent_ranks.extend(["captain", "rusasi", "threarah"])
-            excluded_from_general.extend(["kitten", "threarah", "newborn"])
+            rabbit_adjacent_ranks.extend(["captain", "rusasi", "chief_rabbit"])
+            excluded_from_general.extend(["kit", "chief_rabbit", "newborn"])
 
         if rabbit_type in ["healer", "healer rusasi"]:
-            rabbit_type = "medicine"
+            rabbit_type = "healer"
         elif rabbit_type in ["owsla", "owsla rusasi"]:
             rabbit_type = "owsla"
 
@@ -224,6 +228,9 @@ class GenerateEvents:
             if rabbit_type in rabbit_adjacent_ranks:
                 event_list.extend(
                     GenerateEvents.generate_short_events(event_type, "rabbit", biome))
+            if rabbit_type == "chief rabbit":
+                event_list.extend(
+                    GenerateEvents.generate_short_events(event_type, "chief", biome))
 
             if rabbit_type not in excluded_from_general:
                 event_list.extend(
@@ -310,19 +317,6 @@ class GenerateEvents:
             if not murder_reveal and "murder_reveal" in event.tags:
                 continue
 
-            # make complete threarah death less likely until the threarah is over 150 months
-            if "all_lives" in event.tags:
-                if int(rabbit.months) < 150 and int(random.random() * 5):
-                    continue
-
-            # make sure that 'some lives' events don't show up if the threarah doesn't have multiple lives to spare
-            if "some_lives" in event.tags and game.warren.threarah_lives <= 3:
-                continue
-
-            if "low_lives" in event.tags:
-                if game.warren.threarah_lives > 3:
-                    continue
-
             # check season
             if game.warren.current_season not in event.tags:
                 continue
@@ -386,7 +380,7 @@ class GenerateEvents:
 
             # check other_rabbit status and other identifiers
             if other_rabbit:
-                if "other_rabbit_threarah" in event.tags and other_rabbit.status != "threarah":
+                if "other_rabbit_chief_rabbit" in event.tags and other_rabbit.status != "chief rabbit":
                     continue
                 if "other_rabbit_dep" in event.tags and other_rabbit.status != "captain":
                     continue
@@ -681,9 +675,7 @@ Tagging Guidelines: (if you add more tags, please add guidelines for them here)
 
 "old_age" < use to mark deaths caused by old age
 
-"all_lives" < take all the lives from a threarah
-"some_lives" < take a random number, but not all, lives from a threarah
-"low_lives" < only allow event if the threarah is low on lives
+
 
 "murder" < m_c was murdered by the other rabbit
 

@@ -404,7 +404,7 @@
         "also_got": [
             "torn pelt",
             "broken bone",
-            "dislorabbited joint",
+            "dislocated joint",
             "blood loss",
             "scrapes",
             "bruises"
@@ -428,7 +428,7 @@
         ]
     },
 
-    "dislorabbited joint":{
+    "dislocated joint":{
         "duration": 2,
         "severity": "major",
         "medicine_duration": 1,

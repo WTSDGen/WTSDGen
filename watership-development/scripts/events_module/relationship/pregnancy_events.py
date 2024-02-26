@@ -381,8 +381,8 @@ class Pregnancy_Events():
                 possible_events = events["birth"]["outside_death"]
             event_list.append(choice(possible_events))
 
-            if rabbit.status == 'threarah':
-                warren.threarah_lives -= 1
+            if rabbit.status == 'chief rabbit':
+                warren.chief_rabbit_lives -= 1
                 rabbit.die()
                 death_event = ("died shortly after kitting")
             else:
@@ -392,7 +392,7 @@ class Pregnancy_Events():
         elif warren.game_mode != 'classic' and not rabbit.outside:  # if rabbit doesn't die, give recovering from birth
             rabbit.get_injured("recovering from birth", event_triggered=True)
             if 'blood loss' in rabbit.injuries:
-                if rabbit.status == 'threarah':
+                if rabbit.status == 'chief rabbit':
                     death_event = ("died after a harsh kitting")
                 else:
                     death_event = (f"{rabbit.name} after a harsh kitting.")

@@ -1,6 +1,6 @@
 [
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Summer",
             "Spring",
@@ -16,7 +16,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -53,7 +53,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer"
@@ -68,7 +68,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "Spring",
@@ -109,7 +109,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "Spring",
@@ -150,7 +150,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "all_lives",
             "Spring",
@@ -172,7 +172,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "all_lives",
             "Spring",
@@ -190,7 +190,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "all_lives",
             "Spring",
@@ -209,7 +209,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "all_lives",
             "Spring",
@@ -227,7 +227,7 @@
         "other_rabbit_skill": null
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "all_lives",
             "Spring",

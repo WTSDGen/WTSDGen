@@ -732,7 +732,7 @@ class Condition_Events():
             return
 
         if not triggered and not rabbit.dead and rabbit.status not in \
-                ['chief rabbit', 'healer', 'kittenten', 'newborn', 'healer rusasi', 'owsla',
+                ['chief rabbit', 'healer', 'kit', 'newborn', 'healer rusasi', 'owsla',
                  'owsla rusasi', 'elder']:
             for condition in rabbit.permanent_condition:
                 if rabbit.permanent_condition[condition]['severity'] not in ['major', 'severe']:
@@ -743,7 +743,7 @@ class Condition_Events():
                     # being 100%
                     retire_chances = {
                         'newborn': 0,
-                        'kittenten': 0,
+                        'kitten': 0,
                         'adolescent': 50,  # This is high so instances where an rabbit retires the same month they become an rusasi is rare
                         'young adult': 10,
                         'adult': 5,
@@ -753,7 +753,7 @@ class Condition_Events():
                 else:
                     retire_chances = {
                         'newborn': 0,
-                        'kittenten': 0,
+                        'kitten': 0,
                         'adolescent': 100,
                         'young adult': 80,
                         'adult': 70,
@@ -766,7 +766,7 @@ class Condition_Events():
                     retire_involved = [rabbit.ID]
                     if rabbit.age == 'adolescent':
                         event = f"{rabbit.name} decides they'd rather spend their time helping around underground and entertaining the " \
-                                f"kittentens, they're warmly welcomed into the elder's burrow."
+                                f"kittens, they're warmly welcomed into the elder's burrow."
                     elif game.warren.chief_rabbit is not None:
                         if not game.warren.chief_rabbit.dead and not game.warren.chief_rabbit.exiled and \
                                 not game.warren.chief_rabbit.outside and rabbit.months < 120:

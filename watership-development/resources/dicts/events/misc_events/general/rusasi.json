@@ -1,6 +1,6 @@
 [
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -10,7 +10,7 @@
         "event_text": "m_c is scolded after sneaking out of camp."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "other_rabbit_adult",
@@ -22,7 +22,7 @@
         "event_text": "m_c falls into a river, but is saved by r_r."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_warren",
             "rel_down",
@@ -34,7 +34,7 @@
         "event_text": "m_c accidentally trespasses onto o_c's territory."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "other_rabbit_app",
@@ -46,7 +46,7 @@
         "event_text": "m_c sneaks out of camp with r_r."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "other_rabbit_app",
@@ -64,7 +64,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Autumn",
             "other_rabbit",
@@ -78,7 +78,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -95,7 +95,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Summer",
             "Winter",
@@ -112,7 +112,7 @@
         "event_text": "m_c and r_r sneak out of camp to see the sun rise."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Summer",
             "Winter",
@@ -129,7 +129,7 @@
         "event_text": "m_c and r_r sneak out of camp to see the moon rise."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Summer",
             "Winter",
@@ -141,7 +141,7 @@
         "event_text": "m_c and r_r try to sneak out of camp, but are caught by their mentors."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Autumn",
             "other_rabbit",
@@ -155,7 +155,7 @@
         "event_text": "m_c and r_r play in the fallen leaves outside of camp."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Winter",
             "other_rabbit",
@@ -169,7 +169,7 @@
         "event_text": "m_c and r_r play in the snow outside of camp."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Winter"
         ],
@@ -180,7 +180,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Winter",
             "Spring",
@@ -193,7 +193,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "other_rabbit_app",
@@ -209,7 +209,7 @@
         "event_text": "m_c and r_r were practicing climbing when they found a nest of strange eggs."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "other_rabbit_app",
@@ -225,7 +225,7 @@
         "event_text": "m_c and r_r sneak out of camp to go bird watching."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Winter",
             "other_rabbit",
@@ -235,7 +235,7 @@
         "rabbit_trait": "playful"
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Winter",
             "Spring",
@@ -254,7 +254,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -265,7 +265,7 @@
         "event_text": "m_c was seen racing along the border with {PRONOUN/m_c/poss} rival from o_c."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -275,7 +275,7 @@
         "event_text": "m_c was seen playing with a kittypet over the border."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -285,7 +285,7 @@
         "event_text": "m_c was seen taking food from a Twoleg!"
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -296,7 +296,7 @@
         "event_text": "m_c was seen speaking with someone from o_c."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -306,7 +306,7 @@
         "event_text": "m_c was seen speaking with a loner."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -316,7 +316,7 @@
         "event_text": "m_c was seen speaking with a rogue."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -326,7 +326,7 @@
         "event_text": "m_c was seen speaking with a kittypet."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -336,7 +336,7 @@
         "event_text": "m_c was seen chasing a rogue off of the territory."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -346,7 +346,7 @@
         "event_text": "m_c was seen chasing a loner off of the territory."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -356,7 +356,7 @@
         "event_text": "m_c was seen chasing a kittypet off of the territory."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -366,7 +366,7 @@
         "event_text": "m_c was caught sharing prey with a rogue, who was chased off by a patrol."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -376,7 +376,7 @@
         "event_text": "m_c was caught sharing prey with a kittypet, who was chased off by a patrol."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -387,7 +387,7 @@
         "event_text": "m_c was loitering around o_c's border, looking for a specific rabbit."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -399,7 +399,7 @@
         "event_text": "m_c was seen arguing, and borderline-fighting with, a rabbit from o_c."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -411,7 +411,7 @@
         "event_text": "m_c was seen arguing, and borderline-fighting with, a rogue."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -423,7 +423,7 @@
         "event_text": "m_c was seen arguing, and borderline-fighting with, a kittypet."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -433,7 +433,7 @@
         "event_text": "m_c was seen talking calmly to a loner, before both cats went their separate ways."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -445,7 +445,7 @@
         "event_text": "m_c was seen speaking calmly to a rabbit from o_c."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -455,7 +455,7 @@
         "event_text": "m_c was seen talking calmly to a loner, before both cats went their separate ways."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -465,7 +465,7 @@
         "event_text": "m_c was seen in a very serious conversation with a kittypet, who ran away when another patrol approached."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -486,7 +486,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",

@@ -27,7 +27,7 @@ class Death_Events():
         else:
             other_warren = random.choice(game.warren.all_warrens)
         other_warren_name = f'{other_warren.name}'
-        current_lives = int(game.warren.threarah_lives)
+        current_lives = int(game.warren.chief_rabbit_lives)
 
         if other_warren_name == 'None':
             other_warren = game.warren.all_warrens[0]
@@ -51,7 +51,7 @@ class Death_Events():
         additional_event_text = ""
 
         # assign default history
-        if rabbit.status == 'threarah':
+        if rabbit.status == 'chief rabbit':
             death_history = death_cause.history_text.get("lead_death")
         else:
             death_history = death_cause.history_text.get("reg_death")
@@ -61,7 +61,7 @@ class Death_Events():
         murder_unrevealed_history = None
         if murder:
             if "kit_manipulated" in death_cause.tags:
-                kit = Rabbit.fetch_rabbit(random.choice(get_alive_kits(Rabbit)))
+                kit = Rabbit.fetch_rabbit(random.choice(get_alive_kittens(Rabbit)))
                 involved_rabbits.append(kit.ID)
                 change_relationship_values([other_rabbit.ID],
                                            [kit],
@@ -74,7 +74,7 @@ class Death_Events():
             if "revealed" in death_cause.tags:
                 revealed = True
             else:
-                if rabbit.status == 'threarah':
+                if rabbit.status == 'chief rabbit':
                     death_history = death_cause.history_text.get("lead_death")
                     murder_unrevealed_history = death_cause.history_text.get("lead_murder_unrevealed")
                 else:
@@ -106,43 +106,16 @@ class Death_Events():
                 involved_rabbits.append(other_rabbit.ID)
 
         # give history to rabbit if they die
-        if rabbit.status == 'threarah':
-            if "all_lives" in death_cause.tags:
-                game.warren.threarah_lives -= 10
-                additional_event_text += rabbit.die(body)
-            elif "some_lives" in death_cause.tags:
-                game.warren.threarah_lives -= random.randrange(2, current_lives - 1)
-                additional_event_text += rabbit.die(body)
-            else:
-                game.warren.threarah_lives -= 1
-                additional_event_text += rabbit.die(body)
-            death_history = history_text_adjust(death_history, other_warren_name, game.warren)
-
-        else:
-            additional_event_text += rabbit.die(body)
-            death_history = history_text_adjust(death_history, other_warren_name, game.warren)
+        additional_event_text += rabbit.die(body)
+        death_history = history_text_adjust(death_history, other_warren_name, game.warren)
 
         History.add_death(rabbit, death_history, other_rabbit=other_rabbit, extra_text=murder_unrevealed_history)
 
         # give death history to other rabbit and kill them if they die
-        if "multi_death" in death_cause.tags:
-            if other_rabbit.status == 'threarah':
-                if "all_lives" in death_cause.tags:
-                    game.warren.threarah_lives -= 10
-                    additional_event_text += other_rabbit.die(body)
-                elif "some_lives" in death_cause.tags:
-                    game.warren.threarah_lives -= random.randrange(2, current_lives - 1)
-                    additional_event_text += other_rabbit.die(body)
-                else:
-                    game.warren.threarah_lives -= 1
-                    additional_event_text += other_rabbit.die(body)
-                other_death_history = history_text_adjust(death_cause.history_text.get('threarah_death'), other_warren_name, game.warren)
+        additional_event_text += other_rabbit.die(body)
+        other_death_history = history_text_adjust(death_cause.history_text.get('reg_death'), other_warren_name, game.warren)
 
-            else:
-                additional_event_text += other_rabbit.die(body)
-                other_death_history = history_text_adjust(death_cause.history_text.get('reg_death'), other_warren_name, game.warren)
-
-            History.add_death(other_rabbit, other_death_history, other_rabbit=rabbit)
+        History.add_death(other_rabbit, other_death_history, other_rabbit=rabbit)
 
         # give injuries to other rabbit if tagged as such
         if "other_rabbit_injured" in death_cause.tags:

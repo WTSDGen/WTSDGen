@@ -1,6 +1,6 @@
 [
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_warren",
             "hostile",
@@ -20,7 +20,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -36,7 +36,7 @@
         }
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_warren",
             "ally",
@@ -69,7 +69,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_warren",
             "rel_down",
@@ -89,7 +89,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_warren",
             "rel_up",
@@ -122,7 +122,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_warren",
             "hostile",
@@ -142,7 +142,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_warren",
             "ally",
@@ -175,7 +175,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "multi_death",
             "other_rabbit",

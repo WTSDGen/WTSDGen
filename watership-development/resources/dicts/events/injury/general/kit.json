@@ -119,7 +119,7 @@
     },
     {
         "injury": "headache",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -135,7 +135,7 @@
     },
     {
         "injury": "severe headache",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",

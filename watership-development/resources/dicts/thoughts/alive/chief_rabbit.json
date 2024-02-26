@@ -17,7 +17,7 @@
         ]
     },
     {
-        "id": "gen_threarah",
+        "id": "gen_chief_rabbit",
         "thoughts": [
             "Is hoping for a sign from Frith",
             "Is hoping that {PRONOUN/m_c/subject} {VERB/m_c/are/is} leading {PRONOUN/m_c/poss} warren well",
@@ -90,7 +90,7 @@
         ]
     },
     {
-        "id": "ambitious_threarah",
+        "id": "ambitious_chief_rabbit",
         "thoughts": [
             "Considers expanding the borders",
             "Makes sure all rabbits are battle ready"
@@ -100,7 +100,7 @@
         ]
     },
     {
-        "id": "bold_threarah",
+        "id": "bold_chief_rabbit",
         "thoughts": [
             "Considers expanding the borders",
             "Feels confident that the warren admires {PRONOUN/m_c/object}"
@@ -110,7 +110,7 @@
         ]
     },
     {
-        "id": "bloodthirsty_threarah",
+        "id": "bloodthirsty_chief_rabbit",
         "thoughts": [
             "Encourages owsla to start fights on border patrols",
             "Is debating if {PRONOUN/m_c/subject} should declare a war with another warren",
@@ -132,7 +132,7 @@
         ]
     },
     {
-        "id": "calm_threarah",
+        "id": "calm_chief_rabbit",
         "thoughts": [
             "Stays composed when a rabbit comes to them in a panic",
             "Watches over all the rabbits"
@@ -142,7 +142,7 @@
         ]
     },
     {
-        "id": "careful_threarah",
+        "id": "careful_chief_rabbit",
         "thoughts": [
             "Reminds a patrol not to stray over the border"
         ],
@@ -151,7 +151,7 @@
         ]
     },
     {
-        "id": "charismatic_threarah",
+        "id": "charismatic_chief_rabbit",
         "thoughts": [
             "Gives a particularly rousing speech at a warren meeting",
             "Feels confident that the warren admires {PRONOUN/m_c/object}"
@@ -161,7 +161,7 @@
         ]
     },
     {
-        "id": "childish_threarah",
+        "id": "childish_chief_rabbit",
         "thoughts": [
             "Pranks r_r by switching their food with compost"
         ],
@@ -170,7 +170,7 @@
         ]
     },
     {
-        "id": "cold_threarah",
+        "id": "cold_chief_rabbit",
         "thoughts": [
             "Rolls {PRONOUN/m_c/poss} eyes as r_r suggests sharing their food with other warrens"
         ],
@@ -179,7 +179,7 @@
         ]
     },
     {
-        "id": "insecure_threarah",
+        "id": "insecure_chief_rabbit",
         "thoughts": [
             "Thinks they don't deserve Inlé-rah's blessings",
             "Wonders if rabbits like {PRONOUN/m_c/object} as a chief rabbit"
@@ -190,7 +190,7 @@
     },
 
     {
-        "id": "strange_threarah",
+        "id": "strange_chief_rabbit",
         "thoughts": [
             "No thoughts, head empty",
             "Insists that {PRONOUN/m_c/subject} received ten blessings instead of nine",
@@ -202,7 +202,7 @@
         ]
     },
     {
-        "id": "charismatic_threarah",
+        "id": "charismatic_chief_rabbit",
         "thoughts": [
             "Gives a particularly rousing speech at a warren meeting",
             "Feels confident that the warren admires {PRONOUN/m_c/object}"

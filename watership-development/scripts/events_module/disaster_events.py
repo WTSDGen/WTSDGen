@@ -155,17 +155,17 @@ class DisasterEvents():
 
     def disaster_text(self, text_list):
 
-        threarah_exists = False
+        chief_rabbit_exists = False
         dep_exists = False
         med_exists = False
 
-        threarah = Rabbit.fetch_rabbit(game.warren.threarah)
+        chief_rabbit = Rabbit.fetch_rabbit(game.warren.chief_rabbit)
         captain = Rabbit.fetch_rabbit(game.warren.captain)
         med_rabbits = get_med_rabbits(Rabbit, working=False)
 
         # checking if there are rabbits of the specified rank
-        if not threarah.dead and not threarah.outside:
-            threarah_exists = True
+        if not chief_rabbit.dead and not chief_rabbit.outside:
+            chief_rabbit_exists = True
         if not captain.dead and not captain.outside:
             dep_exists = True
         if med_rabbits:
@@ -177,12 +177,12 @@ class DisasterEvents():
                 text_list.remove(event)
             if (event.find('dep_name') == -1 or event.find('captain') == -1) and not dep_exists:
                 text_list.remove(event)
-            if (event.find('lead_name') == -1 or event.find('threarah') == -1) and not threarah_exists:
+            if (event.find('lead_name') == -1 or event.find('chief rabbit') == -1) and not chief_rabbit_exists:
                 text_list.remove(event)
 
         text = random.choice(text_list)
 
-        text = text.replace("lead_name", str(threarah.name))
+        text = text.replace("lead_name", str(chief_rabbit.name))
         text = text.replace("dep_name", str(captain.name))
         text = text.replace("med_name", str(random.choice(med_rabbits).name))
         text = text.replace("c_n", f"{game.warren.name}")

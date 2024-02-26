@@ -1,7 +1,7 @@
 [
     {
         "injury": "bruises",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -16,7 +16,7 @@
     },
     {
         "injury": "sprain",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -31,7 +31,7 @@
     },
     {
         "injury": "torn pelt",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -46,7 +46,7 @@
     },
     {
         "injury": "small cut",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -61,7 +61,7 @@
     },
     {
         "injury": "small cut",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -76,7 +76,7 @@
     },
     {
         "injury": "frostbite",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Autumn",
             "Winter",
@@ -95,7 +95,7 @@
     },
     {
         "injury": "water in their lungs",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -112,7 +112,7 @@
     },
     {
         "injury": "mangled tail",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -133,7 +133,7 @@
     },
     {
         "injury": "burn",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Summer",
             "scar",
@@ -151,7 +151,7 @@
     },
     {
         "injury": "burn",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Summer",
             "other_rabbit",
@@ -184,7 +184,7 @@
     },
     {
         "injury": "severe burn",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Summer",
             "scar",
@@ -202,7 +202,7 @@
     },
     {
         "injury": "severe burn",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Summer",
             "other_rabbit",

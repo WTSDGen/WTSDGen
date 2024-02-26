@@ -935,7 +935,7 @@
       "tags": [],
       "lead_trait": [],
       "star_trait": [],
-      "rank": ["chief_rabbit"],
+      "rank": ["chief rabbit"],
       "life_giving": [
         {
           "text": "Finally, r_r steps forward. There is pride in {PRONOUN/r_r/poss} gaze as {PRONOUN/r_r/subject} {VERB/r_r/stare/stares} into m_c's eyes. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} the virtue of [virtue].",
@@ -947,7 +947,7 @@
       "tags": ["old_chief_rabbit"],
       "lead_trait": [],
       "star_trait": [],
-      "rank": ["chief_rabbit"],
+      "rank": ["chief rabbit"],
       "life_giving": [
         {
           "text": "Finally, r_r steps forward. There is a conflicted expression on {PRONOUN/r_r/poss} face when {PRONOUN/r_r/subject} {VERB/r_r/step/steps} forward and {VERB/r_r/stare/stares} into m_c's eyes. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} the virtue of [virtue].",
@@ -960,7 +960,7 @@
       "tags": [],
       "lead_trait": ["bloodthirsty"],
       "star_trait": [],
-      "rank": ["chief_rabbit"],
+      "rank": ["chief rabbit"],
       "life_giving": [
         {
           "text": "Finally, r_r steps forward. There is a conflicted expression on {PRONOUN/r_r/poss} face when {PRONOUN/r_r/subject} {VERB/r_r/step/steps} forward and {VERB/r_r/stare/stares} into m_c's eyes. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} the virtue of [virtue].",
@@ -972,10 +972,10 @@
       "tags": ["old_chief_rabbit"],
       "lead_trait": ["bloodthirsty"],
       "star_trait": [],
-      "rank": ["chief_rabbit"],
+      "rank": ["chief rabbit"],
       "life_giving": [
         {
-          "text": "r_r, one of Inlé's oldest chief rabbits, looks at the new chief_rabbit with a conflicted expression. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} a last gift, the gift of [virtue].",
+          "text": "r_r, one of Inlé's oldest chief rabbits, looks at the new chief rabbit with a conflicted expression. {PRONOUN/r_r/subject/CAP} {VERB/r_r/give/gives} a last gift, the gift of [virtue].",
           "virtue": ["endurance in the face of hardship", "knowing when to fight and when to choose peace", "leadership through the darkest times", "loyalty to {PRONOUN/m_c/poss} warren", "the strength to overcome {PRONOUN/m_c/poss} fears", "tireless energy"]
         }
       ]

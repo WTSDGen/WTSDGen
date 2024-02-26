@@ -49,11 +49,11 @@
 
         ]
     },
-    "dislorabbited joint": {
+    "dislocated joint": {
         "constant joint pain": [
-            "It feels like {PRONOUN/m_c/poss} formerly dislorabbited joint just isn't the same anymore. r_r is understanding, but prepares m_c for the possibility that this could be permanent.",
+            "It feels like {PRONOUN/m_c/poss} formerly dislocated joint just isn't the same anymore. r_r is understanding, but prepares m_c for the possibility that this could be permanent.",
             "r_r explains to m_c that dislorabbiting a joint can have permanent consequences. The pain m_c is feeling could be permanent.",
-            "m_c needs pain relief far more often these days, the joint {PRONOUN/m_c/subject} dislorabbited giving {PRONOUN/m_c/object} trouble."
+            "m_c needs pain relief far more often these days, the joint {PRONOUN/m_c/subject} dislocated giving {PRONOUN/m_c/object} trouble."
 
         ]
     },

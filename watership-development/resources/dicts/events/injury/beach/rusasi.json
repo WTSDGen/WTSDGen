@@ -1,7 +1,7 @@
 [
     {
         "injury": "broken bone",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -31,7 +31,7 @@
     },
     {
         "injury": "water in their lungs",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -66,7 +66,7 @@
     },
     {
         "injury": "cracked pads",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -81,7 +81,7 @@
     },
     {
         "injury": "bruises",
-        "camp": "camp2",
+        "burrow": "camp2",
         "tags": [
             "Winter"
         ],
@@ -100,7 +100,7 @@
     },
     {
         "injury": "bruises",
-        "camp": "camp1",
+        "burrow": "camp1",
         "tags": [
             "Spring",
             "Summer",
@@ -121,7 +121,7 @@
     },
     {
         "injury": "shivering",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Autumn",
             "Winter",
@@ -148,7 +148,7 @@
     },
     {
         "injury": "dehydrated",
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",

@@ -1,6 +1,6 @@
 [
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -10,7 +10,7 @@
         "event_text": "m_c is caught breaking the Warrior Code."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -20,7 +20,7 @@
         "event_text": "m_c went missing for a few days."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -30,7 +30,7 @@
         "event_text": "m_c believes {PRONOUN/m_c/subject} {VERB/m_c/are/is} part of a new prophecy."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -40,7 +40,7 @@
         "event_text": "m_c believes {PRONOUN/m_c/subject}'{VERB/m_c/re/s} meant for something greater."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "Spring",
@@ -51,7 +51,7 @@
         "event_text": "m_c tries to convince r_r to run away with {PRONOUN/m_c/object}."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -61,7 +61,7 @@
         "event_text": "m_c is caught outside of the Clan's territory."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "ceremony",
             "other_rabbit",
@@ -81,7 +81,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "ceremony",
             "Spring",
@@ -96,7 +96,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Winter"
         ],
@@ -108,7 +108,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "to_both",
@@ -127,7 +127,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "ceremony",
             "other_rabbit",
@@ -149,7 +149,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -167,7 +167,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -181,7 +181,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "other_rabbit_adult",
@@ -202,7 +202,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -212,7 +212,7 @@
         "event_text": "m_c tossed a snake out of the camp before it could bite someone."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -222,7 +222,7 @@
         "event_text": "m_c misstepped and slipped from a rock, but landed on {PRONOUN/m_c/poss} feet nimbly, {PRONOUN/m_c/poss} Clanmates commenting on the show of dexterity."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -232,7 +232,7 @@
         "event_text": "m_c wasn't looking where {PRONOUN/m_c/subject} {VERB/m_c/were/was} going and tripped over a small trunk, but came out of it with only {PRONOUN/m_c/poss} pride bruised."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -242,7 +242,7 @@
         "event_text": "m_c was trying to fluff up {PRONOUN/m_c/poss} nest when {PRONOUN/m_c/subject} saw a thorn inside of {PRONOUN/m_c/poss} bedding. Another prank, but it could not fool {PRONOUN/m_c/object}!"
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "clan_kits",
             "Spring",
@@ -258,7 +258,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -273,7 +273,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "other_rabbit_adult",
@@ -287,7 +287,7 @@
         "event_text": "m_c and r_r begin a small camp snowball fight while on guard duty, eventually getting the whole Clan to join in."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -298,7 +298,7 @@
         "event_text": "The tension between c_n and o_c is palpable, with even the smallest actions potentially leading to violence."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -309,7 +309,7 @@
         "event_text": "The war with o_c is beginning to disrupt the daily lives of c_n, forcing them to adapt to new routines and living situations in order to better defend themselves."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -325,7 +325,7 @@
         "event_text": "m_c and r_r watch the Clan's kits play and daydream about having their own one day."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -337,7 +337,7 @@
         "event_text": "m_c watches r_r give an elder the best piece of prey on the pile. {PRONOUN/m_c/subject/CAP} {VERB/m_c/feel/feels} lucky to have such a kind rabbit as {PRONOUN/m_c/poss} mate."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -368,7 +368,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "other_rabbit",
@@ -379,7 +379,7 @@
         "event_text": "m_c sits still as r_r helps remove some leftover Winter fluff from the back of {PRONOUN/m_c/poss} neck."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -395,7 +395,7 @@
         "event_text": "m_c listens bashfully as r_r tells the story of how {PRONOUN/r_r/subject} fell in love with {PRONOUN/r_r/poss} mate to a group of starry-eyed kits."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Winter",
             "other_rabbit",
@@ -407,7 +407,7 @@
         "event_text": "m_c and r_r are so cuddled up and cozy in their nest they almost miss the dawn patrol."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Autumn",
             "other_rabbit",
@@ -422,7 +422,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Summer",
             "other_rabbit",
@@ -436,7 +436,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Summer",
             "other_rabbit",
@@ -447,7 +447,7 @@
         "event_text": "It's tough working in such extreme heat. m_c and r_r spend their evening relaxing together and cooling down in the shade."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -464,7 +464,7 @@
         ]
     },
     {
-        "camp": "Any",
+        "burrow": "Any",
         "tags": [
             "Autumn",
             "clan_kits",
@@ -474,7 +474,7 @@
         "event_text": "The older cats look fondly upon the kits who are dashing in and out of leaf piles at the edge of camp."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -484,7 +484,7 @@
         "event_text": "m_c went for a long walk this morning, deep in thought."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -498,7 +498,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -514,7 +514,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -529,7 +529,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -544,7 +544,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -556,7 +556,7 @@
         "event_text": "r_r overheard m_c muttering in {PRONOUN/m_c/poss} sleep, claws slashing at the air. {PRONOUN/m_c/poss/CAP} muttering confirms what r_r always suspected -  m_c was the one responsible for mur_c's death."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -568,7 +568,7 @@
         "event_text": "m_c can't keep this secret anymore. When {PRONOUN/m_c/subject} {VERB/m_c/find/finds} {PRONOUN/m_c/self} alone with r_r, {PRONOUN/m_c/subject} tell the story of mur_c's death."
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -583,7 +583,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -598,7 +598,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -613,7 +613,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -628,7 +628,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -643,7 +643,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -658,7 +658,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -673,7 +673,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",

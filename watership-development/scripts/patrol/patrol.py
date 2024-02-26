@@ -146,7 +146,7 @@ class Patrol():
                 else:
                     self.patrol_statuses["all owsla rusasis"] = 1
                     
-            if rabbit.status in ("owsla", "captain", "threarah"):
+            if rabbit.status in ("owsla", "captain", "chief rabbit"):
                 if "normal adult" in self.patrol_statuses:
                     self.patrol_statuses["normal adult"] += 1
                 else:

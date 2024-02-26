@@ -74,20 +74,15 @@ class Freshkill_Events():
             history_text = 'this should not show up - history text'
 
             # give history to rabbit if they die
-            if rabbit.status != "threarah" and chosen_event.history_text[0] is not None:
+            if rabbit.status != "chief rabbit" and chosen_event.history_text[0] is not None:
                 history_text = event_text_adjust(Rabbit, chosen_event.history_text[0], rabbit, other_rabbit, other_warren_name)
-            elif rabbit.status == "threarah" and chosen_event.history_text[1] is not None:
+            elif rabbit.status == "chief rabbit" and chosen_event.history_text[1] is not None:
                 history_text = event_text_adjust(Rabbit, chosen_event.history_text[1], rabbit, other_rabbit, other_warren_name)
 
-            if rabbit.status == "threarah":
-                game.warren.threarah_lives -= 1
-                
             rabbit.die()
             History.add_death(rabbit, history_text)
             
-            # if the rabbit is the threarah, the illness "starving" needs to be added again
-            if rabbit.status == "threarah" and game.warren.threarah_lives > 0:
-                rabbit.get_ill("starving")
+            # if the rabbit is the chief rabbit, the illness "starving" needs to be added again
 
             types = ["birth_death"]
             game.cur_events_list.append(Single_Event(death_text, types, [rabbit.ID]))
@@ -347,16 +342,16 @@ class Freshkill_Events():
         if event.injury:
             scar_text = None
             history_normal = None
-            history_threarah = None
+            history_chief_rabbit = None
             if event.history_text[0] is not None:
                 scar_text = event_text_adjust(Rabbit, event.history_text[0], rabbit, other_rabbit)
             if event.history_text[1] is not None:
                 history_normal = event_text_adjust(Rabbit, event.history_text[1], rabbit, other_rabbit)
             elif event.history_text[2] is not None:
-                history_threarah = event_text_adjust(Rabbit, event.history_text[2], rabbit, other_rabbit)
+                history_chief_rabbit = event_text_adjust(Rabbit, event.history_text[2], rabbit, other_rabbit)
             
-            if rabbit.status == "threarah":
-                History.add_possible_history(rabbit, event.injury, death_text=history_threarah, scar_text=scar_text,
+            if rabbit.status == "chief rabbit":
+                History.add_possible_history(rabbit, event.injury, death_text=history_chief_rabbit, scar_text=scar_text,
                                                   other_rabbit=other_rabbit)
             else:
                 History.add_possible_history(rabbit, event.injury, death_text=history_normal, scar_text=scar_text,
@@ -365,11 +360,7 @@ class Freshkill_Events():
 
             rabbit.get_injured(event.injury, event_triggered=True)
             if "multi_injury" in event.tags and other_rabbit:
-                if other_rabbit.status == "threarah":
-                    History.add_possible_history(other_rabbit, event.injury, death_text=history_threarah, 
-                                                      scar_text=scar_text, other_rabbit=rabbit)
-                else:
-                    History.add_possible_history(other_rabbit, event.injury, death_text=history_normal, 
+                History.add_possible_history(other_rabbit, event.injury, death_text=history_normal, 
                                                       scar_text=scar_text, other_rabbit=rabbit)
 
                 other_rabbit.get_injured(event.injury, event_triggered=True)
@@ -377,25 +368,20 @@ class Freshkill_Events():
         # if the length of the history text is 2, this means the event is a instant death event
         if "death" in event.tags or "multi_death" in event.tags:
             history_normal = None
-            history_threarah = None
+            history_chief_rabbit = None
             if event.history_text[0] is not None:
                 history_normal = event_text_adjust(Rabbit, event.history_text[0], rabbit, other_rabbit)
             if event.history_text[1] is not None:
-                history_threarah = event_text_adjust(Rabbit, event.history_text[1], rabbit, other_rabbit)
+                history_chief_rabbit = event_text_adjust(Rabbit, event.history_text[1], rabbit, other_rabbit)
 
-            if rabbit.status == "threarah":
-                game.warren.threarah_lives -= 1
-                History.add_death(rabbit, history_threarah, other_rabbit=other_rabbit)
+                game.warren.chief_rabbit_lives -= 1
+                History.add_death(rabbit, history_chief_rabbit, other_rabbit=other_rabbit)
             else:
                 History.add_death(rabbit, history_normal, other_rabbit=other_rabbit)
 
             rabbit.die()
             if "multi_death" in event.tags and other_rabbit:
-                if other_rabbit.status == "threarah":
-                    game.warren.threarah_lives -= 1
-                    History.add_death(other_rabbit, history_threarah, other_rabbit=rabbit)
-                else:
-                    History.add_death(other_rabbit, history_normal, other_rabbit=rabbit)
+                History.add_death(other_rabbit, history_normal, other_rabbit=rabbit)
                 other_rabbit.die()
             if "multi_death" in event.tags and not other_rabbit:
                 print("WARNING: multi_death event in freshkill pile was triggered, but no other rabbit was given.")

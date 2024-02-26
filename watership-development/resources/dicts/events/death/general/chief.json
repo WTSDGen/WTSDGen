@@ -1,6 +1,6 @@
 [
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -12,7 +12,7 @@
         }
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -28,7 +28,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -44,7 +44,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -60,7 +60,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -76,7 +76,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -89,7 +89,7 @@
         }
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -102,7 +102,7 @@
         }
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -115,7 +115,7 @@
         }
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -132,7 +132,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "Spring",
@@ -170,7 +170,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "Spring",
@@ -208,7 +208,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "Spring",
@@ -246,7 +246,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "Spring",
@@ -279,7 +279,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "Spring",
@@ -312,7 +312,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "Spring",
@@ -347,7 +347,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_warren",
             "hostile",
@@ -384,7 +384,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_warren",
             "hostile",
@@ -427,7 +427,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_warren",
             "hostile",
@@ -447,7 +447,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_warren",
             "neutral",
@@ -480,7 +480,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_warren",
             "hostile",
@@ -500,7 +500,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_warren",
             "ally",
@@ -533,7 +533,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_warren",
             "hostile",
@@ -553,7 +553,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_warren",
             "ally",
@@ -586,7 +586,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_warren",
             "hostile",
@@ -606,7 +606,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_warren",
             "ally",
@@ -639,7 +639,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "old_age",
             "some_lives",
@@ -654,7 +654,7 @@
         }
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "old_age",
             "all_lives",
@@ -669,7 +669,7 @@
         }
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "all_lives",
             "Spring",
@@ -686,7 +686,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "all_lives",
             "Spring",
@@ -703,7 +703,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "all_lives",
             "Spring",
@@ -731,7 +731,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "all_lives",
             "hostile",
@@ -751,7 +751,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "all_lives",
             "hostile",
@@ -771,7 +771,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "all_lives",
             "other_warren",
@@ -791,7 +791,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "classic",
             "Autumn",
@@ -803,7 +803,7 @@
         }
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "classic",
             "some_lives",
@@ -816,7 +816,7 @@
         }
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "classic",
             "Autumn",
@@ -828,7 +828,7 @@
         }
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "classic",
             "some_lives",
@@ -841,7 +841,7 @@
         }
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "classic",
             "Autumn",
@@ -853,7 +853,7 @@
         }
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "classic",
             "some_lives",
@@ -866,7 +866,7 @@
         }
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "classic",
             "Autumn",
@@ -878,7 +878,7 @@
         }
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "old_age",
             "some_lives",
@@ -893,7 +893,7 @@
         }
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "old_age",
             "all_lives",
@@ -908,7 +908,7 @@
         }
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "old_age",
             "Spring",
@@ -922,7 +922,7 @@
         }
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "old_age",
             "all_lives",
@@ -937,7 +937,7 @@
         }
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "old_age",
             "all_lives",
@@ -952,7 +952,7 @@
         }
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit",
             "murder",
@@ -995,7 +995,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "all_lives",
             "other_rabbit_dep",
@@ -1031,7 +1031,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "other_rabbit_dep",
             "multi_death",
@@ -1071,7 +1071,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -1112,7 +1112,7 @@
             "old_age",
             "all_lives"
         ],
-        "camp": "Any",
+        "burrow": "Any",
         "death_text": "m_c and r_r loved each other so much they could not be parted, even by death. c_n finds their bodies still wrapped around each other in the morning.",
         "history_text": {
             "lead_death": "died of old age"
@@ -1126,7 +1126,7 @@
             "Autumn",
             "Winter"
         ],
-        "camp": "Any",
+        "burrow": "Any",
         "death_text": "m_c has always wondered where {PRONOUN/m_c/subject} came from. {PRONOUN/m_c/subject/CAP} {VERB/m_c/sneak/sneaks} out of camp, intending to find loners who might have some clues about {PRONOUN/m_c/poss} origins. Frantic with worry and confusion after finding m_c's empty nest in the morning, they launch a search. c_n finds {PRONOUN/m_c/poss} cooling body after a long search and wonders why {PRONOUN/m_c/subject} decided to leave the safety of c_n, and what killed {PRONOUN/m_c/object}.",
         "history_text": {
             "lead_death": "became a bit too curious"
@@ -1138,7 +1138,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",
@@ -1169,7 +1169,7 @@
         ]
     },
     {
-        "camp": "any",
+        "burrow": "any",
         "tags": [
             "Spring",
             "Summer",

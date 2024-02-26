@@ -43,7 +43,7 @@ class PatrolOutcome():
             lost_rabbits: List[str] = None,
             injury: List[Dict] = None,
             history_reg_death: str = None,
-            history_threarah_death: str = None,
+            history_chief_rabbit_death: str = None,
             history_scar: str = None,
             new_rabbit: List[List[str]] = None,
             herbs: List[str] = None,
@@ -69,7 +69,7 @@ class PatrolOutcome():
         self.injury = injury if injury is not None else []
         self.history_reg_death = history_reg_death if history_reg_death is not None else \
                                  "m_c died on patrol."
-        self.history_threarah_death = history_threarah_death if history_threarah_death is not None else \
+        self.history_chief_rabbit_death = history_chief_rabbit_death if history_chief_rabbit_death is not None else \
                                     "died on patrol."
         self.history_scar = history_scar if history_scar is not None else "m_c was scarred on patrol."
         self.new_rabbit = new_rabbit if new_rabbit is not None else []
@@ -150,7 +150,7 @@ class PatrolOutcome():
                     dead_rabbits=_d.get("dead_rabbits"),
                     injury=_d.get("injury"),
                     lost_rabbits=_d.get("lost_rabbits"),
-                    history_threarah_death=_d["history_text"].get("threarah_death") if \
+                    history_chief_rabbit_death=_d["history_text"].get("chief_rabbit_death") if \
                                         isinstance(_d.get("history_text"), dict) else None,
                     history_reg_death=_d["history_text"].get("reg_death") if  
                                     isinstance(_d.get("history_text"), dict) else None,
@@ -206,15 +206,15 @@ class PatrolOutcome():
             # Special allowed_specfic that allows all. 
             return True
         
-        # With allowed_specfic empty, that means the stat can can be anyone that's not patrol threarah
+        # With allowed_specfic empty, that means the stat can can be anyone that's not patrol chief rabbit
         # or stat rabbit. This can
         if not allowed_specfic or "no_pl_rc" in allowed_specfic:
-            if kitty in (patrol.patrol_threarah, patrol.patrol_random_rabbit):
+            if kitty in (patrol.patrol_chief_rabbit, patrol.patrol_random_rabbit):
                 return False
             return True
         
         # Otherwise, check to see if the rabbit matched any of the specfic rabbits
-        if "p_l" in allowed_specfic and kitty == patrol.patrol_threarah:
+        if "p_l" in allowed_specfic and kitty == patrol.patrol_chief_rabbit:
             return True
         if "r_r" in allowed_specfic and kitty == patrol.patrol_random_rabbit:
             return True
@@ -239,7 +239,7 @@ class PatrolOutcome():
                            ("r_r", "p_l", "app1", "app2", "any", "not_pl_rc")]
         
         # Special default behavior for patrols less than two rabbits.
-        # Patrol threarah is the only one allowed to be stat_rabbit in patrols equal to or less than than two rabbits 
+        # Patrol chief rabbit is the only one allowed to be stat_rabbit in patrols equal to or less than than two rabbits 
         if not allowed_specfic and len(patrol.patrol_rabbits) <= 2:
             allowed_specfic = ["p_l"]
 
@@ -347,7 +347,7 @@ class PatrolOutcome():
             return ""
         
         #body_tags = ("body", "no_body")
-        #threarah_lives = ("all_lives", "some_lives")
+        #chief_rabbit_lives = ("all_lives", "some_lives")
         
         def gather_rabbit_objects(rabbit_list, patrol: 'Patrol') -> list:
             out_set = set()
@@ -356,7 +356,7 @@ class PatrolOutcome():
                 if _rabbit == "r_r":
                     out_set.add(patrol.patrol_random_rabbit)
                 elif _rabbit == "p_l":
-                    out_set.add(patrol.patrol_threarah)
+                    out_set.add(patrol.patrol_chief_rabbit)
                 elif _rabbit == "s_c":
                     out_set.add(self.stat_rabbit)
                 elif _rabbit == "app1" and len(patrol.patrol_rusasis) >= 1:
@@ -382,19 +382,19 @@ class PatrolOutcome():
         
         results = []
         for _rabbit in rabbits_to_kill:
-            if _rabbit.status == "threarah":
+            if _rabbit.status == "chief rabbit":
                 if "all_lives" in self.dead_rabbits:
-                    game.warren.threarah_lives = 1
+                    game.warren.chief_rabbit_lives = 1
                     results.append(f"{_rabbit.name} died.")
                 elif "some_lives" in self.dead_rabbits:
-                    lives_lost = random.randint(1, max(1, game.warren.threarah_lives - 1))
-                    game.warren.threarah_lives -= lives_lost
+                    lives_lost = random.randint(1, max(1, game.warren.chief_rabbit_lives - 1))
+                    game.warren.chief_rabbit_lives -= lives_lost
                     if lives_lost == 1:
                         results.append(f"{_rabbit.name} lost one life.")
                     else:
                         results.append(f"{_rabbit.name} lost {lives_lost} lives.")
                 else:
-                    game.warren.threarah_lives -= 1
+                    game.warren.chief_rabbit_lives -= 1
                     results.append(f"{_rabbit.name} lost one life.")
             else:
                 results.append(f"{_rabbit.name} died.")
@@ -419,7 +419,7 @@ class PatrolOutcome():
                 if _rabbit == "r_r":
                     out_set.add(patrol.patrol_random_rabbit)
                 elif _rabbit == "p_l":
-                    out_set.add(patrol.patrol_threarah)
+                    out_set.add(patrol.patrol_chief_rabbit)
                 elif _rabbit == "s_c":
                     out_set.add(self.stat_rabbit)
                 elif _rabbit == "app1" and len(patrol.patrol_rusasis) >= 1:
@@ -461,7 +461,7 @@ class PatrolOutcome():
                 if _rabbit == "r_r":
                     out_set.add(patrol.patrol_random_rabbit)
                 elif _rabbit == "p_l":
-                    out_set.add(patrol.patrol_threarah)
+                    out_set.add(patrol.patrol_chief_rabbit)
                 elif _rabbit == "s_c":
                     out_set.add(self.stat_rabbit)
                 elif _rabbit == "app1" and len(patrol.patrol_rusasis) >= 1:
@@ -900,7 +900,7 @@ class PatrolOutcome():
         
         # GATHER MATES
         in_patrol_rabbits = {
-            "p_l": patrol.patrol_threarah,
+            "p_l": patrol.patrol_chief_rabbit,
             "r_r": patrol.patrol_random_rabbit,
         }
         if self.stat_rabbit:
@@ -1182,13 +1182,13 @@ class PatrolOutcome():
     def __handle_condition_history(self, rabbit:Rabbit, condition:str, patrol:'Patrol', default_overide=False) -> None:
         """Handles adding potentional history to a rabbit. default_overide will use the default text for the condition. """
         
-        if not (self.history_threarah_death and self.history_reg_death and self.history_scar):
+        if not (self.history_chief_rabbit_death and self.history_reg_death and self.history_scar):
             print("WARNING: Injury occured, but some death or scar history is missing.")
         
         final_death_history = None
-        if rabbit.status == "threarah":
-            if self.history_threarah_death:
-                final_death_history = self.history_threarah_death
+        if rabbit.status == "chief rabbit":
+            if self.history_chief_rabbit_death:
+                final_death_history = self.history_chief_rabbit_death
         else:
             final_death_history = self.history_reg_death
         
@@ -1210,13 +1210,13 @@ class PatrolOutcome():
     def __handle_death_history(self, rabbit: Rabbit, patrol:'Patrol') -> None:
         """ Handles adding death history, for dead rabbits. """
         
-        if not (self.history_threarah_death and self.history_reg_death):
+        if not (self.history_chief_rabbit_death and self.history_reg_death):
             print("WARNING: Death occured, but some death history is missing.")
         
         final_death_history = None
-        if rabbit.status == "threarah":
-            if self.history_threarah_death:
-                final_death_history = self.history_threarah_death
+        if rabbit.status == "chief rabbit":
+            if self.history_chief_rabbit_death:
+                final_death_history = self.history_chief_rabbit_death
         else:
             final_death_history = self.history_reg_death
             
